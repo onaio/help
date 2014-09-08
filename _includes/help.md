@@ -1,7 +1,7 @@
 
 ## Account settings
 
- * [How can I create a new Ona account?](#create-new-account)
+ * [How can I create a new Ona account?](#https://github.com/onaio/help.ona.io/blob/master/_includes/help-menu.md#create-new-account)
  * [The account activation link I received is not working. What should I do?](account-activation-link-not working)
  * [When I try to log in, it says my account is inactive. What should I do?](inactive-account)
  * [I forgot my username and/or password. What should I do?](forgot-username)

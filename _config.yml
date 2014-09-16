@@ -10,4 +10,3 @@ github_username:  help.ona.io
 
 # Build settings
 markdown: kramdown
-highlighter: rouge

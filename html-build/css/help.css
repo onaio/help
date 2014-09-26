@@ -1,7 +1,25 @@
 body {
     font-family: 'Proxima Nova', Arial;
 }
+
+a.link-white{
+    color:#fff;
+}
 .navbar, .jumbotron{
+    background:#808080;
+    border:0!important;
     border-radius:0;
     margin-bottom:0;
+}
+.navbar-brand{
+    color:#fff!important;
+}
+.btn-border{
+    background:transparent!important;
+    border:2px solid #fff;
+    transition:all 0.2s ease-in;
+}
+.btn-border:hover{
+    background:#fff!important;
+    color:#777;
 }

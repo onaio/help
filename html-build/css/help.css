@@ -6,9 +6,10 @@ a.link-white{
     color:#fff;
 }
 .navbar, .jumbotron{
-    background:#808080;
+    background:#1C83A6;
     border:0!important;
     border-radius:0;
+    color:#fff;
     margin-bottom:0;
 }
 .navbar-nav > li > a{
@@ -36,7 +37,9 @@ a.link-white{
 .search-box{
     background:#fff;
     border-radius:3px;
-    padding:0.5em;
+    display:inline-block;
+    margin-top:2em;
+    padding:0.3em;
     width:100%;
 }
 .search-box input, .search-box button{
@@ -44,12 +47,14 @@ a.link-white{
     border-radius:0;
     box-shadow:0!important;
     margin:0;
+    padding:0.7em;
     outline:0;
 }
 .search-box input[type="search"]{
-    width:89%;
+    font-size:1.15em;
+    width:90%;
 }
 .search-box button{
     background:transparent;
-    width:10%;
+    color:#777;
 }

@@ -1,0 +1,7 @@
+body {
+    font-family: 'Proxima Nova', Arial;
+}
+.navbar, .jumbotron{
+    border-radius:0;
+    margin-bottom:0;
+}

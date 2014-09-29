@@ -1,0 +1,60 @@
+body {
+    font-family: 'Proxima Nova', Arial;
+}
+
+a.link-white{
+    color:#fff;
+}
+.navbar, .jumbotron{
+    background:#1C83A6;
+    border:0!important;
+    border-radius:0;
+    color:#fff;
+    margin-bottom:0;
+}
+.navbar-nav > li > a{
+    color:#fff!important;
+}
+.navbar-brand{
+    color:#fff!important;
+}
+.btn-border{
+    background:transparent!important;
+    border:2px solid #fff;
+    transition:all 0.2s ease-in;
+}
+.btn-border:hover{
+    background:#fff!important;
+    color:#777;
+}
+.jumbotron{
+    text-align:center;
+}
+.jumbotron .mail-link{
+    color:#fff;
+    font-weight:bold;
+}
+.search-box{
+    background:#fff;
+    border-radius:3px;
+    display:inline-block;
+    margin-top:2em;
+    padding:0.3em;
+    width:100%;
+}
+.search-box input, .search-box button{
+    border:0!important;
+    border-radius:0;
+    box-shadow:0!important;
+    margin:0;
+    padding:0.7em;
+    outline:0;
+}
+.search-box input[type="search"]{
+    font-size:1.15em;
+    width:90%;
+}
+.search-box button{
+    background:transparent;
+    color:#777;
+}

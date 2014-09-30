@@ -1,3 +1,7 @@
+---
+layout: post
+permalink: /faq/odk-briefcase.html
+---
 ## ODK Briefcase
 
 ODK Briefcase is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline.

@@ -1,7 +1,6 @@
 ---
-layout: faq-list
+layout: default
 date:   2014-09-23 17:11:57
-categories: jekyll update
 ---
 
 ## Account settings

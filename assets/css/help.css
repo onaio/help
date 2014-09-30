@@ -1,5 +1,6 @@
 body {
-    font:14px 'Proxima Nova', Arial;
+   font:14px 'Proxima Nova', Arial;
+	line-height:1.5em;
 }
 
 a.link-white{
@@ -19,7 +20,7 @@ ul.question-list li{
 .main-box{
 	margin-top:2em;
 	min-height:20em;
-	padding-bottom:5em;
+	padding-bottom:3em;
 	position:relative;
 }
 
@@ -76,7 +77,18 @@ ul.question-list li{
     background:transparent;
     color:#777;
 }
-
+.post-meta{
+	border-bottom:1px solid #EFEFEF;
+	color:#777;
+	font-style:italic;
+	margin-bottom:2em;
+	padding:0 0 1em;
+}
+.side-bar{
+	background:#EFEFEF;
+	float:right;
+	padding:2em 1em 2em 3em;
+}
 footer{
 	border-top:1px solid #dddddd;
 	padding:1em 0;

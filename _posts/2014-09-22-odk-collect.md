@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ODK Collect"
-permalink: /faq/odk-collect.html
+permalink: /faq/odk-collect
 ---
 
 Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.

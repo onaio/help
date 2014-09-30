@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /faq/odk-briefcase.html
+permalink: /faq/odk-briefcase
 title: "ODK Briefcase"
 ---
 

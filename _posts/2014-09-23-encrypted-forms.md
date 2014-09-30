@@ -3,7 +3,6 @@ layout: post
 permalink: /faq/ecnrypted-forms.html
 title: "Encrypted Forms"
 ---
-## Encrypted forms 
 
 You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo webforms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.  
 

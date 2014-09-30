@@ -2,22 +2,20 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="jumbotron">
+    <div class="container">
+        <h1>Have a question?</h1>
+        <p>Just enter a topic you wish to search for, or  
+            <a href="mailto:support@ona.io" rel="no-follow" class="mail-link">contact our support team</a>
+        </p>
+        
+        <form class="form-inline main-search" role="form">
+            <div class="form-group search-box">
+                <button type="submit" class="btn btn-lg">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <input type="search" placeholder="Search..." class="form-control">
+            </div>
+        </form>
+    </div>
 </div>

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    {% include header.html %}
+{% include head.html %}
+<body>
+ {% include header.html %}
 
-    {{ content }} 
-	 <div class="container main-box">
-			<ul class="question-list">
-			  {% for post in site.posts %}
-				 <li>
-					<a href="{{ post.url }}">{{ post.title }}</a>
-				 </li>
-			  {% endfor %}
-			</ul>
-		 	{% include faq-list.html %}
-		 
-    	{% include footer.html %}
-	  </div>
-	  
-	<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-  </body>	
+ {{ content }} 
+ <div class="container main-box">
+		<ul class="question-list">
+		  {% for post in site.posts %}
+			 <li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			 </li>
+		  {% endfor %}
+		</ul>
+		<hr/>
+	 	
+	 	{% markdown help-menu.md %}
+
+		{% include footer.html %}
+  </div>
+
+<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+</body>	
 </html>

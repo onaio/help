@@ -12,3 +12,4 @@ github_username:  help.ona.io
 
 # Build settings
 markdown: kramdown
+encoding: UTF-8

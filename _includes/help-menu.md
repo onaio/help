@@ -5,15 +5,15 @@ date:   2014-09-23 17:11:57
 
 ## Account settings
 
- * How can I create a new Ona account?
- * The account activation link I received is not working. What should I do?
- * When I try to log in, it says my account is inactive. What should I do?
- * I forgot my username and/or password. What should I do?
- * What if I forget the email address I used to create my account, or I can no longer access that email?
- * How do I change my username?
- * How do I change my password?
- * How do I change the email address on my account?
- * How can I delete my Ona account?
+* How can I create a new Ona account?
+* The account activation link I received is not working. What should I do?
+* When I try to log in, it says my account is inactive. What should I do?
+* I forgot my username and/or password. What should I do?
+* What if I forget the email address I used to create my account, or I can no longer access that email?
+* How do I change my username?
+* How do I change my password?
+* How do I change the email address on my account?
+* How can I delete my Ona account?
  
 ## Company information
 

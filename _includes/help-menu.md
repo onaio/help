@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2014-09-23 17:11:57
+date: 2014-09-23 17:11:57
 ---
 
 ## Account settings
@@ -20,7 +20,7 @@ date:   2014-09-23 17:11:57
 * Is Ona hiring?
 * Where can I find the latest information on Ona?
 
-## ODK Collect 
+## ODK Collect
 
 * How do I install ODK Collect?
 * How do I configure ODK Collect with my Ona account?
@@ -29,7 +29,7 @@ date:   2014-09-23 17:11:57
 * How do I save a form to finish later?
 * How do I edit a saved form?
 * How do I send a finalized form?
-* My form is failing to upload.  What should I do?
+* My form is failing to upload. What should I do?
 * How do I delete a form?
 * Are there any tips on using ODK Collect you can share?
   * auto sending of finalized forms
@@ -43,10 +43,10 @@ date:   2014-09-23 17:11:57
   * XLSForm File upload
   * URL Upload
   * Dropbox upload
-* I keep getting red error messages when I try to publish my form.  What does this mean?
+* I keep getting red error messages when I try to publish my form. What does this mean?
 * Where can I learn about XLSForm syntax?
-* What’s the difference between ODK Collect and Enketo?
-* How do I download forms to my phone’s ODK Collect app?
+* What's the difference between ODK Collect and Enketo?
+* How do I download forms to my phone's ODK Collect app?
 * How do I fill out forms in Enketo?
 * How do I include media files in my form?
 * What type of media files are supported in Ona?
@@ -71,7 +71,7 @@ date:   2014-09-23 17:11:57
 
 ## Data management
 
-* Can I edit form data that’s already submitted?
+* Can I edit form data that's already submitted?
 * What are the different options for exporting data?
 * How do I visualize data:
   * Map view

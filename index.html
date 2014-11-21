@@ -1,171 +1,127 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Help | Ona.io</title>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+---
+layout: home
+---
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="This is the Ona help page.
-"/>
-<meta name="author" content="Ona"/>
-
-<link rel="shortcut icon" href=""/>
-
-<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="assets/css/help.css" rel="stylesheet"/>
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-<body>
- <header class="navbar navbar-inverse navbar-top" role="navigation">
+<div class="jumbotron">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="	http://onalabs.org/help/"><strong>ONA</strong> HELP</a>
+        <div class="col-md-8">
+            <h2>HELP</h2>
+            <p class="col-md-8">Have a question? Check out our getting started guides or search by topics below. If you still can't find an answer email our support team. We're here to help.</p>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://company.ona.io/">About Ona</a></li>
-                <li><a href="http://blog.ona.io/">Blog</a></li>
-                <li><a href="http://ona.io/accounts/register/">Sign Up</a></li>
-            </ul>
+        <div class="col-md-4 guide-lead">
+            <h4>
+                <span class="glyphicon glyphicon-info-sign"></span>
+                Getting started on Ona</h4>
+            <p>
+                You can quickly master how to  use Ona for your data collection projects using 
+            <a href="#guides">Our Guides</a>
+            </p>
         </div>
-    </div>
-</header>
-
- <div class="jumbotron">
-    <div class="container">
-        <h1>Have a question?</h1>
-        <p>Just enter a topic you wish to search for, or
-            <a href="mailto:support@ona.io" rel="no-follow" class="mail-link">contact our support team</a>
-        </p>
-
-        <form class="form-inline main-search" role="form">
-            <div class="form-group search-box">
-                <button type="submit" class="btn btn-lg">
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-                <input type="search" placeholder="Search..." class="form-control">
-            </div>
-        </form>
     </div>
 </div>
 
- <div class="container main-box">
-	<h2 id="account-settings">Account settings</h2>
+<div class="container info-border">
+    {% include search-box.html %}
+    
+    <div class="row" id="faqs">
+        <div class="col-md-1-1 clearfix link-container">
+            <h4 class="link-header">Popular Questions</h4>
+            <div class="col-md-12">
+            {% for faqlist in site.categories.faq %}
+                <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
+            {% endfor %}
+            </div>
+        </div>
+        
+        <div class="col-md-1-1 clearfix links-container">
+          <h4 class="link-header">Topics</h4>
+            <div class="col-md-6">
+                <h5>Account Settings</h5>
+                <a href="#">List 1</a>
+                
+                <h5>Company Information</h5>
+                <a href="#">List 1</a>
+            </div>
+            
+            <div class="col-md-6">
+                <h5>Account Settings</h5>
+                <a href="#">List 1</a>
+                
+                <h5>Company Information</h5>
+                <a href="#">List 1</a>
+            </div>
+        </div>
+        
+        <div class="col-md-1-1 clearfix guides-container" id="guides">
+            <div class="col-md-4 guide-box">
+                <a href="/guides/getting-started">
+                    <span class="glyphicon glyphicon-play"></span>
+                    <h5>Getting Started</h5>
+                    <span>Learn Projects, Forms &amp; Data Collection</span>
+                </a>
+            </div>
+            
+            <div class="col-md-4 guide-box">
+                <a href="/guides/data-management">
+                    <span class="glyphicon glyphicon-cloud"></span>
+                    <h5>Data Management</h5>
+                    <span>View Manange &amp; Import Data</span>
+                </a>
+            </div>
+            
+            <div class="col-md-4 guide-box">
+                <a href="/guides/organizations">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <h5>Organizations &amp; Team Management</h5>
+                    <span>Create Organizations &amp; Build Teams</span>
+                </a>
+            </div>
+            
+            <div class="col-md-4 guide-box">
+                <a href="/guides/user-accounts">
+                    <span class="glyphicon glyphicon-lock"></span>
+                    <h5>User Accounts &amp; Plans</h5>
+                    <span>Create Accounts, Management &amp; Billing</span>
+                </a>
+            </div>
+            
+            <div class="col-md-4 guide-box">
+                <a href="/guides/advanced-users">
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    <h5>Advanced Users</h5>
+                    <span>API Integration &amp; Hosting Options</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="col-md-1-1 clearfix email-form">
+            <div class="col-md-6">
+                <h5>Still have a question?</h5>
+                <p>
+                    Haven't found the answer you were looking for? Email us at <br/>
+                    <a href="mailto:support@ona.io">support@ona.io</a>
+                </p>
+            </div>
 
-<ul>
-  <li>How can I create a new Ona account?</li>
-  <li>The account activation link I received is not working. What should I do?</li>
-  <li>When I try to log in, it says my account is inactive. What should I do?</li>
-  <li>I forgot my username and/or password. What should I do?</li>
-  <li>What if I forget the email address I used to create my account, or I can no longer access that email?</li>
-  <li>How do I change my username?</li>
-  <li>How do I change my password?</li>
-  <li>How do I change the email address on my account?</li>
-  <li>How can I delete my Ona account?</li>
-</ul>
-
-<h2 id="company-information">Company information</h2>
-
-<ul>
-  <li>Is Ona hiring?</li>
-  <li>Where can I find the latest information on Ona?</li>
-</ul>
-
-<h2 id="odk-collect">ODK Collect</h2>
-
-<ul>
-  <li><a href="faq/odk-collect/index.html#install-odk-collect">How do I install ODK Collect?</a></li>
-  <li><a href="faq/odk-collect/index.html#configure-odk-collect">How do I configure ODK Collect with my Ona account?</a></li>
-  <li><a href="faq/odk-collect/index.html#download-forms-from-ona">How do I download forms from my Ona account?</a></li>
-  <li><a href="faq/odk-collect/index.html#open-blank-form">How do I open a blank form?</a></li>
-  <li><a href="faq/odk-collect/index.html#save-form">How do I save a form to finish later?</a></li>
-  <li><a href="faq/odk-collect/index.html#edit-saved-form">How do I edit a saved form?</a></li>
-  <li><a href="faq/odk-collect/index.html#send-finalized-form">How do I send a finalized form?</a></li>
-  <li><a href="faq/odk-collect/index.html#failing-to-upload">My form is failing to upload. What should I do?</a></li>
-  <li><a href="faq/odk-collect/index.html#delete-a-form">How do I delete a form?</a></li>
-  <li><a href="faq/odk-collect/index.html#tips-using-odk-collect">Are there any tips on using ODK Collect you can share?</a>
-    <ul>
-      <li><a href="faq/odk-collect/index.html#auto-sending-finalized-forms">auto sending of finalized forms</a></li>
-      <li><a href="faq/odk-collect/index.html#navigation-settings">navigation settings</a></li>
-      <li><a href="faq/odk-collect/index.html#bulk-configuration-devices">bulk configuration of devices</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="ona-data-information">Ona data information</h2>
-
-<ul>
-  <li>Can I import data to my Ona account from another server?</li>
-  <li>How do I publish a new form to my Ona account?
-    <ul>
-      <li>XLSForm File upload</li>
-      <li>URL Upload</li>
-      <li>Dropbox upload</li>
-    </ul>
-  </li>
-  <li>I keep getting red error messages when I try to publish my form. What does this mean?</li>
-  <li>Where can I learn about XLSForm syntax?</li>
-  <li>What&#8217;s the difference between ODK Collect and Enketo?</li>
-  <li>How do I download forms to my phone&#8217;s ODK Collect app?</li>
-  <li>How do I fill out forms in Enketo?</li>
-  <li>How do I include media files in my form?</li>
-  <li>What type of media files are supported in Ona?</li>
-  <li>Can I replace or update my form?</li>
-  <li>How do I delete a form?</li>
-  <li>How can I share a form with another user?</li>
-  <li>How can I share form data with another user?</li>
-  <li>How do I make my form inactive?</li>
-  <li><a href="faq/odk-briefcase/index.html#odk-briefcase">What is ODK Briefcase?</a></li>
-  <li><a href="faq/encrypted-forms/index.html#data-encryption">How does data encryption work?</a></li>
-</ul>
-
-<h2 id="ona-website-usage">Ona website usage</h2>
-
-<ul>
-  <li>How do I navigate the Ona.io home page?</li>
-  <li>What is an organization?</li>
-  <li>How do I add an organization?</li>
-  <li>What is a project?</li>
-  <li>How do I create a project?</li>
-  <li>Permissions</li>
-  <li>What are project settings?</li>
-</ul>
-
-<h2 id="data-management">Data management</h2>
-
-<ul>
-  <li>Can I edit form data that&#8217;s already submitted?</li>
-  <li>What are the different options for exporting data?</li>
-  <li>How do I visualize data:
-    <ul>
-      <li>Map view</li>
-      <li>Photo view</li>
-      <li>Data tables</li>
-    </ul>
-  </li>
-</ul>
-
-
-	<footer>
-	<p>© Ona Labs, 2014</p>
-</footer>
-  </div>
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-</body>
-</html>
+            <div class="col-md-6">
+                <form class="" role="search" action="/">
+                  <div class="form-group">
+                      <label>Email adress</label>
+                      <input type="text" class="form-control" name="email"/>
+                  </div>
+                  <div class="form-group">
+                      <label>Subject</label>
+                      <input type="text" class="form-control" name="subject"/>
+                  </div>
+                  <div class="form-group">
+                      <label>Your question or problem.</label>
+                      <textarea class="form-control" rows="3" name="Question"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">
+                      <span class="glyphicon glyphicon-envelope"></span> Send to Support
+                  </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

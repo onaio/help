@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Encrypted Forms</title>
+<html lang="en-US">
+  <head>
+<title>Encrypted Forms : Help | Ona.io</title>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -11,10 +11,10 @@
 "/>
 <meta name="author" content="Ona"/>
 
-<link rel="shortcut icon" href=""/>
+<link rel="shortcut icon" href="/favicon.ico"/>
 
-<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="assets/css/help.css" rel="stylesheet"/> 
+<link href="http://localhost:4000/assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="http://localhost:4000/assets/css/help.css" rel="stylesheet"/>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -22,37 +22,44 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
- <header class="navbar navbar-inverse navbar-top" role="navigation">
+
+   <body>
+       <header class="navbar navbar-inverse" role="navigation" id="helpnav">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
-                data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="	http://onalabs.org/help/"><strong>ONA</strong> HELP</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+              <img src="/assets/img/onadata_logo.png" alt="Onadata Logo"/>
+          </a>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://company.ona.io/">About Ona</a></li>
-                <li><a href="http://blog.ona.io/">Blog</a></li>
-                <li><a href="http://ona.io/accounts/register/">Sign Up</a></li>
-            </ul>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#faqs">faqs</a></li>
+              <li><a href="#guides">guides</a></li>
+              <li><a href="#">tutorial</a></li>
+              <li><a href="http://blog.ona.io/">blog</a></li>
+              <li><a href="http://ona.io/accounts/register/">signup</a></li>
+          </ul>
         </div>
     </div>
 </header>
+   
+       <div class="jumbotron">
+    <div class="container">
+        <h3 class="qa-header">Encrypted Forms</h3>
+    </div>
+</div>
 
- <div class="container main-box">
-	<div class="col-md-8 content-bar">
-		<header class="post-header">
-			<h1 class="post-title">Encrypted Forms</h1>
-		</header>
-
-		<article class="post-content">
-		<h3 id="span-iddata-encryptionspanhow-does-data-encryption-work"><span id="data-encryption"></span>How does data encryption work?</h3>
+<div class="container info-border">
+    <div class="qa-row clearfix">
+        <div class="col-md-8">
+            <h3 id="span-iddata-encryptionspanhow-does-data-encryption-work"><span id="data-encryption"></span>How does data encryption work?</h3>
 
 <p>You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo webforms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.</p>
 
@@ -123,117 +130,33 @@
 <img src="https://farm3.staticflickr.com/2941/15349066455_dd6745eba9.jpg" alt="" /></li>
 </ol>
 
-		</article>
-	</div>
-	
-	<div class="col-md-3 side-bar">
-		Navigation sidebar
-	</div>
+        </div>
+        
+        <div class="col-md-3 clearfix sidenav qa-nav pull-right">
+            <h5>Popular Questions</h5>
+            
+                <li><a href="/faq/odk-briefcase">ODK Briefcase Faq</a></li>
+            
+                <li><a href="/faq/odk-briefcase">ODK Briefcase Faq</a></li>
+            
+                <li><a href="/faq/encrypted-forms">Encrypted Forms</a></li>
+            
+                <li><a href="/faq/encrypted-forms">Encrypted Forms</a></li>
+            
+                <li><a href="/faq/odk-collect">ODK Collect</a></li>
+            
+        </div>
+    </div>
+</div>
+
+       <div class="container">
+    <footer>
+        <p>&copy; Help | Ona.io 2014</p>
+        <p><a href="mailto:support@ona.io">support@ona.io</a></p>
+        <p class="text">This is the Ona help page.
+</p>
+    </footer>
 </div>
  
- <div class="container main-box">
-	<h2 id="account-settings">Account settings</h2>
-
-<ul>
-  <li>How can I create a new Ona account?</li>
-  <li>The account activation link I received is not working. What should I do?</li>
-  <li>When I try to log in, it says my account is inactive. What should I do?</li>
-  <li>I forgot my username and/or password. What should I do?</li>
-  <li>What if I forget the email address I used to create my account, or I can no longer access that email?</li>
-  <li>How do I change my username?</li>
-  <li>How do I change my password?</li>
-  <li>How do I change the email address on my account?</li>
-  <li>How can I delete my Ona account?</li>
-</ul>
-
-<h2 id="company-information">Company information</h2>
-
-<ul>
-  <li>Is Ona hiring?</li>
-  <li>Where can I find the latest information on Ona?</li>
-</ul>
-
-<h2 id="odk-collect">ODK Collect</h2>
-
-<ul>
-  <li><a href="faq/odk-collect#install-odk-collect">How do I install ODK Collect?</a></li>
-  <li><a href="/faq/odk-collect#configure-odk-collect">How do I configure ODK Collect with my Ona account?</a></li>
-  <li><a href="/faq/odk-collect#download-forms-from-ona">How do I download forms from my Ona account?</a></li>
-  <li><a href="/faq/odk-collect#open-blank-form">How do I open a blank form?</a></li>
-  <li><a href="/faq/odk-collect#save-form">How do I save a form to finish later?</a></li>
-  <li><a href="/faq/odk-collect#edit-saved-form">How do I edit a saved form?</a></li>
-  <li><a href="/faq/odk-collect#send-finalized-form">How do I send a finalized form?</a></li>
-  <li><a href="/faq/odk-collect#failing-to-upload">My form is failing to upload. What should I do?</a></li>
-  <li><a href="/faq/odk-collect#delete-a-form">How do I delete a form?</a></li>
-  <li><a href="/faq/odk-collect#tips-using-odk-collect">Are there any tips on using ODK Collect you can share?</a>
-    <ul>
-      <li><a href="/faq/odk-collect#auto-sending-finalized-forms">auto sending of finalized forms</a></li>
-      <li><a href="/faq/odk-collect#navigation-settings">navigation settings</a></li>
-      <li><a href="/faq/odk-collect#bulk-configuration-devices">bulk configuration of devices</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="ona-data-information">Ona data information</h2>
-
-<ul>
-  <li>Can I import data to my Ona account from another server?</li>
-  <li>How do I publish a new form to my Ona account?
-    <ul>
-      <li>XLSForm File upload</li>
-      <li>URL Upload</li>
-      <li>Dropbox upload</li>
-    </ul>
-  </li>
-  <li>I keep getting red error messages when I try to publish my form. What does this mean?</li>
-  <li>Where can I learn about XLSForm syntax?</li>
-  <li>What&#8217;s the difference between ODK Collect and Enketo?</li>
-  <li>How do I download forms to my phone&#8217;s ODK Collect app?</li>
-  <li>How do I fill out forms in Enketo?</li>
-  <li>How do I include media files in my form?</li>
-  <li>What type of media files are supported in Ona?</li>
-  <li>Can I replace or update my form?</li>
-  <li>How do I delete a form?</li>
-  <li>How can I share a form with another user?</li>
-  <li>How can I share form data with another user?</li>
-  <li>How do I make my form inactive?</li>
-  <li><a href="/faq/odk-briefcase#odk-briefcase">What is ODK Briefcase?</a></li>
-  <li><a href="/faq/encrypted-forms#data-encryption">How does data encryption work?</a></li>
-</ul>
-
-<h2 id="ona-website-usage">Ona website usage</h2>
-
-<ul>
-  <li>How do I navigate the Ona.io home page?</li>
-  <li>What is an organization?</li>
-  <li>How do I add an organization?</li>
-  <li>What is a project?</li>
-  <li>How do I create a project?</li>
-  <li>Permissions</li>
-  <li>What are project settings?</li>
-</ul>
-
-<h2 id="data-management">Data management</h2>
-
-<ul>
-  <li>Can I edit form data that&#8217;s already submitted?</li>
-  <li>What are the different options for exporting data?</li>
-  <li>How do I visualize data:
-    <ul>
-      <li>Map view</li>
-      <li>Photo view</li>
-      <li>Data tables</li>
-    </ul>
-  </li>
-</ul>
-
- 
-	<footer>
-	<p>© Ona Labs, 2014</p>
-</footer>
-  </div>
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-</body>	
+   </body>
 </html>

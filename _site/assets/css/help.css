@@ -1,100 +1,159 @@
-body {
-   font:14px 'Proxima Nova', Arial;
-	line-height:1.5em;
+*{
+    box-sizing:border-box!important;
 }
-
-a.link-white{
-    color:#fff;
+body{
+    font:14px Helvetica!important;
+    line-height:1.5em!important;
 }
-ul, ol{
-	margin-bottom:2em;
-}
-ul li, ol li{
-	margin-bottom:0.5em;
-}
-ul.question-list li{
-	list-style-type:circle;
-	margin-bottom:0.8em;
-}
-h1,h2,h3{
-	padding-top:1em;
-}
-
-.main-box{
-	margin-top:2em;
-	min-height:20em;
-	padding-bottom:10em;
-	position:relative;
-}
-
-.navbar, .jumbotron{
-    background:#1C83A6;
-    border:0!important;
+.form-control{
     border-radius:0;
-    color:#fff;
-    margin-bottom:0;
+    padding:0.5em!important;
 }
-.navbar-nav > li > a{
-    color:#fff!important;
+.btn{
+    border-radius:0;
 }
-.navbar-brand{
-    color:#fff!important;
+#helpnav, .jumbotron{
+    background:#DCDCDC;
+    border:0;
+    border-radius:0;
 }
-.btn-border{
-    background:transparent!important;
-    border:2px solid #fff;
-    transition:all 0.2s ease-in;
-}
-.btn-border:hover{
-    background:#fff!important;
-    color:#777;
+#helpnav{
+    margin-bottom:0!important;
 }
 .jumbotron{
-    text-align:center;
+    margin-bottom:0;
+    padding-bottom:2em;
 }
-.jumbotron .mail-link{
-    color:#fff;
+.jumbotron .col-md-8, .jumbotron .col-md-4, 
+.jumbotron p{
+    padding:0;
+}
+.jumbotron p{
+    font-size:1.1em;
+}
+.jumbotron .guide-lead{
+    border:2px solid #CFCFCF;
+    border-radius:4px;
+    padding:0.5em 1em;
+}
+h4 span.glyphicon{
+    color:#777;
+    font-size:1em!important;
+    position:relative;
+    margin-top:3px;
+}
+h5{
     font-weight:bold;
 }
+.link-container{
+    margin-bottom:1em;
+}
+.info-border{
+    border:1px solid #ddd;
+    border-top:0;
+    padding-bottom:3em;
+}
 .search-box{
-    background:#fff;
-    border-radius:3px;
-    display:inline-block;
-    margin-top:2em;
-    padding:0.3em;
-    width:100%;
+    margin-bottom:1em;
+    padding:1em 1em 0;
 }
-.search-box input, .search-box button{
-    border:0!important;
+.search-box input[type=text]{
     border-radius:0;
-    box-shadow:0!important;
-    margin:0;
-    padding:0.7em;
-    outline:0;
-}
-.search-box input[type="search"]{
-    font-size:1.15em;
-    width:90%;
 }
 .search-box button{
-    background:transparent;
+    background:transparent!important;
+    border:0;;
+}
+.search-text{
+    background:#EEEEEE;
+    padding:0.5em;
+}
+.search-box .s-pad, .search-box .s-pad{
+    padding-top:1em;
+}
+.s-divide{
+    text-align:right;
+}
+.search-box a{
+    text-decoration:underline;
+}
+h4.link-header{
+    border-bottom:1px solid #ddd;
+    margin:1em;
+    padding:0 0 0.5em;
+}
+.email-form, .guides-container{
+    border-top:1px solid #ddd;
+    margin-top:2em;
+    padding-top:2em;
+}
+.email-form button{
+    background:#CFCFCF;
+}
+
+/*qa-section*/
+.qa-row > div > h3{
+    margin-top:0!important;
+}
+.qa-nav{
+    background:#eee;
+    border-radius:4px;
+    margin:0 2em;
+    padding:0.5em 1em;
+}
+
+/*guides*/
+.guide-box{
+    margin:1em;
+    padding:0;
+    text-align:center;
+    width:29%;
+}
+.guide-nav{
+    background:#eee;
+    border-radius:4px;
+    padding:0.5em 1em;
+}
+.guide-box a{
+    background:#ddd;
+    border-radius:5px!important;
+    color:#4c4c4c;
+    display:block;
+    padding:2em 1em;
+    text-decoration:none;
+}
+.guide-box a:hover{
+    background:#ccc;
+}
+.guide-box .glyphicon{
+    color:#555;
+    font-size:6em;
+}
+.guide-box h5{
+    margin-bottom:0.2em;
+}
+.guide-box h5 + span{
+    font-size:0.8em;
+}
+.guide-title{
+    padding-bottom:0.4em;
+}
+.guide-title span.glyphicon{
     color:#777;
+    font-size:5em;
+    line-height:1em;
+    position:relative;
+    top:-10px;
 }
-.post-meta{
-	border-bottom:1px solid #EFEFEF;
-	color:#777;
-	font-style:italic;
-	margin-bottom:2em;
-	padding:0 0 1em;
+
+/*qa-view*/
+.qa-header{
+    margin:0;
 }
-.side-bar{
-	background:#EFEFEF;
-	float:right;
-	padding:2em 1em 2em 3em;
+.qa-row{
+    margin-top:4em;
 }
+
 footer{
-	border-top:1px solid #dddddd;
-	padding:1em 0;
-	position:absolute;
-	bottom:0;left:0;right:0;
+    margin-top:2em;
 }

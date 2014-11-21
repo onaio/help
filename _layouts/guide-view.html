@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="jumbotron guide-title">
+    <div class="container">
+        <div class="col-md-1">
+            <span class="glyphicon glyphicon-play"></span>
+        </div>
+        <div class="col-md-9">
+            <span class="">{{ page.guide_name }}</span><br/>
+            <h3 class="qa-header">{{ page.title }}</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container info-border">
+    {% include search-box.html %}
+  
+    <div class="qa-row clearfix">
+        <div class="col-md-3 clearfix sidenav guide-nav">
+            <h5>Popular Questions</h5>
+            {% for guidelist in site.categories.guide %}
+                <li><a href="{{ guidelist.permalink }}">{{ guidelist.title }}</a></li>
+            {% endfor %}
+        </div>
+        
+        <div class="col-md-8 pull-right">
+            {{ content }}
+        </div>
+    </div>
+</div>

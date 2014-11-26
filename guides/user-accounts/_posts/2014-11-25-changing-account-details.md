@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "ODK Collect"
-permalink: /faq/odk-collect
+title: "Changing Account Details"
+permalink: /guides/user-accounts
 categories: guides
 ---
 

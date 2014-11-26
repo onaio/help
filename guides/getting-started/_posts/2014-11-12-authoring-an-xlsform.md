@@ -1,7 +1,10 @@
 ---
 layout: guide-view
 title: Authoring an XLSForm
+permalink: /guides/authoring-an-xlsform
+
 guide-name: Getting Started
+categories: topics
 ---
 
 <h4>XLSForm Basics</h4>

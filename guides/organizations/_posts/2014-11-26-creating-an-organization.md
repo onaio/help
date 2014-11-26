@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ODK Collect"
-permalink: /faq/odk-collect
-category: faq
+title: "Creating an Organization"
+permalink: /guides/creating-an-organization
+categories: guides
 ---
 
 Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.

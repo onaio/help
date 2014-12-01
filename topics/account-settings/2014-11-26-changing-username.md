@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Changing Username"
-permalink: /topics/changing-username
+title: Changing Username
+permalink: /topics/changing-username/
 categories: topics
 ---
 

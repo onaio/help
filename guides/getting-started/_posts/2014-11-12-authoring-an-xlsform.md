@@ -4,7 +4,7 @@ title: Authoring an XLSForm
 permalink: /guides/authoring-an-xlsform
 
 guide-name: Getting Started
-categories: topics
+categories: [topics, account-settings]
 ---
 
 <h4>XLSForm Basics</h4>

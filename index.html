@@ -27,9 +27,11 @@ layout: home
         <div class="col-md-1-1 clearfix link-container">
             <h4 class="link-header">Popular Questions</h4>
             <div class="col-md-12">
-            {% for faqlist in site.categories.faq %}
-                <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
-            {% endfor %}
+              <ul>
+                {% for faqlist in site.categories.faq %}
+                    <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
+                {% endfor %}
+                </ul>
             </div>
         </div>
         
@@ -37,18 +39,34 @@ layout: home
           <h4 class="link-header">Topics</h4>
             <div class="col-md-6">
                 <h5>Account Settings</h5>
-                <a href="#">List 1</a>
+                <ul>
+                {% for faqlist in site.categories.topics %}
+                    <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
+                {% endfor %}
+                </ul>
                 
                 <h5>Company Information</h5>
-                <a href="#">List 1</a>
+                <ul>
+                {% for faqlist in site.categories.topics %}
+                    <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
+                {% endfor %}
+                </ul>
             </div>
             
             <div class="col-md-6">
                 <h5>Account Settings</h5>
-                <a href="#">List 1</a>
+                <ul>
+                {% for topiclist in site.categories.topics %}
+                    <li><a href="{{ topiclist.permalink }}">{{ topiclist.title }}</a></li>
+                {% endfor %}
+                </ul>
                 
                 <h5>Company Information</h5>
-                <a href="#">List 1</a>
+                <ul>
+                {% for faqlist in site.categories.topics %}
+                    <li><a href="{{ faqlist.permalink }}">{{ faqlist.title }}</a></li>
+                {% endfor %}
+                </ul>
             </div>
         </div>
         

@@ -1,19 +1,9 @@
 ---
 layout: post
-title: Changing Username
-permalink: /topics/changing-username/
-categories: [topics, account-settings]
+title: HOw do i fil out forms in Enketo?
+permalink: /company-info/changing-username/
+categories: [topics, onadata-info]
 ---
-
-Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.
-
-ODK Collect is used to:
-
-* Collect the data on a mobile device and send it to a server i.e Ona
-
-Ona being a mobile data collection tool uses ODK Collect to download already designed surveys and allow submission of the finalized forms back to Ona. For one to be able to use ODK collect, they need to install the application on an Android device.
-
-### <span id="install-odk-collect"></span>How do I install ODK Collect? 
 
 Below are steps that can be followed to install ODK collect:
 

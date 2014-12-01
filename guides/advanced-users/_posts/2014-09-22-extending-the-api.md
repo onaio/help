@@ -1,9 +1,9 @@
 ---
 layout: guide-view
 title: "Extending the ONA API"
-permalink: /guide/advanced-users
+permalink: /guides/advanced-users
 guide_name: Advanced Users
-categories: guide
+categories: guides
 ---
 
 Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.

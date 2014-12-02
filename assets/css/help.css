@@ -105,10 +105,12 @@ h4.link-header{
     padding-bottom:0.6em;
 }
 
-/*qa-section*/
-.qa-row > div > h3{
-    margin-top:0!important;
+/*posts*/
+.post-area h1, .post-area h2, .post-area h3, .post-area h4{
+    margin-top:1em!important;
 }
+
+/*qa-section*/
 .qa-nav{
     background:#eee;
     border-radius:4px;

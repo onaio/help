@@ -1,6 +1,6 @@
 ---
 layout: guide-view
-guide_name: User Accounts
+guide_name: User Accounts &amp; Plans
 title: "User Account Management"
 permalink: /guides/user-accounts/
 categories: [guides, user-accounts]

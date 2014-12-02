@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: guide-view
+guide_name: Data Management 
 title: "Sharing of Data in Organizations"
 permalink: /guides/data-management
-categories: guides
+categories: [guides, data-management]
 ---
 
 Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.

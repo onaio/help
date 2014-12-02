@@ -2,7 +2,7 @@
 layout: guide-view
 guide_name: Organizations
 title: "Managing your Organizations"
-permalink: /guides/getting-started/
+permalink: /guides/organizations/
 categories: [guides, organizations]
 ---
 

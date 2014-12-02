@@ -1,13 +1,12 @@
 ---
 layout: guide-view
-title: Authoring an XLSForm
-permalink: /guides/authoring-an-xlsform
-
-guide-name: Getting Started
-categories: [topics, odk-collect]
+guide_name: Getting Started
+title: Getting Started with ONA
+permalink: /guides/getting-started
+categories: [topics, getting-started]
 ---
 
-<h4>XLSForm Basics</h4>
+* ##### XLSForm Basics
 * [What is an XLSForm?](#what-is-xlsform)
 * [Basic format](#basic-format)
   * [The survey worksheet](#survey-worksheet)
@@ -24,7 +23,7 @@ categories: [topics, odk-collect]
 * [Calculation](#calculation)
 * [Required](#required)
 
-<h4>XLSForm Advanced</h4>
+* ##### XLSForm Advanced
 * [Grouping questions](#grouping)
   * [Nesting groups within groups](#nesting)
   * [Skipping](#skipping)
@@ -44,7 +43,7 @@ categories: [topics, odk-collect]
   * [Multiple webpage forms](#multiple)
   * [Grid theme forms](#grid)
 
-<h4>XLSForm Publishing</h4>
+* ##### XLSForm Publishing
 * [Advanced notes](#advanced notes)
   * [Visually combining notes](#combining)
   * [Styling notes](#styling)

@@ -14,18 +14,13 @@ layout: default
     </div>
 </div>
 
-<div class="container info-border">
+<div class="container info-border" id="guide-holder">
     {% include search-box.html %}
   
     <div class="qa-row clearfix">
-        <div class="col-md-3 clearfix sidenav guide-nav">
-            <h5>Popular Questions</h5>
-            {% for guidelist in site.categories.guide %}
-                <li><a href="{{ guidelist.permalink }}">{{ guidelist.title }}</a></li>
-            {% endfor %}
-        </div>
+        <div class="col-md-3 clearfix sidenav guide-nav"></div>
         
-        <div class="col-md-8 pull-right">
+        <div class="col-md-8 pull-right post-area">
             {{ content }}
         </div>
     </div>

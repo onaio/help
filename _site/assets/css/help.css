@@ -1,9 +1,16 @@
 *{
     box-sizing:border-box!important;
+    margin:0;padding:0;
 }
 body{
     font:14px Helvetica!important;
     line-height:1.5em!important;
+}
+ul li{
+    list-style:none!important;
+}
+ul li ul{
+    margin-left:1em;
 }
 .form-control{
     border-radius:0;
@@ -89,6 +96,13 @@ h4.link-header{
 }
 .email-form button{
     background:#CFCFCF;
+}
+
+.sidenav{
+    font:13px Helvetica!important;
+}
+.sidenav ul li ul li{
+    padding-bottom:0.6em;
 }
 
 /*qa-section*/

@@ -2,17 +2,30 @@
 layout: guide-view
 title: "Extending the ONA API"
 permalink: /guides/advanced-users
+
 guide_name: Advanced Users
-categories: guides
+categories: [guides, advanced-users]
 ---
 
-Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.
+* ##### [Connecting to the ONA API](faq/odk-collect#install-odk-collect)
 
-ODK Collect is used to:
+  * [How do I configure ODK Collect with my Ona account?](/faq/odk-collect#configure-odk-collect)
+  * [How do I download forms from my Ona account?](/faq/odk-collect#download-forms-from-ona)
+  * [How do I open a blank form?](/faq/odk-collect#open-blank-form)
+  * [How do I save a form to finish later?](/faq/odk-collect#save-form)
+  
+* ##### [Authentication for your Service](faq/odk-collect#install-odk-collect)
 
-* Collect the data on a mobile device and send it to a server i.e Ona
+  * [How do I configure ODK Collect with my Ona account?](/faq/odk-collect#configure-odk-collect)
+  * [How do I download forms from my Ona account?](/faq/odk-collect#download-forms-from-ona)
+  * [How do I open a blank form?](/faq/odk-collect#open-blank-form)
+  * [How do I save a form to finish later?](/faq/odk-collect#save-form)
 
-Ona being a mobile data collection tool uses ODK Collect to download already designed surveys and allow submission of the finalized forms back to Ona. For one to be able to use ODK collect, they need to install the application on an Android device.
+
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas 
 
 ### <span id="install-odk-collect"></span>How do I install ODK Collect? 
 

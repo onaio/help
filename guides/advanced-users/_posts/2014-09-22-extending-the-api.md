@@ -2,8 +2,7 @@
 layout: guide-view
 guide_name: "Guides for Advanced Users" 
 title: "Extending the ONA API"
-permalink: /guides/advanced-users
-
+permalink: /guides/advanced-users/
 categories: [guides, advanced-users]
 ---
 

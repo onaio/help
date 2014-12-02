@@ -1,9 +1,9 @@
 ---
 layout: guide-view
+guide_name: "Guides for Advanced Users" 
 title: "Extending the ONA API"
 permalink: /guides/advanced-users
 
-guide_name: Advanced Users
 categories: [guides, advanced-users]
 ---
 

@@ -38,46 +38,25 @@ layout: home
         <div class="col-md-1-1 clearfix links-container">
           <h4 class="link-header">Topics</h4>
             
-            {% for cat in site.categories | sort %}
-                
-                <span>{{ cat[0] }}</span>, 
-            
-            {% endfor %}
-            
             <div class="col-md-6">
-                <h5>Account Settings</h5>
+            {% for posts in site.categories.topics %}
+                <h5>{{ posts.categories[1] }}</h5>
                 <ul>
-                {% for acclist in site.categories.account-settings %}
-                    <li><a href="{{ acclist.permalink }}">{{ acclist.title }}</a></li>
+                {% for postlist in post.categories %}
+                  {% if postlist.categories[1] == post.categories[1] %}
+                    <li><a href="{{ postlist.permalink }}">{{ postlist.title }}</a></li>
+                  {% endif %}
                 {% endfor %}
+                    <li><a href="#">link</a></li>
                 </ul>
-                
-                <h5>Company Information</h5>
-                <ul>
-                {% for complist in site.categories.company-info %}
-                    <li><a href="{{ complist.permalink }}">{{ complist.title }}</a></li>
-                {% endfor %}
-                </ul>
-                
-                <h5>ODK Collect</h5>
-                <ul>
-                {% for odklist in site.categories.odk-collect %}
-                    <li><a href="{{ odklist.permalink }}">{{ odklist.title }}</a></li>
-                {% endfor %}
-                </ul>
-                
-                <h5>Data Management</h5>
-                <ul>
-                {% for datalist in site.categories.data-management %}
-                    <li><a href="{{ datalist.permalink }}">{{ datalist.title }}</a></li>
-                {% endfor %}
-                </ul>
+              
+            {% endfor %}
             </div>
             
             <div class="col-md-6">
                 <h5>Ona Website Usage</h5>
                 <ul>
-                {% for usagelist in site.categories.website-usage %}
+                {% for usagelist in page.categories.website-usage %}
                     <li><a href="{{ usagelist.permalink }}">{{ usagelist.title }}</a></li>
                 {% endfor %}
                 </ul>

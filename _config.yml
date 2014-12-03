@@ -8,8 +8,6 @@ url: "" #http://help.ona.io
 twitter_username: onadata
 github_username:  help.ona.io
 
-categoty-list: [guides, advanced-users, guide, data-management, faqs, account-settings, tutorial, faq, getting-started, topics, odk-collect, user-accounts, organizations]
-
 # Build settings
 markdown: kramdown
 encoding: UTF-8

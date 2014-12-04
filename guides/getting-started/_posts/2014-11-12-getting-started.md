@@ -6,24 +6,29 @@ permalink: /guides/getting-started
 categories: [topics, getting-started]
 ---
 
-* ##### XLSForm Basics
-* [Roger was here?](#what-is-xlsform)
-* [Basic format](#basic-format)
-  * [The survey worksheet](#survey-worksheet)
-  * [The choices worksheet](#choices-worksheet)
-* [Question types](#question types)
-  * [Multiple choice questions](#multiple-choice)
-  * [Specify other](#specify-other)
-  * [Metadata](#metadata)
-* [Hints](#hints)
-* [Constraints](#constraints)
-  * [Constraint message](#constraint-message)
-* [Relevant](#relevant)
-* [Formulas](#formulas)
-* [Calculation](#calculation)
-* [Required](#required)
+* ##### New to Ona
+* [How Ona works](#what-is-xlsform)
+* [Signing up](#basic-format)
+* [Logging in](#question types)
+* [Form design](#hints)
+* [Publishing a form](#constraints)
+* [The dashboard](#formulas)
+* [Collecting data](#relevant)
+  * [Webform vs. mobile](#calculation)
+  * [Using ODK Collect](#required)
+* [Projects](#required)
+  * [Sharing projects](#required)
+  * [Project permissions](#required)
+  * [Project submission options](#required)
+  * [Adding forms](#required)
+  * [Form behavior](#required)
+* [Analyzing data](#required)
+  * [The data view](#required)
+  * [Map view](#required)
+  * [Summary charts](#required)
+  * [Downloading data](#required)
 
-* ##### XLSForm Advanced
+* ##### Your first project
 * [Grouping questions](#grouping)
   * [Nesting groups within groups](#nesting)
   * [Skipping](#skipping)
@@ -43,14 +48,6 @@ categories: [topics, getting-started]
   * [Multiple webpage forms](#multiple)
   * [Grid theme forms](#grid)
 
-* ##### XLSForm Publishing
-* [Advanced notes](#advanced notes)
-  * [Visually combining notes](#combining)
-  * [Styling notes](#styling)
-* [Platforms/Tools that support XLSForms](#xlsform-tools)
-* [More resources](#resources)
-* [About this site](#about)
-* [History](#history)
 
 
 Roger was here. XLSForm is a form standard created to help simplify the authoring of forms in Excel.  Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel.  XLSForms provide a practical standard for sharing and collaborating on authoring forms.  They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.
@@ -684,54 +681,3 @@ In your **survey** tab, group together the questions you would like to appear in
 |         |  end group  |   |  |  |
 
 See this [blog post](http://blog.enketo.org/gorgeous-grid/) for more information on creating Grid forms. The Grid theme XLSForm example is [here](https://docs.google.com/spreadsheets/d/1Z4gHZQTr5FibRK-Aj198WlNdMZghEBZlyWhmPZXjzJQ/edit?usp=sharing).  
-
-### <a name="advanced notes"></a>Advanced notes
-
-##### <a name="combining"></a>Visually combining notes
-
-The XLSForm format only allows one of each type of media (image, video, audio) to be added to a **note** question (ie, you cannot have more than one media file or type in a single **note** field). To work around this limitation, subsequent notes will now be visually merged together so that they appear as one note in your form. Practically speaking, this means you can include multiple **note** fields one after another in your XLSForm.  When viewing the form, the notes will automatically appear as one note.  See the example web form [here](https://notes.enketo.org/webform), and the XLSForm source [here](https://docs.google.com/spreadsheet/ccc?key=0Al3Mw5sknZoPdDRvaXlrR19GTklyNHJQak9tT1ZtSVE&usp=sharing#gid=0).
-
-##### <a name="styling"></a>Styling notes
-
-XLSForm supports a limited subset of Markdown syntax for styling notes in your form.
-
-* *emphasize* words by wrapping them inside ``_`` or ``*``
-* **strongly emphasize** words by wrapping them inside ``__`` or ``**``
-* a link can be added by using ``[name of link](url)``
-* add a line break where you want it with Ctrl-Enter or Ctrl-Alt-Enter (may be different key combination for some spreadsheet software)
-
-Check out the blog post on styling and combining notes [here](http://blog.enketo.org/better-notes/).
-
-### <a name="xlsform-tools"></a>Platforms/Tools that support XLSForms
-* [Open Data Kit (ODK)](http://opendatakit.org)
-* [Formhub](http://formhub.org)
-* [Ona](http://ona.io)
-* [SurveyCTO](http://www.surveycto.com/)
-* [Enketo](http://enketo.org)
-* [Kobo ToolBox](http://kobotoolbox.org)
-* [CommCare](http://commcarehq.org)
-* Nafundi's [XLSForm Offline](https://gumroad.com/l/xlsform-offline)
-* Nathan Breit's [xlsform.exe](https://github.com/UW-ICTD/xlsform.exe/blob/master/README.md) 
-
-### <a name="resources"></a>More resources
-
-The [XLSform standard document](https://docs.google.com/spreadsheet/ccc?key=0AjZ4hMHTat-YdFZSY3BOZWtGeTdxWGQ1clZoVEZkamc&usp=sharing) can guide you through the specific input types, column headers, and so on that are legitimate syntax in XLSForms. If you want to dig in deeper to understand XForms and go beyond XLSForms, here are some resources to understand them:
-
-* Form guidelines: [http://code.google.com/p/opendatakit/wiki/XFormDesignGuidelines](http://code.google.com/p/opendatakit/wiki/XFormDesignGuidelines)
-* Form design tutorial: [https://bitbucket.org/javarosa/javarosa/wiki/buildxforms](https://bitbucket.org/javarosa/javarosa/wiki/buildxforms)
-* Sample forms: [http://code.google.com/p/opendatakit/source/browse/?repo=forms](http://code.google.com/p/opendatakit/source/browse/?repo=forms)
-* [Formhub University](http://formhub.org/formhub_u)
-* [Ona Form Gallery](http://ona.io)
-* XForms as supported by JavaRosa: [https://bitbucket.org/javarosa/javarosa/wiki/xform-jr-compat](https://bitbucket.org/javarosa/javarosa/wiki/xform-jr-compat)
-
-### <a name="about"></a>About this site
-
-XLSForm.org is a community-supported project aiming to create a common reference point for the XLSForm standard.
-
-If you want to contribute to or improve this documentation, please visit our [project's GitHub repo](https://github.com/XLSForm/xlsform.github.io).
-
-### <a name="history"></a>History
-
-The XLSForm was originally developed by Andrew Marder and Alex Dorey of the [Sustainable Engineering Lab at Columbia University](http://sel.columbia.edu).  As XLSForms became adopted by the ODK Community, SEL worked with the ODK Team at the University of Washington to develop the current specification.  [PyXForm](https://github.com/SEL-Columbia/pyxform), the library used to convert XLSForms to XForms, is an open source project supported by members of ODK, SEL, Ona, SurveyCTO, and Kobo.
-
-

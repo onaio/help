@@ -155,6 +155,8 @@ h4.link-header{
     padding:0;
     text-align:center;
     width:29%;
+    border-radius:5px;
+    background-color: #50B0E3;
 }
 .guide-nav{
     background:#eee;
@@ -162,18 +164,12 @@ h4.link-header{
     padding:0.5em 1em;
 }
 .guide-box a{
-    background:#ddd;
-    border-radius:5px!important;
-    color:#4c4c4c;
+    color:#fff;
     display:block;
     padding:2em 1em;
     text-decoration:none;
 }
-.guide-box a:hover{
-    background:#ccc;
-}
 .guide-box .glyphicon{
-    color:#555;
     font-size:6em;
 }
 .guide-box h5{

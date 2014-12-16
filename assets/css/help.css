@@ -3,7 +3,7 @@
     margin:0;padding:0;
 }
 body{
-    font:14px Helvetica!important;
+    font:14px 'Open Sans'!important;
     line-height:1.5em!important;
 }
 ul li{
@@ -20,12 +20,24 @@ ul li ul{
     border-radius:0;
 }
 #helpnav, .jumbotron{
-    background:#DCDCDC;
+    background:#50B0E3;
     border:0;
     border-radius:0;
+    color:#fff!important;
 }
 #helpnav{
     margin-bottom:0!important;
+}
+.navbar-brand img{
+    width:110px;
+}
+#navbar li a{
+    color:#fff;
+    border-top:4px solid transparent;
+    transition:border 0.2s ease-in-out;
+}
+#navbar li a:hover, #navbar li a.active{
+    border-top:4px solid #fff;
 }
 .jumbotron{
     margin-bottom:0;
@@ -39,15 +51,20 @@ ul li ul{
     font-size:1.1em;
 }
 .jumbotron .guide-lead{
-    border:2px solid #CFCFCF;
+    border:1px solid #fff;
     border-radius:4px;
-    padding:0.5em 1em;
+    padding:0.6em 1.2em;
+}
+.jumbotron .guide-lead a{
+    color:#fff;
+    text-decoration:none!important;
+    border-bottom:1px dotted #fff;
 }
 h4 span.glyphicon{
-    color:#777;
+    color:#fff!important;
     font-size:1em!important;
     position:relative;
-    margin-top:3px;
+    top:5px;
 }
 h5{
     font-weight:bold;

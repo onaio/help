@@ -77,19 +77,33 @@ h5{
     border-top:0;
     padding-bottom:3em;
 }
-.search-box{
-    margin-bottom:1em;
-    padding:1em 1em 0;
+
+.content {
+    padding-bottom: 3em;
 }
+
+.search-box{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.search-box form {
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    padding: 0.6em;
+}
+
 .search-box input[type=text]{
     border-radius:0;
+    border: none;
+    box-shadow: none;
 }
 .search-box button{
     background:transparent!important;
-    border:0;;
+    border:0;
+    color: #bbb;
 }
 .search-text{
-    background:#EEEEEE;
     padding:0.5em;
 }
 .search-box .s-pad, .search-box .s-pad{
@@ -101,6 +115,12 @@ h5{
 .search-box a{
     text-decoration:underline;
 }
+
+#ask-the-team-container {
+    text-align: right;
+    padding-right: 0;
+}
+
 h4.link-header{
     border-bottom:1px solid #ddd;
     margin:1em;

@@ -4,30 +4,6 @@ layout: default
 
 <div class="jumbotron guide-title">
     <div class="container">
-        <div class="col-md-1">
-        {% assign cat = page.categories %}
-        
-        {% if cat contains 'getting-started' %}
-            <span class="glyphicon glyphicon-play"></span>
-        {% endif %}
-        
-        {% if cat contains 'data-management' %}
-            <span class="glyphicon glyphicon-cloud"></span>
-        {% endif %}
-        
-        {% if cat contains 'organizations' %}
-            <span class="glyphicon glyphicon-user"></span>
-        {% endif %}
-        
-        {% if cat contains 'user-accounts' %}
-            <span class="glyphicon glyphicon-lock"></span>
-        {% endif %}
-        
-        {% if cat contains 'advanced-users' %}
-            <span class="glyphicon glyphicon-wrench"></span>
-        {% endif %}
-        </div>
-        
         <div class="col-md-9">
             <span class="">{{ page.guide_name | upcase }}</span><br/>
             <h3 class="qa-header">{{ page.title }}</h3>
@@ -35,7 +11,7 @@ layout: default
     </div>
 </div>
 
-<div class="container info-border" id="guide-holder">
+<div class="container content" id="guide-holder">
     {% include search-box.html %}
   
     <div class="qa-row clearfix">

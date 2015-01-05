@@ -1,0 +1,1448 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title> Ona Helplp</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/assets/css/help.css" rel="stylesheet"/>
+<link rel="icon" type="image/x-icon" href="/favicon.png"/>
+</head>
+
+<body >
+  <div class="page">
+    <header class="navbar navbar-inverse" role="navigation" id="helpnav">
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+              <img src="/assets/img/ona-logo.png" alt="Onadata Logo"/>
+          </a>
+        </div>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a class="active" href="#faqs">faqs</a></li>
+              <li><a href="#guides">guides</a></li>
+              <li><a href="#">tutorial</a></li>
+              <li><a href="http://blog.ona.io/">blog</a></li>
+              <li><a href="http://ona.io/accounts/register/">signup</a></li>
+          </ul>
+        </div>
+    </div>
+</header>
+    <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help | Ona.io</title>
+    <description>This is the Ona help page.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Managing your Organizations</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;creating-an-organizationcreating-organization&quot;&gt;&lt;a href=&quot;#creating-organization&quot;&gt;Creating an Organization&lt;/a&gt;&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#edit-profile&quot;&gt;Editing organization profile&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#uploading-images&quot;&gt;Uploading images&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;membersmembers&quot;&gt;&lt;a href=&quot;#members&quot;&gt;Members&lt;/a&gt;&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#adding-members&quot;&gt;Adding members&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#member-permissions&quot;&gt;Assigning Permissions&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;collaboratorscollaborators&quot;&gt;&lt;a href=&quot;#collaborators&quot;&gt;Collaborators&lt;/a&gt;&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#adding-collaborators&quot;&gt;Adding collaborators&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#collaborator-permissions&quot;&gt;Sharing projects&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;span-idcreating-organizationspancreating-an-organization&quot;&gt;&lt;span id=&quot;creating-organization&quot;&gt;&lt;/span&gt;Creating an organization&lt;/h4&gt;
+&lt;p&gt;Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Nov 2014 00:00:00 +0300</pubDate>
+        <link>/guides/organizations/</link>
+        <guid isPermaLink="true">/guides/organizations/</guid>
+      </item>
+    
+      <item>
+        <title>User Account Management</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;registering-for-an-accountregistration&quot;&gt;&lt;a href=&quot;#registration&quot;&gt;Registering for an Account&lt;/a&gt;&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#logging-in&quot;&gt;Logging in&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#edit-profile&quot;&gt;Editing your profile&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;span-idregisterspanregistering-for-an-account&quot;&gt;&lt;span id=&quot;register&quot;&gt;&lt;/span&gt;Registering for an Account&lt;/h4&gt;
+&lt;p&gt;Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Nov 2014 00:00:00 +0300</pubDate>
+        <link>/guides/user-accounts/</link>
+        <guid isPermaLink="true">/guides/user-accounts/</guid>
+      </item>
+    
+      <item>
+        <title>Projects</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;get-started-on-a-project&quot;&gt;Get started on a project&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project-vs-form&quot;&gt;Project vs. Form&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#create-a-project&quot;&gt;Create a project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;managing-projects&quot;&gt;Managing projects&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#projects-shared-with-you&quot;&gt;Projects shared with you&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#starring&quot;&gt;Starring&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#finding-sorting&quot;&gt;Finding/Sorting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#deleting-projects&quot;&gt;Deleting projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;collaborating-with-others&quot;&gt;Collaborating with others&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sharing-projects&quot;&gt;Sharing projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#best-practices&quot;&gt;Best practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;get-started-on-a-project-1&quot;&gt;Get started on a project&lt;/h3&gt;
+
+&lt;h5 id=&quot;a-nameproject-vs-formaproject-vs-form&quot;&gt;&lt;a name=&quot;project-vs-form&quot;&gt;&lt;/a&gt;Project vs. Form&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h5 id=&quot;a-namecreate-a-projectacreate-a-project&quot;&gt;&lt;a name=&quot;create-a-project&quot;&gt;&lt;/a&gt;Create a project&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h3 id=&quot;managing-projects-1&quot;&gt;Managing projects&lt;/h3&gt;
+
+&lt;h5 id=&quot;a-nameprojects-shared-with-youaprojects-shared-with-you&quot;&gt;&lt;a name=&quot;projects-shared-with-you&quot;&gt;&lt;/a&gt;Projects shared with you&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h5 id=&quot;a-namestarringastarring&quot;&gt;&lt;a name=&quot;starring&quot;&gt;&lt;/a&gt;Starring&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h5 id=&quot;a-namefinding-sortingafindingsorting&quot;&gt;&lt;a name=&quot;finding-sorting&quot;&gt;&lt;/a&gt;Finding/Sorting&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h5 id=&quot;a-namedeleting-projectsadeleting-projects&quot;&gt;&lt;a name=&quot;deleting-projects&quot;&gt;&lt;/a&gt;Deleting projects&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h3 id=&quot;collaborating-with-others-1&quot;&gt;Collaborating with others&lt;/h3&gt;
+
+&lt;h5 id=&quot;a-namesharing-projectsasharing-projects&quot;&gt;&lt;a name=&quot;sharing-projects&quot;&gt;&lt;/a&gt;Sharing projects&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+
+&lt;h5 id=&quot;a-namebest-practicesabest-practices&quot;&gt;&lt;a name=&quot;best-practices&quot;&gt;&lt;/a&gt;Best practices&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Nov 2014 00:00:00 +0300</pubDate>
+        <link>/guides/projects</link>
+        <guid isPermaLink="true">/guides/projects</guid>
+      </item>
+    
+      <item>
+        <title>Getting Started with ONA</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;new-to-ona&quot;&gt;New to Ona&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-ona-works&quot;&gt;How Ona works&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#signing-up&quot;&gt;Signing up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#logging-in&quot;&gt;Logging in&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#form-design&quot;&gt;Form design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#publishing-a-form&quot;&gt;Publishing a form&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-dashboard&quot;&gt;The dashboard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#collecting-data&quot;&gt;Collecting data&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#webform-vs-mobile&quot;&gt;Webform vs. mobile&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#using-odk-collect&quot;&gt;Using ODK Collect&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#projects&quot;&gt;Projects&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#sharing-projects&quot;&gt;Sharing projects&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#project-permissions&quot;&gt;Project permissions&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#project-submission-options&quot;&gt;Project submission options&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#adding-forms&quot;&gt;Adding forms&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#form-behavior&quot;&gt;Form behavior&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#analyzing-data&quot;&gt;Analyzing data&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-data-view&quot;&gt;The data view&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#map-view&quot;&gt;Map view&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#summary-charts&quot;&gt;Summary charts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#downloading-data&quot;&gt;Downloading data&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;your-first-project-tutorial&quot;&gt;Your first project tutorial&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#requirements&quot;&gt;Requirements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#set-up-your-project&quot;&gt;Set up your project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#create-a-survey&quot;&gt;Create a survey&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#form-creation-options&quot;&gt;Form creation options&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xlsforms-for-beginners&quot;&gt;XLSForms for beginners&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#translate-your-survey&quot;&gt;Translate your survey&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#submit-data&quot;&gt;Submit data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#view-your-project-data&quot;&gt;View your project data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;new-to-ona-1&quot;&gt;New to Ona&lt;/h3&gt;
+
+&lt;h5 id=&quot;a-namehow-ona-worksahow-ona-works&quot;&gt;&lt;a name=&quot;how-ona-works&quot;&gt;&lt;/a&gt;How Ona works&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. Phasellus eget iaculis dolor. Donec risus eros, consectetur sed sapien sit amet, ornare cursus neque. Cras varius cursus commodo. Nulla volutpat ut neque ut pellentesque. Mauris volutpat eleifend tellus, id pharetra nisl tempus sed. Donec auctor ante tempor, lacinia metus ac, varius est. Maecenas semper vehicula gravida. Maecenas non lacinia eros. Aliquam erat volutpat.&lt;/p&gt;
+
+&lt;h5 id=&quot;a-namesigning-upasigning-up&quot;&gt;&lt;a name=&quot;signing-up&quot;&gt;&lt;/a&gt;Signing up&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. Phasellus eget iaculis dolor. Donec risus eros, consectetur sed sapien sit amet, ornare cursus neque. Cras varius cursus commodo. Nulla volutpat ut neque ut pellentesque. Mauris volutpat eleifend tellus, id pharetra nisl tempus sed. Donec auctor ante tempor, lacinia metus ac, varius est. Maecenas semper vehicula gravida. Maecenas non lacinia eros. Aliquam erat volutpat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3767/13734054823_d2b3beb03d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur.
+    &lt;ul&gt;
+      &lt;li&gt;Lorem ipsum dolor sit amet, consectetur.
+If I wanted my survey to collect all of these metadata, I would put the following at the beginning of the survey:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;survey&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;type&lt;/td&gt;
+      &lt;td&gt;name&lt;/td&gt;
+      &lt;td&gt;label&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;start&lt;/td&gt;
+      &lt;td&gt;start&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;end&lt;/td&gt;
+      &lt;td&gt;end&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;today&lt;/td&gt;
+      &lt;td&gt;today&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;deviceid&lt;/td&gt;
+      &lt;td&gt;deviceid&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;subscriberid&lt;/td&gt;
+      &lt;td&gt;subscriberid&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;imei&lt;/td&gt;
+      &lt;td&gt;imei&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;phonenumber&lt;/td&gt;
+      &lt;td&gt;phonenumber&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 12 Nov 2014 00:00:00 +0300</pubDate>
+        <link>/guides/getting-started</link>
+        <guid isPermaLink="true">/guides/getting-started</guid>
+      </item>
+    
+      <item>
+        <title>ODK Briefcase Faq</title>
+        <description>&lt;h3 id=&quot;span-idodk-briefcasespanwhat-is-odk-briefcase&quot;&gt;&lt;span id=&quot;odk-briefcase&quot;&gt;&lt;/span&gt;What is ODK briefcase?&lt;/h3&gt;
+
+&lt;p&gt;ODK Briefcase is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline.&lt;/p&gt;
+
+&lt;p&gt;ODK Briefcase can:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Export forms with submissions from Ona or any other ODK Aggregate server - &lt;strong&gt;PULL&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Make bulk form submissions to Ona and any other ODK Aggregate server - &lt;strong&gt;PUSH&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Export form submission data in CSV format.&lt;/li&gt;
+  &lt;li&gt;Pull forms and submissions collected by ODK Collect from a mobile device.&lt;/li&gt;
+  &lt;li&gt;Decrypt form submission data: ODK Briefcase is required to decrypt form submission data from ona.io when exporting the data to CSV format.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Points 1 and 2 require an internet connection, while points 3-5 can be done offline.&lt;/p&gt;
+
+&lt;p&gt;Encrypted form submission data cannot be viewed on ona.io.  Ona stores these form submissions in encrypted format.  In order to view the data, the user must export the submission data using ODK Briefcase and provide the private key while exporting the data in CSV format.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-install-odk-briefcase&quot;&gt;How to install ODK Briefcase&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Java 6 or higher must be installed on your computer. If you do not have Java on your computer, you can download it here: &lt;a href=&quot;http://java.com/en/download/index.jsp&quot;&gt;http://java.com/en/download/index.jsp&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Once Java is installed, download ODK Briefcase here: &lt;a href=&quot;http://opendatakit.org/downloads/download-info/odk-briefcase/&quot;&gt;http://opendatakit.org/downloads/download-info/odk-briefcase/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-pull-forms-with-submissions-from-ona&quot;&gt;How to PULL forms with submissions from Ona&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;When first starting ODK Briefcase, you will need to specify the location of the ODK Briefcase storage area on your computer.  This will create the ODK Briefcase Storage folder, which will hold all your forms and submission data.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15341618302_a0da6beeff.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On the tab &lt;strong&gt;Pull&lt;/strong&gt;, click on the bar to the right of &lt;strong&gt;Pull data from&lt;/strong&gt;, and choose Aggregate 1.0.
+&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3889/15155222130_f74371435d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Connect&lt;/strong&gt; to pull data from the &lt;strong&gt;Aggregate server&lt;/strong&gt;:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15341924225_81fdfc6b9d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the new window that opens, specify the url for the Ona account, along with the &lt;strong&gt;username&lt;/strong&gt; and &lt;strong&gt;password&lt;/strong&gt; to the account. Then, click on the &lt;strong&gt;Connect&lt;/strong&gt; button,
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15155390807_80b9c1ee46.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, add a check to the form(s) you wish to download;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3884/15155342508_74828b00be.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Pull&lt;/strong&gt; button at the bottom right of the window.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3900/15341924045_12a1a9607d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;SUCCESS!&lt;/strong&gt; message under the &lt;strong&gt;Pull status&lt;/strong&gt;.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15155342588_bb960e379d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;get-data-off-your-mobile-devices-and-do-bulk-submissions-to-ona-with-odk-briefcase&quot;&gt;Get data off your mobile devices and do bulk submissions to Ona with ODK Briefcase&lt;/h3&gt;
+
+&lt;p&gt;ODK Briefcase can also be used to pull data from ODK Collect from your mobile device and then push to Ona.  This is especially useful for users who are unable to make form submissions directly to Ona due to slow or lack of internet connectivity on their mobile device.&lt;/p&gt;
+
+&lt;p&gt;Before going through the steps below, please ensure that all forms on the mobile device are finalized; this is due to the fact that ODK Briefcase does not discriminate between incomplete and finalized forms when pulling form submissions from ODK Collect.  Steps 3-5, below, are slightly different for Android 4.x and Android 2.x (or earlier) devices.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Switch your Android device off and then on; this ensures that your device only shows the current set of files;&lt;/li&gt;
+  &lt;li&gt;Mount your mobile device to your computer using the USB cable;&lt;/li&gt;
+  &lt;li&gt;For Android 4.x devices, copy the entire &lt;strong&gt;odk&lt;/strong&gt; directory from the mounted MTP/Android device to a local hard drive.  For Mac OS/X, use Android File Transfer.  For Windows, drag-and-drop the entire &lt;strong&gt;odk&lt;/strong&gt; directory into a folder on your PC;&lt;/li&gt;
+  &lt;li&gt;Open ODK Briefcase.  On the &lt;strong&gt;Pull&lt;/strong&gt; tab, click on the drop down menu to the right of Pull data from and choose &lt;strong&gt;Custom Path to ODK Directory&lt;/strong&gt; (for Android 4.x devices) or &lt;strong&gt;Mounted Android SD Card&lt;/strong&gt; (for Android 2.x (or earlier) devices).
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3850/15318889926_1335f07c7d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Choose&lt;/strong&gt; button.  In the window that opens, select either the &lt;strong&gt;odk&lt;/strong&gt; folder that was copied onto your local hard drive (Android 4.x devices) or the mounted SD card (Android 2.x or earlier devices).
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3853/15155222300_32c900e820.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, tick off the check box next to the form(s) you want to pull.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3868/15161953457_b31880e6df.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click the &lt;strong&gt;Pull&lt;/strong&gt; button at the bottom right of the window.  The form submissions that were copied off of the device will be loaded into the ODK Briefcase storage location.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3880/15318889806_5f9b8396a1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;SUCCESS!&lt;/strong&gt; message for the form(s) you pulled:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2947/15325634016_0321b0faa8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Confirm that the form submissions have been successfully pulled by locating them within the &lt;strong&gt;instances&lt;/strong&gt; directory inside the ODK Briefcase Storage folder (e.g., &lt;strong&gt;ODK Briefcase Storage/forms/Tutorial XLSForm 2/instances&lt;/strong&gt;).
+&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Once you have verified that the form submissions have been successfully transferred, you can delete the forms in ODK Collect to prevent duplicate form submissions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-make-bulk-form-submissions-to-ona---push&quot;&gt;How to make bulk form submissions to Ona - PUSH&lt;/h3&gt;
+
+&lt;p&gt;Once form submissions have been pulled from an ODK Aggregate server or from a mobile device’s ODK Collect application, ODK Briefcase can be used to &lt;strong&gt;Push&lt;/strong&gt; these submissions to the Ona server.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In the ODK Briefcase application, click on the &lt;strong&gt;Push&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3929/15338749511_d2fb11d1f8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, click on the drop down to the right of &lt;strong&gt;Push data to&lt;/strong&gt; and choose &lt;strong&gt;Aggregate 1.0&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15318889546_4d033e1c33.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Connect&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15338749611_df46d57017.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up; enter the server details, i.e., your Ona account &lt;strong&gt;url&lt;/strong&gt;, &lt;strong&gt;username&lt;/strong&gt; and &lt;strong&gt;password&lt;/strong&gt;, then click on the &lt;strong&gt;Connect&lt;/strong&gt; button;
+&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15338749651_b6fec0065b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, check the box next to the form submission(s) you want to push to Ona;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15341923845_378da19d5b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Push&lt;/strong&gt; button at the bottom right of the window and the data will be submitted to the Ona server;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3880/15318889806_5f9b8396a1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;Successful upload!&lt;/strong&gt; message in the &lt;strong&gt;Pull Status&lt;/strong&gt; section on the application;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15155342588_bb960e379d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;If the form already exists in the Ona account that you are pushing data to, then the form publishing will fail but the data submission will pass, and the &lt;strong&gt;Push Status&lt;/strong&gt; in this case will be &lt;strong&gt;Partially successful!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;difference-between-pulling-from-directory-and-drive&quot;&gt;Difference between pulling from directory and drive&lt;/h3&gt;
+
+&lt;h4 id=&quot;android-4x-devices&quot;&gt;Android 4.x devices&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2942/15338750261_fe30e081fc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;android-2x-devices&quot;&gt;Android 2.x devices&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2944/15155390787_e55b40f931.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/odk-briefcase</link>
+        <guid isPermaLink="true">/faq/odk-briefcase</guid>
+      </item>
+    
+      <item>
+        <title>ODK Briefcase</title>
+        <description>&lt;h3 id=&quot;span-idodk-briefcasespanwhat-is-odk-briefcase&quot;&gt;&lt;span id=&quot;odk-briefcase&quot;&gt;&lt;/span&gt;What is ODK briefcase?&lt;/h3&gt;
+
+&lt;p&gt;ODK Briefcase is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline.&lt;/p&gt;
+
+&lt;p&gt;ODK Briefcase can:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Export forms with submissions from Ona or any other ODK Aggregate server - &lt;strong&gt;PULL&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Make bulk form submissions to Ona and any other ODK Aggregate server - &lt;strong&gt;PUSH&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Export form submission data in CSV format.&lt;/li&gt;
+  &lt;li&gt;Pull forms and submissions collected by ODK Collect from a mobile device.&lt;/li&gt;
+  &lt;li&gt;Decrypt form submission data: ODK Briefcase is required to decrypt form submission data from ona.io when exporting the data to CSV format.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Points 1 and 2 require an internet connection, while points 3-5 can be done offline.&lt;/p&gt;
+
+&lt;p&gt;Encrypted form submission data cannot be viewed on ona.io.  Ona stores these form submissions in encrypted format.  In order to view the data, the user must export the submission data using ODK Briefcase and provide the private key while exporting the data in CSV format.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-install-odk-briefcase&quot;&gt;How to install ODK Briefcase&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Java 6 or higher must be installed on your computer. If you do not have Java on your computer, you can download it here: &lt;a href=&quot;http://java.com/en/download/index.jsp&quot;&gt;http://java.com/en/download/index.jsp&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Once Java is installed, download ODK Briefcase here: &lt;a href=&quot;http://opendatakit.org/downloads/download-info/odk-briefcase/&quot;&gt;http://opendatakit.org/downloads/download-info/odk-briefcase/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-pull-forms-with-submissions-from-ona&quot;&gt;How to PULL forms with submissions from Ona&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;When first starting ODK Briefcase, you will need to specify the location of the ODK Briefcase storage area on your computer.  This will create the ODK Briefcase Storage folder, which will hold all your forms and submission data.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15341618302_a0da6beeff.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On the tab &lt;strong&gt;Pull&lt;/strong&gt;, click on the bar to the right of &lt;strong&gt;Pull data from&lt;/strong&gt;, and choose Aggregate 1.0.
+&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3889/15155222130_f74371435d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Connect&lt;/strong&gt; to pull data from the &lt;strong&gt;Aggregate server&lt;/strong&gt;:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15341924225_81fdfc6b9d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the new window that opens, specify the url for the Ona account, along with the &lt;strong&gt;username&lt;/strong&gt; and &lt;strong&gt;password&lt;/strong&gt; to the account. Then, click on the &lt;strong&gt;Connect&lt;/strong&gt; button,
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15155390807_80b9c1ee46.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, add a check to the form(s) you wish to download;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3884/15155342508_74828b00be.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Pull&lt;/strong&gt; button at the bottom right of the window.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3900/15341924045_12a1a9607d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;SUCCESS!&lt;/strong&gt; message under the &lt;strong&gt;Pull status&lt;/strong&gt;.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15155342588_bb960e379d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;get-data-off-your-mobile-devices-and-do-bulk-submissions-to-ona-with-odk-briefcase&quot;&gt;Get data off your mobile devices and do bulk submissions to Ona with ODK Briefcase&lt;/h3&gt;
+
+&lt;p&gt;ODK Briefcase can also be used to pull data from ODK Collect from your mobile device and then push to Ona.  This is especially useful for users who are unable to make form submissions directly to Ona due to slow or lack of internet connectivity on their mobile device.&lt;/p&gt;
+
+&lt;p&gt;Before going through the steps below, please ensure that all forms on the mobile device are finalized; this is due to the fact that ODK Briefcase does not discriminate between incomplete and finalized forms when pulling form submissions from ODK Collect.  Steps 3-5, below, are slightly different for Android 4.x and Android 2.x (or earlier) devices.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Switch your Android device off and then on; this ensures that your device only shows the current set of files;&lt;/li&gt;
+  &lt;li&gt;Mount your mobile device to your computer using the USB cable;&lt;/li&gt;
+  &lt;li&gt;For Android 4.x devices, copy the entire &lt;strong&gt;odk&lt;/strong&gt; directory from the mounted MTP/Android device to a local hard drive.  For Mac OS/X, use Android File Transfer.  For Windows, drag-and-drop the entire &lt;strong&gt;odk&lt;/strong&gt; directory into a folder on your PC;&lt;/li&gt;
+  &lt;li&gt;Open ODK Briefcase.  On the &lt;strong&gt;Pull&lt;/strong&gt; tab, click on the drop down menu to the right of Pull data from and choose &lt;strong&gt;Custom Path to ODK Directory&lt;/strong&gt; (for Android 4.x devices) or &lt;strong&gt;Mounted Android SD Card&lt;/strong&gt; (for Android 2.x (or earlier) devices).
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3850/15318889926_1335f07c7d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Choose&lt;/strong&gt; button.  In the window that opens, select either the &lt;strong&gt;odk&lt;/strong&gt; folder that was copied onto your local hard drive (Android 4.x devices) or the mounted SD card (Android 2.x or earlier devices).
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3853/15155222300_32c900e820.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, tick off the check box next to the form(s) you want to pull.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3868/15161953457_b31880e6df.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click the &lt;strong&gt;Pull&lt;/strong&gt; button at the bottom right of the window.  The form submissions that were copied off of the device will be loaded into the ODK Briefcase storage location.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3880/15318889806_5f9b8396a1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;SUCCESS!&lt;/strong&gt; message for the form(s) you pulled:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2947/15325634016_0321b0faa8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Confirm that the form submissions have been successfully pulled by locating them within the &lt;strong&gt;instances&lt;/strong&gt; directory inside the ODK Briefcase Storage folder (e.g., &lt;strong&gt;ODK Briefcase Storage/forms/Tutorial XLSForm 2/instances&lt;/strong&gt;).
+&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Once you have verified that the form submissions have been successfully transferred, you can delete the forms in ODK Collect to prevent duplicate form submissions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-make-bulk-form-submissions-to-ona---push&quot;&gt;How to make bulk form submissions to Ona - PUSH&lt;/h3&gt;
+
+&lt;p&gt;Once form submissions have been pulled from an ODK Aggregate server or from a mobile device’s ODK Collect application, ODK Briefcase can be used to &lt;strong&gt;Push&lt;/strong&gt; these submissions to the Ona server.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In the ODK Briefcase application, click on the &lt;strong&gt;Push&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3929/15338749511_d2fb11d1f8.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, click on the drop down to the right of &lt;strong&gt;Push data to&lt;/strong&gt; and choose &lt;strong&gt;Aggregate 1.0&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15318889546_4d033e1c33.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Connect&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15338749611_df46d57017.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up; enter the server details, i.e., your Ona account &lt;strong&gt;url&lt;/strong&gt;, &lt;strong&gt;username&lt;/strong&gt; and &lt;strong&gt;password&lt;/strong&gt;, then click on the &lt;strong&gt;Connect&lt;/strong&gt; button;
+&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15338749651_b6fec0065b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In the main window, check the box next to the form submission(s) you want to push to Ona;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15341923845_378da19d5b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Push&lt;/strong&gt; button at the bottom right of the window and the data will be submitted to the Ona server;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3880/15318889806_5f9b8396a1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Wait until you see the &lt;strong&gt;Successful upload!&lt;/strong&gt; message in the &lt;strong&gt;Pull Status&lt;/strong&gt; section on the application;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15155342588_bb960e379d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;If the form already exists in the Ona account that you are pushing data to, then the form publishing will fail but the data submission will pass, and the &lt;strong&gt;Push Status&lt;/strong&gt; in this case will be &lt;strong&gt;Partially successful!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;difference-between-pulling-from-directory-and-drive&quot;&gt;Difference between pulling from directory and drive&lt;/h3&gt;
+
+&lt;h4 id=&quot;android-4x-devices&quot;&gt;Android 4.x devices&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2942/15338750261_fe30e081fc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;android-2x-devices&quot;&gt;Android 2.x devices&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2944/15155390787_e55b40f931.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/odk-briefcase</link>
+        <guid isPermaLink="true">/faq/odk-briefcase</guid>
+      </item>
+    
+      <item>
+        <title>Encrypted Forms</title>
+        <description>&lt;h3 id=&quot;span-iddata-encryptionspanhow-does-data-encryption-work&quot;&gt;&lt;span id=&quot;data-encryption&quot;&gt;&lt;/span&gt;How does data encryption work?&lt;/h3&gt;
+
+&lt;p&gt;You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo webforms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h3&gt;
+
+&lt;p&gt;Forms are encrypted on your mobile device once they are marked as finalized in ODK Collect. The data remains encrypted on your mobile device until it is uploaded to the Ona server.  Once the form is submitted, Ona serves as a storage locker for your encrypted files - they are safely stored and encrypted on the server until they are downloaded and decrypted using ODK Briefcase.  Since the form submissions on Ona are encrypted, you will not be able to use the view data features in your account, such as the map view or table maker, and you will not be able to download data in csv or xls formats within Ona.&lt;/p&gt;
+
+&lt;h3 id=&quot;encryption-keys&quot;&gt;Encryption keys&lt;/h3&gt;
+
+&lt;p&gt;In order to encrypt your form, you need to generate public and private encryption keys:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the &lt;strong&gt;public key&lt;/strong&gt; is included in your XLSForm, as described below;&lt;/li&gt;
+  &lt;li&gt;the &lt;strong&gt;private key&lt;/strong&gt; (which you never share) is pulled into ODK Briefcase to decrypt the data locally after you’ve downloaded it from Ona.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The public key is used to encrypt your form data while the private key decrypts it. Anyone with the private key can decrypt the data, so keep the private key in a secure place. To understand more about public and private key infrastructure, check out &lt;a href=&quot;http://en.wikipedia.org/wiki/Public-key_cryptography&quot;&gt;this page&lt;/a&gt; on Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;To generate your private and public encryption keys, you can use the OpenSSL software package.  This software comes pre-installed on OSX and Linux systems, and it can be downloaded &lt;a href=&quot;http://slproweb.com/products/Win32OpenSSL.html&quot;&gt;here&lt;/a&gt; for Windows.  Instructions on generating key-pairs using OpenSSL software can be found at &lt;a href=&quot;http://opendatakit.org/help/encrypted-forms/&quot;&gt;this ODK site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;xlsform-syntax-for-encrypted-forms&quot;&gt;XLSForm syntax for encrypted forms&lt;/h3&gt;
+
+&lt;p&gt;Follow these steps to add the correct encryption syntax in your XLSForm:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add a worksheet called &lt;strong&gt;settings&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;In this worksheet, create three columns: &lt;strong&gt;id_string&lt;/strong&gt;, &lt;strong&gt;submission_url&lt;/strong&gt;, and &lt;strong&gt;public_key&lt;/strong&gt;. The &lt;strong&gt;id_string&lt;/strong&gt; column specifies the form id name.  The &lt;strong&gt;submission_url&lt;/strong&gt; is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account; however, you must add &lt;strong&gt;/submission&lt;/strong&gt; to the end of this url.  Finally, the &lt;strong&gt;public_key&lt;/strong&gt; column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
+&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15162494098_d44d69d71b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Upload the XLSForm to Ona as usual. You should see a label with the text &lt;strong&gt;ENCRYPTED&lt;/strong&gt; next to your form name on Ona, as illustrated in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3885/15162494168_9a428fb56a.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Download your encrypted form to your mobile phone using ODK Collect and start collecting data!
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-decrypt-your-form&quot;&gt;How to decrypt your form&lt;/h3&gt;
+
+&lt;p&gt;You must use ODK Briefcase to download the encrypted files from Ona and decrypt them locally on your computer using the private key generated earlier. Follow these steps to download ODK Briefcase and decrypt your data:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a folder on your local machine to store the data once it is decrypted;&lt;/li&gt;
+  &lt;li&gt;If you haven’t already done so, download &lt;a href=&quot;http://opendatakit.org/use/briefcase/&quot;&gt;ODK Briefcase&lt;/a&gt; to your local machine;&lt;/li&gt;
+  &lt;li&gt;Double click the downloaded file to open ODK Briefcase;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PULL&lt;/strong&gt; the encrypted form to your local machine.  See the ODK Briefcase page for more information on how to pull forms.&lt;/li&gt;
+  &lt;li&gt;The form is decrypted only during export. Go to the &lt;strong&gt;Export&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15162544187_67d921e139.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form from the &lt;strong&gt;Form&lt;/strong&gt; dropdown;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3858/15348761702_ef299d25bb.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On the &lt;strong&gt;Export Type&lt;/strong&gt; dropdown, select &lt;strong&gt;.csv&lt;/strong&gt; and &lt;strong&gt;media files&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15348761732_e2e89bd634.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Locate the &lt;strong&gt;Export Directory&lt;/strong&gt;, which is the folder you created in step 1;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3927/15162313579_383bec78e2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Search for and choose the &lt;strong&gt;PEM Private Key File&lt;/strong&gt; that you generated previously;&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Export&lt;/strong&gt;. The form data will be decrypted and exported to the folder you created in step 1.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2941/15349066455_dd6745eba9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 23 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/encrypted-forms</link>
+        <guid isPermaLink="true">/faq/encrypted-forms</guid>
+      </item>
+    
+      <item>
+        <title>Encrypted Forms</title>
+        <description>&lt;h3 id=&quot;span-iddata-encryptionspanhow-does-data-encryption-work&quot;&gt;&lt;span id=&quot;data-encryption&quot;&gt;&lt;/span&gt;How does data encryption work?&lt;/h3&gt;
+
+&lt;p&gt;You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo webforms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h3&gt;
+
+&lt;p&gt;Forms are encrypted on your mobile device once they are marked as finalized in ODK Collect. The data remains encrypted on your mobile device until it is uploaded to the Ona server.  Once the form is submitted, Ona serves as a storage locker for your encrypted files - they are safely stored and encrypted on the server until they are downloaded and decrypted using ODK Briefcase.  Since the form submissions on Ona are encrypted, you will not be able to use the view data features in your account, such as the map view or table maker, and you will not be able to download data in csv or xls formats within Ona.&lt;/p&gt;
+
+&lt;h3 id=&quot;encryption-keys&quot;&gt;Encryption keys&lt;/h3&gt;
+
+&lt;p&gt;In order to encrypt your form, you need to generate public and private encryption keys:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the &lt;strong&gt;public key&lt;/strong&gt; is included in your XLSForm, as described below;&lt;/li&gt;
+  &lt;li&gt;the &lt;strong&gt;private key&lt;/strong&gt; (which you never share) is pulled into ODK Briefcase to decrypt the data locally after you’ve downloaded it from Ona.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The public key is used to encrypt your form data while the private key decrypts it. Anyone with the private key can decrypt the data, so keep the private key in a secure place. To understand more about public and private key infrastructure, check out &lt;a href=&quot;http://en.wikipedia.org/wiki/Public-key_cryptography&quot;&gt;this page&lt;/a&gt; on Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;To generate your private and public encryption keys, you can use the OpenSSL software package.  This software comes pre-installed on OSX and Linux systems, and it can be downloaded &lt;a href=&quot;http://slproweb.com/products/Win32OpenSSL.html&quot;&gt;here&lt;/a&gt; for Windows.  Instructions on generating key-pairs using OpenSSL software can be found at &lt;a href=&quot;http://opendatakit.org/help/encrypted-forms/&quot;&gt;this ODK site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;xlsform-syntax-for-encrypted-forms&quot;&gt;XLSForm syntax for encrypted forms&lt;/h3&gt;
+
+&lt;p&gt;Follow these steps to add the correct encryption syntax in your XLSForm:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add a worksheet called &lt;strong&gt;settings&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;In this worksheet, create three columns: &lt;strong&gt;id_string&lt;/strong&gt;, &lt;strong&gt;submission_url&lt;/strong&gt;, and &lt;strong&gt;public_key&lt;/strong&gt;. The &lt;strong&gt;id_string&lt;/strong&gt; column specifies the form id name.  The &lt;strong&gt;submission_url&lt;/strong&gt; is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account; however, you must add &lt;strong&gt;/submission&lt;/strong&gt; to the end of this url.  Finally, the &lt;strong&gt;public_key&lt;/strong&gt; column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
+&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15162494098_d44d69d71b.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Upload the XLSForm to Ona as usual. You should see a label with the text &lt;strong&gt;ENCRYPTED&lt;/strong&gt; next to your form name on Ona, as illustrated in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3885/15162494168_9a428fb56a.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Download your encrypted form to your mobile phone using ODK Collect and start collecting data!
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-to-decrypt-your-form&quot;&gt;How to decrypt your form&lt;/h3&gt;
+
+&lt;p&gt;You must use ODK Briefcase to download the encrypted files from Ona and decrypt them locally on your computer using the private key generated earlier. Follow these steps to download ODK Briefcase and decrypt your data:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a folder on your local machine to store the data once it is decrypted;&lt;/li&gt;
+  &lt;li&gt;If you haven’t already done so, download &lt;a href=&quot;http://opendatakit.org/use/briefcase/&quot;&gt;ODK Briefcase&lt;/a&gt; to your local machine;&lt;/li&gt;
+  &lt;li&gt;Double click the downloaded file to open ODK Briefcase;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PULL&lt;/strong&gt; the encrypted form to your local machine.  See the ODK Briefcase page for more information on how to pull forms.&lt;/li&gt;
+  &lt;li&gt;The form is decrypted only during export. Go to the &lt;strong&gt;Export&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15162544187_67d921e139.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form from the &lt;strong&gt;Form&lt;/strong&gt; dropdown;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3858/15348761702_ef299d25bb.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On the &lt;strong&gt;Export Type&lt;/strong&gt; dropdown, select &lt;strong&gt;.csv&lt;/strong&gt; and &lt;strong&gt;media files&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15348761732_e2e89bd634.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Locate the &lt;strong&gt;Export Directory&lt;/strong&gt;, which is the folder you created in step 1;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3927/15162313579_383bec78e2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Search for and choose the &lt;strong&gt;PEM Private Key File&lt;/strong&gt; that you generated previously;&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Export&lt;/strong&gt;. The form data will be decrypted and exported to the folder you created in step 1.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2941/15349066455_dd6745eba9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 23 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/encrypted-forms</link>
+        <guid isPermaLink="true">/faq/encrypted-forms</guid>
+      </item>
+    
+      <item>
+        <title>ODK Collect</title>
+        <description>&lt;p&gt;Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.&lt;/p&gt;
+
+&lt;p&gt;ODK Collect is used to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Collect the data on a mobile device and send it to a server i.e Ona&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ona being a mobile data collection tool uses ODK Collect to download already designed surveys and allow submission of the finalized forms back to Ona. For one to be able to use ODK collect, they need to install the application on an Android device.&lt;/p&gt;
+
+&lt;h3 id=&quot;span-idinstall-odk-collectspanhow-do-i-install-odk-collect&quot;&gt;&lt;span id=&quot;install-odk-collect&quot;&gt;&lt;/span&gt;How do I install ODK Collect?&lt;/h3&gt;
+
+&lt;p&gt;Below are steps that can be followed to install ODK collect:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On your Android device, go to &lt;em&gt;Google Play Store&lt;/em&gt; and search for the latest version of ODK Collect; &lt;/li&gt;
+  &lt;li&gt;Tap, &lt;strong&gt;Install&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15331400432_9b1cd823fc.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap &lt;strong&gt;Accept&lt;/strong&gt;,  to start the download;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3895/15144934539_0deee72179.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;You can drag the ODK Collect application to your &lt;strong&gt;Home Screen&lt;/strong&gt;, its icon is shown in the figure below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3846/15145118638_be262cffdc_s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;span-idconfigure-odk-collectspanhow-do-i-configure-odk-collect-with-my-ona-account&quot;&gt;&lt;span id=&quot;configure-odk-collect&quot;&gt;&lt;/span&gt;How do I configure ODK Collect with my Ona account?&lt;/h3&gt;
+
+&lt;p&gt;After installing ODK Collect one needs to configure the application in order to begin data collection and submission. Follow the steps below to link ODK Collect to your Ona account:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Find ODK Collect from your applications and tap on the icon to launch it;&lt;/li&gt;
+  &lt;li&gt;You should be able to see the screen shown below: 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15308672496_ea49ec05cf.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, press the &lt;strong&gt;Menu button&lt;/strong&gt; on your device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3845/15331402012_00d14c9492.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;Server Settings&lt;/strong&gt;, tap on &lt;strong&gt;Configure platform settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3850/15144985540_0f60e4f4b7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Enter &lt;em&gt;https://ona.io/YOUR_ONA_USERNAME&lt;/em&gt; as the url. For example: &lt;em&gt;https://ona.io/onasupport&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15144944569_c961427ffc.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;span-iddownload-forms-onaspanhow-do-i-download-forms-from-my-ona-account&quot;&gt;&lt;span id=&quot;download-forms-ona&quot;&gt;&lt;/span&gt;How do I download forms from my Ona account?&lt;/h3&gt;
+
+&lt;p&gt;After configuring your mobile device with the correct server settings, you can now download xlsforms from the Ona server. Make sure you have internet connection before proceeding with the following steps! &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open &lt;strong&gt;ODK Collect&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Confirm the url of your Ona account e.g. &lt;em&gt;https://ona.io/onasupport&lt;/em&gt; (as previously explained in &lt;a href=&quot;#how-do-I-configure-odk-collect-with-my-ona-account&quot;&gt;How do I configure ODK Collect with my Ona account&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Go back to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt; and tap on &lt;strong&gt;Get Blank Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15331395772_fdd23426bd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;All the published forms on your Ona account will be displayed;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15145169677_02fdc11f13.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the checkbox to select the form you are interested in. There is no limit to the number of forms you can select, you can select more than one form;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15328541031_b4467a6382.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, tap on &lt;strong&gt;Get Selected&lt;/strong&gt; to download the form(s) to your device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3868/15308668666_da0b2f8397.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;The download result will pop-up to show if the form(s) was successfully downloaded, as illustrated in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3886/15331393482_7935cfda9c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-open-a-blank-form&quot;&gt;How do I open a blank form?&lt;/h3&gt;
+
+&lt;p&gt;Now that you have the form(s) on your device, you’re ready to start collecting data. This section provides a step by step explanation of how to fill out a blank form. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go back to ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, select &lt;strong&gt;Fill Blank Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15152694330_87a8ff443d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you are interested in to fill out the form, to choose a form, touch the form title e.g touch &lt;strong&gt;Tutorial XLSForm&lt;/strong&gt;, to select the tutorial xlsform;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3908/15152639699_00260ac3bd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Swipe the screen to go forward;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15336277371_139a565588.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Fill out Tutorial XLSForm to the end, to navigate by swiping the screen to go backward and forward;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3845/15152635559_71aa4a4486.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;At the end of the form, type the title of the form, under &lt;strong&gt;Name this form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3893/15339412405_c810095592.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Make sure you tap on the checkbox to &lt;strong&gt;Mark the form as finalized&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3915/15316370636_1c6fe626ef.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, tap on &lt;strong&gt;Save Form and Exit&lt;/strong&gt;. &lt;em&gt;Remember, the form must be marked as 
+ finalized to be sent to the server!&lt;/em&gt;
+ &lt;br /&gt;&lt;br /&gt;
+ &lt;img src=&quot;https://farm3.staticflickr.com/2944/15152878977_0c4ba2155b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-save-a-form-to-finish-later&quot;&gt;How do I save a form to finish later?&lt;/h3&gt;
+
+&lt;p&gt;Incase you are unable to finish filling out a survey, you can be able to save the form.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Press the &lt;strong&gt;Back button&lt;/strong&gt; on your mobile device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15336222881_e46c717ffe.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop-up, prompting you to either &lt;strong&gt;Save&lt;/strong&gt; or &lt;strong&gt;Ignore changes&lt;/strong&gt;  you made on the form as shown below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3841/15316370506_87ac869023.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Save Changes&lt;/strong&gt;, then exit; 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15152823078_0bdeb238e1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A message will pop-up on the screen to confirm  if the form has successfully been saved as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15152823028_aaf739a963.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;Ignore Changes&lt;/strong&gt; if you do not want the changes you’ve made on the form so far to be saved;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15152823158_f0c39b0813.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-edit-a-saved-form&quot;&gt;How do I edit a saved form?&lt;/h3&gt;
+
+&lt;p&gt;You are able to edit saved forms only if you saved the form as explained in the previous section or if you marked the form as finalized and not sent it to the server.&lt;/p&gt;
+
+&lt;p&gt;To access the saved form:	&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Edit Saved Form&lt;/strong&gt;, you will notice that the number of saved forms is indicated as shown in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3897/15336229471_ce6fce3346.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Find the form you were working on by time or name, review your answers before continuing with the survey;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15336233761_95aba3c544.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-send-a-finalized-form&quot;&gt;How do I send a finalized form?&lt;/h3&gt;
+
+&lt;p&gt;After filling out your form you need to submit it to the Ona server. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In ODK Collect’s Main Menu, tap on &lt;strong&gt;Send Finalized Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15339237462_2b44f76a89.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you filled out;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3896/15339098072_99b8f76119.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Send Selected&lt;/strong&gt; to submit the form to Ona;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3897/15152821679_82023acf80.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Upload results will pop-up to show if the form has been successfully uploaded to the server as shown in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3911/15153017858_39a5d276ac.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;my-form-is-failing-to-upload--what-should-i-do&quot;&gt;My form is failing to upload.  What should I do?&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check if you have a reliable internet connection either mobile data or WiFi.&lt;/li&gt;
+  &lt;li&gt;Ensure that you are you are submitting the form to the correct server, the url should be pointing the correct Ona account. (as previously explained in &lt;a href=&quot;#how-do-I-configure-odk-collect-with-my-ona-account&quot;&gt;How do I configure ODK Collect with my Ona account&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Confirm if you are submitting to the latest xlsform version on the Ona account. The  xlsform on your mobile device should be similar to the one published on your account, ensure that at the time of submission, the file name has not been changed and that the form has not been updated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-delete-a-form&quot;&gt;How do I delete a form?&lt;/h3&gt;
+
+&lt;p&gt;You can delete both saved and blank forms from you mobile device if you no longer need it. To delete forms;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On ODK Collect’s  Main Menu, select &lt;strong&gt;Delete Saved Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15336225821_871697b095.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;You will see two tabs, &lt;strong&gt;SAVED FORMS&lt;/strong&gt; and &lt;strong&gt;BLANK FORMS&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3869/15316370576_369baf7f61.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To delete blank forms, tap on the select &lt;strong&gt;BLANK FORMS tab&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15152871857_77cc17ceca.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you would like to delete by touching on the check box next to name of the form(s) or tap on &lt;strong&gt;Toggle All&lt;/strong&gt; to delete all forms;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3905/15152822968_8e41b3df42.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the &lt;strong&gt;Delete Selected&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3872/15339408335_dd8cdea047.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up prompting you to confirm deletion, tap &lt;strong&gt;Delete Forms&lt;/strong&gt; to delete the form;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3840/15339089952_65f4b9e6f7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A deletion message will pop-up on the screen to confirm if the form has successfully been deleted deleted as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3852/15152631549_e68038f898.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To delete saved forms:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tap on the select &lt;strong&gt;SAVED FORMS&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3839/15339093912_cce2a605fd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you would like to delete by touching on the checkbox next to the form’s name;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3928/15152875147_74805739db.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the &lt;strong&gt;Delete Selected&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3898/15152818838_afa9a64449.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up prompting you to confirm deletion, tap &lt;strong&gt;Delete Forms&lt;/strong&gt; to delete a form(s) or tap on &lt;strong&gt;Toggle All&lt;/strong&gt; to delete all forms;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3896/15152871737_64ab74e824.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A deletion message will pop-up on the screen to confirm  if the form has successfully been deleted deleted as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3838/15339408385_357429f94c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;are-there-any-tips-on-using-odk-collect-you-can-share&quot;&gt;Are there any tips on using ODK Collect you can share?&lt;/h3&gt;
+
+&lt;p&gt;There are a few features on ODK Collect that can help make your work easier. They include: auto sending of finalized forms, switching between swipes and forward/backward buttons for navigation and bulk configuration of devices.&lt;/p&gt;
+
+&lt;h4 id=&quot;auto-sending-of-finalized-forms&quot;&gt;auto sending of finalized forms&lt;/h4&gt;
+
+&lt;p&gt;This feature enables you to automatically send finalized forms to the server hence ensuring that you  data is immediately available for reports. The feature works even while ODK Collect is not running.
+&lt;br /&gt;
+Once enabled, auto send will  send all finalized forms whenever any form is saved and finalized. It will also try to send finalized forms whenever a Wi-Fi or cellphone network connection becomes available.&lt;/p&gt;
+
+&lt;p&gt;To enable auto send:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, tap on the &lt;strong&gt;menu button&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll to the &lt;strong&gt;AUTO SEND&lt;/strong&gt; section and choose to &lt;strong&gt;Auto send with Wi-Fi&lt;/strong&gt; or &lt;strong&gt;Auto send with network&lt;/strong&gt; or both;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15153334800_23f43e8581.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;navigation-settings&quot;&gt;navigation settings&lt;/h4&gt;
+
+&lt;p&gt;One can switch between swipes and forward/backward buttons or both for navigation. &lt;/p&gt;
+
+&lt;p&gt;To do this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, tap on the &lt;strong&gt;menu button&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll to the &lt;strong&gt;User Interface&lt;/strong&gt; section and tap on &lt;strong&gt;Navigation&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15339738952_db0643b31f.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Use horizontal swipes&lt;/strong&gt; (default), to select swipes;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15153340890_9e374ea345.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To use the forward/backward buttons, tap on &lt;strong&gt;Use forward/backward buttons&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15340053665_70999bb7e5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To use both, tap on &lt;strong&gt;Use swipes and buttons&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15340378835_07ab76eac0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;bulk-configuration-of-devices&quot;&gt;bulk configuration of devices&lt;/h4&gt;
+
+&lt;p&gt;This feature makes it easier to configure ODK Collect on many devices. Instead of configuring one device a time, you can easily configure all the devices at once.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s Main Menu, tap on the the menu button;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;Admin Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3890/15340053775_302ddcba47.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap the menu button again,
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3872/15339739042_0a17cd04b1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap &lt;strong&gt;Save Settings to Disk&lt;/strong&gt;, this will save your general and admin settings to the &lt;em&gt;/odk/settings/collect.settings&lt;/em&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15153340920_ea09958101.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Copy the settings file;  &lt;em&gt;&lt;strong&gt;/odk/settings/collect.settings&lt;/strong&gt;&lt;/em&gt; to &lt;em&gt;&lt;strong&gt;/odk/collect.settings&lt;/strong&gt;&lt;/em&gt; of any other device running ODK Collect; 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3903/15340053765_8f09315dbe.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you re-launch ODK Collect, it will automatically load those settings, and delete that file.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/odk-collect</link>
+        <guid isPermaLink="true">/faq/odk-collect</guid>
+      </item>
+    
+      <item>
+        <title>ODK Collect</title>
+        <description>&lt;p&gt;Open Data Kit (ODK) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.&lt;/p&gt;
+
+&lt;p&gt;ODK Collect is used to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Collect the data on a mobile device and send it to a server i.e Ona&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ona being a mobile data collection tool uses ODK Collect to download already designed surveys and allow submission of the finalized forms back to Ona. For one to be able to use ODK collect, they need to install the application on an Android device.&lt;/p&gt;
+
+&lt;h3 id=&quot;span-idinstall-odk-collectspanhow-do-i-install-odk-collect&quot;&gt;&lt;span id=&quot;install-odk-collect&quot;&gt;&lt;/span&gt;How do I install ODK Collect?&lt;/h3&gt;
+
+&lt;p&gt;Below are steps that can be followed to install ODK collect:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On your Android device, go to &lt;em&gt;Google Play Store&lt;/em&gt; and search for the latest version of ODK Collect; &lt;/li&gt;
+  &lt;li&gt;Tap, &lt;strong&gt;Install&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15331400432_9b1cd823fc.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap &lt;strong&gt;Accept&lt;/strong&gt;,  to start the download;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3895/15144934539_0deee72179.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;You can drag the ODK Collect application to your &lt;strong&gt;Home Screen&lt;/strong&gt;, its icon is shown in the figure below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3846/15145118638_be262cffdc_s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;span-idconfigure-odk-collectspanhow-do-i-configure-odk-collect-with-my-ona-account&quot;&gt;&lt;span id=&quot;configure-odk-collect&quot;&gt;&lt;/span&gt;How do I configure ODK Collect with my Ona account?&lt;/h3&gt;
+
+&lt;p&gt;After installing ODK Collect one needs to configure the application in order to begin data collection and submission. Follow the steps below to link ODK Collect to your Ona account:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Find ODK Collect from your applications and tap on the icon to launch it;&lt;/li&gt;
+  &lt;li&gt;You should be able to see the screen shown below: 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15308672496_ea49ec05cf.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;In ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, press the &lt;strong&gt;Menu button&lt;/strong&gt; on your device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3845/15331402012_00d14c9492.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;Server Settings&lt;/strong&gt;, tap on &lt;strong&gt;Configure platform settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3850/15144985540_0f60e4f4b7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Enter &lt;em&gt;https://ona.io/YOUR_ONA_USERNAME&lt;/em&gt; as the url. For example: &lt;em&gt;https://ona.io/onasupport&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15144944569_c961427ffc.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;span-iddownload-forms-onaspanhow-do-i-download-forms-from-my-ona-account&quot;&gt;&lt;span id=&quot;download-forms-ona&quot;&gt;&lt;/span&gt;How do I download forms from my Ona account?&lt;/h3&gt;
+
+&lt;p&gt;After configuring your mobile device with the correct server settings, you can now download xlsforms from the Ona server. Make sure you have internet connection before proceeding with the following steps! &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open &lt;strong&gt;ODK Collect&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Confirm the url of your Ona account e.g. &lt;em&gt;https://ona.io/onasupport&lt;/em&gt; (as previously explained in &lt;a href=&quot;#how-do-I-configure-odk-collect-with-my-ona-account&quot;&gt;How do I configure ODK Collect with my Ona account&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Go back to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt; and tap on &lt;strong&gt;Get Blank Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15331395772_fdd23426bd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;All the published forms on your Ona account will be displayed;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15145169677_02fdc11f13.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the checkbox to select the form you are interested in. There is no limit to the number of forms you can select, you can select more than one form;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15328541031_b4467a6382.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, tap on &lt;strong&gt;Get Selected&lt;/strong&gt; to download the form(s) to your device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3868/15308668666_da0b2f8397.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;The download result will pop-up to show if the form(s) was successfully downloaded, as illustrated in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3886/15331393482_7935cfda9c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-open-a-blank-form&quot;&gt;How do I open a blank form?&lt;/h3&gt;
+
+&lt;p&gt;Now that you have the form(s) on your device, you’re ready to start collecting data. This section provides a step by step explanation of how to fill out a blank form. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go back to ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, select &lt;strong&gt;Fill Blank Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15152694330_87a8ff443d.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you are interested in to fill out the form, to choose a form, touch the form title e.g touch &lt;strong&gt;Tutorial XLSForm&lt;/strong&gt;, to select the tutorial xlsform;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3908/15152639699_00260ac3bd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Swipe the screen to go forward;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15336277371_139a565588.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Fill out Tutorial XLSForm to the end, to navigate by swiping the screen to go backward and forward;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3845/15152635559_71aa4a4486.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;At the end of the form, type the title of the form, under &lt;strong&gt;Name this form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3893/15339412405_c810095592.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Make sure you tap on the checkbox to &lt;strong&gt;Mark the form as finalized&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3915/15316370636_1c6fe626ef.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Then, tap on &lt;strong&gt;Save Form and Exit&lt;/strong&gt;. &lt;em&gt;Remember, the form must be marked as 
+ finalized to be sent to the server!&lt;/em&gt;
+ &lt;br /&gt;&lt;br /&gt;
+ &lt;img src=&quot;https://farm3.staticflickr.com/2944/15152878977_0c4ba2155b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-save-a-form-to-finish-later&quot;&gt;How do I save a form to finish later?&lt;/h3&gt;
+
+&lt;p&gt;Incase you are unable to finish filling out a survey, you can be able to save the form.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Press the &lt;strong&gt;Back button&lt;/strong&gt; on your mobile device;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15336222881_e46c717ffe.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop-up, prompting you to either &lt;strong&gt;Save&lt;/strong&gt; or &lt;strong&gt;Ignore changes&lt;/strong&gt;  you made on the form as shown below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3841/15316370506_87ac869023.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Save Changes&lt;/strong&gt;, then exit; 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15152823078_0bdeb238e1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A message will pop-up on the screen to confirm  if the form has successfully been saved as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3874/15152823028_aaf739a963.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;Ignore Changes&lt;/strong&gt; if you do not want the changes you’ve made on the form so far to be saved;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3925/15152823158_f0c39b0813.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-edit-a-saved-form&quot;&gt;How do I edit a saved form?&lt;/h3&gt;
+
+&lt;p&gt;You are able to edit saved forms only if you saved the form as explained in the previous section or if you marked the form as finalized and not sent it to the server.&lt;/p&gt;
+
+&lt;p&gt;To access the saved form:	&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Edit Saved Form&lt;/strong&gt;, you will notice that the number of saved forms is indicated as shown in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3897/15336229471_ce6fce3346.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Find the form you were working on by time or name, review your answers before continuing with the survey;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15336233761_95aba3c544.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-send-a-finalized-form&quot;&gt;How do I send a finalized form?&lt;/h3&gt;
+
+&lt;p&gt;After filling out your form you need to submit it to the Ona server. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In ODK Collect’s Main Menu, tap on &lt;strong&gt;Send Finalized Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15339237462_2b44f76a89.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you filled out;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3896/15339098072_99b8f76119.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Send Selected&lt;/strong&gt; to submit the form to Ona;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3897/15152821679_82023acf80.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Upload results will pop-up to show if the form has been successfully uploaded to the server as shown in the image below:
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3911/15153017858_39a5d276ac.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;my-form-is-failing-to-upload--what-should-i-do&quot;&gt;My form is failing to upload.  What should I do?&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check if you have a reliable internet connection either mobile data or WiFi.&lt;/li&gt;
+  &lt;li&gt;Ensure that you are you are submitting the form to the correct server, the url should be pointing the correct Ona account. (as previously explained in &lt;a href=&quot;#how-do-I-configure-odk-collect-with-my-ona-account&quot;&gt;How do I configure ODK Collect with my Ona account&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Confirm if you are submitting to the latest xlsform version on the Ona account. The  xlsform on your mobile device should be similar to the one published on your account, ensure that at the time of submission, the file name has not been changed and that the form has not been updated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;how-do-i-delete-a-form&quot;&gt;How do I delete a form?&lt;/h3&gt;
+
+&lt;p&gt;You can delete both saved and blank forms from you mobile device if you no longer need it. To delete forms;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On ODK Collect’s  Main Menu, select &lt;strong&gt;Delete Saved Form&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15336225821_871697b095.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;You will see two tabs, &lt;strong&gt;SAVED FORMS&lt;/strong&gt; and &lt;strong&gt;BLANK FORMS&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3869/15316370576_369baf7f61.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To delete blank forms, tap on the select &lt;strong&gt;BLANK FORMS tab&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15152871857_77cc17ceca.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you would like to delete by touching on the check box next to name of the form(s) or tap on &lt;strong&gt;Toggle All&lt;/strong&gt; to delete all forms;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3905/15152822968_8e41b3df42.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the &lt;strong&gt;Delete Selected&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3872/15339408335_dd8cdea047.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up prompting you to confirm deletion, tap &lt;strong&gt;Delete Forms&lt;/strong&gt; to delete the form;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3840/15339089952_65f4b9e6f7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A deletion message will pop-up on the screen to confirm if the form has successfully been deleted deleted as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3852/15152631549_e68038f898.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To delete saved forms:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tap on the select &lt;strong&gt;SAVED FORMS&lt;/strong&gt; tab;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3839/15339093912_cce2a605fd.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the form you would like to delete by touching on the checkbox next to the form’s name;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3928/15152875147_74805739db.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on the &lt;strong&gt;Delete Selected&lt;/strong&gt; button;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3898/15152818838_afa9a64449.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A dialog box will pop up prompting you to confirm deletion, tap &lt;strong&gt;Delete Forms&lt;/strong&gt; to delete a form(s) or tap on &lt;strong&gt;Toggle All&lt;/strong&gt; to delete all forms;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3896/15152871737_64ab74e824.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;A deletion message will pop-up on the screen to confirm  if the form has successfully been deleted deleted as illustrated in the image below;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3838/15339408385_357429f94c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;are-there-any-tips-on-using-odk-collect-you-can-share&quot;&gt;Are there any tips on using ODK Collect you can share?&lt;/h3&gt;
+
+&lt;p&gt;There are a few features on ODK Collect that can help make your work easier. They include: auto sending of finalized forms, switching between swipes and forward/backward buttons for navigation and bulk configuration of devices.&lt;/p&gt;
+
+&lt;h4 id=&quot;auto-sending-of-finalized-forms&quot;&gt;auto sending of finalized forms&lt;/h4&gt;
+
+&lt;p&gt;This feature enables you to automatically send finalized forms to the server hence ensuring that you  data is immediately available for reports. The feature works even while ODK Collect is not running.
+&lt;br /&gt;
+Once enabled, auto send will  send all finalized forms whenever any form is saved and finalized. It will also try to send finalized forms whenever a Wi-Fi or cellphone network connection becomes available.&lt;/p&gt;
+
+&lt;p&gt;To enable auto send:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, tap on the &lt;strong&gt;menu button&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll to the &lt;strong&gt;AUTO SEND&lt;/strong&gt; section and choose to &lt;strong&gt;Auto send with Wi-Fi&lt;/strong&gt; or &lt;strong&gt;Auto send with network&lt;/strong&gt; or both;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15153334800_23f43e8581.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;navigation-settings&quot;&gt;navigation settings&lt;/h4&gt;
+
+&lt;p&gt;One can switch between swipes and forward/backward buttons or both for navigation. &lt;/p&gt;
+
+&lt;p&gt;To do this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s &lt;strong&gt;Main Menu&lt;/strong&gt;, tap on the &lt;strong&gt;menu button&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;General Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3882/15331394792_d3fce68232.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll to the &lt;strong&gt;User Interface&lt;/strong&gt; section and tap on &lt;strong&gt;Navigation&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15339738952_db0643b31f.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap on &lt;strong&gt;Use horizontal swipes&lt;/strong&gt; (default), to select swipes;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3842/15153340890_9e374ea345.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To use the forward/backward buttons, tap on &lt;strong&gt;Use forward/backward buttons&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2944/15340053665_70999bb7e5.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;To use both, tap on &lt;strong&gt;Use swipes and buttons&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2942/15340378835_07ab76eac0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;bulk-configuration-of-devices&quot;&gt;bulk configuration of devices&lt;/h4&gt;
+
+&lt;p&gt;This feature makes it easier to configure ODK Collect on many devices. Instead of configuring one device a time, you can easily configure all the devices at once.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the ODK Collect’s Main Menu, tap on the the menu button;&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;Admin Settings&lt;/strong&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3890/15340053775_302ddcba47.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap the menu button again,
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3872/15339739042_0a17cd04b1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tap &lt;strong&gt;Save Settings to Disk&lt;/strong&gt;, this will save your general and admin settings to the &lt;em&gt;/odk/settings/collect.settings&lt;/em&gt;;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm3.staticflickr.com/2943/15153340920_ea09958101.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Copy the settings file;  &lt;em&gt;&lt;strong&gt;/odk/settings/collect.settings&lt;/strong&gt;&lt;/em&gt; to &lt;em&gt;&lt;strong&gt;/odk/collect.settings&lt;/strong&gt;&lt;/em&gt; of any other device running ODK Collect; 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://farm4.staticflickr.com/3903/15340053765_8f09315dbe.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you re-launch ODK Collect, it will automatically load those settings, and delete that file.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Sep 2014 00:00:00 +0300</pubDate>
+        <link>/faq/odk-collect</link>
+        <guid isPermaLink="true">/faq/odk-collect</guid>
+      </item>
+    
+  </channel>
+</rss>
+
+    <div class="push"></div>
+  </div>
+  <div class="container">
+    <footer>
+        <p>
+            &copy; Help | Ona.io 2014 <br/>
+            <a href="mailto:support@ona.io">support@ona.io</a>
+        </p>
+    </footer>
+</div>
+
+<script src="/assets/js/jquery-1.11.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#guide-holder .post-area > ul:first-child").appendTo(".guide-nav");    
+});
+</script>
+  
+</body>
+</html>

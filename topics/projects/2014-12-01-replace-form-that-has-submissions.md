@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What can I change when replacing a form that has submissions?
-permalink: /topics/replace-form-that-has-submissions
+permalink: /topics/replace-form-that-has-submissions/
 categories: [topics, projects]
 ---
 

@@ -201,6 +201,7 @@ After submitting data from ODK Collect or via Enketo to the server you can now e
 
 
 ##### XLSForms for beginners
+
 ##### <a name="translate-your-survey"></a>Translate your survey
 
 The second step in creating your first project on Ona is to author your project’s survey(s). Form authoring in Ona is based on the XLSForm standard which was created to help simplify the authoring of forms in Excel.

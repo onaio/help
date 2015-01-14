@@ -9,7 +9,7 @@ Yes, we've created several helpful XLSForms for you to download and use as a sta
 
 
 ### Survey on Household Characteristics
-Category: shelter
+Category: shelter<br />
 Unique features: geopoint, image, Likert widget (Enketo webform only)
 
 [Preview (Enketo Webform)](https://v69fa.enketo.org/webform)  
@@ -20,7 +20,7 @@ This form is meant for household visits with questions on inhabitants and buildi
 
 
 ### Micro-project Monthly Performance Survey
-Category: livelihood
+Category: livelihood<br />
 Unique features: cascade selects, skip logic, signature widget, constraints, calculations
 
 [Preview (Enketo Webform)](https://xhwzg.enketo.org/webform)  
@@ -31,7 +31,7 @@ This form is meant for a monthly report on the performance of various micro-proj
 
 
 ### Community market profile survey
-Category: community
+Category: community<br />
 Unique features: grid theme (Enketo only, for advanced grid theme users only)
 
 [Preview (Enketo Webform)](https://jznyl.enketo.org/webform )  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Are there any XLSForms I can use as a template or starter file?"
+title: "Are there any example XLSForms I can use as a starting point?"
 permalink: /faq/starter-forms
 category: faq
 ---
@@ -11,12 +11,12 @@ Yes, we've created several helpful XLSForms for you to download and use as a sta
 ### Survey on Household Characteristics
 
 Category: Shelter
+[Preview (Enketo Webform)](https://v69fa.enketo.org/webform)  
+[Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
 
-[Preview (Webform)](https://v69fa.enketo.org/webform) | [XLSForm](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
+This form is meant for household visits with questions on inhabitants and building characteristics and materials.
 
-This is meant for a surveyor to visit households and collect information on inhabitants and building characteristics and materials.
-
-Unique features of the form: Geopoint, image, Likert widget (Enketo webform only)
+Unique features: Geopoint, image, Likert widget (Enketo webform only)
 
 
 ### Livelihood

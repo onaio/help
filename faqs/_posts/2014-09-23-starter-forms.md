@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Are there any example XLSForms I can use as a starting point?"
+title: "Are there example XLSForms I can use as a starting point for form authoring?"
 permalink: /faq/starter-forms
 category: faq
 ---
@@ -9,34 +9,39 @@ Yes, we've created several helpful XLSForms for you to download and use as a sta
 
 
 ### Survey on Household Characteristics
+Category: shelter
 
-Category: Shelter
 [Preview (Enketo Webform)](https://v69fa.enketo.org/webform)  
 [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
 
 This form is meant for household visits with questions on inhabitants and building characteristics and materials.
 
-Unique features: Geopoint, image, Likert widget (Enketo webform only)
+*Unique features: Geopoint, image, Likert widget (Enketo webform only)*
 
 
-### Livelihood
-
-monthly_project_report - https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038
-
-https://xhwzg.enketo.org/webform 
-
-Monthly report on the performance of various micro-projects (e.g., banana growing, rabbit rearing, peanut processing, etc.) within a community and the benefits in income and living amongst the community members.
-
-Cascade selects (more advanced users), skip logic, signature widget, constraints, calculations.
+### Micro-project Monthly Performance Survey
+Category: livelihood
 
 
-### Community
+[Preview (Enketo Webform)](https://xhwzg.enketo.org/webform)  
+[Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)
 
-Informal market profile
-https://jznyl.enketo.org/webform 
 
-Profile a formal or informal market within a community, records information about the land that the market is on, number of vendors, type of structures, resources in the area, etc.
-Grid theme in Enketo - for advanced grid theme users only.
+This form is meant for a monthly report on the performance of various micro-projects (e.g., banana growing, rabbit rearing, peanut processing, etc.) within a community and the benefits in income and living amongst the community members.
+
+*Unique features: Cascade selects, skip logic, signature widget, constraints, calculations*
+
+
+### Community market profile survey
+Category: community
+
+[Preview (Enketo Webform)](https://jznyl.enketo.org/webform )  
+[Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)
+
+
+This form is meant to profile a formal or informal market within a community, records information about the land that the market is on, number of vendors, type of structures, resources in the area, etc.
+
+*Unique features: Grid theme (Enketo only, for advanced grid theme users only)*
 
 
 

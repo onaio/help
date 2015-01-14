@@ -1,19 +1,22 @@
 ---
 layout: post
-title: "Ona Starter Forms"
+title: "Are there any XLSForms I can use as a template or starter file?"
 permalink: /faq/starter-forms
 category: faq
 ---
 
+Yes, we've created several helpful XLSForms for you to download and use as a starting point:
 
-### Shelter
 
-XLSForm - shelter_material_survey - https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621
+### Survey on Household Characteristics
 
-Enketo URL - https://v69fa.enketo.org/webform 
+Category: Shelter
 
-Use case: Survey on household building characteristics and materials.
-Unique features: Geopoint, image, Likert widget in Enketo.
+[Preview (Webform)](https://v69fa.enketo.org/webform) | [XLSForm](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
+
+This is meant for a surveyor to visit households and collect information on inhabitants and building characteristics and materials.
+
+Unique features of the form: Geopoint, image, Likert widget (Enketo webform only)
 
 
 ### Livelihood

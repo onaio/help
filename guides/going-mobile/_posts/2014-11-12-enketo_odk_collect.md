@@ -26,7 +26,12 @@ categories: [topics, going-mobile]
 * [auto sending of finalized forms](#auto-sending-of-finalized-forms)
 * [navigation-settings](#navigation-settings)
 * [bulk configuration of devices](#bulk-configuration-of-devices)
-
+* ##### ODK Briefcase
+* [What is ODK Briefcase](#what-is-odk-briefcase)
+* [How to install ODK Briefcase](#how-to-install-odk-briefcase)
+* [How to PULL forms with submissions from Ona](#pull-forms-from-ona)
+* [Get data off your mobile devices and do bulk submissions to Ona](#get-data-off-mobile-devices)
+* [How to make bulk form submissions to Ona - PUSH](#push-using-odk-briefcase)
 
 ### Enketo vs. ODK Collect on smartphones
 
@@ -85,3 +90,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus 
 ###### <a name="bulk-configuration-of-devices"></a>bulk configuration of devices
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
+### ODK Briefcase
+
+##### <a name="what-is-odk-briefcase"></a>What is ODK Briefcase?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
+
+###### <a name="how-to-install-odk-briefcase"></a>How to install ODK Briefcase
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
+
+###### <a name="pull-forms-from-ona"></a>How to PULL forms with submissions from Ona
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
+
+###### <a name="get-data-off-mobile-devices"></a>Get data off your mobile devices and do bulk submissions to Ona
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
+
+###### <a name="push-using-odk-briefcase"></a>How to make bulk form submissions to Ona - PUSH
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.

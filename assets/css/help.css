@@ -3,10 +3,12 @@
     margin:0;padding:0;
 }
 body{
-    font:16px 'Proxima Nova';
-    line-height:1.7em!important;
+    font:15px 'Proxima Nova';
+    line-height:1.75em!important;
 }
-
+p{
+    font-weight:300;
+}
 
 h5{
     font-weight:600;
@@ -157,7 +159,7 @@ h4.link-header{
 .post-area h3{
     color:#50B0E3;
     font-size:1.8em;
-    font-weight:bold;
+    font-weight:600;
 }
 .post-area h5{
     border-bottom:1px dotted #ddd;

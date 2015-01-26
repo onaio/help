@@ -1,7 +1,7 @@
 ---
 layout: guide-view
 guide_name: Forms
-title: Forms
+title: "Authoring your Own Surveys"
 permalink: /guides/forms
 categories: [topics, forms]
 ---
@@ -69,18 +69,18 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 ##### <a name="tips"></a>Tips
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
 
-###### <a name="common-errors"></a>Common verification errors
+##### <a name="common-errors"></a>Common verification errors
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
 
 ### Adding media to forms in Ona
 
-###### <a name="adding-media-files"></a>Adding photos,videos or audio
+##### <a name="adding-media-files"></a>Adding photos,videos or audio
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="include-media-files-in-forms"></a>How do I include media files in my form?
+##### <a name="include-media-files-in-forms"></a>How do I include media files in my form?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="media-files-type-supported"></a>What type of media files are supported in Ona?
+##### <a name="media-files-type-supported"></a>What type of media files are supported in Ona?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
 ##### <a name="adding-csv-files"></a>Adding csv file to be referenced in a form
@@ -88,29 +88,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus 
 
 ### Managing Forms
 
-###### <a name="replace-forms"></a>Replace
+##### <a name="replace-forms"></a>Replace
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="delete-forms"></a>Delete
+##### <a name="delete-forms"></a>Delete
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="inactive-forms"></a>Inactive
+##### <a name="inactive-forms"></a>Inactive
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
 ### Data entry with Enketo webforms
 
-###### <a name="using-enketo"></a>Using Enketo
+##### <a name="using-enketo"></a>Using Enketo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="filling-forms-via-enketo"></a>How do I fill out forms in Enketo?
+##### <a name="filling-forms-via-enketo"></a>How do I fill out forms in Enketo?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="secure-vs-open"></a>Secure vs open
+##### <a name="secure-vs-open"></a>Secure vs open
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="sending-enketo-url-to-others"></a>Sending URL to others
+##### <a name="sending-enketo-url-to-others"></a>Sending URL to others
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
-
-
-
 

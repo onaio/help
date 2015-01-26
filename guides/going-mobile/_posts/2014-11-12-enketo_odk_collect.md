@@ -1,7 +1,7 @@
 ---
 layout: guide-view
 guide_name: Going Mobile
-title: Going Mobile
+title: "For Mobile Data Collection"
 permalink: /guides/going-mobile
 categories: [topics, going-mobile]
 ---
@@ -64,10 +64,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus 
 ##### <a name="install-odk-collect"></a>Install ODK Collect
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
 
-###### <a name="configure-odk-collect-with-ona"></a>Configuring ODK Collect with your Ona account
+##### <a name="configure-odk-collect-with-ona"></a>Configuring ODK Collect with your Ona account
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="fill-blank-forms"></a>Fill Blank Forms
+##### <a name="fill-blank-forms"></a>Fill Blank Forms
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
@@ -81,13 +81,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus 
 
 ### Tips on using ODK Collect
 
-##### <a name="auto-sending-of-finalized-forms"></a>auto sending of finalized forms
+##### <a name="auto-sending-of-finalized-forms"></a>Auto-sending of finalized forms
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
 
-###### <a name="navigation-settings"></a>navigation-settings
+##### <a name="navigation-settings"></a>Navigation settings
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="bulk-configuration-of-devices"></a>bulk configuration of devices
+##### <a name="bulk-configuration-of-devices"></a>Bulk configuration of devices
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
 ### ODK Briefcase
@@ -95,14 +95,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus 
 ##### <a name="what-is-odk-briefcase"></a>What is ODK Briefcase?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
 
-###### <a name="how-to-install-odk-briefcase"></a>How to install ODK Briefcase
+##### <a name="how-to-install-odk-briefcase"></a>How to install ODK Briefcase
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="pull-forms-from-ona"></a>How to PULL forms with submissions from Ona
+##### <a name="pull-forms-from-ona"></a>How to PULL forms with submissions from Ona
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="get-data-off-mobile-devices"></a>Get data off your mobile devices and do bulk submissions to Ona
+##### <a name="get-data-off-mobile-devices"></a>Get data off your mobile devices and do bulk submissions to Ona
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.
 
-###### <a name="push-using-odk-briefcase"></a>How to make bulk form submissions to Ona - PUSH
+##### <a name="push-using-odk-briefcase"></a>How to make bulk form submissions to Ona - PUSH
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.

@@ -199,16 +199,18 @@ h4.link-header{
 .guide-box a{
     color:#fff;
     display:block;
-    padding:2em 1em;
+    padding:2em 1em 1.2em;
     text-decoration:none;
 }
 .guide-box .glyphicon{
     font-size:6em;
 }
-.guide-box h5{
-    margin-bottom:0.2em;
+.guide-box h4{
+    font-weight:600;
+    margin-bottom:0;
+    margin-top:1em;
 }
-.guide-box h5 + span{
+.guide-box h4 + span{
     font-size:0.8em;
 }
 .guide-title{

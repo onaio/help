@@ -6,11 +6,20 @@ body{
     font:16px 'Proxima Nova';
     line-height:1.7em!important;
 }
-ul li{
-    list-style:none!important;
+
+
+h5{
+    font-weight:600;
+    margin-top:2em;
 }
-ul li ul{
-    margin-left:1em;
+
+ol, ul{
+    margin-bottom:2em;
+    margin-top:1em;
+}
+ol li, ul li{
+    margin-bottom:0.4em;
+    margin-left:2em;
 }
 .form-control{
     border-radius:0;
@@ -19,6 +28,7 @@ ul li ul{
 .btn{
     border-radius:0;
 }
+
 #helpnav, .jumbotron{
     background:#50B0E3;
     border:0;
@@ -65,9 +75,6 @@ h4 span.glyphicon{
     font-size:1em!important;
     position:relative;
     top:5px;
-}
-h5{
-    font-weight:bold;
 }
 .link-container{
     margin-bottom:1em;
@@ -132,13 +139,38 @@ h4.link-header{
 .sidenav{
     font:13px Helvetica!important;
 }
+.sidenav ul{
+    margin-top:0.8em;
+}
+.sidenav ul li{
+    list-style:none!important;
+    margin-left:1em;
+    margin-bottom:0.7em;
+}
 .sidenav ul li ul li{
-    padding-bottom:0.6em;
+    list-style-type: circle!important;
+    margin-left:2em;
+    padding-bottom:0;
 }
 
 /*posts*/
-.post-area h1, .post-area h2, .post-area h3, .post-area h4{
-    margin-top:1em!important;
+.post-area h3{
+    color:#50B0E3;
+    font-size:1.8em;
+    font-weight:bold;
+}
+.post-area h5{
+    border-bottom:1px dotted #ddd;
+    font-size:1.1em;
+    font-weight:bold;
+    padding-bottom:0.4em;
+    padding-top:0.7em;
+}
+.post-area p + h3{
+    margin-top:2em!important;
+}
+.post-area h3 + h5{
+    margin-top:0!important;
 }
 
 /*qa-section*/
@@ -195,7 +227,7 @@ h4.link-header{
     margin:0;
 }
 .qa-row{
-    margin-top:4em;
+    margin-top:2em;
 }
 
 footer{

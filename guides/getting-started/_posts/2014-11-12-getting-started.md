@@ -192,7 +192,7 @@ Now you're ready to Add a form!  After creating a Project,  you can publish form
 
 ##### <a name="submit-data"></a>Use ODK Collect or Enketo to submit data
 
-Next you need to use either ODK Collect or Enketo to submit data to the uploaded 
+Next you need to use either ODK Collect or Enketo to submit data to the uploaded. 
 
 
 ##### <a name="view-your-project-data"></a>View your project data
@@ -200,11 +200,11 @@ Next you need to use either ODK Collect or Enketo to submit data to the uploaded
 After submitting data from ODK Collect or via Enketo to the server you can now export the data as a nicely formatted csv,xls or kml (for Google Earth)
 
 
-##### XLSForms for beginners
+### XLSForms for beginners
 
 ##### <a name="translate-your-survey"></a>Translate your survey
 
-The second step in creating your first project on Ona is to author your project’s survey(s). Form authoring in Ona is based on the XLSForm standard which was created to help simplify the authoring of forms in Excel.
+Form authoring in Ona is based on the XLSForm standard which was created to help simplify the authoring of forms in Excel.
 This requires you to create an Excel file that contains the questions, formatting instructions and data validation conditions that will allow you to collect data on smartphones or web forms. Each question in the survey is a row in the spreadsheet. 
 
 

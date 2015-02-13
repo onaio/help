@@ -1,7 +1,7 @@
 ---
 layout: guide-view
-guide_name: Going Mobile
-title: "For Mobile Data Collection"
+guide_name: Data Collection
+title: "Using Enketo &amp; ODK Collect"
 permalink: /guides/going-mobile
 categories: [topics, going-mobile]
 ---

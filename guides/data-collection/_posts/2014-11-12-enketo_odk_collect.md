@@ -46,7 +46,7 @@ Ona has been integrated with Enketo and one has the option to use both ODK Colle
 
 ##### <a name="collecting-data-offline"></a>Collecting data offline
 
-You can be able to launch and save data offline on both tools. This means that both Enketo and ODK Collect can be launched without Internet connection and maintain their core functionality whilst offline.Enketo are
+You can be able to launch and save data offline on both tools. This means that both Enketo and ODK Collect can be launched without Internet connection and maintain their core functionality whilst offline.
 
 
 ### Using Enketo

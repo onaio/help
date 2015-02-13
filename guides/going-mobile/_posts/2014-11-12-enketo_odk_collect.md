@@ -44,7 +44,7 @@ Enketo Smart Paper works on any modern web browser while ODK Collect is a native
 
 ##### <a name="why-use-each"></a>Why use each
 
-Ona has been integrated with Enketo and one has the option to use both ODK Collect and Enketo Smart Paper. Both tools use the same form format, you can use the same XLSForm on both tools. Have a look at [this table](https://enketo.org/openrosa) which illustrates key differences between the two tools.
+Ona has been integrated with Enketo and one has the option to use both ODK Collect and Enketo Smart Paper. Both tools use the same form format, you can use the same XLSForm on both tools. 
 
 ##### <a name="collecting-data-offline"></a>Collecting data offline
 

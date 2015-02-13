@@ -11,7 +11,7 @@ categories: [topics, getting-started]
 * [Signing up](#signing-up)
 * [Logging in](#logging-in)
 * [Form design](#form-design)
-* [Publishing a form](#publishing-a-form)
+* [Adding forms to Projects](#adding_forms_to_projects)
 * [The dashboard](#the-dashboard)
 * [Collecting data](#collecting-data)
   * [Webform vs. mobile](#webform-vs-mobile)
@@ -56,26 +56,24 @@ An automated email will also be sent to the email address you indicated to verif
 
 ##### <a name="logging-in"></a>Logging in
 
-After creating your Ona account, you will immediately be logged into your account. You will be required to Sign in for subsequent visits to [ona.io](https://beta.ona.io). Click on the **Sign in** button at the upper right part of the page. Enter your account **username** and **password**. 
+After creating your Ona account, you will immediately be logged into your account. You will be required to **Sign** in for subsequent visits to [ona.io](https://beta.ona.io). Click on the **Sign in** button at the upper right part of the page. Enter your account **username** and **password**. 
 
 Then log in by clicking on the **Sign In** button at the bottom.
 
 
 ##### <a name="form-design"></a>Form design
 
-Author surveys using Excel (XLSForms) which Ona automatically converts for friendly mobile and web based data collection.
+Author surveys using Excel [XLSForms](http://xlsform.org/) which Ona automatically converts for friendly mobile and web based data collection.
 
-To learn how to author XLSForms please visit: [http://xlsform.org/](http://xlsform.org/)
+To learn how to author XLSForms please visit: [http://xlsform.org/](http://xlsform.org/).
 
-##### <a name="publishing-a-form"></a>Publishing a form
+##### <a name="adding_forms_to_projects"></a>Adding forms to Projects
 
-Upload the XLSForm to publish the form making it available for download to the phone and for data gathering
+Upload your XLSForm to publish the form to the Project and make it available for download to the phone and for data gathering.
 
 ##### <a name="the-dashboard"></a>The dashboard
 
-Ater signing in, you’ll see your main project page. A sample project called **Mali** has been pre-loaded into your account. This sample project contains a dataset of the Health Facilities and Airports in Mali. You will have the full project on your main project’s page and you can also download the full Excel survey files for each form.
-
-Add more content here!
+Ater signing in, you’ll see your main project page. A sample project called **Mali** has been pre-loaded into your account. This sample project contains a dataset of the **Health Facilities** and **Airports** in **Mali**. You will have the full project on your main project’s page and you can also download the full Excel survey files for each form.
 
 ##### <a name="collecting-data"></a>Collecting data
 
@@ -83,11 +81,11 @@ Gather data via a smartphone using Open Data Kit (ODK) Collect or via built-in w
 
 ##### <a name="webform-vs-mobile"></a>Webform vs. mobile
 
-Need to add this.
+Ona allows collection of data in two various ways which include Enketo Smart Paper, also known as Web forms and ODK Collect. The options are complementary and it is recommended to decide on a survey-to-survey basis which is the most suitable tool. Read more on the tools [here]()
 
 ##### <a name="using-odk-collect"></a>Using ODK Collect
 
-Ona was designed to work with [ODK Collect]() a proven mobile data collection tool developed by University of Washington.
+Ona was designed to work with [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android) a proven mobile data collection tool developed by University of Washington.
 
 ODK Collect is a free and open source Android application that makes it easy to collect surveys offline. It is a trusted tool used in thousand’s of data collection projects worldwide.
 
@@ -105,12 +103,7 @@ Set sharing and form submissions permissions for the project. The project can be
 
 ##### <a name="project-permissions"></a>Project permissions
 
-Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have Read Only, Owner, Data Entry, Manager or Editor permissions.
-
-
-##### <a name="project-submission-options"></a>Project submission options
-
-Submissions to forms in a project can either be **Secure** or **Open**.  For Secure, data submission is limited to project collaborators with permissions while for Open submissions anyone can access and submit data to forms.
+Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have Admin, Can View (Read Only), Can Submit, and Can Edit permissions.
 
 ##### <a name="adding-forms"></a>Adding forms
 
@@ -120,18 +113,14 @@ Upload the XLSForm to publish the form making it available for download to the p
 
 Visualize and share your data as it’s collected via online-maps, photo galleries, or export in CSV or XLS for more advanced analysis. Switch between maps, table and summary chart views.
 
-
 ##### <a name="the-data-view"></a>The data view
 View submitted data directly in your browser. 
 
 ##### <a name="map-view"></a>Map view
 
-If your form contains, a GPS point the data will automatically show up in the map view as points. Click on any point to see all the data 
-(including photos) associated with that point. 
+If your form contains, a GPS point the data will automatically show up in the map view as points. Click on any point to see all the data (including photos) associated with that point. 
 
 Easily view the distribution of responses by question type with different color dots.
-
-
 
 ##### <a name="summary-charts"></a>Summary charts
 
@@ -151,7 +140,7 @@ There are three requirements necessary for creating your first project in Ona:
 * Excel or any spreadsheet software that can produce .xls or .xlsx files 
 * Android smartphone or any device that can open a web browser
 
-Ona is a web-based data management platform; you can use Ona from any computer or smart device with an internet connection.  To start using Ona, you first need to create an Ona account.  You can sign up for an account [here](https://beta.ona.io).  
+Ona is a web-based data management platform; you can use Ona from any computer or smart device with an internet connection.  To start using Ona, you first need to create an Ona account. You can sign up for an account [here](https://beta.ona.io).  
 
 Ona offers a variety of account options, both free and paying.  The account you choose is based on the amount of functionality you require for your project(s).  Visit the [pricing page link] for more information on account options and pricing.      
 
@@ -166,7 +155,7 @@ Ona supports IE, Safari, Google Chrome, and Mozilla web browsers for data collec
 
 ##### <a name="sign-up"></a>Sign up for an Ona account
 
-You need to go to the **Join Ona page** and register for an Ona account.
+You need to go to the **[Join Ona page](https://beta.ona.io/join)** and register for an Ona account.
 
  * Enter your **name**, **username**, **password**, and **email address** for your account. These fields are mandatory.  
  * Then, click on **Create my account** button. You will immediately be signed in to your account.  An automated email will also be sent to the email address you indicated to verify your email.  
@@ -177,14 +166,9 @@ You need to go to the **Join Ona page** and register for an Ona account.
 To create a new project:
 
 * **Click the “New Project” green button**: Located on the right side of your projects page. 
-* **Name the project**: Enter the **Project Name**; **Health Facilities**  and select the **Project category** as **Health**. Then click on the **Create Project** button
-* **Share options for your Project**: The project be made **Public** or **Private**, a **Public Project** is accessible to anyone on the internet with the project link while a **Private Project** is only accessible to Ona users to whom the project has been shared with. Click on **Public** to make the project **Public**. We’ve made the project public so that it is accessible with all Ona user’s. 
-* **Collaborate with others**! Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will  grant them access to the project. Read the [Permissions levels link here] guide for more info. Then, click on the **Next** button;
-* **Submission options**.  Submissions to forms in a project can either be **Secure** or **Open**. 
- * **Secure submissions** are limited to project collaborators, only specified project owners may submit data. Users must login with their Ona accounts before they start submitting data using Enketo webforms or ODK Collect.
- * **Open submissions** allows anyone to access and submit data to forms. Anyone with the Enketo webform link can submit data without signing in and anyone who uses a project owner's username in their ODK Collect application server URL is able to submit data.
- * Click on **Open** option box to allow access to anyone. Once you’ve made your choice, click on the **Done** button
-
+* **Name the project**: Enter the **Project Name**; **Health Facilities** and select the **Project category** as **Health**. Then click on the **Create Project** button
+* **Share options for your Project**: The project can either be **Public** or **Private**, a **Public Project** is accessible to anyone on the internet with the project link while a **Private Project** is only accessible to Ona users to whom the project has been shared with. Click on **Public** to make the project **Public**. We’ve made the Mali project public so that it is accessible for all Ona user’s. 
+* **Collaborate with others**! Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will  grant them access to the project. Read the permissions levels [here](project-permissions) guide for more info. Then, click on the **Done** button;
 
 ##### <a name="upload-a-survey"></a>Upload your survey(s) to your Ona project
 
@@ -192,33 +176,9 @@ Now you're ready to Add a form!  After creating a Project,  you can publish form
 
 ##### <a name="submit-data"></a>Use ODK Collect or Enketo to submit data
 
-Next you need to use either ODK Collect or Enketo to submit data to the uploaded. 
+Next you need to use either ODK Collect or Enketo to submit data to the server. For details on how to submit data either tool, read the [Data Collection](#data-collection) guide.
 
 
 ##### <a name="view-your-project-data"></a>View your project data
 
 After submitting data from ODK Collect or via Enketo to the server you can now export the data as a nicely formatted csv,xls or kml (for Google Earth)
-
-
-### XLSForms for beginners
-
-##### <a name="translate-your-survey"></a>Translate your survey
-
-Form authoring in Ona is based on the XLSForm standard which was created to help simplify the authoring of forms in Excel.
-This requires you to create an Excel file that contains the questions, formatting instructions and data validation conditions that will allow you to collect data on smartphones or web forms. Each question in the survey is a row in the spreadsheet. 
-
-
-
-
-
-
-  
- 
-
-
-
-  
-
-  
-
-

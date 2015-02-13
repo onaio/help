@@ -6,8 +6,7 @@ permalink: /guides/data-collection
 categories: [topics, going-mobile]
 ---
 
-* ##### Enketo vs. ODK Collect on smartphones
-* [Which to use](#which-to-use)
+* ##### Enketo vs. ODK Collect
 * [Why use each](#why-use-each)
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
@@ -34,9 +33,8 @@ categories: [topics, going-mobile]
 * [Get data off your mobile devices and do bulk submissions to Ona](#get-data-off-mobile-devices)
 * [How to make bulk form submissions to Ona - PUSH](#push-using-odk-briefcase)
 
-### Enketo vs. ODK Collect on smartphones
 
-##### <a name="which-to-use"></a>Which to use
+
 
 There are two options that one can use on Ona for data collection namely: **[Enketo Smart Paper](https://enketo.org/)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The two options complement each other and it is recommended to decide on a survey-to-survey basis. There are benefits to using each; but it depends on your data collection needs. 
 

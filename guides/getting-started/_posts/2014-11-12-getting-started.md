@@ -1,9 +1,12 @@
 ---
-layout: guide-view
+layout: "guide-view"
 guide_name: Getting Started
 title: Getting Started with ONA
-permalink: /guides/getting-started
-categories: [topics, getting-started]
+permalink: "/guides/getting-started"
+categories: 
+  - topics
+  - "getting-started"
+published: true
 ---
 
 * ##### New to Ona
@@ -46,7 +49,11 @@ categories: [topics, getting-started]
 
 ##### <a name="how-ona-works"></a>How Ona works
 
-Author surveys quickly and easily in Excel and upload them to Ona. Then, easily distribute your survey on your Android device or on your web browser. Data connection not needed. Visualize your data as it is collected and gain understanding with our powerful insightful tools.
+Author surveys quickly and easily in Excel and upload them to Ona. Then, easily collect data for your survey on your Android device or web browser. A data connection is not needed when collecting data. Visualize your data as it comes in and gain insight with our powerful analytic tools.
+
+<br><br>
+![](https://farm8.staticflickr.com/7324/16385419130_c145c948e5_b.jpg)
+<br><br>
 
 ##### <a name="signing-up"></a>Signing up
 

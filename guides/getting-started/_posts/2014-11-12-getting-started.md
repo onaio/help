@@ -53,6 +53,7 @@ Author surveys quickly and easily in Excel and upload them to Ona. Then, easily 
 <br><br>
 ![](https://farm8.staticflickr.com/7324/16385419130_c145c948e5_z.jpg)
 <br><br>
+
 ##### <a name="signing-up"></a>Signing up
 
 To use Ona you need to create an account. Start by clicking [Join Ona](https://beta.ona.io/join) and registering for an account. Enter your **full name**, **email address**, **password**, and choose a **username** for your account. Finally, click the **Create my account** button.

@@ -50,16 +50,16 @@ published: true
 ##### <a name="how-ona-works"></a>How Ona works
 
 Author surveys quickly and easily in Excel and upload them to Ona. Then, easily collect data for your survey on your Android device or web browser. A data connection is not needed when collecting data. Visualize your data as it comes in and gain insight with our powerful analytic tools.
-
 <br><br>
 ![](https://farm8.staticflickr.com/7324/16385419130_c145c948e5_z.jpg)
 <br><br>
-
 ##### <a name="signing-up"></a>Signing up
 
-To use Ona you need to create an account. Start by clicking [Join Ona](https://beta.ona.io/join) and register for an account. Then enter your **full name**, **email address**, **password**, and choose a **username** for your account. Finally click the **Create my account** button below the form.
-
-An automated email will also be sent to the email address you indicated to verify your email.  
+To use Ona you need to create an account. Start by clicking [Join Ona](https://beta.ona.io/join) and registering for an account. Enter your **full name**, **email address**, **password**, and choose a **username** for your account. Finally, click the **Create my account** button.
+<br><br>
+![](https://farm8.staticflickr.com/7309/15952736943_4615c81eeb_n.jpg)
+<br><br>
+An automated email will also be sent to the email address you indicate to verify your email.  
 
 ##### <a name="logging-in"></a>Logging in
 

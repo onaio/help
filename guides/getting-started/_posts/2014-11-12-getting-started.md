@@ -64,16 +64,13 @@ An automated email will also be sent to the email address you indicate to verify
 
 ##### <a name="logging-in"></a>Logging in
 
-After creating your Ona account, you will immediately be logged into your account. You will be required to **Sign** in for subsequent visits to [ona.io](https://beta.ona.io). Click on the **Sign in** button at the upper right part of the page. Enter your account **username** and **password**. 
-
-Then log in by clicking on the **Sign In** button at the bottom.
-
+After creating your Ona account, you will automatically be logged in to your account. You will be required to sign in on subsequent visits to [ona.io](https://beta.ona.io). Click on the **Sign In** button at the upper right corner of the page. Enter your account **username** and **password** to log in. 
 
 ##### <a name="form-design"></a>Form design
 
-Author surveys using Excel [XLSForms](http://xlsform.org/) which Ona automatically converts for friendly mobile and web based data collection.
+Author surveys in Excel [XLSForms](http://xlsform.org/). Ona will automatically convert your Excel survey into a format that works for both mobile and web based data collection.
 
-To learn how to author XLSForms please visit: [http://xlsform.org/](http://xlsform.org/).
+To learn how to author your forms in Excel, please visit [http://xlsform.org/](http://xlsform.org/).
 
 ##### <a name="adding_forms_to_projects"></a>Adding forms to Projects
 

@@ -51,7 +51,7 @@ published: true
 
 Author surveys quickly and easily in Excel and upload them to Ona. Then, easily collect data for your survey on your Android device or web browser. A data connection is not needed when collecting data. Visualize your data as it comes in and gain insight with our powerful analytic tools.
 <br><br>
-![](https://farm8.staticflickr.com/7324/16385419130_c145c948e5_z.jpg)
+![](/content/screenshots/how-ona-works.jpg)
 <br><br>
 
 ##### <a name="signing-up"></a>Signing up

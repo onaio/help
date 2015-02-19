@@ -1,9 +1,10 @@
 *{
     box-sizing:border-box!important;
+    font-family:'Proxima Nova';
     margin:0;padding:0;
 }
 body{
-    font:15px 'Proxima Nova';
+    font:15px 'Proxima Nova'!important;
     line-height:1.75em!important;
 }
 

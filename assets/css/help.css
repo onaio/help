@@ -27,6 +27,9 @@ ol li, ul li{
 .btn{
     border-radius:0;
 }
+.hidden{
+    display:none;
+}
 
 #helpnav, .jumbotron{
     background:#50B0E3;

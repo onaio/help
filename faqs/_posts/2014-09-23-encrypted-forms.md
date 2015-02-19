@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Encrypted Forms"
+title: "How do I use encrypted forms?"
 permalink: /faq/encrypted-forms
 category: faq
 ---

@@ -4,7 +4,7 @@ $(document).ready(function(){
     var postPics = $(".post-area img"),
         maxWidth = 500;
     
-    var images = document.getElementsByTagName("img");
+    var images = document.getElementsByTagName("img-");
     var i;
 
     for(i = 0; i < images.length; i++) {
@@ -13,10 +13,9 @@ $(document).ready(function(){
         
         if(images[i].width > maxWidth){
             images[i].className += " full-width";
-            console.log('wide' + images[i].src);
         }
         else{
-            console.log('not wide enough...');
+            // continue
         }
     }
 });

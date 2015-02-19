@@ -4,9 +4,19 @@ $(document).ready(function(){
     var postPics = $(".post-area img"),
         maxWidth = 500;
     
-    for(p=0; p<postPics.length; p++){
-        if(postPics[p].width > maxWidth){
-            postPics[p].addClass('full-width');
-        } 
+    var images = document.getElementsByTagName("img");
+    var i;
+
+    for(i = 0; i < images.length; i++) {
+        
+        console.log("Checking if: "+images[i].width + " is greater than: "+ maxWidth);
+        
+        if(images[i].width > maxWidth){
+            images[i].className += " full-width";
+            console.log('wide' + images[i].src);
+        }
+        else{
+            console.log('not wide enough...');
+        }
     }
 });

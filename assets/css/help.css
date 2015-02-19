@@ -144,7 +144,7 @@ h4.link-header{
 .sidenav ul{
     margin-top:0.8em;
 }
-.sidenav ul li{
+.sidenav ul li, .qa-nav li{
     list-style:none!important;
     margin-left:1em;
     margin-bottom:0.7em;

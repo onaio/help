@@ -168,6 +168,14 @@ h4.link-header{
     padding-bottom:0.4em;
     padding-top:0.7em;
 }
+.post-area img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.post-area img.full-width{
+    width:100%;
+}
 .post-area p + h3{
     margin-top:2em!important;
 }

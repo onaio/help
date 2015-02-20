@@ -24,6 +24,7 @@ ol li, ul li{
 .form-control{
     border-radius:0;
     padding:0.5em!important;
+    font-size: 15px !important;
 }
 .btn{
     border-radius:0;

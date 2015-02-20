@@ -15,7 +15,7 @@ layout: home
     
     <div class="row" id="faqs">
         <div class="col-md-1-1 clearfix link-container">
-            <h4>Common Questions</h4>
+            <h4 class="link-header">Common Questions</h4>
             <div class="col-md-12">
               <ul>
                 {% for faqlist in site.categories.faq %}
@@ -61,70 +61,71 @@ layout: home
         </div>
         
         <div class="col-md-1-1 clearfix guides-container" id="guides">
-            <h4>User Guides</h4>
+            <h4 class="link-header">User Guides</h4>
+            <div class="container">
+                <div class="col-md-3 guide-box">
+                    <a href="/guides/getting-started">
+                        <span><img src="/assets/img/get-started.png" width="100"></span>
+                        <h4>Getting Started</h4>
+                        <span>An Intro to Data Collection</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box">
-                <a href="/guides/getting-started">
-                    <span><img src="/assets/img/get-started.png" width="100"></span>
-                    <h4>Getting Started</h4>
-                    <span>An Intro to Data Collection</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/projects">
+                        <span class="glyphicon glyphicon-inbox"></span>
+                        <h4>Projects</h4>
+                        <span>Creating &amp; Managing Projects</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/projects">
-                    <span class="glyphicon glyphicon-inbox"></span>
-                    <h4>Projects</h4>
-                    <span>Creating &amp; Managing Projects</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/forms">
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                        <h4>Forms</h4>
+                        <span>Authoring your Own Surveys</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/forms">
-                    <span class="glyphicon glyphicon-list-alt"></span>
-                    <h4>Forms</h4>
-                    <span>Authoring your Own Surveys</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box">
+                    <a href="/guides/data-collection">
+                        <span><img src="/assets/img/go-mobile.png" width="100"></span>
+                        <h4>Data Collection</h4>
+                        <span>Using Enketo &amp; ODK Collect</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box">
-                <a href="/guides/data-collection">
-                    <span><img src="/assets/img/go-mobile.png" width="100"></span>
-                    <h4>Data Collection</h4>
-                    <span>Using Enketo &amp; ODK Collect</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/data-management">
+                        <span class="glyphicon glyphicon-cloud"></span>
+                        <h4>Data Management</h4>
+                        <span>View Manange &amp; Import Data</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/data-management">
-                    <span class="glyphicon glyphicon-cloud"></span>
-                    <h4>Data Management</h4>
-                    <span>View Manange &amp; Import Data</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/organizations">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <h4>Organizations &amp; Teams</h4>
+                        <span>Build Organizations &amp; Teams</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/organizations">
-                    <span class="glyphicon glyphicon-user"></span>
-                    <h4>Organizations &amp; Teams</h4>
-                    <span>Build Organizations &amp; Teams</span>
-                </a>
-            </div>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/user-accounts">
+                        <span class="glyphicon glyphicon-lock"></span>
+                        <h4>User Accounts &amp; Plans</h4>
+                        <span>Accounts Management &amp; Billing</span>
+                    </a>
+                </div>
             
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/user-accounts">
-                    <span class="glyphicon glyphicon-lock"></span>
-                    <h4>User Accounts &amp; Plans</h4>
-                    <span>Accounts Management &amp; Billing</span>
-                </a>
-            </div>
-            
-            <div class="col-md-3 guide-box hidden">
-                <a href="/guides/advanced-users">
-                    <span class="glyphicon glyphicon-wrench"></span>
-                    <h4>Advanced Users</h4>
-                    <span>API Integration &amp; Hosting Options</span>
-                </a>
+                <div class="col-md-3 guide-box hidden">
+                    <a href="/guides/advanced-users">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                        <h4>Advanced Users</h4>
+                        <span>API Integration &amp; Hosting Options</span>
+                    </a>
+                </div>
             </div>
         </div>
         

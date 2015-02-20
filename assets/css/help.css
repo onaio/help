@@ -38,6 +38,17 @@ ol li, ul li{
     border-radius:0;
     color:#fff!important;
 }
+
+#helpnav, .jumbotron a {
+    color:#fff!important;
+    font-weight: 700;
+}
+
+#helpnav, .jumbotron a:focus{
+    color:#c4e9ff!important;
+}
+
+
 #helpnav{
     margin-bottom:0!important;
 }

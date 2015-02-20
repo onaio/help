@@ -5,8 +5,7 @@ permalink: /faq/import-data
 category: faq
 ---
 
-**What is Ona?**
-
+####What is Ona?
 Ona is a simple and powerful data platform. We help organizations collect, share and make sense of data from the field. Ona is built on Open Data Kit, an open-source set of mobile data collection tools.
 
 **Why would I want to use Ona?**

@@ -6,9 +6,11 @@ category: faq
 ---
 
 **What is Ona?**
+
 Ona is a simple and powerful data platform. We help organizations collect, share and make sense of data from the field. Ona is built on Open Data Kit, an open-source set of mobile data collection tools.
 
 **Why would I want to use Ona?**
+
 Ona is constantly improving [link to release list page] to help you get the most accurate data for your program and translate that data into actionable information. Ona also offers Google Drive-like sharing permissions, allowing you to give only people you specify access to the data.
 
 **Is Ona right for me?**

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "All about ODK Briefcase"
+title: "How do I use ODK Briefcase?"
 permalink: /faq/odk-briefcase
 category: faq
 ---

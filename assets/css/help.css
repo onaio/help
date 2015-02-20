@@ -41,10 +41,10 @@ ol li, ul li{
 
 #helpnav, .jumbotron a {
     color:#fff!important;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-#helpnav, .jumbotron a:focus{
+#helpnav, .jumbotron a:hover a:focus{
     color:#c4e9ff!important;
 }
 

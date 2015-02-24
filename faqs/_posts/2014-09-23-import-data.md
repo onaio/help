@@ -5,7 +5,7 @@ permalink: /faq/import-data
 category: faq
 ---
 
-Using **Import CSV** to upload data is a great way to add form records in bulk or make edits using spreadsheet software rather than Ona's web interface. The safest way to do this is working from a CSV file downloaded from Ona. Here's the step by step process:
+Using **Import CSV** to upload data is a great way to add form records in bulk or make edits using spreadsheet software rather than Ona's web interface. The safest way to do this is working from a CSV file downloaded from Ona. Here's a step by step process:
 
 1. Make sure data already exists on the form you want to upload data to. You can do this by adding a submisssion through Enketo webforms or ODK Collect. Make sure every question has an answer so you have an idea of what new data should look like.
 

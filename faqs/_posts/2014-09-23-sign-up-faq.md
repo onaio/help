@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I'm thinking of signing up. Is there a FAQ with general info?"
-permalink: /faq/import-data
+permalink: /faq/general-FAQ
 category: faq
 ---
 

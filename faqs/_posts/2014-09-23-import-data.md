@@ -13,13 +13,13 @@ Using **Import CSV** to upload data is a great way to add form records in bulk o
 
     <img src="/content/screenshots/faq_upload_csv_01.png" width="568px">
 
-3. Use your favorite spreadsheet software to add data to new rows or edit data in existing rows. Note: deleting rows will not delete records. To delete whole submissions or records, select a submission from the map or table view and click "Delete."
+3. Use your favorite spreadsheet software to add data to new rows or edit data in existing rows. Note: deleting rows will not delete records. You will need to use the Ona website to delete whole records.
 
 4. When you are finished updating the CSV file, upload the file to the Import CSV section of the Details tab of your form data view.
 
     <img src="/content/screenshots/faq_upload_csv_02.png" width="568px">
 
-5. After uploading, your data will update. You may need to reload the page to see changes.
+5. After uploading, your data will update. You may need to reload the page to see changes to the data.
 
 A few rules about how importing data works:
 

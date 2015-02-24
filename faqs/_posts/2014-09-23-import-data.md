@@ -7,7 +7,7 @@ category: faq
 
 Using **Import CSV** to upload data is a great way to add form records in bulk or make edits using spreadsheet software rather than Ona's web interface. The safest way to do this is working from a CSV file downloaded from Ona. Here's the step by step process:
 
-1. Make sure data already exists on the form you want to upload data to. You can do this through Enketo webforms or ODK Collect. Make sure every question has an answer.
+1. Make sure data already exists on the form you want to upload data to. You can do this by adding a submisssion through Enketo webforms or ODK Collect. Make sure every question has an answer so you have an idea of what new data should look like.
 
 2. Download a CSV of the data using the download CSV dropdown option on the data view page.
 
@@ -27,6 +27,5 @@ A few rules about how importing data works:
 * New rows will be added as new records in Ona.
 * Changes to existing rows will edit the existing records. Editing records happens when the instanceID or _uuid matches an existing record's instanceID or _uuid, which is the case if the data was originally exported from Ona.
 * No deletions are done. Ona cannot detect if a unique row was removed. To delete a record, select a submission on the map or table view and click "Delete".
+* Form logic is not applied to data uploaded through Import CSV.
 * Right now, Import CSV has no "undo" option, so please test it out before making large changes.
-
-

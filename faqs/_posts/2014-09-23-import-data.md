@@ -16,9 +16,9 @@ Using **Import CSV** to upload data is a great way to add form records in bulk o
 3. Use a spreadsheet software to add data to new rows or edit data in existing rows. For our users, we recommend Google Sheets because it supports UTF-8 encoding/characters, which is required when you upload the file back to Ona. UTF-8 encoded CSVs support special characters (umlaut, grave accent, acute accent, etc) found in non-English languages i.e. French or Spanish. Note: deleting rows will not delete records. You will need to use the Ona website to delete whole records.
 
 
-4.  When you are done with edits, save the file as a CSV. Note: the file must be UTF-8 encoded. Microsoft Excel does not currently support this. However, there is a [manual workaround](https://help.salesforce.com/apex/HTViewSolution?id=000003837&language=en_US). To download a UTF-8 encoded CSV from Google Sheets, go to File-> Download as->Comma-separated values:
+4.  When you are done with edits, save the file as a UTF-8 encoded CSV. Microsoft Excel does not currently support this. However, there is a [manual workaround](https://help.salesforce.com/apex/HTViewSolution?id=000003837&language=en_US). To download a UTF-8 encoded CSV from Google Sheets, go to File-> Download as->Comma-separated values:
 
-    <img src="/content/screenshots/faq_upload_csv_03.png" width="368px" style="border: 1px solid #cccccc;">
+    <img src="/content/screenshots/faq_upload_csv_03.png" width="500px" style="border: 1px solid #cccccc;">
 
     Then you can upload the file to the Import CSV section of the Details tab of your form data view.
 

@@ -47,7 +47,96 @@ To choose who can see your file or folder:
 
 When you add a collaborator to your project, you can select their level of access for viewing, submitting and editing data to projects. The permission levels breakdown as follows:
 
-
+<table style="border: 1px solid #E6E6E6;">
+  	<thead>
+	  <tr>
+	      <th></th>
+	      <th>Can View</th>
+	      <th>Can Submit</th>
+	      <th>Can Edit</th>
+	      <th>Is Admin</th>
+	    </tr>
+	</thead>
+	<tbody>
+	    <tr>
+	      <td>Can view data</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can download data</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can preview forms</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can download forms</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can submit data</td>
+	      <td></td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can edit data</td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can change the project share settings</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can add, delete or replace forms</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can edit project metadata</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can delete the project</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can transfer project ownership to another user or to an organization</td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td>x</td>
+	    </tr>
+	</tbody>
+</table>
 
 
 Individual accounts have only one admin — the account the project lives on, which for new projects is the creator of the project. To have multiple admins on a single project, create an organization project.

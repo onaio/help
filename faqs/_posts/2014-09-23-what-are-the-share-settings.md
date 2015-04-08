@@ -18,7 +18,7 @@ To choose who can see your file or folder:
 3. Click the Share button in the grey bar below the blue header area. If you don’t see the Share button, you don’t have permission to change the share settings.
 4. At the top of the Share settings modal, select either public or private:
 
-<table>
+<table style="border: 1px solid #E6E6E6;">
   <thead>
     <tr>
       <th>Project type</th>

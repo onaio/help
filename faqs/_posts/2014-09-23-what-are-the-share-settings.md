@@ -18,27 +18,27 @@ To choose who can see your file or folder:
 3. Click the Share button in the grey bar below the blue header area. If you don’t see the Share button, you don’t have permission to change the share settings.
 4. At the top of the Share settings modal, select either public or private:
 
-<table style="border: 1px solid #E6E6E6;">
-  <thead>
-    <tr>
-      <th>Project type</th>
-      <th>Definition</th>
-      <th>Sign-in to Ona account required?</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Private</td>
-      <td>Only you and collaborators you choose can access the project.</td>
-      <td>Yes</td>
-    </tr>
-        <tr>
-      <td>Public</td>
-      <td>The project is accessible by anyone and is visible on your Ona user page.</td>
-      <td>No</td>
-    </tr>
-  </tbody>
-</table>
+	<table style="border: 1px solid #E6E6E6;">
+	  <thead>
+	    <tr>
+	      <th>Project type</th>
+	      <th>Definition</th>
+	      <th>Sign-in to Ona account required?</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>Private</td>
+	      <td>Only you and collaborators you choose can access the project.</td>
+	      <td>Yes</td>
+	    </tr>
+	        <tr>
+	      <td>Public</td>
+	      <td>The project is accessible by anyone and is visible on your Ona user page.</td>
+	      <td>No</td>
+	    </tr>
+	  </tbody>
+	</table>
 
 5. If you selected a public project, a “Public - anyone” collaborator group will appear in the list below. Anyone on the web will be able to view your project and project data.
 6. Click Done.

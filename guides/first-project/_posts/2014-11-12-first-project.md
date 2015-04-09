@@ -62,7 +62,7 @@ To create a new project:
 * **Click the “New Project” green button**: Located on the right side of your projects page. 
 * **Name the project**: Enter the **Project Name**; **Health Facilities** and select the **Project category** as **Health**. Then click on the **Create Project** button
 * **Share options for your Project**: The project can either be **Public** or **Private**, a **Public Project** is accessible to anyone on the internet with the project link while a **Private Project** is only accessible to Ona users to whom the project has been shared with. Click on **Public** to make the project **Public**. We’ve made the Mali project public so that it is accessible for all Ona user’s. 
-* **Collaborate with others**! Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will  grant them access to the project. Read the permissions levels [here](project-permissions) guide for more info. Then, click on the **Done** button;
+* **Collaborate with others**! Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will  grant them access to the project. Read the [permissions levels faq](http://help.ona.io/faq/what-are-the-share-settings/) for more info. Then, click on the **Done** button;
 
 ##### <a name="upload-a-survey"></a>Upload your survey(s) to your Ona project
 

@@ -5,7 +5,7 @@ permalink: /faq/new-in-beta
 category: faq
 ---
 
-Ona has been rebuilt from the ground up with new code and a new look — it has all of the previous functionality for data collection plus features to help you better manage data and share information with collaborators. We're looking for amazing feedback from you, our users, to help our tools improve.
+Ona has been rebuilt from the ground up with new code and a new look — it has all of the previous functionality for data collection plus features to help you better manage data and share information with collaborators. We're looking for amazing feedback from you, our users, to help us build what you need.
 
 What's changed?
 
@@ -16,7 +16,7 @@ What's changed?
 * **Data Visualization.** We made it easier to switch between map and table views and added Summary Charts that let you review summary statistics. On the map, we added support for multi-select and number ranges.
 * **Recent Updates**
 	* **Organizations.** Organizations are meant to make it easier to securely share data between it's members and share data with projects. Please email [info@ona.io](mailto:info@ona.io) if interested.
-	* **Collaborate. Easily share data with members of other organizations. Ona is built to represent the way you work.
+	* **Collaborate.** Easily share data with members of other organizations. Ona is built to represent the way you work.
 	* **Realtime XLS Reports.** We are starting to build custom Excel dashboards and reports for our users. These dynamic files are automatically updated with predefined calculations and charts using the latest data, letting you track metrics and indicators in real-time. [Learn more](http://help.ona.io/faq/what-is-a-xls-report/)
 
 Accessing the beta site:

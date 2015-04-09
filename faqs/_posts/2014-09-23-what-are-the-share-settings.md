@@ -9,9 +9,7 @@ Ona lets you grant view/edit/submit project access to collaborators. Collaborato
 
 ###Select whether your project is public or private
 
-You can keep your project private if you don’t want anyone on the web to see your project or its data. 
-
-To choose who can see your file or folder:
+You can keep your project private if you don’t want anyone on the web to see your project or its data. To share your project with collaborators:
 
 1. Sign in to Ona.
 2. Open a project.

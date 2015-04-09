@@ -22,8 +22,9 @@ table tr th{
     background:#EFEFEF;
 }
 table tr th, table tr td{
-    border:1px solid #AFAFAF;
-    padding:0.6em;
+    border:1px solid #CFCFCF;
+    padding:0.3em 0.6em 0.3em 0.6em;
+    font-size: 14px;
 }
 
 ol, ul{

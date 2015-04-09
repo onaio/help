@@ -13,6 +13,19 @@ h5{
     margin-top:2em;
 }
 
+table{
+    margin:0 0 2em!important;
+    padding:0!important;
+    border-collapse:collapse;
+}
+table tr th{
+    background:#EFEFEF;
+}
+table tr th, table tr td{
+    border:1px solid #AFAFAF;
+    padding:0.6em;
+}
+
 ol, ul{
     margin-bottom:2em;
     margin-top:1em;

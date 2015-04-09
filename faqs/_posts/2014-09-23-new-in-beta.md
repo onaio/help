@@ -11,7 +11,7 @@ What's changed?
 
 * **Projects.** A project is a set of related forms that are grouped together and have the same sharing permissions.
 * **New User Interface.** We rebuilt our interface to be cleaner, faster and to reflect updates to functionality.
-* **Improved Sharing Permissions.** Projects can be shared with other Ona users similar to “Google Doc” permissions.
+* **[Improved Sharing Permissions.]((http://help.ona.io/faq/what-are-the-share-settings/))** Projects can be shared with other Ona users in a way similar to other popular tools and apps on the web.
 * **Improved Security.** Assign every user in your system (including data gatherers) their own username and password. You can now require data collectors to login without giving them access to your project’s private data.
 * **Data Visualization.** We made it easier to switch between map and table views and added Summary Charts that let you review summary statistics. On the map, we added support for multi-select and number ranges.
 * **Recent Updates**

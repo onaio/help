@@ -5,7 +5,7 @@
 }
 body{
     font-size:15px;
-    line-height:1.5em!important;
+    line-height:1.6em!important;
 }
 
 h5{
@@ -32,8 +32,8 @@ ol, ul{
     margin-top:1em;
 }
 ol li, ul li{
-    margin-bottom:0em;
-    margin-left:2em;
+    margin-bottom:0;
+    margin-left:1.5em;
 }
 .form-control{
     border-radius:0;
@@ -211,11 +211,16 @@ h4.link-header{
 }
 
 /*qa-section*/
+.qa-row .col-md-8{
+    padding:0!important;
+}
 .qa-nav{
     background:#eee;
     border-radius:4px;
-    margin:0 2em;
     padding:0.5em 1em;
+}
+.qa-nav h5{
+    margin-top:1em!important;
 }
 
 /*guides*/

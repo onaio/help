@@ -43,7 +43,7 @@ We will be introducing pricing when the beta period is over and are still workin
 <a name="enterprise"></a>
 
 ###Are there enterprise-level accounts?
-Yes. Enterprise users can [email us](info@ona.io) to find out about custom features, advanced support options, and enterprise-level data management.
+Yes. Enterprise users can email <info@ona.io> to find out about custom features, advanced support options, and enterprise-level data management.
 
 <a name="beta"></a>
 
@@ -58,14 +58,14 @@ Yes, you can migrate your data to Ona’s servers by using a tool called ODK Bri
 <a name="localdeploy"></a>
 
 ###Can I host my own version of Ona i.e. install a local deployment?
-Yes, please see [https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment](https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment). In some cases we also work with clients to implement installs. Please email [info@ona.io](mailto:info@ona.io) with an overview of your needs.
+Yes, please see [https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment](https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment). In some cases we also work with clients to implement installs. Please email <info@ona.io> with an overview of your needs.
 
 <a name="language"></a>
 
 ###Is Ona available in other languages?
 Yes, forms can be written in multiple languages and one can switch between them in both the ODK Collect Android app and in Enketo web forms. Read more on adding multiple languages to a form on [XLSform.org](http://xlsform.org/#language).
 
-The user interface is available in Kiswahili and German, which you can change in the Account Settings page. Support materials are not yet available in other language. We are happy to take requests on language — just email [support@ona.io](support@ona.io).
+The user interface is available in Kiswahili and German, which you can change in the Account Settings page. Support materials are not yet available in other language. We are happy to take requests on language — just email <support@ona.io>.
 
 <a name="team"></a>
 

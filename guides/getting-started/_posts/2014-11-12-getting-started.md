@@ -88,8 +88,6 @@ Upload your finished XLSForm to a Project in your Ona account to make it availab
 
 Gather data via a smartphone using Open Data Kit (ODK) Collect or via built-in webforms. Manage all your collected data securely in one spot under a project on your Ona dashboard.
 
-[NEED TO WORK ON A DESIGN WITH WILLIAM]
-
 ##### <a name="webform-vs-mobile"></a>Webform vs. mobile
 
 Ona allows collection of data in two various ways which include **[Enketo Smart Paper](https://enketo.org/)**, also known as **Web forms** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The options are complementary and it is recommended to decide on a survey-to-survey basis which is the most suitable tool. Read more on the tools [here](/guides/data-collection)

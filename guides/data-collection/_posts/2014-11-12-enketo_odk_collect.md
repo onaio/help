@@ -7,7 +7,7 @@ categories: [topics, going-mobile]
 ---
 
 * ##### Enketo vs. ODK Collect
-* [Why use each](#why-use-each)
+* [Why use each?](#why-use-each)
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
@@ -27,7 +27,7 @@ categories: [topics, going-mobile]
 * [navigation-settings](#navigation-settings)
 * [bulk configuration of devices](#bulk-configuration-of-devices)
 * ##### ODK Briefcase
-* [What is ODK Briefcase](#what-is-odk-briefcase)
+* [What is ODK Briefcase?](#what-is-odk-briefcase)
 * [How to install ODK Briefcase](#how-to-install-odk-briefcase)
 * [How to PULL forms with submissions from Ona](#pull-forms-from-ona)
 * [Get data off your mobile devices and do bulk submissions to Ona](#get-data-off-mobile-devices)

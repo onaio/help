@@ -35,6 +35,9 @@ ol li, ul li{
     margin-bottom:0;
     margin-left:1.5em;
 }
+img{
+    max-width:100%;
+}
 .form-control{
     border-radius:0;
     padding:0.5em!important;

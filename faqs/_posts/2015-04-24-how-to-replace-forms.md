@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do I replace forms?"
-permalink: /faq/forgot-email-address
+permalink: /faq/replacing-forms
 category: faq
 ---
 

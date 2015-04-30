@@ -10,7 +10,6 @@ published: true
 ---
 
 * ##### Enketo vs. ODK Collect
-* [Why use each?](#why-use-each)
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
@@ -31,19 +30,15 @@ published: true
 * [bulk configuration of devices](#bulk-configuration-of-devices)
 
 
-There are two options that one can use on Ona for data collection namely: **[Enketo Smart Paper](https://enketo.org/)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The two options complement each other and it is recommended to decide on a survey-to-survey basis. There are benefits to using each; but it depends on your data collection needs. 
+There are two options that Ona users have for data collection: **[Enketo Smart Paper](https://enketo.org/)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**.  
 
-Enketo Smart Paper works on any modern web browser while ODK Collect is a native Android application needs Android devices for the actual collection of data in the field
+Enketo is a web application that works on any modern web browser (although we highly recommend Chrome), while ODK Collect is an Android application that can be installed on any Android smartphone or tablet device.
 
-##### <a name="why-use-each"></a>Why use each
-
-Ona has been integrated with Enketo and one has the option to use both ODK Collect and Enketo Smart Paper. Both tools use the same form format, you can use the same XLSForm on both tools. 
+Enketo and ODK Collect can work in tandem, meaning that a single form can be deployed at the same time with Enketo and ODK Collect; there is no need to author separate forms for each.  This guide walks you through the steps for collecting data in both Enketo and ODK Collect.  Whether you use Enketo or ODK Collect (or both) is primarily based on your data collection and user needs. 
 
 Enketo and ODK Collect can work in tandem, meaning that a single form can be deployed at the same time with Enketo and ODK Collect; there is no need to author separate forms for each.  This guide walks you through the steps for collecting data in both Enketo and ODK Collect.  Whether you use Enketo or ODK Collect (or both) is primarily based on your data collection and user needs.  
 
 ##### <a name="collecting-data-offline"></a>Collecting data offline
-
-You can be able to launch and save data offline on both tools. This means that both Enketo and ODK Collect can be launched without Internet connection and maintain their core functionality whilst offline.
 
 Both Enketo and ODK Collect work offline, meaning that users can launch forms and collect and save their data without an internet or data connection.
 

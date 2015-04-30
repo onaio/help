@@ -53,7 +53,7 @@ You can be able to launch and save data offline on both tools. This means that b
 
 ##### <a name="introduction-to-enketo"></a>An introduction to Enketo
 
-Enketo is a lightweight web application that is used for data entry. Enketo , also known as Web Forms, are used by Ona to enter data directly on your computer or mobile device via a web browser. It forms one component of Ona's ecosytem system that together with XLSForm authoring and provides a complete solution to collect, create and share information. 
+Enketo is a lightweight web application that is used for data entry in Ona. Enketo forms, also known as webforms, launch in your computer or mobile device's web browser.  Together with ODK COllect, Enketo is a major component of Ona's ecosystem that, together with XLSForm authoring, provides a complete solution for collecting and sharing information. 
 
 Enketo has the following key features:
 

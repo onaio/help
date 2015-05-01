@@ -11,7 +11,7 @@ categories: [topics, going-mobile]
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
-* [Loading a Web form](#loading-webform)
+* [Opening an Enketo webform](#loading-webform)
 * [Queued records](queued-records)
 * [Saving drafts](#saving-drafts)
 * ##### ODK Collect
@@ -61,13 +61,19 @@ Enketo has the following key features:
 * **Print-friendly forms** - Enketo can automatically generate a print-friendly version of each form for traditional data collection with paper and pen, without the need to maintain a separate paper version of the form.
 * **Low technical requirements** - The only requirement to use Enketo is access to a modern web browser. One can deploy Enketo webforms easily and quickly on any laptop, computer or smart mobile device.
 
-##### <a name="loading-webform"></a>Loading a Web form/Enketo form
+##### <a name="loading-webform"></a>Opening an Enketo webform
 
-Once you have [added and published your form](Uploading forms) to your Project you can load the webform. To load a Web form on your web browser follow the following simple steps;
+Once you have successfully [added a form](Uploading forms) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
 
-1. From the list of **Forms** on your Project, select the **Webform** icon of a specific form;
-1. The web form will be launched as shown in the screen shot below: 
-1. Once the form is loaded, bookmark it for easy offline access;
+From the list of **Forms** in your Project, select the **Webform** icon next to the name of the form you wish to open.
+
+You can also open the webform at any time from the form data page as well.
+
+
+The webform will open in a separate browser tab.
+
+
+1. If this is the first time you are opening the form, make sure you bookmark it for easy offline access. ;
 1. An icon at the top left of the form can be seen as shown in the image below. The icon signifies that the form is succesfully installed in the browser and ready for offline use;
 1. Fill out your Web form;
 1. Click on the **Submit** button at the bottom of the form when you are done. The records will be automatically stored and queued on your computer until an Internet connection is available. When the application is online, records will be automatically submitted - one by one.

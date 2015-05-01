@@ -102,50 +102,64 @@ When you're ready, start entering data into the webform.  When you reach the end
 
 ##### <a name="queued-records"></a>Queued records
 
-These are the records that are stored inside your web browser until they can be uploaded to the server.  They remain there even if you go offline or if you shut down your computer or laptop.  
+These are the records that are stored inside your web browser until there is an internet connection and they can be uploaded to the server.  They remain there even if you go offline or if you shut down your computer or laptop.  
 
 It is highly recommended, however, that you do submit or export your saved form records as soon as they are finalized.  If your browser data is cleared before you are able to submit or export your saved records, you risk losing your data.  Be especially cognizant of this if you are not using a personal laptop or computer, as many public desktops have pre-installed software that intermittently clears website and browsing data from the computer, which would erase any saved records you have stored in the web browser.    
 
-Queued records can be seen on the webform's side bar with a list of records and their upload status. 
- 
- To reveal the queued records:
- 
- 1. Click on the **Records Queued** icon;
- 1. A record's border will turn orange when an upload is going;
- 1. When an upload succeeds, the border turns green and then the record disappears from the queue;
- 1. The record turns red if an error occurs, an error message is briefly shown underneath. The error message can be revealed and hidden at any time by clicking the record.
- 
-Queued records are uploaded automatically in the background, every 5 minutes when the web page is open and an Internet connection is available. 
+Queued records can be viewed in the webform's side bar menu. 
 
-To force an upload in between automatic attempts, click **Upload** as shown below:
+<br><br>
+![](/content/screenshots/side-menu.png)
+<br><br>
+
+A record's border will turn red if the browser is currently attempting to upload it to the server.
+
+<br><br>
+![](/content/screenshots/red-border.png)
+<br><br>
+
+When an upload succeeds, the record's border turns green for a moment before it disappears from the queue.
+
+If the upload fails, an error message is briefly shown underneath the record.  This mostly occurs because there is no internet connection.
+
+<br><br>
+![](/content/screenshots/failed-upload.png)
+<br><br>
+ 
+Queued records are uploaded automatically in the background, every 5 minutes when the web page is open and an Internet connection is available. To force an upload in between automatic attempts, click the **Upload** button underneath the queued records.
  
 
 ##### <a name="saving-drafts"></a>Saving drafts
 
-If you are not ready to submit your form, you can save the form as a draft that you can open and edit later.  To do this, check the **Save as Draft** option before clicking the **Submit** button.  The record will be  
+If you are not ready to submit your form, you can save the form as a draft that you can open and edit later.  To do this, check the **Save as Draft** option at the end of the webform.  The **Submit** button changes to **Save Draft**.  
 
 <br><br>
-![](/content/screenshots/save-button.png)
+![](/content/screenshots/save-draft-button.png)
 <br><br>
 
-You can **Save records as Draft** then continue filling them at a later time. To mark a record as draft:
+After clicking the **Save Draft** button, a dialog box will pop up, prompting you to enter a name for the draft record, to make it easy to find the draft record later on in the queue. Type the record name (or leave the default name given), then click on the **Save & Close** button.  The record will be saved in the queue as a draft form submission.
 
-1. Click on the **Save as Draft** checkbox above the **Submit** button;
-1. Then click on **Save Draft** button to save the record;
-1. A dialog box will pop-up prompting you to enter the **Record Name** to make it easy to find a draft record later in a long list of records. The name exists locally in the browser storage only and will not be transferred back to the server!
-1. Type the record name then click on the **Save&Close** button;
+<br><br>
+![](/content/screenshots/draft-popup.png)
+<br><br>
 
-To load the draft record:
+To load the draft record later on, open the side menu of your webform and locate the record name in the queue list.  Click on the record name to load it in your web browser.  A message will pop up to notify you that the draft record was loaded on your web browser. 
 
-1. Click on the **Records Queued** icon;
-1. In the sidebar, click on the record that has a little pencil icon;
-1. A notification message will pop up to notify you that the draft record has been loaded on your browser;
-1. Continue filling out the form, then uncheck the **Save as Draft** checkbox when you are done;
-1. Then, finally click on the **Submit** button to upload the record to the server.
+<br><br>
+![](/content/screenshots/draft-record.png)
+<br><br>
+
+You can easily differentiate between draft and finalized records in your queue by looking for the small edit icon next to records that are saved as drafts.  Only draft records can be loaded into your web browser for further edits
+
+<br><br>
+![](/content/screenshots/edit-icon.png)
+<br><br>
+
+Fill out the form as you normally would, then uncheck the **Save as Draft** checkbox when you are done.  Click on the **Submit** button to upload the record to the server.
 
 **NOTE:**
 
-When a record is saved without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available. 
+When a record is submitted without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available.  You will not be able to edit the record anymore. 
 
 ### ODK Collect
 

@@ -57,9 +57,9 @@ Enketo is a lightweight web application that is used for data entry in Ona. Enke
 
 Enketo has the following key features:
 
-* **Offline capable** - Has the ability to enter data in a browser without an Internet connection. After a form has been opened once online, a copy is kept inside the browser. You can bookmark a form and from then onwards access it whether offline or online. Enketo also safely stores entered data in the browser and uploads records automatically when the user is connected to the Internet. Your data is deleted from the browser after a successful upload. You can safely close the browser or laptop and work for weeks (or months) without an Internet connection!
-* **Print-friendly forms** - Enketo can automatically generate a print-friendly version of each form for old-fashioned collection by paper and pen without the need to maintain a separate print-version of the form.
-* **Low technical requirements** - You only need a modern browser to run. You can easily deploy Enketo very quickly on any laptop or desktop and also it's quite usable on mobile devices as well.
+* **Offline capable** - Enketo webforms can be filled with data and saved without an Internet connection. Once a webform is  opened online for the first time, a copy of the webform is stored inside the web browser. The user can bookmark the webform, and from then onwards be able to access it with or without an Internet connection. Data that is entered while in offline mode is safely stored in the web browser until the user is able to connect to the Internet and upload the records later on. Users can safely close their web browser or computer without it affecting their saved data.  Your data is deleted from the web browser only after the record is successfully submitted to the server. 
+* **Print-friendly forms** - Enketo can automatically generate a print-friendly version of each form for traditional data collection with paper and pen, without the need to maintain a separate paper version of the form.
+* **Low technical requirements** - The only requirement to use Enketo is access to a modern web browser. One can deploy Enketo webforms easily and quickly on any laptop, computer or smart mobile device.
 
 ##### <a name="loading-webform"></a>Loading a Web form/Enketo form
 

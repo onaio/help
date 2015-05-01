@@ -40,6 +40,11 @@ There are two options that one can use on Ona for data collection namely: **[Enk
 
 Enketo Smart Paper works on any modern web browser while ODK Collect is a native Android application needs Android devices for the actual collection of data in the field
 
+<br><br>
+![](/content/screenshots/enketo-logo.png)
+![](/content/screenshots/odk-logo.png)
+<br><br>
+
 ##### <a name="why-use-each"></a>Why use each
 
 Ona has been integrated with Enketo and one has the option to use both ODK Collect and Enketo Smart Paper. Both tools use the same form format, you can use the same XLSForm on both tools. 
@@ -67,22 +72,41 @@ Once you have successfully [added a form](Uploading forms) to your Project on On
 
 From the list of **Forms** in your Project, select the **Webform** icon next to the name of the form you wish to open.
 
-You can also open the webform at any time from the form data page as well.
+<br><br>
+![](/content/screenshots/webform-button-1.jpg)
+<br><br>
 
+You can also open the webform at any time from the form data page.
 
-The webform will open in a separate browser tab.
+<br><br>
+![](/content/screenshots/webform-button-2.png)
+<br><br>
 
+The webform will open in a new browser tab.
 
-1. If this is the first time you are opening the form, make sure you bookmark it for easy offline access. ;
-1. An icon at the top left of the form can be seen as shown in the image below. The icon signifies that the form is succesfully installed in the browser and ready for offline use;
-1. Fill out your Web form;
-1. Click on the **Submit** button at the bottom of the form when you are done. The records will be automatically stored and queued on your computer until an Internet connection is available. When the application is online, records will be automatically submitted - one by one.
+<br><br>
+![](/content/screenshots/tutorial-xlsform.png)
+<br><br>
+
+If this is the first time you are opening the form, make sure you bookmark it for easy offline access.  In Chrome, you can do this by going to the Bookmarks menu and selecting Bookmark This Page... 
+
+<br><br>
+![](/content/screenshots/bookmark.png)
+<br><br>
+
+When you're ready, start entering data into the webform.  When you reach the end of the webform, click on the **Submit** button to save your form and submit it to the server.  If you do not have an Internet connection at the time, the form will be saved and queued in the web browser and uploaded automatically when an internet connection is available.  If there is more than one record queued for submission in the web browser, the records will be submitted automatically, one by one, when an internet connection is available.
+
+<br><br>
+![](/content/screenshots/submit.png)
+<br><br>
 
 ##### <a name="queued-records"></a>Queued records
 
-These are the records that are stored inside your browser (even if you turn off your computer or go offline) until they have been uploaded to the server. 
+These are the records that are stored inside your web browser until they can be uploaded to the server.  They remain there even if you go offline or if you shut down your computer or laptop.  
 
-Queued records can be seen on the form's side bar with a list of records and their upload status. 
+It is highly recommended, however, that you do submit or export your saved form records as soon as they are finalized.  If your browser data is cleared before you are able to submit or export your saved records, you risk losing your data.  Be especially cognizant of this if you are not using a personal laptop or computer, as many public desktops have pre-installed software that intermittently clears website and browsing data from the computer, which would erase any saved records you have stored in the web browser.    
+
+Queued records can be seen on the webform's side bar with a list of records and their upload status. 
  
  To reveal the queued records:
  
@@ -97,6 +121,12 @@ To force an upload in between automatic attempts, click **Upload** as shown belo
  
 
 ##### <a name="saving-drafts"></a>Saving drafts
+
+If you are not ready to submit your form, you can save the form as a draft that you can open and edit later.  To do this, check the **Save as Draft** option before clicking the **Submit** button.  The record will be  
+
+<br><br>
+![](/content/screenshots/save-button.png)
+<br><br>
 
 You can **Save records as Draft** then continue filling them at a later time. To mark a record as draft:
 

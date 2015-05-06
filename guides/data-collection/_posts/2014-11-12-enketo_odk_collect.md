@@ -17,7 +17,7 @@ categories: [topics, going-mobile]
 * ##### ODK Collect
 * [Installing ODK Collect](#install-odk-collect)
 * [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona)
-* [Downloading forms to your phone](#downloading-forms-forms-to-your-forms)
+* [Downloading forms to your phone](#downloading-forms)
 * [Fill Blank Forms](#fill-blank-forms)
 * [Edit Saved Forms](#edit-saved-forms)
 * [Send Finalized Form](#send-finalized-form)
@@ -200,19 +200,30 @@ After installing ODK Collect, the next step is to configure the application to y
 ![](/content/screenshots/user-pass.png)
 <br><br>
 
-##### <a name="downloading-forms-forms-to-your-forms"></a>Downloading forms to your phone
+##### <a name="downloading-forms"></a>Downloading forms to your phone
 
-After configuring your mobile device with the correct server settings, you can now download XLSForms from the Ona server. 
+After configuring ODK Collect to your Ona account, you can now download forms to your phone. 
+
 Make sure you have internet connection before proceeding with the following steps! 
+
+1. Confirm you have the correct server configuration (as explained in [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona). 
+1. Go back to ODK Collect’s **Main Menu** and click on **Get Blank Form**;
+
+<br><br>
+![](/content/screenshots/.png)
 <br><br>
 
-1. Open **ODK Collect**.
-1. Confirm you have the correct server url (as explained in the [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona). 
-1. Go back to the ODK Collect’s **Main Menu** and click on **Get Blank Form**;
-1. All the published forms on your Ona account will be displayed;
-1. Tap on the checkbox to select the form you are interested in. There is no limit to the number of forms you can select, you can select more than one form;
-1. Then, tap on **Get Selected** to download the form(s) to your device;
-1. The download result will pop-up to show if the form(s) was successfully downloaded, as illustrated in the image below:
+1. All of the published and *active* forms from your Ona account will be displayed.  Tap on the checkbox next to the form(s) you want to download, then tap on **Get Selected** to download the form(s) to your device;
+
+<br><br>
+![](/content/screenshots/.png)
+<br><br>
+
+1. The download result will pop-up in a window.  Click **OK**. You're ready to start collecting data!
+
+<br><br>
+![](/content/screenshots/.png)
+<br><br>
 
 ##### <a name="fill-blank-forms"></a>Fill Blank Forms
 

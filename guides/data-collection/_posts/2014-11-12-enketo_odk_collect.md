@@ -15,7 +15,7 @@ categories: [topics, going-mobile]
 * [Queued records](queued-records)
 * [Saving drafts](#saving-drafts)
 * ##### ODK Collect
-* [Install ODK Collect](#install-odk-collect)
+* [Installing ODK Collect](#install-odk-collect)
 * [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona)
 * [Downloading forms to your phone](#downloading-forms-forms-to-your-forms)
 * [Fill Blank Forms](#fill-blank-forms)
@@ -159,24 +159,26 @@ Fill out the form as you normally would, then uncheck the **Save as Draft** chec
 
 **NOTE:**
 
-When a record is submitted without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available.  You will not be able to edit the record anymore. 
+When you click **Submit** on a record without marking it as a 'draft', it is considered final and is cleared for uploading as soon as a connection is available.  You will not be able to edit the unsubmitted record anymore. 
 
 ### ODK Collect
 
-**Open Data Kit (ODK)** is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.
+[Open Data Kit (ODK)](https://opendatakit.org/) is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.
 
-ODK Collect is used to collect the data on a mobile device and send it to an aggregate server such as [Ona](https://beta.ona.io/).
+[ODK Collect](https://opendatakit.org/use/collect/) is a smartphone application that is used to collect data and send it to an aggregate server such as [Ona](https://beta.ona.io/).  ODK Collect can be installed on any Android smartphone or tablet.
 
-Ona being a mobile data collection tool uses ODK Collect to download already designed surveys and allow submission of the finalized forms back to Ona. For one to be able to use ODK collect, they need to install the application on an Android device.
+Ona users can download their forms from Ona onto ODK Collect and allow form submissions from ODK Collect back to Ona. 
 
-##### <a name="install-odk-collect"></a>Install ODK Collect
+##### <a name="install-odk-collect"></a>Installing ODK Collect
 
-Below are steps that can be followed to install ODK collect:
+ODK Collect is an Android application that anyone can access and install for free from the [Google Play Store](https://play.google.com/store?hl=en).  On your Android smartphone or tablet, open your _Play Store_ application and search for the [latest version of ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en).  Tap on the **Install** button, then tap **Accept** to start the download and installation.
 
-1. On your Android device, go to _Google Play Store_ and search for the latest version of ODK Collect; 
-1. Tap, **Install**;
-1. Tap **Accept**,  to start the download;
-1. You can drag the ODK Collect application to your **Home Screen**, its icon is shown in the figure below:
+<br><br>
+![](/content/screenshots/install-odk.png)
+<br><br>
+
+Once installed, you can drag the ODK Collect app to your **Home Screen**; its icon looks like this:
+
 
 ##### <a name="configure-odk-collect-with-ona"></a>Configuring ODK Collect with your Ona account
 

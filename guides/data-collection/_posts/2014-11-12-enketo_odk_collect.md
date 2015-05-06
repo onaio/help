@@ -210,35 +210,50 @@ Make sure you have internet connection before proceeding with the following step
 1. Go back to ODK Collect’s **Main Menu** and click on **Get Blank Form**;
 
 <br><br>
-![](/content/screenshots/.png)
+![](/content/screenshots/odk-get.png)
 <br><br>
 
 1. All of the published and *active* forms from your Ona account will be displayed.  Tap on the checkbox next to the form(s) you want to download, then tap on **Get Selected** to download the form(s) to your device;
 
 <br><br>
-![](/content/screenshots/.png)
+![](/content/screenshots/get-select.png)
 <br><br>
 
-1. The download result will pop-up in a window.  Click **OK**. You're ready to start collecting data!
+1. The download result will pop up in a window.  Click **OK**. You're ready to start collecting data!
 
 <br><br>
-![](/content/screenshots/.png)
+![](/content/screenshots/download-result.png)
 <br><br>
 
 ##### <a name="fill-blank-forms"></a>Fill Blank Forms
 
-Now that you have the form(s) on your device, you're ready to start collecting data. This section provides a step by step explanation of how to fill forms.
+Once you have downloaded forms to your device, you're ready to start collecting data. 
+
+1. On ODK Collect's main menu, select **Fill Blank Form**;
+
+<br><br>
+![](/content/screenshots/odk-fill.png)
 <br><br>
 
-1. Go back to ODK Collect’s **Main Menu**;
-1. Select **Fill Blank Form**;
-1. Select the form you are interested in to fill out the form, to choose a form, touch the form title e.g touch **Employee Expense Report**, to select the tutorial xlsform
-1. Swipe the screen to go forward;
-1. Fill out the XLSForm to the end, navigate by swiping the screen to go backward and forward;
-1. At the end of the form, type the title of the form, under **Name this form**;
-1. Make sure you tap on the checkbox to **Mark the form as finalized**. The form must be marked as 
- finalized to be sent to the server!
-1. Then, tap on **Save Form and Exit**. 
+1. You will see a list of the forms downloaded to your device.  Tap on the name of the form you want to fill out to launch the form (hint: if you have more than one form with the same name, use the **version number** underneath the form name to help you decide which version to open);
+
+<br><br>
+![](/content/screenshots/tutorial-xls.png)
+<br><br>
+
+1. The first screen of every form reminds you how to swipe the screen forward and backward to move through the form;
+
+<br><br>
+![](/content/screenshots/swipe.png)
+<br><br>
+
+1. You'll see the screen below when you reach the end of the form.  If you are finished editing the form, check the box that says **Mark form as finalized**.  This makes the form final and ready to be submitted to the server.  Forms can *only* be submitted to the server if this box is checked!  If you want to be able to edit the form later, leave this option unchecked.  This will save a draft of the form in ODK Collect, which you can edit later.  You also have the option to **Name this form**.  By default, the name that appears is the title of the form.  You can change the name of the form by tapping in the text box and updating the name.  This option is particularly helpful if you are saving multiple form records and want to name them differently to be able to distinguish them later on (note: the name you enter does not get submitted with the form). 
+
+<br><br>
+![](/content/screenshots/form-end.png)
+<br><br>
+
+Once you are finished, tap on **Save Form and Exit**. 
 
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
 

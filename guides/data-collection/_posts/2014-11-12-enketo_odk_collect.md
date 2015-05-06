@@ -257,23 +257,39 @@ Once you are finished, tap on **Save Form and Exit**.
 
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
 
-You are able to edit saved forms only if you saved the form or if you marked the form as finalized and not sent it to the server.
-To access the saved form:	 
+Forms that are not marked as finalized are saved as drafts in the **Edit Saved Form** menu in ODK Collect.  From the home screen in ODK Collect, you can see the number of saved draft forms in parentheses.  
 
-1. Go to ODK Collect’s **Main Menu**;
-1. Tap on **Edit Saved Form**, you will notice that the number of saved forms is indicated as shown in the image below:
-1. Find the form you were working on by time or name, review your answers before continuing with the survey;
+<br><br>
+![](/content/screenshots/odk-edit.png)
+<br><br>
+
+Tap on **Edit Saved Form**.  You'll see a list of your saved draft forms.  You will also see any forms that were marked as finalized, but not yet submitted to the server.  Tap on the name of the form you want to edit.  Once you are finished editing your form, you again have the option to mark the form as finalized before pressing **Save Form and Exit**.
 
 ##### <a name="send-finalized-form"></a>Send Finalized Form
 
-After filling out your form and editing it to make sure that the data is accurate you need to submit it to your account. 
+Forms that are marked as finalized appear in the **Send Finalized Form** menu in ODK Collect (note: forms marked as finalized can still be edited from the **Edit Saved Form** menu up until they are successfully submitted to the server).
 
-In ODK Collect’s **Main Menu**:
+Once you have established an internet connection and are ready to submit your form to the server, tap on **Send Finalized Form** from the ODK Collect main menu.
 
-1. Tap on **Send Finalized Form**;
-1. Select the form(s) you filled out;
-1. Tap on **Send Selected** to submit the form to Ona;
-1. Upload results will pop-up to show if the form has been successfully uploaded to the server as shown in the image below:
+<br><br>
+![](/content/screenshots/odk-send.png)
+<br><br>
+
+Check the form(s) you are ready to submit to the server and tap on the **Send Selected** button.
+
+<br><br>
+![](/content/screenshots/send-selected.png)
+<br><br>
+
+Upload results will pop-up in a window to show if the form has been successfully uploaded to the server.
+
+<br><br>
+![](/content/screenshots/send-result.png)
+<br><br>
+
+**Note**
+
+If you are having difficulties submitting your forms to the server, check your internet connection.  For persistent connectivity problems, consider using **ODK Briefcase**, which can be used to extract form submissions from a mobile device without an internet connection.
 
 ##### <a name="delete-forms"></a>Delete Forms
 

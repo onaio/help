@@ -293,38 +293,49 @@ If you are having difficulties submitting your forms to the server, check your i
 
 ##### <a name="delete-forms"></a>Delete Forms
 
-You can delete both saved and blank forms from your mobile device if you **no longer need them**. To delete forms;
+Deleting forms is done through the **Delete Saved Form** menu in ODK Collect.
 
-On ODK Collect’s Main Menu:
+<br><br>
+![](/content/screenshots/odk-delete.png)
+<br><br>
 
-1. Select **Delete Saved Form**;
-1. You will see two tabs, **SAVED FORMS** and **BLANK FORMS**;
-1. To delete blank forms, tap on the select **BLANK FORMS** tab and select the form you would like to delete by touching on the check box next to name of the form(s) or tap on **Toggle All** to delete all forms;
-1. Tap on the **Delete Selected** button;
-1. A dialog box will pop up prompting you to confirm deletion, tap **Delete Forms** to delete the form;
-1. A deletion message will pop-up on the screen to confirm if the form has successfully been deleted as illustrated in the image below;
+On the **Saved Forms** tab, you'll find a list of all forms that were submitted to the server as well as all forms currently saved as a draft in ODK Collect.  To delete each form instance, mark the checkbox next to the name of the form and tap **Delete Selected**.
 
-**NOTE:**
+<br><br>
+![](/content/screenshots/delete-saved.png)
+<br><br>
 
-Once you delete a form, it will no longer be on your phone, you will lose it forever!
+**Note**
 
+Deleting a form only deletes it from the phone; it does not delete the form submission from the server, if it was already submitted.  Be cautious when deleting saved form drafts, as this cannot be undone.  One can distinguish between saved forms and sent forms by reading the **Saved on...** vs. **Sent on...** date underneath the form name.
+
+On the **Blank Forms** tab, you'll find a list of all blank forms currently downloaded on your phone.  To delete a blank form instance, mark the checkbox next to the name of the form and tap **Delete Selected**.
+
+<br><br>
+![](/content/screenshots/delete-blank.png)
+<br><br>
+
+A dialog box will pop up prompting you to confirm deletion; tap **Delete Forms** to continue.  
+
+**Hint:** 
+
+It's a good idea to delete an older version of a form before downloading a new version of the same form to your phone.  This will help prevent users from opening and entering data in the wrong version of the form.
 
 ### Tips on using ODK Collect
 
-There are a few features on ODK Collect that can help make your work easier. They include: auto sending of finalized forms, switching between swipes and forward/backward buttons for navigation and bulk configuration of devices.
+ODK Collect has a number of user settings that can be adjusted to better meet the context and needs of a project or simply a data collector's personal preference.  While this list is by no means exhaustive, we've found that the following features have been very useful for our users.
 
 ##### <a name="auto-sending-of-finalized-forms"></a>Auto-sending of finalized forms
 
-This feature enables you to automatically send finalized forms to the server hence ensuring that you data is immediately available for reports. The feature works even while ODK Collect is not running.
+This feature enables you to automatically send finalized forms to the server as soon as there is an internet connection.  This feature works even if you're not currently using ODK Collect.
 
-Once enabled, auto send will send all finalized forms whenever any form is saved and finalized. It will also try to send finalized forms whenever a Wi-Fi or cellphone network connection becomes available.
+Once enabled, auto-send will attempt to send forms to the server automatically once they are marked as finalized and saved, essentially allowing the user to bypass sending the forms manually through the **Send Finalized Form** menu.  If there is no internet connection, ODK Collect will retry sending the form at intervals until it succeeds.    
 
-To enable auto send:
+To enable the auto-send feature, go to **General Settings** in the ODK Collect main menu.  Under the **AUTO SEND** section, you can choose to **Auto send with Wi-Fi** and/or **Auto send with network**.  
 
-1. Go to the ODK Collect’s **Main Menu**;
-1. Tap on the menu button;
-1. Select **General Settings**;
-1. Scroll to the **AUTO SEND** section and choose to **Auto send with Wi-Fi** or **Auto send with network or both**;
+<br><br>
+![](/content/screenshots/.png)
+<br><br>
 
 ##### <a name="navigation-settings"></a>Navigation settings
 

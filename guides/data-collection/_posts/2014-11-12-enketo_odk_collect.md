@@ -1,9 +1,12 @@
 ---
-layout: guide-view
+layout: "guide-view"
 guide_name: Data Collection
-title: "Using Enketo &amp; ODK Collect"
-permalink: /guides/data-collection
-categories: [topics, going-mobile]
+title: "Using Enketo & ODK Collect"
+permalink: "/guides/data-collection"
+categories: 
+  - topics
+  - "going-mobile"
+published: true
 ---
 
 * ##### Enketo vs. ODK Collect
@@ -11,7 +14,7 @@ categories: [topics, going-mobile]
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
-* [Loading a Web form](#loading-webform)
+* [Loading a Web form](#opening-webform)
 * [Queued records](queued-records)
 * [Saving drafts](#saving-drafts)
 * ##### ODK Collect
@@ -36,10 +39,13 @@ Enketo Smart Paper works on any modern web browser while ODK Collect is a native
 
 Ona has been integrated with Enketo and one has the option to use both ODK Collect and Enketo Smart Paper. Both tools use the same form format, you can use the same XLSForm on both tools. 
 
+Enketo and ODK Collect can work in tandem, meaning that a single form can be deployed at the same time with Enketo and ODK Collect; there is no need to author separate forms for each.  This guide walks you through the steps for collecting data in both Enketo and ODK Collect.  Whether you use Enketo or ODK Collect (or both) is primarily based on your data collection and user needs.  
+
 ##### <a name="collecting-data-offline"></a>Collecting data offline
 
 You can be able to launch and save data offline on both tools. This means that both Enketo and ODK Collect can be launched without Internet connection and maintain their core functionality whilst offline.
 
+Both Enketo and ODK Collect work offline, meaning that users can launch forms and collect and save their data without an internet or data connection.
 
 ### Using Enketo
 
@@ -53,12 +59,7 @@ Enketo has the following key features:
 * **Print-friendly forms** - Enketo can automatically generate a print-friendly version of each form for traditional data collection with paper and pen, without the need to maintain a separate paper version of the form.
 * **Low technical requirements** - The only requirement to use Enketo is access to a modern web browser. One can deploy Enketo webforms easily and quickly on any laptop, computer or smart mobile device.
 
-<<<<<<< HEAD
-##### <a name="loading-webform"></a>Loading a Web form/Enketo form
-
-Once you have [added and published your form](Uploading forms) to your Project you can load the webform. To load a Web form on your web browser follow the following simple steps;
-=======
-##### <a name="loading-webform"></a>Opening an Enketo webform
+##### <a name="opening-webform"></a>Opening an Enketo webform
 
 Once you have successfully [added a form](Uploading forms) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
 
@@ -77,7 +78,6 @@ The webform will open in a new browser tab.
 
 ![](/content/screenshots/tutorial-xlsform.png)
 <br><br>
->>>>>>> 0661a3c... SM: Added content; closes #37, #42,#44
 
 1. From the list of **Forms** on your Project, select the **Webform** icon of a specific form;
 1. The web form will be launched as shown in the screen shot below: 
@@ -262,8 +262,3 @@ This feature makes it easier to configure ODK Collect on many devices. Instead o
 1. Select **Admin Settings**;
 1. Tap the menu button again, a dialog box will pop-up as illustrated in the image below;
 1. Tap **Save Settings to Disk**, this will save your general and admin settings to the **_/odk/settings/collect.settings_**;
-
-
-
-
-

@@ -13,15 +13,18 @@ If you forgot your password, click on the [Click here to reset it](https://beta.
 
 ![](/content/screenshots/faq_reset_password_link.png)
 
-You will be directed to enter your email address to receive a password reset link. Enter the email address you used when you created your Ona account.
+You will be directed to enter your email address to receive a password reset link. Enter the email address you used when you created your Ona account. 
 
 ![](/content/screenshots/faq_reset_your_password_email.png)
 
-You will receive a reset password email, follow the link in the email to reset your password. 
+You will receive a reset password email, this email should be recieved immediately. Follow the link in the email to reset your password. 
 
-### If you forget both username and password
+### If you're receiving the password reset email
 
-Contact support@ona.io and provide the email address you used to register the account, and we will email the account username.
+If you're not receiving the password reset email, it's possible that the email is going in your spam filter or that you used a different email address to sign up for Ona. To get your password reset email:
 
-If you forgot both your username and password, contact support@ona.io and provide the email address you used to register the account, and we will email the account username. You can then follow the **Click here to reset it** link on the sign in page to reset your password.  .
+* Search for the email. If it is not in your inbox check all your folders, search in the Spam, Junk, Trash or Archive folders.
+* Get in touch with your email service provider to make sure that you're able to get emails from **noreply+ona.io@ona.io**.
+* Make sure you are checking the correct email address. The email account was used to sign up for an Ona account.
+
 

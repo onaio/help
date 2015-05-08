@@ -26,14 +26,6 @@ categories: [topics, going-mobile]
 * [auto sending of finalized forms](#auto-sending-of-finalized-forms)
 * [navigation-settings](#navigation-settings)
 * [bulk configuration of devices](#bulk-configuration-of-devices)
-* ##### ODK Briefcase
-* [What is ODK Briefcase?](#what-is-odk-briefcase)
-* [How to install ODK Briefcase](#how-to-install-odk-briefcase)
-* [How to PULL forms with submissions from Ona](#pull-forms-from-ona)
-* [Get data off your mobile devices and do bulk submissions to Ona](#get-data-off-mobile-devices)
-* [How to make bulk form submissions to Ona - PUSH](#push-using-odk-briefcase)
-
-
 
 
 There are two options that one can use on Ona for data collection namely: **[Enketo Smart Paper](https://enketo.org/)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The two options complement each other and it is recommended to decide on a survey-to-survey basis. There are benefits to using each; but it depends on your data collection needs. 
@@ -61,9 +53,31 @@ Enketo has the following key features:
 * **Print-friendly forms** - Enketo can automatically generate a print-friendly version of each form for traditional data collection with paper and pen, without the need to maintain a separate paper version of the form.
 * **Low technical requirements** - The only requirement to use Enketo is access to a modern web browser. One can deploy Enketo webforms easily and quickly on any laptop, computer or smart mobile device.
 
+<<<<<<< HEAD
 ##### <a name="loading-webform"></a>Loading a Web form/Enketo form
 
 Once you have [added and published your form](Uploading forms) to your Project you can load the webform. To load a Web form on your web browser follow the following simple steps;
+=======
+##### <a name="loading-webform"></a>Opening an Enketo webform
+
+Once you have successfully [added a form](Uploading forms) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
+
+From the list of **Forms** in your Project, select the **Webform** icon next to the name of the form you wish to open.
+
+<br><br>
+![](/content/screenshots/webform-button-1.jpg)
+<br><br>
+
+You can also open the webform at any time from the form data page.
+
+![](/content/screenshots/webform-button-2.png)
+<br><br>
+
+The webform will open in a new browser tab.
+
+![](/content/screenshots/tutorial-xlsform.png)
+<br><br>
+>>>>>>> 0661a3c... SM: Added content; closes #37, #42,#44
 
 1. From the list of **Forms** on your Project, select the **Webform** icon of a specific form;
 1. The web form will be launched as shown in the screen shot below: 
@@ -248,70 +262,6 @@ This feature makes it easier to configure ODK Collect on many devices. Instead o
 1. Select **Admin Settings**;
 1. Tap the menu button again, a dialog box will pop-up as illustrated in the image below;
 1. Tap **Save Settings to Disk**, this will save your general and admin settings to the **_/odk/settings/collect.settings_**;
-
-### ODK Briefcase
-
-##### <a name="what-is-odk-briefcase"></a>What is ODK Briefcase?
-
-ODK Briefcase is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. [Ona](https://beta.ona.io/).  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline.
-
-ODK Briefcase can:
-
-1. Export forms with submissions from Ona or any other ODK Aggregate server - **PULL** 
-1. Make bulk form submissions to Ona and any other ODK Aggregate server - **PUSH**
-1. Export form submission data in CSV format
-1. Pull forms and submissions collected by ODK Collect from a mobile device
-1. Decrypt form submission data: ODK Briefcase is required to decrypt form submission data from ona.io when exporting the data to CSV format.
-
-Encrypted form submission data cannot be viewed on [Ona](https://beta.ona.io/).  Ona stores these form submissions in encrypted format.  In order to view the data, the user must export the submission data using ODK Briefcase and provide the private key while exporting the data in CSV format.
-
-##### <a name="how-to-install-odk-briefcase"></a>How to install ODK Briefcase
-
-1. Java 6 or higher must be installed on your computer. If you do not have Java on your computer, you can download it here: [http://java.com/en/download/index.jsp](http://java.com/en/download/index.jsp).
-1. Once Java is installed, download ODK Briefcase here: [http://opendatakit.org/downloads/download-info/odk-briefcase/](http://opendatakit.org/downloads/download-info/odk-briefcase/).
-
-##### <a name="pull-forms-from-ona"></a>How to PULL forms with submissions from Ona
-
-1. When first starting ODK Briefcase, you will need to specify the location of the ODK Briefcase storage area on your computer.  This will create the ODK Briefcase Storage folder, which will hold all your forms and submission data;
-1. On the tab **Pull**, click on the bar to the right of **Pull data from**, and choose **Aggregate 1.0**;
-1. Click on **Connect** to pull data from the **Aggregate server**;
-1. In the new window that opens, specify the url for the Ona account, along with the **username** and **password** to the account. Then, click on the **Connect** button;
-1. In the main window, add a check to the form(s) you wish to download;
-1. Click on the **Pull** button at the bottom right of the window;
-1. Wait until you see the **SUCCESS!** message under the **Pull status**.	
-
-##### <a name="get-data-off-mobile-devices"></a>Get data off your mobile devices and do bulk submissions to Ona
-
-ODK Briefcase can also be used to pull data from ODK Collect from your mobile device and then push to Ona.  This is especially useful for users who are unable to make form submissions directly to Ona due to slow or lack of internet connectivity on their mobile device.
-
-Before going through the steps below, please ensure that all forms on the mobile device are finalized; this is due to the fact that ODK Briefcase does not discriminate between incomplete and finalized forms when pulling form submissions from ODK Collect.  Steps 3-5, below, are slightly different for Android 4.x and Android 2.x (or earlier) devices. 
-
-1. Switch your Android device off and then on; this ensures that your device only shows the current set of files;
-1. Mount your mobile device to your computer using the USB cable;
-1. For Android 4.x devices, copy the entire **odk** directory from the mounted MTP/Android device to a local hard drive.  For Mac OS/X, use Android File Transfer.  For Windows, drag-and-drop the entire **odk** directory into a folder on your PC;
-1. Open ODK Briefcase.  On the **Pull** tab, click on the drop down menu to the right of **Pull data** from and choose **Custom Path to ODK Directory** (for Android 4.x devices) or **Mounted Android SD Card** (for Android 2.x (or earlier) devices);
-1. Click on the **Choose** button.  In the window that opens, select either the **odk** folder that was copied onto your local hard drive (Android 4.x devices) or the mounted SD card (Android 2.x or earlier devices);
-1. In the main window, tick off the check box next to the form(s) you want to pull; 
-1. Click the **Pull** button at the bottom right of the window.  The form submissions that were copied off of the device will be loaded into the ODK Briefcase storage location;
-1. Wait until you see the **SUCCESS!** message for the form(s) you pulled;
-1. Confirm that the form submissions have been successfully pulled by locating them within the **instances** directory inside the ODK Briefcase Storage folder (e.g., **_ODK Briefcase Storage/forms/Tutorial XLSForm 2/instances_**);
-1. Once you have verified that the form submissions have been successfully transferred, you can [delete the forms](#delete-forms) in ODK Collect to prevent duplicate form submissions.
-
-##### <a name="push-using-odk-briefcase"></a>How to make bulk form submissions to Ona - PUSH
-
-Once form submissions have been pulled from an ODK Aggregate server or from a mobile device’s ODK Collect application, ODK Briefcase can be used to **Push** these submissions to the Ona server.
-
-1. In the ODK Briefcase application, click on the **Push** tab;
-1. Then, click on the drop down to the right of **Push data to** and **choose Aggregate 1.0**;
-1. Click on the **Connect** button;
-1. A dialog box will pop up; enter the server details, i.e., your Ona account **url**, **username** and **password**, then click on the **Connect** button;
-1. In the main window, check the box next to the form submission(s) you want to push to Ona;
-1. Click on the **Push** button at the bottom right of the window and the data will be submitted to the Ona server;	
-1. Wait until you see the **Successful upload!** message in the **Pull Status** section on the application;
-
-**NOTE:**
-
-If the form already exists in the Ona account that you are pushing data to, then the form publishing will fail but the data submission will pass, and the **Push Status** in this case will be **Partially successful!**
 
 
 

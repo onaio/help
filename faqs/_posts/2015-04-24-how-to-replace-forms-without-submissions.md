@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "How do I replace forms?"
-permalink: /faq/replacing-forms
+permalink: /faq/replacing-forms-without-submissions
 category: faq
 ---
 
-### Replacing forms
+### Replacing forms without submissions
 
 Forms uploaded to your Ona account can be replaced using the Replace Form option in the form’s dropdown menu.  Below are the steps to follow to replace a form in your Ona account.  
 

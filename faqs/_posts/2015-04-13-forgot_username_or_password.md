@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "I forgot my username and/or password. What should I do?"
-permalink: /faq/forgot-username-or-password
+permalink: "/faq/forgot-username-or-password"
 category: faq
+published: true
 ---
 
 ### How to reset your password
@@ -19,12 +20,10 @@ You will be directed to enter your email address to receive a password reset lin
 
 You will receive a reset password email, this email should be recieved immediately. Follow the link in the email to reset your password. 
 
-### If you're receiving the password reset email
+### If you're not receiving the password reset email
 
 If you're not receiving the password reset email, it's possible that the email is going in your spam filter or that you used a different email address to sign up for Ona. To get your password reset email:
 
 * Search for the email. If it is not in your inbox check all your folders, search in the Spam, Junk, Trash or Archive folders.
 * Get in touch with your email service provider to make sure that you're able to get emails from **noreply+ona.io@ona.io**.
 * Make sure you are checking the correct email address. The email account was used to sign up for an Ona account.
-
-

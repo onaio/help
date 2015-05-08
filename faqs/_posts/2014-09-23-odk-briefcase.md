@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "How do I use ODK Briefcase?"
-permalink: /faq/odk-briefcase
+permalink: "/faq/odk-briefcase"
 category: faq
+published: true
 ---
 
 ### <span id="odk-briefcase"></span>What is ODK Briefcase?
@@ -32,10 +33,9 @@ Encrypted form submission data cannot be viewed on ona.io.  Ona stores these for
 1. When first starting ODK Briefcase, you will need to specify the location of the ODK Briefcase storage area on your computer.  This will create the ODK Briefcase Storage folder, which will hold all your forms and submission data;
 <br><br>
 ![](/content/screenshots/faq_odk_briefcase_01.png)
-<hr>
-<br>
+<br><br>
 1. On the tab **Pull**, click on the bar to the right of **Pull data from**, and choose Aggregate 1.0;
-<br>
+<br><br>
 ![](/content/screenshots/faq_odk_briefcase_02.png)
 <br><br>
 1. Click on **Connect** to pull data from the **Aggregate server**;
@@ -53,9 +53,11 @@ Encrypted form submission data cannot be viewed on ona.io.  Ona stores these for
 1. Click on the **Pull** button at the bottom right of the window;
 <br><br>
 ![](/content/screenshots/faq_odk_briefcase_06.png)
+<br><br>
 1. Wait until you see the **SUCCESS!** message under the **Pull status**.
 <br><br>
 ![](/content/screenshots/faq_odk_briefcase_07.png)
+
 
 ### Get data off your mobile devices and do bulk submissions to Ona with ODK Briefcase
 
@@ -87,7 +89,6 @@ Before going through the steps below, please ensure that all forms on the mobile
 ![](/content/screenshots/faq_odk_briefcase_12.png)
 <br><br>
 1. Confirm that the form submissions have been successfully pulled by locating them within the **instances** directory inside the ODK Briefcase Storage folder (e.g., **ODK Briefcase Storage/forms/Tutorial XLSForm 2/instances**).
-<br>
 1. Once you have verified that the form submissions have been successfully transferred, you can delete the forms in ODK Collect to prevent duplicate form submissions.
 
 
@@ -108,7 +109,7 @@ Once form submissions have been pulled from an ODK Aggregate server or from a mo
 ![](/content/screenshots/faq_odk_briefcase_15.png)
 <br><br>
 1. A dialog box will pop up; enter the server details, enter [https://odk.ona.io/YOUR_USERNAME](https://odk.ona.io/YOUR_USERNAME) as the **URL**, along with your Ona account **username** and **password**, then click on the **Connect** button;
-<br>
+<br><br>
 ![](/content/screenshots/faq_odk_briefcase_16.png)
 <br><br>
 1. In the main window, check the box next to the form submission(s) you want to push to Ona;
@@ -136,5 +137,3 @@ If the form already exists in the Ona account that you are pushing data to, then
 #### Android 2.x devices
 
  ![](/content/screenshots/faq_odk_briefcase_21.png)
-
-

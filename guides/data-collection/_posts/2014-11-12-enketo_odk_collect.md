@@ -156,7 +156,7 @@ After configuring your mobile device with the correct server settings, you can n
 Make sure you have internet connection before proceeding with the following steps! 
 <br><br>
 
-1. Open **ODK Collect**.
+1. Open **ODK Collect**;
 1. Confirm you have the correct server url (as explained in the [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona). 
 1. Go back to the ODK Collect’s **Main Menu** and click on **Get Blank Form**;
 1. All the published forms on your Ona account will be displayed;

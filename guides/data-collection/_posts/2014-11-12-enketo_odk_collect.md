@@ -258,5 +258,6 @@ This feature makes it easier to configure ODK Collect on many devices. Instead o
 1. Tap the menu button again, a dialog box will pop-up as illustrated in the image below;
 1. Tap **Save Settings to Disk**, this will save your general and admin settings to the **_/odk/settings/collect.settings_**;
 1. Copy the settings file;  **/odk/settings/collect.settings** to **/odk/collect.settings** of any other device running ODK Collect; 
+
 When you re-launch ODK Collect, it will automatically load those settings, and delete that file.
 

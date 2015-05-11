@@ -13,7 +13,7 @@ published: true
 * [Collecting data offline](#collecting-data-offline)
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
-* [Loading a Web form](#opening-webform)
+* [Opening an Enketo form](#opening-webform)
 * [Queued records](queued-records)
 * [Saving drafts](#saving-drafts)
 * ##### ODK Collect
@@ -54,7 +54,7 @@ Enketo has the following key features:
 
 * **Low technical requirements** - The only requirement to use Enketo is access to a modern web browser. One can deploy Enketo webforms easily and quickly on any laptop, computer or smart mobile device.
 
-##### <a name="opening-webform"></a>Opening an Enketo webform
+##### <a name="opening-webform"></a>Opening an Enketo form
 
 Once you have successfully [added a form](Uploading forms) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
 
@@ -257,3 +257,6 @@ This feature makes it easier to configure ODK Collect on many devices. Instead o
 1. Select **Admin Settings**;
 1. Tap the menu button again, a dialog box will pop-up as illustrated in the image below;
 1. Tap **Save Settings to Disk**, this will save your general and admin settings to the **_/odk/settings/collect.settings_**;
+1. Copy the settings file;  **/odk/settings/collect.settings** to **/odk/collect.settings** of any other device running ODK Collect; 
+When you re-launch ODK Collect, it will automatically load those settings, and delete that file.
+

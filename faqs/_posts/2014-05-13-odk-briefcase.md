@@ -3,7 +3,6 @@ layout: post
 title: "How do I use ODK Briefcase?"
 permalink: "/faq/odk-briefcase"
 category: faq
-published: true
 ---
 
 ### <span id="odk-briefcase"></span>What is ODK Briefcase?

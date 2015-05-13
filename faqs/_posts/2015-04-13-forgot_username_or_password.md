@@ -12,11 +12,11 @@ Your username and password are case-sensitive.
 
 If you forgot your password, click on the [Click here to reset it](https://beta.ona.io/request-password-reset) link on the sign in page. 
 
-![](/content/screenshots/faq_reset_password_link.png)
+![](/content/screenshots/faq/faq_reset_password_link.png)
 
 You will be directed to enter your email address to receive a password reset link. Enter the email address you used when you created your Ona account. 
 
-![](/content/screenshots/faq_reset_your_password_email.png)
+![](/content/screenshots/faq/faq_reset_your_password_email.png)
 
 You will receive a reset password email, this email should be recieved immediately. Follow the link in the email to reset your password. 
 

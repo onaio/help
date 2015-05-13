@@ -11,19 +11,19 @@ Using **Import CSV** to upload data is a great way to add form records in bulk u
 
 2. Download a CSV of the data using the download CSV dropdown option on the data view page.
 
-    <img src="/content/screenshots/faq_upload_csv_01.png" width="568px" style="border: 1px solid #cccccc;">
+    <img src="/content/screenshots/faq/faq_upload_csv_01.png" width="568px" style="border: 1px solid #cccccc;">
 
 3. Use a spreadsheet software to delete the sample submission and add new data. Each submission should go into a new row. We recommend Google Sheets because it supports UTF-8 encoding/characters, which is required when you upload the file back to Ona. UTF-8 encoded CSVs support special characters (umlaut, grave accent, acute accent, etc) found in non-English languages i.e. French or Spanish.
 
 
 4.  When you are done with edits, save the file as a UTF-8 encoded CSV. Microsoft Excel does not currently support this. However, there is a [manual workaround](https://help.salesforce.com/apex/HTViewSolution?id=000003837&language=en_US). To download a UTF-8 encoded CSV from Google Sheets, go to File-> Download as->Comma-separated values:
 
-    <img src="/content/screenshots/faq_upload_csv_03.png" width="500px" style="border: 1px solid #cccccc;">
+    <img src="/content/screenshots/faq/faq_upload_csv_03.png" width="500px" style="border: 1px solid #cccccc;">
 
 
 5. Before uploading, delete the sample submission on the Ona website because Import CSV only works with empty forms. Go to the table data view, double-click the row to open the submission view, and click Delete. After deleting the submission, upload the file to the Import CSV section of the Details tab of your form data view.
 
-    <img src="/content/screenshots/faq_upload_csv_02.png" width="568px" style="border: 1px solid #cccccc;">
+    <img src="/content/screenshots/faq/faq_upload_csv_02.png" width="568px" style="border: 1px solid #cccccc;">
 
 After uploading, your data will update. You may need to reload the page to see changes to the data.
 

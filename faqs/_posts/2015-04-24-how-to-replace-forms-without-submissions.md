@@ -16,19 +16,19 @@ To Replace an existing form:
 1. Locate the form you would like to replace on your project page;
 1. Click on the dropdown menu next to the form and select **Replace form**;
 <br><br>
-![](/content/screenshots/faq_replace_form_1.png)
+![](/content/screenshots/faq/faq_replace_form_1.png)
 
 1. Choose the updated form you want to upload and click on the **Upload selected file** button;
 <br><br>
-![](/content/screenshots/faq_replace_form_2.png)
+![](/content/screenshots/faq/faq_replace_form_2.png)
 <br><br>
 1. If the upload is successful, you’ll see the message below;
 <br><br>
-![](/content/screenshots/faq_replace_form_3.png)
+![](/content/screenshots/faq/faq_replace_form_3.png)
 <br><br>
 1. Finally, click on the **Done** button;
 <br><br>
-![](/content/screenshots/faq_replace_form_4.png)
+![](/content/screenshots/faq/faq_replace_form_4.png)
 
 
 

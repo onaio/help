@@ -32,31 +32,31 @@ Encrypted form submission data cannot be viewed on ona.io.  Ona stores these for
 
 1. When first starting ODK Briefcase, you will need to specify the location of the ODK Briefcase storage area on your computer.  This will create the ODK Briefcase Storage folder, which will hold all your forms and submission data;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_01.png)
+![](/content/screenshots/faq/faq_odk_briefcase_01.png)
 <br><br>
 1. On the tab **Pull**, click on the bar to the right of **Pull data from**, and choose Aggregate 1.0;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_02.png)
+![](/content/screenshots/faq/faq_odk_briefcase_02.png)
 <br><br>
 1. Click on **Connect** to pull data from the **Aggregate server**;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_03.png)
+![](/content/screenshots/faq/faq_odk_briefcase_03.png)
 <br><br>
 1. In the new window that opens, enter [https://odk.ona.io/YOUR_USERNAME](https://odk.ona.io/YOUR_USERNAME) as the **URL**, along with your Ona **username** and **password**. Then, click on the **Connect** button,
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_04.png)
+![](/content/screenshots/faq/faq_odk_briefcase_04.png)
 <br><br>
 1. In the main window, add a check to the form(s) you wish to download;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_05.png)
+![](/content/screenshots/faq/faq_odk_briefcase_05.png)
 <br><br>
 1. Click on the **Pull** button at the bottom right of the window;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_06.png)
+![](/content/screenshots/faq/faq_odk_briefcase_06.png)
 <br><br>
 1. Wait until you see the **SUCCESS!** message under the **Pull status**.
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_07.png)
+![](/content/screenshots/faq/faq_odk_briefcase_07.png)
 
 
 ### Get data off your mobile devices and do bulk submissions to Ona with ODK Briefcase
@@ -70,23 +70,23 @@ Before going through the steps below, please ensure that all forms on the mobile
 1. For Android 4.x devices, copy the entire **odk** directory from the mounted MTP/Android device to a local hard drive.  For Mac OS/X, use Android File Transfer.  For Windows, drag-and-drop the entire **odk** directory into a folder on your PC;
 1. Open ODK Briefcase.  On the **Pull** tab, click on the drop down menu to the right of Pull data from and choose **Custom Path to ODK Directory** (for Android 4.x devices) or **Mounted Android SD Card** (for Android 2.x (or earlier) devices).
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_08.png)
+![](/content/screenshots/faq/faq_odk_briefcase_08.png)
 <br><br>
 1. Click on the **Choose** button.  In the window that opens, select either the **odk** folder that was copied onto your local hard drive (Android 4.x devices) or the mounted SD card (Android 2.x or earlier devices).
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_09.png)
+![](/content/screenshots/faq/faq_odk_briefcase_09.png)
 <br><br>
 1. In the main window, tick off the check box next to the form(s) you want to pull;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_10.png)
+![](/content/screenshots/faq/faq_odk_briefcase_10.png)
 <br><br>
 1. Click the **Pull** button at the bottom right of the window.  The form submissions that were copied off of the device will be loaded into the ODK Briefcase storage location;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_11.png)
+![](/content/screenshots/faq/faq_odk_briefcase_11.png)
 <br><br>
 1. Wait until you see the **SUCCESS!** message for the form(s) you pulled;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_12.png)
+![](/content/screenshots/faq/faq_odk_briefcase_12.png)
 <br><br>
 1. Confirm that the form submissions have been successfully pulled by locating them within the **instances** directory inside the ODK Briefcase Storage folder (e.g., **ODK Briefcase Storage/forms/Tutorial XLSForm 2/instances**).
 1. Once you have verified that the form submissions have been successfully transferred, you can delete the forms in ODK Collect to prevent duplicate form submissions.
@@ -98,27 +98,27 @@ Once form submissions have been pulled from an ODK Aggregate server or from a mo
 
 1. In the ODK Briefcase application, click on the **Push** tab;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_13.png)
+![](/content/screenshots/faq/faq_odk_briefcase_13.png)
 <br><br>
 1. Then, click on the drop down to the right of **Push data to** and choose **Aggregate 1.0**;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_14.png)
+![](/content/screenshots/faq/faq_odk_briefcase_14.png)
 <br><br>
 1. Click on the **Connect** button;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_15.png)
+![](/content/screenshots/faq/faq_odk_briefcase_15.png)
 <br><br>
 1. A dialog box will pop up; enter the server details, enter [https://odk.ona.io/YOUR_USERNAME](https://odk.ona.io/YOUR_USERNAME) as the **URL**, along with your Ona account **username** and **password**, then click on the **Connect** button;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_16.png)
+![](/content/screenshots/faq/faq_odk_briefcase_16.png)
 <br><br>
 1. In the main window, check the box next to the form submission(s) you want to push to Ona;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_17.png)
+![](/content/screenshots/faq/faq_odk_briefcase_17.png)
 <br><br>
 1. Click on the **Push** button at the bottom right of the window and the data will be submitted to the Ona server;
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_18.png)
+![](/content/screenshots/faq/faq_odk_briefcase_18.png)
 <br><br>
 1. Wait until you see the **Successful upload!** message in the **Pull Status** section on the application.
 
@@ -126,14 +126,14 @@ Once form submissions have been pulled from an ODK Aggregate server or from a mo
 
 If the form already exists in the Ona account that you are pushing data to, then the form publishing will fail but the data submission will pass, and the **Push Status** in this case will be **Partially successful!**
 <br><br>
-![](/content/screenshots/faq_odk_briefcase_19.png)
+![](/content/screenshots/faq/faq_odk_briefcase_19.png)
 
 ### Difference between pulling from directory and drive
 
 #### Android 4.x devices
 
- ![](/content/screenshots/faq_odk_briefcase_20.png)
+ ![](/content/screenshots/faq/faq_odk_briefcase_20.png)
 
 #### Android 2.x devices
 
- ![](/content/screenshots/faq_odk_briefcase_21.png)
+ ![](/content/screenshots/faq/faq_odk_briefcase_21.png)

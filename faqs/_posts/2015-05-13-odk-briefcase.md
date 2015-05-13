@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do I use ODK Briefcase?"
-permalink: "/faq/odk-briefcase"
+permalink: /faq/odk-briefcase
 category: faq
 ---
 

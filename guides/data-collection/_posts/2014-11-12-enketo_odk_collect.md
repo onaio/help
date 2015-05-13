@@ -208,8 +208,8 @@ Upload results will pop-up in a window to show if the form has been successfully
 ![](/content/screenshots/send-result.png)
 
 >
-**Note**
-If you are having difficulties submitting your forms to the server, check your internet connection. For persistent connectivity problems, consider using **ODK Briefcase**, which can be used to extract form submissions from a mobile device without an internet connection.
+**Note** <br/>
+If you are having difficulties submitting your forms to the server, check your internet connection. For persistent connectivity problems, consider using **[ODK Briefcase](/faq/odk-briefcase)**, which can be used to extract form submissions from a mobile device without an internet connection.
 
 ##### <a name="delete-forms"></a>Delete Forms
 
@@ -222,7 +222,7 @@ On the **Saved Forms** tab, you'll find a list of all forms that were submitted 
 ![](/content/screenshots/delete-saved.png)
 
 >
-**Note**
+**Note** <br/>
 Deleting a form only deletes it from the phone; it does not delete the form submission from the server, if it was already submitted.  Be cautious when deleting saved form drafts, as this cannot be undone.  One can distinguish between saved forms and sent forms by reading the **Saved on...** vs. **Sent on...** date underneath the form name.
 
 On the **Blank Forms** tab, you'll find a list of all blank forms currently downloaded on your phone.  To delete a blank form instance, mark the checkbox next to the name of the form and tap **Delete Selected**.
@@ -236,7 +236,7 @@ A dialog box will pop up prompting you to confirm deletion; tap **Delete Forms**
 It's a good idea to delete an older version of a form before downloading a new version of the same form to your phone.  This will help prevent users from opening and entering data in the wrong version of the form.
 
 >
-**NOTE:**
+**NOTE:** <br/>
 Once you delete a form, it will no longer be on your phone, you will lose it forever!
 
 

@@ -38,6 +38,13 @@ ol li, ul li{
 img{
     max-width:100%;
 }
+blockquote{
+    background:#E9FAFF;
+    border-left:5px solid #AAD6DF;
+    font-size:1em;
+    margin:2em 0;
+}
+
 .form-control{
     border-radius:0;
     padding:0.5em!important;
@@ -200,8 +207,7 @@ h4.link-header{
 }
 .post-area img, .qa-row img{
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    margin:2em auto;
 }
 .post-area img.full-width{
     width:100%;

@@ -9,7 +9,7 @@ The Help Site is a site that contains useful documentation on using the new [Ona
  * [Markdown structure](#structure)
  * [Screenshots](#screenshots)
  
- ### <a name="collecting-data-offline"></a>Setting up GIT
+### <a name="collecting-data-offline"></a>Setting up GIT
  
  The Help site is hosted on Github pages, thus all development goes through the [onaio/help github repository](https://github.com/onaio/help). Install Git and clone the Help site source as explained below:
 
@@ -23,7 +23,7 @@ The Help Site is a site that contains useful documentation on using the new [Ona
  
  To learn Git, refer to the documentation [here](http://git-scm.com/).
  
- ### <a name="setting-up-jekyll"></a>Setting up Jekyll
+### <a name="setting-up-jekyll"></a>Setting up Jekyll
  
 Install the following dependencies to enable jekyll installation. _Installations of each requirement may vary depending on OS_. Programs like [Ruby](https://www.ruby-lang.org/en/downloads/) may already to be installed in MacOS and Linux distributions, with Windows being the exception.
 
@@ -43,15 +43,14 @@ Install the following dependencies to enable jekyll installation. _Installations
  * Go to [http://localhost:4000](http://localhost:4000) on your browser to view the site;
  * You can now edit the changes using a Markdown editor such as [Brackets](http://brackets.io/). 
  
- ### <a name="branches"></a>Creating Branches
+### <a name="branches"></a>Creating Branches
 
 Any documentation that is to be added will be created as an issue on Github. This means that:
 * The branch should be based on issues assigned;
 * Issue number should be at the beginning of branch name and hyphen separations e.g. 34-issue-title-with-hyphen-separators
 * Making pull requests for QA to be done.
 
- 
- ### <a name="documentation-collaboration"></a>Documentation Collaboration
+### <a name="documentation-collaboration"></a>Documentation Collaboration
  
 * Use Google Docs for documentation sections before adding to Markdown. Google doc content should be saved in their specific  guide folder as indicated [here](https://drive.google.com/a/ona.io/folderview?id=0BzZ4hMHTat-YaTctUVF5Z25JYTg&usp=sharing);
 * Docs should be reviewed and edited to ease addition to Markdown. After working on the content share the link on the assigned issue.

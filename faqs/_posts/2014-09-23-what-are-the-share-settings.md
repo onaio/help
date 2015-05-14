@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "How do I share a project or change it's sharing permissions?"
-permalink: /faq/what-are-the-share-settings
+permalink: /faq/permission-share-settings
 category: faq
 ---
 
-Ona lets you grant project access to collaborators. Collaborators must have Ona accounts. To open the Share Settings for a project, go to the project and click the Share button.
+Ona lets you grant project access to collaborators. Collaborators must have Ona accounts. To share with collaborators, open the project Share modal by going to the project page and clicking the Share button.
 
 ###Select whether your project is public or private
 
@@ -82,14 +82,6 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Can download data</td>
-	      <td></td>
-	      <td>x</td>
-	      <td>x</td>
-	      <td>x</td>
-	      <td>x</td>
-	    </tr>
-	    <tr>
 	      <td>Can preview forms</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -99,6 +91,14 @@ When you add a collaborator to your project, you can select their level of acces
 	    </tr>
 	    <tr>
 	      <td>Can download forms</td>
+	      <td></td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can download data</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>

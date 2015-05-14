@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What are the different project share settings?"
-permalink: /faq/what-are-the-share-settings
+title: "How do I share a project or change it's sharing permissions?"
+permalink: /faq/permission-share-settings
 category: faq
 ---
 
-Ona lets you grant view/edit/submit project access to collaborators. Collaborators must have Ona accounts.
+Ona lets you grant project access to collaborators. Collaborators must have Ona accounts. To share with collaborators, open the project Share modal by going to the project page and clicking the Share button.
 
 ###Select whether your project is public or private
 
@@ -49,22 +49,33 @@ When you add a collaborator to your project, you can select their level of acces
   	<thead>
 	  <tr>
 	      <th></th>
-	      <th>Can View</th>
-	      <th>Can Submit</th>
-	      <th>Can Edit</th>
-	      <th>Is Admin</th>
+	      <th>Can view</th>
+	      <th>Can view and download</th>
+	      <th>Can submit</th>
+	      <th>Can edit</th>
+	      <th>Is admin</th>
 	    </tr>
 	</thead>
 	<tbody>
 	    <tr>
-	      <td>Can view data</td>
+	      <td>Can view data in a map</td>
+	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Can download data</td>
+	      <td>Can view data as summary charts</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can view data in a table</td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -76,9 +87,19 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
+	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can download forms</td>
+	      <td></td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can download data</td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -87,12 +108,14 @@ When you add a collaborator to your project, you can select their level of acces
 	    <tr>
 	      <td>Can submit data</td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can edit data</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td>x</td>
@@ -103,10 +126,12 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can add, delete or replace forms</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td></td>
@@ -117,10 +142,12 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can delete the project</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td></td>
@@ -131,10 +158,11 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	</tbody>
 </table>
 
 
-Individual accounts have only one admin — the account the project lives on, which for new projects is the creator of the project. To have multiple admins on a single project, create an organization project.
+Individual accounts have only one admin — the account the project lives on, which for new projects is the creator of the project. To have multiple admins on a single project, create an [organization project](http://help.ona.io/faq/how-do-i-use-organizations/).

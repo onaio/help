@@ -72,7 +72,7 @@ Organization are a way to simplify group-owned datasets, expand on access permis
 
 ###Share permissions for organization projects
 
-There are three differences in the sharing permissions for organization projects:
+All projects in Ona have the same [basic sharing permissions](http://help.ona.io/faq/what-are-the-share-settings/). There are three differences in the sharing permissions for organization projects:
 
 1. An **all members in the organization** group is added to all organization projects. You can set permission levels for all members in the organization just as you would anybody, with the addition of hiding the project using the *cannot view* permission. 
 2. An **all org admins** group is added to projects to make it clear that organization admins have access to the project you created in the organization. 

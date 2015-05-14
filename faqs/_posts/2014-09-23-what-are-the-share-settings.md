@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What are the different project share settings?"
+title: "How do I share a project or change it's sharing permissions?"
 permalink: /faq/what-are-the-share-settings
 category: faq
 ---
 
-Ona lets you grant view/edit/submit project access to collaborators. Collaborators must have Ona accounts.
+Ona lets you grant project access to collaborators. Collaborators must have Ona accounts. To open the Share Settings for a project, go to the project and click the Share button.
 
 ###Select whether your project is public or private
 
@@ -49,15 +49,33 @@ When you add a collaborator to your project, you can select their level of acces
   	<thead>
 	  <tr>
 	      <th></th>
-	      <th>Can View</th>
-	      <th>Can Submit</th>
-	      <th>Can Edit</th>
-	      <th>Is Admin</th>
+	      <th>Can view</th>
+	      <th>Can view and download</th>
+	      <th>Can submit</th>
+	      <th>Can edit</th>
+	      <th>Is admin</th>
 	    </tr>
 	</thead>
 	<tbody>
 	    <tr>
-	      <td>Can view data</td>
+	      <td>Can view data in a map</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can view data as summary charts</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can view data in a table</td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -65,6 +83,7 @@ When you add a collaborator to your project, you can select their level of acces
 	    </tr>
 	    <tr>
 	      <td>Can download data</td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -76,9 +95,11 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
+	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can download forms</td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
@@ -87,12 +108,14 @@ When you add a collaborator to your project, you can select their level of acces
 	    <tr>
 	      <td>Can submit data</td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can edit data</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td>x</td>
@@ -103,10 +126,12 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can add, delete or replace forms</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td></td>
@@ -117,6 +142,7 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
@@ -124,10 +150,12 @@ When you add a collaborator to your project, you can select their level of acces
 	      <td></td>
 	      <td></td>
 	      <td></td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
 	      <td>Can transfer project ownership to another user or to an organization</td>
+	      <td></td>
 	      <td></td>
 	      <td></td>
 	      <td></td>

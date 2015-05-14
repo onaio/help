@@ -165,4 +165,4 @@ When you add a collaborator to your project, you can select their level of acces
 </table>
 
 
-Individual accounts have only one admin — the account the project lives on, which for new projects is the creator of the project. To have multiple admins on a single project, create an organization project.
+Individual accounts have only one admin — the account the project lives on, which for new projects is the creator of the project. To have multiple admins on a single project, create an [organization project](http://help.ona.io/faq/how-do-i-use-organizations/).

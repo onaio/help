@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do I share a project or change it's sharing permissions?"
-permalink: /faq/permission-share-settings
+permalink: /faq/what-are-the-share-settings
 category: faq
 ---
 

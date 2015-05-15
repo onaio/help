@@ -66,3 +66,13 @@ This form is an adaptation of the WHO fatal injury reporting form.
 <small>Unique features: cascade selects, advanced constraints, geopoint, instance name</small>
 
 This form is used to record coverage of insecticide spraying for malaria prevention.
+
+
+### Household Survey on Water Usage and Practices
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Foixa0.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1u4gflWl_p4C1FXkjUCDhvlfD3x7ThejjuADyibM87X4/edit?usp=sharing)
+
+<small>Category: water</small><br />
+<small>Unique features: cascade selects, Likert widget (Enketo webform only)</small>
+
+This form is used to survey water usage and practices at the household level.

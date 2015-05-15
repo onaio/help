@@ -57,3 +57,12 @@ This form records a pregnant woman’s health information and vitals during a ro
 
 This form is an adaptation of the WHO fatal injury reporting form.
 
+
+### Structure Survey on Malaria Spraying
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Ftpdej.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1P82SXDobk8ftrJQm2UJXyQGjxbTsKSn2aFLd6nBgps8/edit?usp=sharing)
+
+<small>Category: environment</small><br />
+<small>Unique features: cascade selects, advanced constraints, geopoint, instance name</small>
+
+This form is used to record coverage of insecticide spraying for malaria prevention.

@@ -5,11 +5,11 @@ permalink: "/topics/replace-form-that-has-submissions/"
 categories: 
   - topics
   - projects
+  - faq
 published: true
 ---
 
 ### Can I replace a form that has submissions?
-
 Yes! 
 
 Ona now supports replacing a form with submissions.  See [How to replace a form](/faq/replacing-forms-without-submissions) for step by step instructions on replacing forms. 

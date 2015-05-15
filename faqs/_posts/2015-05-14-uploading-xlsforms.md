@@ -13,8 +13,8 @@ On the project page, the **Add form** button is located under the project name a
 
 The add form modal will open, and you can select the method of adding your form.  There are three ways to add XLSForms to a project on Ona:
 
-1. Upload an XLSForm from your computer;
-1. From an Enternal XLSForm URL;
+1. Upload an XLSForm from your computer
+1. From an Enternal XLSForm URL
 1. Via Dropbox 
 
 #### Upload an XLSForm from your computer
@@ -23,7 +23,10 @@ For forms saved on your computer, upload them directly by clicking on the **Choo
 
 ![](/content/screenshots/faq/add-form.png)
 
-For XLS forms hosted on an external url, paste the url into the window and click the **Add form button**.
+
+#### Enter an External XLSForm URL
+
+For XLSForms hosted on an external url, paste the url into the window and click the **Add form button**.
 
 ![](/content/screenshots/faq/upload-url.png)
 

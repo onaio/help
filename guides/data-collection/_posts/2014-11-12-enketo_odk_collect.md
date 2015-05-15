@@ -90,7 +90,9 @@ These are the records that are stored inside your web browser until there is an 
 Queued records can be seen on the webform's side bar with a list of records and their upload status.
 ![](/content/screenshots/data-collection/side-menu.png)
 
-> It is highly recommended, however, that you do submit or export your saved form records as soon as they are finalized. If your browser data is cleared before you are able to submit or export your saved records, you risk losing your data. Be especially cognizant of this if you are not using a personal laptop or computer, as many public desktops have pre-installed software that intermittently clears website and browsing data from the computer, which would erase any saved records you have stored in the web browser.
+> 
+**Note**<br/>
+It is highly recommended, however, that you do submit or export your saved form records as soon as they are finalized. If your browser data is cleared before you are able to submit or export your saved records, you risk losing your data. Be especially cognizant of this if you are not using a personal laptop or computer, as many public desktops have pre-installed software that intermittently clears website and browsing data from the computer, which would erase any saved records you have stored in the web browser.
 
 To reveal the queued records:
  
@@ -121,8 +123,8 @@ To load the draft record:
 1. Continue filling out the form, then uncheck the **Save as Draft** checkbox when you are done;
 1. Then, finally click on the **Submit** button to upload the record to the server.
 
-**NOTE:**
-
+>
+**Note**<br/>
 When a record is saved without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available. 
 
 ### ODK Collect

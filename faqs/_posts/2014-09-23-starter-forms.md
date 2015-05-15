@@ -18,7 +18,6 @@ We've created several helpful XLSForms for you to download and use as a starting
 This form is meant for household visits with questions on inhabitants and building characteristics and materials.
 
 
-
 ### Micro-project Monthly Performance Survey
 
 [Preview (Enketo Webform)](https://xhwzg.enketo.org/webform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)

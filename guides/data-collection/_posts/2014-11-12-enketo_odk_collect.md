@@ -34,10 +34,7 @@ There are two options that Ona users have for data collection: **[Enketo Smart P
 
 Enketo is a web application that works on any modern web browser (although we highly recommend Chrome), while ODK Collect is an Android application that can be installed on any Android smartphone or tablet device.
 
-<br><br>
-![](/content/screenshots/data-collection/enketo-logo.png)
-![](/content/screenshots/data-collection/odk-logo.png)
-<br><br>
+![](/content/screenshots/data-collection/enketo+odk-logo.png)
 
 Enketo and ODK Collect can work in tandem, meaning that a single form can be deployed at the same time with Enketo and ODK Collect; there is no need to author separate forms for each.  This guide walks you through the steps for collecting data in both Enketo and ODK Collect.  Whether you use Enketo or ODK Collect (or both) is primarily based on your data collection and user needs.
 

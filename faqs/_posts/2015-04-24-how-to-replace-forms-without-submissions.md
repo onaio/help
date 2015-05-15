@@ -17,7 +17,7 @@ To Replace an existing form:
 1. Click on the dropdown menu next to the form and select **Replace form**;
 <br/>
 ![](/content/screenshots/faq/faq_replace_form_1.png)
-> If you are replacing a form that has submissions, a dialog box with a warning message will pop up to notify you of the impending changes.  Click on the I Understand button to proceed.  See the [Can I replace a form that has submissions](/topics/replace-form-that-has-submissions/). 
+>If you are replacing a form that has submissions, a dialog box with a warning message will pop up to notify you of the impending changes.  Click on the I Understand button to proceed.  See the [Can I replace a form that has submissions](/topics/replace-form-that-has-submissions/). 
 1. Choose the updated form you want to upload and click on the **Upload selected file** button;
 <br/>
 ![](/content/screenshots/faq/faq_replace_form_2.png)

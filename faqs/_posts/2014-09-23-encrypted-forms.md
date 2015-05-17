@@ -7,7 +7,7 @@ category: faq
 
 ### <span id="data-encryption"></span>How does data encryption work?
 
-You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo webforms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.
+You can encrypt form submissions to the Ona server using ODK Collect (encryption is not yet supported in Enketo forms). Encrypted forms are useful for projects that have strict data security requirements from ethical review boards.
 
 ### How does it work?
 
@@ -126,3 +126,4 @@ You must use ODK Briefcase to download the encrypted files from Ona and decrypt 
 1. Click on **Export**. The form data will be decrypted and exported to the folder you created in step 1.
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-file.png)
+<br>

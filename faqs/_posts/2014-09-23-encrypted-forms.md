@@ -88,15 +88,14 @@ Follow these steps to add the correct encryption syntax in your XLSForm:
 1. Add a worksheet called **settings**;
 1. In this worksheet, create three columns: **id_string**, **submission_url**, and **public_key**. The **id_string** column specifies the form id name.  The **submission_url** is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account. However, you must add **/YOUR_USERNAME/submission** to the end of this url.  Finally, the **public_key** column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
 <br>
-![](/content/screenshots/faq/encrypted-forms.png)
+![](/content/screenshots/faq/encrypted-forms-public-key.png)
 <br><br>
 1. Upload the XLSForm to Ona as usual. You should see a label with the text **ENCRYPTED** next to your form name on Ona, as illustrated in the image below:
 <br><br>
-![](/content/screenshots/faq)
+![](/content/screenshots/faq/encrypted-forms-encrypted-tag.png)
 <br><br>
 1. Download your encrypted form to your mobile phone using ODK Collect and start collecting data!
 <br><br>
-![]()
 
 ### How to decrypt your form
 
@@ -116,7 +115,7 @@ You must use ODK Briefcase to download the encrypted files from Ona and decrypt 
 <br><br>
 1. On the **Export Type** dropdown, select **.csv** and **media files**;
 <br><br>
-![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-as-css-media.png)
+![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-as-csv-media.png)
 <br><br>
 1. Locate the **Export Directory**, which is the folder you created in step 1;
 <br><br>
@@ -125,5 +124,5 @@ You must use ODK Briefcase to download the encrypted files from Ona and decrypt 
 1. Search for and choose the **PEM Private Key File** that you generated previously;
 1. Click on **Export**. The form data will be decrypted and exported to the folder you created in step 1.
 <br><br>
-![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-file.png)
+![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-form.png)
 <br>

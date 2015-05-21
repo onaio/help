@@ -86,7 +86,7 @@ Finally, you have your two keys:
 Follow these steps to add the correct encryption syntax in your XLSForm:
 
 1. Add a worksheet called **settings**;
-1. In this worksheet, create three columns: **id_string**, **submission_url**, and **public_key**. The **id_string** column specifies the form id name.  The **submission_url** is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account. However, you must add **/YOUR_USERNAME/submission** to the end of this url.  Finally, the **public_key** column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
+1. In this worksheet, create three columns: **id_string**, **submission_url**, and **public_key**. The **id_string** column specifies the form id name.  The **submission_url** is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account. However, you must add **/submission** to the end of this url.  Finally, the **public_key** column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
 <br>
 ![](/content/screenshots/faq/encrypted-forms-public-key.png)
 <br><br>

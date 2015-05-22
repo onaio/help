@@ -5,7 +5,7 @@ permalink: /faq/starter-forms
 category: faq
 ---
 
-We've created several helpful XLSForms for you to download and use as a starting point:
+We've created several helpful XLSForms for you to download and use as a starting point.  All of these XLSForms can also be found in the [Starter Forms](https://preview.ona.io/betatester/2839) project under the **betatester** account.  Feel free to submit some data and view them using **Maps** and **Summary Charts**.
 
 
 ### Survey on Household Characteristics

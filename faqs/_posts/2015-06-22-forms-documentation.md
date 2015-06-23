@@ -12,7 +12,7 @@ Adding media files, such as image, audio, or even video to your XLSForm is a gre
 
 In the Birds survey, respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection. 
 
-![Alt text](images/form_documentation_1.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_1.png)
 
 
 
@@ -20,18 +20,18 @@ In the Birds survey, respondents are asked to select which bird they sighted fro
 The **survey** and **choices** tabs from this XLSForm are shown below.  Note the **media::image** column in the **choices** tab of your survey.Next to each answer choice of a bird, the corresponding image file name is written in the **media::image** column, including the image file extension (.png .jpg etc).   
 
 
-![Alt text](images/form_documentation_2.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_2.png)
 <br/>
 <br/>
 <br/>
 
-![Alt text](images/form_documentation_3.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_3.png)
 
 
 
 If you wanted to include audio or video in your form, then you would simply add separate **media::audio** and **media::video** columns to your form and add the corresponding audio and video file names in those columns.  Media files can be added to questions in the **survey** tab of your XLSForm in addition to answer **choices** in the choices tab.
   
-![Alt text](images/form_documentation_4.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_4.png)
 
 
 
@@ -78,25 +78,25 @@ Below is a step by step procedure on how to add media files to your ODK Collect 
 - Locate/search for the Android File Transfer and double click to open;
 
 
-![Alt text](images/form_documentation_6.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_6.png)
   
 
 - Double click on the **odk** folder;
 
-![Alt text](images/form_documentation_7.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_7.png)
 
 
 - Double click on the **forms** folder to view all the forms you currently have in your ODK Collect app; 
 
-![Alt text](images/form_documentation_8.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_8.png)
 
 - Double click on the **Birds-media** folder;
 
-![Alt text](images/form_documentation_9.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_9.png)
 
 - Drag and drop all of your media files into the folder.
 
-![Alt text](images/form_documentation_10.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_10.png)
 
 
 #####How do I delete an XLSForm from my Ona account?
@@ -109,12 +109,12 @@ To **Delete** a form:
 - Locate the form you would like to delete on your project page;
 - Click the dropdown menu next to the form and select **Delete form**;
 
-![Alt text](images/form_documentation_11.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_11.png)
 
 Read the warning message and then click on the **Confirm** button when you are ready to delete the form. 
 
 
-![Alt text](images/form_documentation_12.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_12.png)
 
 ####How do I make a form inactive? 
 
@@ -126,8 +126,8 @@ You can make a form inactive one of two ways, i.e. when uploading your XLSForm a
 
 1. ####When uploading your XLSForm
 When uploading your XLSForm, you can choose “Inactive” from the form upload verification window.
-![Alt text](images/form_documentation_13.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_13.png)
 2. ####From the form drop-down menu
 Forms already uploaded to your Ona account can be made inactive using the **Make Inactive**                               option in the form’s dropdown menu.
 
-![Alt text](images/form_documentation_14.png)
+![Alt text](/content/screenshots/faq/forms-management/form_documentation_14.png)

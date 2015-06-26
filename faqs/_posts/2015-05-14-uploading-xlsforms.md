@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do I add XLSForms to my project?"
-permalink: /faq/general-FAQ
+permalink: /faq/uploading-xlsform
 category: faq
 ---
 

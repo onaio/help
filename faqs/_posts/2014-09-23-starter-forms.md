@@ -5,7 +5,7 @@ permalink: /faq/starter-forms
 category: faq
 ---
 
-We've created several helpful XLSForms for you to download and use as a starting point:
+We've created several helpful XLSForms for you to download and use as a starting point.  All of these XLSForms can also be found in the [Starter Forms](https://preview.ona.io/betatester/2839) project under the **betatester** account.  Feel free to submit some data and view them using **Maps** and **Summary Charts**.
 
 
 ### Survey on Household Characteristics
@@ -38,7 +38,41 @@ This form is meant for a monthly report on the performance of various micro-proj
 Conduct a baseline survey of all households in an area, recording the GPS location of the household and relevant information on each household member. This form is best used with ODK Collect; repeat count and indexed-repeat functions are not supported in Enketo.
 
 
+### Antenatal Care (ANC) Visit
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Fytwgo.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1ISZAPme6zzsSSWxzqI3xTjhsaT-rsBaWBb8ArnMHQ3w/edit?usp=sharing)
+
+<small>Category: health</small><br />
+<small>Unique features: skip logic, constraints, advanced calculations</small>
+
+This form records a pregnant woman’s health information and vitals during a routine antenatal care (ANC) visit.
 
 
+### Fatal injury surveillance reporting form
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Fgeknv.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1dJUT4mf9IikAfZdSlHQhI547kZcdypR2Foznn06kXsM/edit?usp=sharing)
+
+<small>Category: health</small><br />
+<small>Unique features: grid theme in Enketo</small>
+
+This form is an adaptation of the WHO fatal injury reporting form.
 
 
+### Structure Survey on Malaria Spraying
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Ftpdej.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1P82SXDobk8ftrJQm2UJXyQGjxbTsKSn2aFLd6nBgps8/edit?usp=sharing)
+
+<small>Category: environment</small><br />
+<small>Unique features: cascade selects, advanced constraints, geopoint, instance name</small>
+
+This form is used to record coverage of insecticide spraying for malaria prevention.
+
+
+### Household Survey on Water Usage and Practices
+
+[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Foixa0.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1u4gflWl_p4C1FXkjUCDhvlfD3x7ThejjuADyibM87X4/edit?usp=sharing)
+
+<small>Category: water</small><br />
+<small>Unique features: cascade selects, Likert widget (Enketo webform only)</small>
+
+This form is used to survey water usage and practices at the household level.

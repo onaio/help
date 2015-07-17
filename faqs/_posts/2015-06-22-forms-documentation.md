@@ -5,7 +5,7 @@ permalink: /faq/how-to-manage-forms
 category: faq
 ---
 
-####How do I add media files to an XLSForm
+####How do I add media files to an XLSForm?
 
 
 Adding media files, such as image, audio, or even video to your XLSForm is a great way to take your data collection project to the next level! Media files can enhace your surveys by adding context to questions or providing visual and audio support to the user where necessary. [The Bird XLSForm](https://docs.google.com/spreadsheets/d/1-6Zc-FSd9siJqwhxqp2zAYu_GVKndz8Wvr-9FrcefKk/edit#gid=1220865154)

@@ -193,4 +193,3 @@ From the Project view, select the name of the form that you wish to view data wh
 
  
 ![](/content/screenshots/faq/media-uploads/viewing media files 2.png)
-

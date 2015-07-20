@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How do I use encrypted forms?"
-permalink: /faq/encrypted-forms
+title: "How do I upload media files?"
+permalink: /faq/how-to-upload-media-files
 category: faq
 ---
 
@@ -171,26 +171,26 @@ When collecting data using your phone the question will be displayed as shown be
 
  ![](/content/screenshots/faq/media-uploads/authouring forms 4.png)  
 
-You can choose to either launch the audio recorder (by clicking on Record Sound) or by selecting a sound file stored in your phone (by clicking on Choose Sound)
+You can choose to either launch the audio recorder (by clicking on **Record Sound**) or by selecting a sound file stored in your phone (by clicking on **Choose Sound**)
 
-Some devices do not come with inbuilt recording apps and you need to install a 3rd party app (e.g RecForge Lite)
+Some devices do not come with inbuilt recording apps and you need to [install a 3rd party app (e.g RecForge Lite)](https://docs.google.com/document/d/1dq9LZSgPT9b0UDQ3s8HN_xyqq2AyS0LD3bWt6T2tmv0/edit)
 
 
-How do I view photos, audio and video recordings taken during data collection
+####How do I view photos, audio and video recordings taken during data collection
 
 Below is a step by step procedure on how to view the media files captured:
 
 From the Project view, select the name of the form that you wish to view data which contain the media files captured:
 
-Navigate to the form’s Table page
-Scroll from left to right on the data table to locate the media file question;
+* Navigate to the form’s **Table page**
+* Scroll from left to right on the data table to locate the media file question;
 
 
 ![](/content/screenshots/faq/media-uploads/viewing media files 1.png)
 
 
-Double click on a row, from the single submission view you’ll be able to see the media file (i.e. photo, video or audio)
+* Double click on a row, from the single submission view you’ll be able to see the media file (i.e. photo, video or audio)
 
  
-![](/content/screenshots/faq/media-uploads/viewing media files 2 1.png)
+![](/content/screenshots/faq/media-uploads/viewing media files 2.png)
 

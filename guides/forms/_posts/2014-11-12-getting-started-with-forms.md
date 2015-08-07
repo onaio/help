@@ -25,11 +25,7 @@ categories: [topics, forms]
 * [Make forms Inactive](#inactive-forms)
   * [When uploading your XLSForm](#when-uploading-forms)
   * [From the form drop-down menu](#form-dropdown-menu)
-* ##### Data entry with Enketo webforms
-* [Using Enketo](using-enketo)
-* [How do I fill out forms in Enketo?](#filling-forms-via-enketo)
-* [Secure vs open](#secure-vs-open)
-* [Sending URL to others](#sending-enketo-url-to-others)
+
 
 ### XLSForm authoring intro
 

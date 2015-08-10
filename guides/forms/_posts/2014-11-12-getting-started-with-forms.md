@@ -188,7 +188,7 @@ Forms already uploaded to your Ona account can be made inactive using the **Make
 
 Forms uploaded to a project can be moved to a selected project as long as you have add form permissions in that project. 
 
-To move a form to diffent project:
+To move a form to different project:
 
 1.From the form's dropdown menu, select the **Move to** option;
 <br><br>

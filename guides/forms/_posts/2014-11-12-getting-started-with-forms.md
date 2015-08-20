@@ -25,6 +25,7 @@ categories: [topics, forms]
 * [Make forms Inactive](#inactive-forms)
   * [When uploading your XLSForm](#when-uploading-forms)
   * [From the form drop-down menu](#form-dropdown-menu)
+* [Delete forms](#delete-forms)  
 
 
 ### XLSForm authoring intro
@@ -46,13 +47,13 @@ For this tutorial we will be using the following survey:
 6. Where are you?
 7. Do you like pizza?
 
-To write a simple form, each Excel workbook usually has two main worksheets: **survey** and **choices**. The **survey worksheet** gives your form its overall structure and contains most of the content of the form. The **choices worksheet** is used specify the answer choices for multiple choice questions. Each row in this worksheet represents an answer choice
+To write a simple form, each Excel workbook usually has two main worksheets: **survey** and **choices**. The **survey worksheet** gives your form its overall structure and contains most of the content of the form. The **choices worksheet** is used specify the answer choices for multiple choice questions. Each row in this worksheet represents an answer choice.
 
 1. To author an XLSForm, create a new Excel workbook with a single sheet named survey; 
 1. Add three columns **type**, **name**, and **label**:
- * **type** describes the question type.
- * **name** is the variable name as it will be stored in the database.
- * **label** is the question text.
+ * **type** describes the question type;
+ * **name** is the variable name as it will be stored in the database;
+ * **label** is the question text;
 1. To start populating the XLSForm, add the questions above to the survey worksheet:
  * On your **type** column, specify the type of the information to be entered (integer, text, date, etc). You can have look at a complete list of question types. 
  * Under the **name** column, add a unique name on the field;
@@ -64,29 +65,27 @@ To write a simple form, each Excel workbook usually has two main worksheets: **s
  * **label** specifies the label to use for a given choice, in the form's default language;
 1. In the survey worksheet, for the **select_one** [option] questions, set to **select_one** followed by space and replace [options] by the list of choices/options, in our case, the **Gender** question will be **select_one gender**;	
  * In the **choices worksheet**, copy and paste the **option** (i.e gender) to the column **list_name**; then populate the **name** and **label** with all the options that are anticipated.
-1. Name your Excel file and save as **.xls** or **.xlsx** format.  Read more on [useful guidelines for XLSForm designers here]()
-You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [http://xlsform.org]( http://xlsform.org)
-
+1. Name your Excel file and save as **.xls** or **.xlsx** format.  Read more on [useful guidelines for XLSForm designers](xls-for-beginners).
+You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [xlsform.org]( http://xlsform.org).
 
 ##### <a name="xls-for-beginners"></a>XLSForm Tips for Beginners
 
 These are three useful tips that the designers should be aware of:
 
 1. **Test your form often!**  Don’t wait until your form is completely finished before trying to upload it to your Ona account.  It is much easier to identify and correct errors on a form that has 20 fields versus a form that has hundreds of fields.  You might notice a mistake in your syntax early on that will save you loads of time by catching it early and not repeating it throughout the rest of your form.
-1. **XLSForm syntax is unforgiving**.  If you are one letter or one number off, or if there’s an extra space or an extra comma somewhere in your expression, you will most likely get an error when trying to upload your form.  In this case, practice makes almost perfect.  We say ‘almost’ perfect, because even seasoned XLSForm authors will make simple syntax errors every once in a while.  In general, though, the more you practice authoring forms in Excel, the more familiar you get with the syntax, and the easier it is to spot errors.  If you are simply really stuck on a line of syntax that keeps throwing errors, and you start to swear on your life that what you typed is absolutely correct, take a break!  Come back to your form later on, and you’d be surprised what your refreshed eyes will spot.
-  1. Your file should be saved in the **.xls** or **.xlsx** format and contain no spaces or special characters (‘-’ and ‘_’ are allowed).
-  1. Sheet names should be appropriately named (i.e. “survey” not Sheet 1, “Survey” or “surveys”)
-  1. **Field names** should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
-  1. Column headers should be in lowercase (i.e. “label” or “name”, not “Label” or “Name”)
-1. **[XLSForm.org](http://xlsform.org/) is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
-
+1. **XLSForm syntax is unforgiving**.  If you are one letter or one number off, or if there’s an extra space or an extra comma somewhere in your expression, you will most likely get an error when trying to upload your form.  In this case, practice makes almost perfect.  We say ‘almost’ perfect, because even seasoned XLSForm authors will make simple syntax errors every once in a while.  In general, though, the more you practice authoring forms in Excel, the more familiar you get with the syntax, and the easier it is to spot errors.  If you are simply really stuck on a line of syntax that keeps throwing errors, and you start to swear on your life that what you typed is absolutely correct, take a break!  Come back to your form later on, and you’d be surprised what your refreshed eyes will spot. Below are important guidelines to remember:
+ * Your file should be saved in the **.xls** or **.xlsx** format and should contain no spaces or special characters (‘-’ and ‘_’ are allowed).
+ * Sheet names should be appropriately named (i.e. “survey” not Sheet 1, “Survey” or “surveys”).
+ * Column headers should be in lowercase (i.e. “label” or “name”, not “Label” or “Name”).
+ * Field names should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
+1. [XLSForm.org](http://xlsform.org/) **is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
 
 ### Easy ways to create an XLSForm
 
 ##### <a name="sample-xlsforms"></a>Sample XLSForms
 
-There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://preview.ona.io/betatester/2839) project under the betatester account. Feel free to download any of the forms.
- 
+There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://beta.ona.io/betatester/2839) project under the betatester account. 
+
 ### Uploading your form
 
 Once you have successfully authored your XLSForm, you can upload it to your desired project in Ona. Read more on the various ways of uploading XLSForms [here](/faq/uploading-xlsform).
@@ -99,26 +98,28 @@ Forms can be previewed on your web browser using [Enketo Smart Paper](https://en
 
 ##### <a name="adding-media-files"></a>Adding media files
 
-Adding media files, such as image, audio, or even video to your XLSForm is a great way to take your data collection project to the next level! Media files can enhace your surveys by adding context to questions or providing visual and audio support to the user where necessary. [The Bird XLSForm](https://docs.google.com/spreadsheets/d/1-6Zc-FSd9siJqwhxqp2zAYu_GVKndz8Wvr-9FrcefKk/edit#gid=1220865154)
+Adding media files, such as image, audio, or even video to your XLSForm is a great way to take your data collection project to the next level! Media files can enhance your surveys by adding context to questions or providing visual and audio support to the user where necessary. 
 
-In the Birds survey, respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection. 
+In the [Bird Watching](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfmfz75eds0aJ3XiviaA6BJRTchHa27rtby7VM/edit?usp=sharing), respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection as shown in the screen shot below; 
 
 ![](/content/screenshots/forms-management/form_documentation_1.png)
 
-The **survey** and **choices** tabs from this XLSForm are shown below.  Note the **media::image** column in the **choices** tab of your survey.Next to each answer choice of a bird, the corresponding image file name is written in the **media::image** column, including the image file extension (.png .jpg etc).   
+The **survey** worksheet from this XLSForm is shown in the screen shot below:
 
 ![](/content/screenshots/forms-management/form_documentation_2.png)
-<br/><br/>
+
+The **choices** worksheet can be seen in the screen shot below:
 
 ![](/content/screenshots/forms-management/form_documentation_3.png)
+
+> 
+**Note**:<br/> The **media::image** column in the **choices** worksheet of your survey. Next to each answer choice of a bird, the corresponding image file name is written in the **media::image** column, including the image file extension (_.png_ or _.jpg_). 
 
 If you wanted to include audio or video in your form, then you would simply add separate **media::audio** and **media::video** columns to your form and add the corresponding audio and video file names in those columns.  Media files can be added to questions in the **survey** tab of your XLSForm in addition to answer **choices** in the choices tab.
   
 ![](/content/screenshots/forms-management/form_documentation_4.png)
 
-In addition, if your survey has multiple languages, you will need to have separate media columns for each language by appending **::language** to the media columns.
-
-For example, to add image media files to a survey with both English and Swahili languages, you would add the following two columns to your XLSForm:
+In addition, if your survey has multiple languages, you will need to have separate media columns for each language by appending **::language** to the media columns. For example, to add image media files to a survey with both English and Swahili languages, you would add the following two columns to your XLSForm:
 
 **media::image::English and media::image::Swahili** 
 
@@ -130,18 +131,15 @@ For audio and video files, you would simply replace **image** with **audio** and
 
 **media::video::English and media::video::Swahili** 
 
-
 ##### <a name="include-media-files-in-forms"></a>How do I include media files in my form?
 
 In order for media files to be displayed in the form, the media files need to be uploaded to the form on your Ona account.  
 
-On the form’s **Settings** page in your Ona account, select **Forms media files**;
+1. On the form’s **Settings** page in your Ona account, select **Forms media files**;
 <br><br>
-
 ![](/content/screenshots/forms-management/form_documentation_5.png)
-
-Then click on **Select file to upload** button to upload your media file;
-
+1. Then click on **Select file to upload** button to upload your media file;
+<br><br>
 ![](/content/screenshots/forms-management/form_documentation_5_1.png)
 
 > 
@@ -152,7 +150,15 @@ Once your media files are uploaded to the form, they are automatically displayed
 
 ##### <a name="media-files-type-supported"></a>What type of media files are supported in Ona?
 
-Media files supported in Ona are: **jpeg/png/mp3/wav/3gp/csv/zip**
+The following are the media files supported in Ona: 
+
+
+|               |      Supported files |
+| ------------- | ------------- |
+|  Image files  | jpeg, jpg, png, zip|
+|  Audio files  | mp3, wav         | 
+|  Video files  | 3gp, mp4      | 
+|  File attachments | csv |
 
 ### Managing Forms
 
@@ -170,45 +176,43 @@ Making a form inactive is a good option when data collection has finished, as it
 
 You can make a form inactive one of two ways; i.e. [when uploading your XLSForm](#when-uploading-forms) and [from the form’s drop-down menu](#form-dropdown-menu).
 
-###### <a name="when-uploading-forms"></a>When uploading your XLSForm
+##### <a name="when-uploading-forms"></a>When uploading your XLSForm
 
-When uploading your XLSForm, you can choose “Inactive” from the form upload verification window.
+When uploading your XLSForm, you can choose **Inactive** from the form upload verification window.
 
-<br><br>
 ![](/content/screenshots/forms-management/form_documentation_13.png)
 
-###### <a name="form-dropdown-menu"></a>From the form drop-down menu
+##### <a name="form-dropdown-menu"></a>From the form drop-down menu
 
-Forms already uploaded to your Ona account can be made inactive using the **Make Inactive** option in the form’s dropdown menu.
+Forms already uploaded to your Ona account can be made inactive using the **Make inactive** option in the form’s dropdown menu as highlighted in the screeen shot below;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_14.png)
 
-
-##### <a name="move-forms"></a>Move
+##### <a name="move-forms"></a>Move forms
 
 Forms uploaded to a project can be moved to a selected project as long as you have add form permissions in that project. 
 
-To move a form to diffent project:
+To move a form to different project:
 
-1.From the form's dropdown menu, select the **Move to** option;
+1. From the form's dropdown menu, select the **Move to** option;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_16.png)
-1. A list of projects you have access to will be displayed, click on the name of the project you'd like to move the project to as shown in the screen shot below:
+1. Click on the name of the project you'd like to move the form to from the list of projects you have Admin access to;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_15.png)
 
-##### <a name="delete-forms"></a>Delete
+##### <a name="delete-forms"></a>Delete forms
 
 Forms uploaded to your Ona account can be deleted using the **Delete Form** option in the form’s dropdown menu.  Below are the steps to follow to delete a form in your Ona account.
 
-> 
-**Note**:<br/>This cannot be undone.  Once a form is deleted, the form and any data already submitted or uploaded to the form will be gone and cannot be recovered.
-
 To **Delete** a form:
-1. Locate the form you would like to delete on your project page;
-1. Click the dropdown menu next to the form and select **Delete form**;
+
+1. Locate the form you would like to delete on your project page, from the form's dropdown menu select **Delete form**;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_11.png)
-1. Read the warning message and then click on the **Confirm** button when you are ready to delete the form. 
-<br><br>
+1. Read the warning message and then click on the **Confirm** button when you are ready to delete the form: 
+
 ![](/content/screenshots/forms-management/form_documentation_12.png)
+
+> 
+**Note**:<br/>Deleting a form cannot be undone.  Once a form is deleted, the form and any data already submitted or uploaded to the form will be gone and cannot be recovered.

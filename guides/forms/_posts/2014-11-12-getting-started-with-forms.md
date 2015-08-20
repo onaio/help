@@ -25,6 +25,7 @@ categories: [topics, forms]
 * [Make forms Inactive](#inactive-forms)
   * [When uploading your XLSForm](#when-uploading-forms)
   * [From the form drop-down menu](#form-dropdown-menu)
+* [Delete forms](#delete-forms)  
 
 
 ### XLSForm authoring intro
@@ -65,8 +66,7 @@ To write a simple form, each Excel workbook usually has two main worksheets: **s
 1. In the survey worksheet, for the **select_one** [option] questions, set to **select_one** followed by space and replace [options] by the list of choices/options, in our case, the **Gender** question will be **select_one gender**;	
  * In the **choices worksheet**, copy and paste the **option** (i.e gender) to the column **list_name**; then populate the **name** and **label** with all the options that are anticipated.
 1. Name your Excel file and save as **.xls** or **.xlsx** format.  Read more on [useful guidelines for XLSForm designers](xls-for-beginners).
-You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [http://xlsform.org]( http://xlsform.org).
-
+You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [xlsform.org]( http://xlsform.org).
 
 ##### <a name="xls-for-beginners"></a>XLSForm Tips for Beginners
 
@@ -80,12 +80,11 @@ These are three useful tips that the designers should be aware of:
  * Field names should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
 1. [XLSForm.org](http://xlsform.org/) **is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
 
-
 ### Easy ways to create an XLSForm
 
 ##### <a name="sample-xlsforms"></a>Sample XLSForms
 
-There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://preview.ona.io/betatester/2839) project under the betatester account. 
+There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://beta.ona.io/betatester/2839) project under the betatester account. 
 
 ### Uploading your form
 
@@ -105,7 +104,7 @@ In the [Bird Watching](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfm
 
 ![](/content/screenshots/forms-management/form_documentation_1.png)
 
-The **survey** worksheet from this XLSForm are shown in the screen shot below:
+The **survey** worksheet from this XLSForm is shown in the screen shot below:
 
 ![](/content/screenshots/forms-management/form_documentation_2.png)
 
@@ -132,7 +131,6 @@ For audio and video files, you would simply replace **image** with **audio** and
 
 **media::video::English and media::video::Swahili** 
 
-
 ##### <a name="include-media-files-in-forms"></a>How do I include media files in my form?
 
 In order for media files to be displayed in the form, the media files need to be uploaded to the form on your Ona account.  
@@ -154,7 +152,13 @@ Once your media files are uploaded to the form, they are automatically displayed
 
 The following are the media files supported in Ona: 
 
-**jpeg/png/mp3/mp4/wav/3gp/csv/zip**
+
+|               |      Supported files |
+| ------------- | ------------- |
+|  Image files  | jpeg, jpg, png, zip|
+|  Audio files  | mp3, wav         | 
+|  Video files  | 3gp, mp4      | 
+|  File attachments | csv |
 
 ### Managing Forms
 
@@ -183,7 +187,6 @@ When uploading your XLSForm, you can choose **Inactive** from the form upload ve
 Forms already uploaded to your Ona account can be made inactive using the **Make inactive** option in the form’s dropdown menu as highlighted in the screeen shot below;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_14.png)
-
 
 ##### <a name="move-forms"></a>Move forms
 

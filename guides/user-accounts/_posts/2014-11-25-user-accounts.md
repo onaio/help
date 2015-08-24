@@ -10,101 +10,88 @@ categories: [guides, user-accounts]
   * [Registering for an Account](#registration)
   * [Logging in](#logging-in)
   * [Editing your profile](#edit-profile)
-  * [Account best practices](#account-best-practices)
   * [Upgrading your plan](#upgrading-your-plan)
-  * [Setting the default language](#setting-default-language)
-  * [Browser requirements](#browser-requirements)
+  
 * ##### Manage Account
-* [I forgot my username and/or password](#forgot-username-password)
-* [I forget the email address I used to create my account or I can no longer access that email](#forgot-email-address)
-* [How do I change my username?](#how-to-change-your-username)
 * [How do I change my password?](#how-to-change-your-password)
 * [How do I change the email address on my account?](#how-to-change-your-email-address)
-* [HHow can I delete my Ona account?](#how-to-delete-your-account)
-* ##### Billing
-* [How can I pay for Ona?](#how-to-pay-for-Ona)
-* [Can I pay annually?](#annual-paying-plan)
-* [Do you offer pricing plans?](#pricing-plans)
+
 * [Do you have special plans for students or non-profits?](#special-plans)
 
 
 
 ### Account Setup
 
-##### <a name="registration"></a>[Registering for an Account)
+##### <a name="registration"></a>Registering for an Account
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+Ona is a web-based, that works on any modern web browser. To sign up for an Ona account please follow the instructions explained in the [Signing up](/guides/getting-started/#signing-up) guide.
 
 ##### <a name="logging-in"></a>Logging in
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio 
+Enter your account **username** or email address and **password** to [login](https://beta.ona.io/login) into your Ona account. If you forgotten your account's password read more on [how to reset your account password](/faq/forgot-password). 
+ 
 
 ##### <a name="edit-profile"></a>Editing your profile
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio 
+Your public profile page on Ona is the profile that other web users can see if they search for you on Ona.  It contains your name, username, avatar, and a list of your public projects (don’t worry, your [Private Project](http://help.ona.io/faq/what-are-the-share-settings/) remain hidden and private!.) 
 
-##### <a name="account-best-practices"></a>Account best practices
+To view your profile, click on the drop down menu next to your profile avatar in the top right corner of your account, then click on your name.
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction
+![](/content/screenshots/users-accounts/account-profile1.png)
 
-##### <a name="upgrading-your-plan"></a>Upgrading your plan
+Your profile page will look something like this:
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction
+![](/content/screenshots/users-accounts/account-profile2.png)
 
-##### <a name="setting-default-language"></a>Setting the default language
+> 
+**Note**<br/> If you are logged in, you will be able to see all of your projects in your profile page, both public and private.  To see what your public profile page looks like to other web users, copy the website url from your project page, log out of Ona, then paste the website url back into the web address bar.  You should now only see your publicly shared information, including any public projects in your account.
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction
+You can update the information that’s in your profile page by going to the **Settings** menu.  Click on the drop down menu next to your profile avatar in the top right corner of your account, then click on **Settings**.
 
-##### <a name="setting-default-language"></a>Setting the default language
+![](/content/screenshots/users-accounts/account-profile3.png)
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction
+On the **Edit Public Profile** tab, you can add or change your profile information and upload a picture to replace your avatar.  Make sure you add information on where you work and your website address or twitter handle, so that other Ona users can follow your work!
 
-##### <a name="browser-requirements"></a>[Browser requirements 
+![](/content/screenshots/users-accounts/account-profile4.png)
 
-Vehicula eu lacus quis cursus.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction
+After you make the desired changes to your profile information, click on the **Save Changes** button at the bottom.
 
 ### Manage Account
 
-##### <a name="forgot-username-password"></a>I forgot my username and/or password
+##### <a name="how-to-change-your-password"></a>How do I change my password
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
+If you ever need to change your Ona password, you can do so from the **Edit Account Settings** page in your account.
 
-##### <a name="forgot-email-address"></a>I forget the email address I used to create my account or I can no longer access that email
+1. Navigate to your **Settings** page and click on the **Edit Account Settings** tab;
+<br><br>
+![](/content/screenshots/users-accounts/account-profile5.png)
+1. Enter your current password, then type in your new password and verify your new password;   
+<br><br>
+![](/content/screenshots/users-accounts/account-profile6.png)
+1. Click on **Update password**.  You will receive a confirmation email to the email address listed on your account.
+<br><br>
+![](/content/screenshots/users-accounts/account-profile7.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
+#### <a name="how-to-change-your-email-address"></a>How do I change the email address on my account?
 
-##### <a name="how-to-change-your-username"></a>How do I change my username?
+It’s important to keep your email address up to date on your Ona account, as this is the primary way we communicate any updates to our platform with our users.  If you ever forget your password, you’ll need to access the email address listed on your account to [reset your password](/faq/forgot-password) and get back into your account.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
+1. To change your email address, go to the accounts **Settings** page and click on the **Edit Account Settings** tab;
+1. Scroll down to the **Change Email Address** section and type the new email address;
+<br><br>
+![](/content/screenshots/users-accounts/account-profile8.png)
+<br><br>
+1. Then, click on **Update email**
+<br><br>
+![](/content/screenshots/users-accounts/account-profile9.png)
 
-##### <a name="how-to-change-your-password"></a>How do I change my password?]
+##### <a name="upgrading-your-plan"></a>Upgrading your account
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
+We are accepting paid signups for the Ona service immediately. Signing up now gives you immediate access to a world class support team and qualifies you for an early adopter discount. To get started, visit the [upgrade page](https://beta.ona.io/upgrading-your-account) and we will work with you to develop a pricing plan that meets your specific usage and support needs. 
 
-##### <a name="how-to-change-your-email-address"></a>How do I change the email address on my account?
+##### <a name="ona-grant-programs"></a> Do you have special plans for students or non-profits?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-##### <a name="how-to-delete-your-account"></a>How can I delete my Ona account?
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-### Billing
-
-##### <a name="how-to-pay-for-Ona"></a>How can I pay for Ona?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-##### <a name="annual-paying-plan"></a>Can I pay annually?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-##### <a name="pricing-plans"></a>Do you offer pricing plans?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-##### <a name="special-plans"></a>Do you have special plans for students or non-profits?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula eu lacus quis cursus. 
-
-
-
+We've introduced the Impact Grant Program, which provides free Ona access and support to organizations who are making a difference and might have difficulty paying. To learn more about the Impact Grant Program and to see if you qualify, please visit the [program page](http://company.ona.io/impactgrant/).
 
 
 

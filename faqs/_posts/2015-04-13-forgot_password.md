@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I forgot my username and/or password. What should I do?"
-permalink: "/faq/forgot-username-or-password"
+title: "I forgot my password. What should I do?"
+permalink: "/faq/forgot-password"
 category: faq
 published: true
 ---

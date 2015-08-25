@@ -23,7 +23,7 @@ Probably. Whether you are new to digital data or have been collecting and analyz
 <a name="requirements"></a>
 
 ###What’s required to use Ona?
-Since Ona is a web-based, so you can use it from any computer or smartphone. You’ll need an internet connection for setting up projects and deploying forms to mobile devices, but a data connection is not required for collecting data. We recommend Google Chrome [link] as your browser, though the website will work in any browser. To use ODK Collect, you’ll need a device running Android.
+Since Ona is a web-based, so you can use it from any computer or smartphone. You’ll need an internet connection for setting up projects and deploying forms to mobile devices, but a data connection is not required for collecting data. We recommend [Google Chrome](https://www.google.com/chrome/browser/desktop/) as your browser, though the website will work in any browser. To use ODK Collect, you’ll need a device running Android.
 
 <a name="offline"></a>
 

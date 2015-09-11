@@ -24,9 +24,8 @@ Check out the examples below to help you better understand what kinds of changes
 
 **Adding new columns**: Adding new columns to your form to better tailor it to your project’s needs is OK.  For example, adding a new column such as required, constraint, or appearance, or adding a new language column to support additional languages, will not affect your existing data. 
 
-**Note:**
-
-If a field in an existing submission is blank, and then you make this field **required** in the updated form, then you open this submission in the **edit** view after updating the form, you will have to fill in a response before you can save your edits. This also applies to **constraints**; if a field did not have a constraint before, then a constraint is added in the updated form, when editing an old record, fields that become invalid because of the new constraint will have to be corrected before you can save your edits.
+> 
+**Note:**<br/>If a field in an existing submission is blank, and then you make this field **required** in the updated form, then you open this submission in the **edit** view after updating the form, you will have to fill in a response before you can save your edits. This also applies to **constraints**; if a field did not have a constraint before, then a constraint is added in the updated form, when editing an old record, fields that become invalid because of the new constraint will have to be corrected before you can save your edits.
 
 **Adding new fields to your form**: new questions can be added to a form. New fields will be blank for submissions that existed before the form was replaced with the updated version. 
 **Adding more answer choices** to a select_one or select_multiple question is fine to do and will not affect any existing data. 
@@ -42,4 +41,6 @@ If a field in an existing submission is blank, and then you make this field **re
 
 **Changing question types;** changing the question type of a field should be avoided, because it can affect existing data. For instance, if a question changes from an integer to a select multiple question in the updated form.
 
-**Removing repeat groups:** this is strongly discouraged as it will affect the structure of the dataset.
+**Removing repeat groups;** this is strongly discouraged as it will affect the structure of the dataset.
+
+**Adding groups;** this is strongly discouraged because it completely changes the data structure which will leads to data not being visualized on the online (Map and table) or the data exports.

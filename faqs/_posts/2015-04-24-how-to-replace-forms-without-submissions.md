@@ -29,7 +29,7 @@ To Replace an existing form:
 ![](/content/screenshots/faq/faq_replace_form_4.png)
 
 >**Note:**<br/>
-You can replace a form that has submissions, for more information read [Can I replace a form that has submissions](/topics/replace-form-that-has-submissions/).
+You can replace a form that has submissions, for more information read [Can I replace a form that has submissions](/faq/replacing-forms-that-have-submissions).
 
 
 

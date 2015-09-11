@@ -32,15 +32,15 @@ Check out the examples below to help you better understand what kinds of changes
 
 **Changing labels and hints**; you can safely change the wording or spelling of the labels and hints in your form, but be careful that the meaning of the field doesn’t change, so that your existing data can still be interpreted correctly with the updated form.
 
-### Make these changes with EXTREME caution
-
-
-**Renaming fields;** when replacing a form, Ona cannot tell whether an existing field’s name has been changed.  It will treat any name changes as new fields, and it will treat the existing field as a deleted field.  As such, you will lose all previously submitted data.
-
-**Deleting fields;** fields can be deleted in your form.  Refer to the warning message when replacing a form about losing data from fields that were deleted.  
-
-**Changing question types;** changing the question type of a field should be avoided, because it can affect existing data. For instance, if a question changes from an integer to a select multiple question in the updated form.
-
-**Removing repeat groups;** this is strongly discouraged as it will affect the structure of the dataset.
-
-**Adding groups;** this is strongly discouraged because it completely changes the data structure which will leads to data not being visualized on the online (Map and table) or the data exports.
+> 
+**Make these changes with EXTREME caution!**<br/> 
+<br>
+**Renaming fields:** <br>When replacing a form, Ona cannot tell whether an existing field’s name has been changed.  It will treat any name changes as new fields, and it will treat the existing field as a deleted field.  As such, you will lose all previously submitted data.
+<br><br>
+**Deleting fields:** <br>Fields can be deleted in your form.  Refer to the warning message when replacing a form about losing data from fields that were deleted.
+<br><br>
+**Changing question types:** <br>Changing the question type of a field should be avoided, because it can affect existing data. For instance, if a question changes from an integer to a select multiple question in the updated form.
+<br><br>
+**Removing repeat groups:** <br>This is strongly discouraged as it will affect the structure of the dataset.
+<br><br>
+**Adding groups:** <br>This is strongly discouraged because it completely changes the data structure which leads to data not being visualized on the online (Map and table) or the data exports.

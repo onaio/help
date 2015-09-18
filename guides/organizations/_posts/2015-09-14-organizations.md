@@ -126,13 +126,19 @@ The following table shows the three organization roles and what permissions each
 	      <td></td>
 	    </tr>
 	    <tr>
-	      <td>Can delete org account</td>
+	      <td>Can transfer org account</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
 	    <tr>
-	      <td>Can transfer org account</td>
+	      <td>Can delete org account</td>
+	      <td>x</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+            <tr>
+	      <td>Has admin permissions on all org projects</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
@@ -141,12 +147,6 @@ The following table shows the three organization roles and what permissions each
 	      <td>Can create a project in the org</td>
 	      <td>x</td>
 	      <td>x</td>
-	      <td></td>
-	    </tr>
-            <tr>
-	      <td>Has admin permissions on all org projects</td>
-	      <td>x</td>
-	      <td></td>
 	      <td></td>
 	    </tr>
 	    <tr>
@@ -162,13 +162,13 @@ The following table shows the three organization roles and what permissions each
 	      <td></td>
 	    </tr>
             <tr>
-	      <td>Can see org member list with roles, but cannot change member role</td>
+	      <td>Can view org member list, but cannot make any changes</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>  
 	    <tr>
-	      <td>No access to org settings</td>
+	      <td>Cannot access org settings</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>

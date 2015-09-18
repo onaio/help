@@ -100,7 +100,7 @@ The three organization member roles are **Admin**, **Project Manager** and **Mem
 **Note**<br/>An organization can have more than one admin.
 
 
-The following table shows the 3 organization member roles and what permissions each role has:
+The following table shows the three organization roles and what permissions each role has:
 
 
 <table style="border: 1px solid #E6E6E6;">
@@ -109,18 +109,24 @@ The following table shows the 3 organization member roles and what permissions e
 	      <th></th>
 	      <th>Org Admin</th>
 	      <th>Project Manager</th>
-	      <th>Member</th>
+	      <th>Org Member</th>
 	    </tr>
 	  </thead>
 	  <tbody>
 	    <tr>
-	      <td>Can add members to an org and change member role for any member except self</td>
+	      <td>Can add and remove members in the org and change role for any member except self</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
 	    <tr>
 	      <td>Can delete org account </td>
+	      <td>x</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Can transfer org account </td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>

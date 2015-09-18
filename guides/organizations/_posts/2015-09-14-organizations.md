@@ -14,7 +14,7 @@ categories: [guides, organizations]
   
 * ##### [Organization Members](#organization-members)
   * [How to add organization members](#add-organization-members)
-  * [Organization members roles](#organization-member-roles)
+  * [Organization member roles](#organization-member-roles)
   
   
 * ##### [Organization Projects](#organization-projects)
@@ -92,7 +92,7 @@ To add members to your organization:
 <br><br>
 ![](/content/screenshots/organizations/org-4.png)
 
-#### <a name="organization-member-roles"></a>Organization members roles
+#### <a name="organization-member-roles"></a>Organization member roles
 
 The three organization roles are **Admin**, **Project Manager** and **Member**. By default, the user who creates the organization is granted **Admin** role. 
 

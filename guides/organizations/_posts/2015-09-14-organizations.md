@@ -199,15 +199,10 @@ To create an organization project:
 
 ##### <a name="org-project-differences"></a>Org project differences
 
-Organization projects are similar to any other project, (i.e. they are created in the same way, can either be public or private). An organization project is different from individual projects in the following ways:
+Organization projects are similar to projects created in individual accounts, but have several key differences:
 
-* The project is created and can be found within the organization account;
-
-* An organization project can have multiple admins (the creator and org admins). An org project will only have one admin if it was created by an org admin who is the only org admin.
+* An organization project can have multiple admins (the project creator and all org admins have admin permissions on the project as well as other users who are added invidually to the project as an admin).
 * The [organization members](#organization-member-roles) (**Members in** [**organization**]) group is added to all [organization projects](#creating-org-projects) (_the members can [permissions](http://help.ona.io/guides/projects/#permission-levels) can be Can View, Can View & Download, Can Submit, Can Edit, can View,  or CANNOT view_). 
 * Every new member that is added to organization has same permissions as other members,
 * An organization member won’t see all organization projects in their list, even when they’re assigned the Can submit permissions through the **“Members in org”** group. The form will only show up if the user is explicitly added. This means that the member can only submit data will only if the link is shared directly with the user from outside means such as email.
 * Organization projects can also be **Public**. If a project is made public, a new group **Anyone** is added to the share list, meaning there are 4 groups right off the bat in public project (i.e creator, organization admins, all members of org, and public anyone).
-
-
-

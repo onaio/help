@@ -94,7 +94,7 @@ To add members to your organization:
 
 #### <a name="organization-member-roles"></a>Organization members roles
 
-The three organization member roles are **Admin**, **Project Manager** and **Member**. By default, the user who sets up the organization is granted **Admin** role. 
+The three organization roles are **Admin**, **Project Manager** and **Member**. By default, the user who creates the organization is granted **Admin** role. 
 
  > 
 **Note**<br/>An organization can have more than one admin.
@@ -120,57 +120,69 @@ The following table shows the three organization roles and what permissions each
 	      <td></td>
 	    </tr>
 	    <tr>
-	      <td>Can delete org account </td>
+	      <td>Can change org settings</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
 	    <tr>
-	      <td>Can transfer org account </td>
+	      <td>Can delete org account</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
-        <tr>
-	      <td>Can leave the organization </td>
+	    <tr>
+	      <td>Can transfer org account</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
-        <tr>
+            <tr>
 	      <td>Can create a project in the org</td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td></td>
 	    </tr>
-        <tr>
-	      <td>Has other admin-level controls on org projects: (change name, add form, change description, delete, transfer)</td>
+            <tr>
+	      <td>Has admin permissions on all org projects</td>
 	      <td>x</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Has admin permissions only on org projects they create</td>
+	      <td></td>
 	      <td>x</td>
 	      <td></td>
 	    </tr>
-        <tr>
-	      <td>Has org member-level permissions to project they did not create (e.g. projects hidden to all org members are hidden to them)</td>
+            <tr>
+	      <td>Has member-level permissions, as stipulated by a project admin, on org projects they did not create</td>
 	      <td></td>
 	      <td>x</td>
 	      <td></td>
 	    </tr>
-        <tr>
+            <tr>
 	      <td>Can see org member list with roles, but cannot change member role</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>  
 	    <tr>
-	      <td>No access to org settings page</td>
+	      <td>No access to org settings</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Has org member-level [permissions](http://help.ona.io/guides/projects/permission-levels) to all projects as stipulated by project admins.  </td>
+	      <td>Has member-level [permissions](http://help.ona.io/guides/projects/permission-levels) to projects as stipulated by a project admin.</td>
 	      <td></td>
 	      <td></td>
+	      <td>x</td>
+	    </tr>
+	    <tr>
+	      <td>Can leave the org</td>
+	      <td>x</td>
+	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	  </tbody>

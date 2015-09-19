@@ -26,7 +26,7 @@ categories: [guides, organizations]
 
 An **organization** account on Ona allows you to better organize and manage your group-owned projects and data.  Org accounts have advanced permission levels over individual accounts.  This means an org admin can add other members to the organization and share admin privileges with them, or they still have the option of maintaining access privileges at the project level, by assigning individual collaborators to one project at a time.  
 
-Org accounts are a great option for international organizations that implement projects in multiple countries or regions or for companies that simply require better data management and access controls for members on their team.  A user can even manage multiple organizations from a single Ona account, obviating the need from before of having to maintain and log in and out of separate accounts for each project.
+Org accounts are a great option for international organizations that implement projects in multiple countries or regions or for companies that simply require better data management and access controls for members on their team.  A user can even manage multiple organizations from a single Ona account, obviating the need to maintain separate accounts for each project.
 
 
 #### <a name="creating-an-organization"></a>Creating an organization
@@ -168,9 +168,9 @@ The following table shows the three organization roles and what permissions each
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Has member-level [permissions](http://help.ona.io/guides/projects/permission-levels) to projects as stipulated by a project admin.</td>
+	      <td>Has member-level [permissions](http://help.ona.io/guides/projects/permission-levels) to org project as stipulated by a project admin.</td>
 	      <td></td>
-	      <td></td>
+	      <td>x</td>
 	      <td>x</td>
 	    </tr>
 	    <tr>

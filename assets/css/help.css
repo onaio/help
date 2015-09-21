@@ -257,6 +257,9 @@ h4.link-header{
 .guide-box .glyphicon{
     font-size:6em;
 }
+.guide-box img{
+    max-width:60%;
+}
 .guide-box h4{
     font-weight:600;
     margin-bottom:0;

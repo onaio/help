@@ -18,7 +18,7 @@ categories: [guides, organizations]
   
 * ##### [Organization Projects](#organization-projects)
    * [Creating org projects](#creating-org-projects) 
-   * [Org project differences](org-project-differences)
+   * [Org project differences](#org-project-differences)
 
 ### Creating an Organization
 

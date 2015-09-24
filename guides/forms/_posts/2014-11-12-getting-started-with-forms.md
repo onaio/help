@@ -20,7 +20,7 @@ categories: [topics, forms]
  * [How do I include media files in my form?](#include-media-files-in-forms)
  * [What type of media files are supported in Ona?](#media-files-type-supported)
 * ##### Managing Forms
-* [Replace forms](replace-forms)
+* [Replace forms](#replace-forms)
 * [Move forms](#move-forms)
 * [Make forms Inactive](#inactive-forms)
   * [When uploading your XLSForm](#when-uploading-forms)

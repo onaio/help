@@ -33,22 +33,22 @@ Yes. You only need a data connection to transfer forms to the mobile device. Onc
 <a name="permissions"></a>
 
 ###Can anyone access my forms and data?
-Only those you choose can access your projects, forms and datasets. You can easily see who has access to your files in project sharing. The help page has a [guide to how sharing works](http://help.ona.io/faq/what-are-the-share-settings/).
+Only those you choose can access your projects and datasets. You can easily see who has access to your files in project sharing. The help page has a [guide on sharing and permissions](http://help.ona.io/guides/projects/#sharing-projects).
 
 <a name="cost"></a>
 
 ###How much does Ona cost?
-We will be introducing pricing when the beta period is over and are still working on the details. However, we plan to always offer a free account level based on usage. Additionally, we are dedicated to providing free service to the many Ona users from grassroots organizations taking part in unfunded projects.
+Pricing is based on account usage and other needs. If you are interested in a paid account, please fill out the form on the [plans page](http://company.ona.io/plans.html). There are also free accounts for personal and organization accounts. Personal plans are free up to 500 submissions a month and 15 private projects. Ona Organizations are free for public data projects. Additionally, we are dedicated to providing free service to the many Ona users from grassroots organizations taking part in unfunded projects through the [Impact Grant Program](http://company.ona.io/impact-grant.html).
 
 <a name="enterprise"></a>
 
 ###Are there enterprise-level accounts?
-Yes. Enterprise users can email <info@ona.io> to find out about custom features, advanced support options, and enterprise-level data management.
+Yes. Enterprise users can email <sales@ona.io> to find out about custom features, advanced support options, and enterprise-level data management.
 
 <a name="beta"></a>
 
-###When will beta.ona.io replace ona.io?
-We are excited about v2 of Ona, but are still in the process of fixing bugs and making improvements. As such, we have no timeline for replacing ona.io with beta.ona.io, but we will notify all users at least 30 days before the transition.
+###What happened to the previous version of ona.io?
+The previous version of Ona can be found at [classic.ona.io](classic.ona.io). It will be available for a limited time. The data accessible through both ona.io and classic.ona.io is the same.
 
 <a name="transferdata"></a>
 
@@ -58,7 +58,7 @@ Yes, you can migrate your data to Ona’s servers by using a tool called ODK Bri
 <a name="localdeploy"></a>
 
 ###Can I host my own version of Ona i.e. install a local deployment?
-Yes, please see [https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment](https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment). In some cases we also work with clients to implement installs. Please email <info@ona.io> with an overview of your needs.
+Yes, please see [https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment](https://github.com/SEL-Columbia/formhub/wiki/Installation-and-Deployment). In some cases we also work with clients to implement installs. Please email <sales@ona.io> with an overview of your needs.
 
 <a name="language"></a>
 
@@ -75,4 +75,4 @@ Ona’s founding team met while at Columbia University, where we built tools tha
 <a name="hiring"></a>
 
 ###Is Ona hiring?
-We are always on the lookout for talented individuals. Check out our [careers page](http://company.ona.io/careers.html) for current openings.
+We are always on the lookout for talented individuals. Check out our [careers page](http://company.ona.io/jobs.html) for current openings.

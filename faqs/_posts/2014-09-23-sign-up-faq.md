@@ -48,7 +48,7 @@ Yes. Enterprise users can email <sales@ona.io> to find out about custom features
 <a name="beta"></a>
 
 ###What happened to the previous version of ona.io?
-The previous version of Ona can be found at [classic.ona.io](classic.ona.io). It will be available for a limited time. The data accessible through both ona.io and classic.ona.io is the same.
+The previous version of Ona can be found at [classic.ona.io](https://classic.ona.io). It will be available for a limited time. The data accessible through both ona.io and classic.ona.io is the same.
 
 <a name="transferdata"></a>
 
@@ -70,7 +70,7 @@ The user interface is available in Kiswahili and German, which you can change in
 <a name="team"></a>
 
 ###Who’s behind Ona?
-Ona’s founding team met while at Columbia University, where we built tools that improved the delivery of vital services and developed and implemented technological solutions for Earth Institute projects in India and Africa. Our team consists of a core group in Nairobi, Kenya and a satellite office in New York. Read more about it in our story, [Starting Ona](http://blog.ona.io/general/2014/05/21/starting-ona.html). Bios are on the [company page](http://company.ona.io/).
+Ona’s founding team met while at Columbia University, where we built tools that improved the delivery of vital services and developed and implemented technological solutions for Earth Institute projects in India and Africa. Our team consists of a core group in Nairobi, Kenya and a satellite office in New York. Read more about it in our story, [Starting Ona](http://blog.ona.io/general/2014/05/21/starting-ona.html). Bios are on the [company page](http://company.ona.io/about-us.html).
 
 <a name="hiring"></a>
 

@@ -45,7 +45,7 @@ Pricing is based on account usage and other needs. If you are interested in a pa
 ###Are there enterprise-level accounts?
 Yes. Enterprise users can email <sales@ona.io> to find out about custom features, advanced support options, and enterprise-level data management.
 
-<a name="beta"></a>
+<a name="classic"></a>
 
 ###What happened to the previous version of ona.io?
 The previous version of Ona can be found at [classic.ona.io](https://classic.ona.io). It will be available for a limited time. The data accessible through both ona.io and classic.ona.io is the same.

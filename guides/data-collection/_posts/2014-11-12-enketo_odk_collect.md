@@ -14,7 +14,7 @@ published: true
 * ##### Using Enketo
 * [An introduction to Enketo](#introduction-to-enketo)
 * [Opening an Enketo form](#opening-webform)
-* [Queued records](queued-records)
+* [Queued records](#queued-records)
 * [Saving drafts](#saving-drafts)
 * ##### ODK Collect
 * [Installing ODK Collect](#install-odk-collect)

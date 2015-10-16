@@ -4,6 +4,7 @@ guide_name: "Guides for Advanced Users"
 title: "Extending the ONA API"
 permalink: /guides/advanced-users/
 categories: [guides, advanced-users]
+published: false
 ---
 
 * ##### Ona Access Points

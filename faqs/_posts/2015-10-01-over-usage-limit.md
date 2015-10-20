@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How do I unlock my account if I go over my plan usage limits?"
-permalink: /faq/over-usage-limit
+title: "How do I unlock my account if I go over my plan limits?"
+permalink: /faq/over-plan-limit
 published: false
 category: faq
 ---
@@ -10,9 +10,9 @@ Private projects and forms may be locked due to downgrading your plan, nonpaymen
 
 - No data visualization. The map, table and charts views are disabled.
 - Submissions to forms are rejected.
-- Can't create new private projects or add forms to private projects
-- Can't add or edit project collaborators
-- Project collaborators cannot download data
+- No new private projects or additional forms in private projects.
+- No adding or editing project collaborators.
+- Project collaborators cannot download data.
 
 ###Unlocking a locked account due to plan downgrade
 
@@ -27,6 +27,6 @@ If you recently downgraded and have too many private projects or forms for your 
 If your account is locked because you haven't paid your bill or renewed your plan, send us an email at billing@ona.io to learn how you can pay your balance. When payment is received, your account will be unlocked.
 
 
-###Unlocking a locked account due to going over limits
+###Unlocking a locked account due to going over usage limits
 
-If you go over your monthly usage limits (which varies by plan), you can unlock your account by upgrading yoru account. Email sales@ona.io to determine a plan that will work for your usage. If your account is locked because you are over your monthly submission limit, you can also wait until the next month when the submissions will limit reset.
+If you go over your usage limits (which varies by plan), you can unlock your account by upgrading your account. Email sales@ona.io to determine a plan that will work for your level of activity. If your account is locked because you are over your monthly submission limit, you can also wait until the next month when the submissions will limit reset.

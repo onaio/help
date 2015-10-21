@@ -28,4 +28,4 @@ If you recently downgraded and have too many private projects or forms for your 
 
 ###Unlocking a locked account due to nonpayment
 
-If your account is locked because you haven't paid your bill or renewed your plan, send us an email at billing@ona.io to learn how you can pay your balance. When payment is received, your account will be unlocked.
+If your account is locked because you haven't paid your bill or renewed your plan, send us an email at <billing@ona.io> to learn how you can pay your balance. When payment is received, your account will be unlocked.

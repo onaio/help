@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "How do I unlock my account if my plan is over limits?"
+title: "How do I unlock my account if my plan is over limit?"
 permalink: /faq/over-plan-limit
 published: false
 category: faq
 ---
 
-Private projects and forms may be locked due to downgrading your plan or nonpayment. This will happen if you have too many private projects or forms for your new plan level. 
+Private projects and forms may be locked due to nonpayment or downgrading your plan and having too many private projects or forms for your new plan level.
 
-> Note: Going over monthly submission limits will not lock your account. Additioanl submissions will be rejected, but you will still have access to all of the features on Ona entitled to you.
+> Note: Going over monthly submission limits will not lock your account. Submissions past the limit will be rejected, but you will still have access to all of the features on Ona entitled to you. The montly limit will then reset on the next calendar month or you can upgrade.
 
 When projects and forms are locked, access to your projects, forms and records is limited:
 

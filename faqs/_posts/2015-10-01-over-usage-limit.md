@@ -2,7 +2,7 @@
 layout: post
 title: "How do I unlock my account if my plan is over limit?"
 permalink: /faq/over-plan-limit
-published: false
+published: true
 category: faq
 ---
 

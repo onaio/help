@@ -87,11 +87,11 @@ It’s important to keep your email address up to date on your Ona account, as t
 
 ##### <a name="upgrading-your-plan"></a>Upgrading your account
 
-We are accepting paid signups for the Ona service immediately. Signing up now gives you immediate access to a world class support team and qualifies you for an early adopter discount. To get started, visit the [upgrade page](https://beta.ona.io/upgrading-your-account) and we will work with you to develop a pricing plan that meets your specific usage and support needs. 
+We are accepting paid signups for the Ona service immediately. Signing up now gives you immediate access to a world class support team and qualifies you for an early adopter discount. To get started, visit the [upgrade page](https://ona.io/plans.html) and we will work with you to develop a pricing plan that meets your specific usage and support needs. 
 
 ##### <a name="ona-grant-programs"></a> Do you have special plans for students or non-profits?
 
-We've introduced the Impact Grant Program, which provides free Ona access and support to organizations who are making a difference and might have difficulty paying. To learn more about the Impact Grant Program and to see if you qualify, please visit the [program page](http://company.ona.io/impactgrant/).
+We've introduced the Impact Grant Program, which provides free Ona access and support to organizations who are making a difference and might have difficulty paying. To learn more about the Impact Grant Program and to see if you qualify, please visit the [program page](https://ona.io/impact-grant.html).
 
 
 

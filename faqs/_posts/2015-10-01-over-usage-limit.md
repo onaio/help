@@ -23,8 +23,8 @@ When projects and forms are locked, access to your projects, forms and records i
 If you recently downgraded and have too many private projects or forms for your new plan level, your account will be locked. To unlock your account, you can:
 
 * [Upgrade to a plan](https://ona.io/plans.html) that matches the number of private projects and forms you have.
-* Make your private projects public. This will make your forms and data accessible to anyone on the internet.
-* Delete your private projects.
+* Make your private projects public. This will make your forms and data accessible to anyone on the internet. You can do this in the [project share settings.](http://help.ona.io/guides/getting-started/#sharing-projects)
+* Delete your private projects. This is done on the [project settings page.](http://help.ona.io/guides/projects/#deleting-projects)
 
 
 ###Unlocking a locked account due to nonpayment

@@ -167,7 +167,7 @@ After [installing ODK Collect](#install-odk-collect), the next step is to config
 
 ##### <a name="downloading-forms"></a>Downloading forms to your phone
 
-After configuring ODK Collect to your Ona account, you can now download forms to your phone. You can download forms from projects you’ve created  (are owner of) or [shared with you](http://help.ona.io/guides/projects/#projects-shared-with-you) and  have been assigned **Can Submit** or a higher [permission level](http://help.ona.io/guides/projects/#permission-levels) on that project.
+After configuring ODK Collect to your Ona account, you can now download forms to your phone. You can download forms from projects you’ve created  (are owner of) or [shared with you](http://help.ona.io/guides/projects/#projects-shared-with-you) and  have been assigned **Can Submit** or a higher [permission level](http://help.ona.io/guides/projects/#permission-levels) on that project. Please read [this blog post](http://blog.ona.io/general/2015/05/19/odk-permissions.html) for more information on user permissions in ODK Collect.
 
 Make sure you have internet connection before proceeding with the following steps! 
 
@@ -261,7 +261,7 @@ To enable the auto-send feature, go to **General Settings** in the ODK Collect m
 
 One can switch between swipes and forward/backward buttons or both for navigation. 
 
-To change your navigation settings, from ODK Collect’s **Main Menu** tap on the menu button and select **General Settings**, scroll down to the **User Interface** section and tap on **Navigation**. You can choose to use **Use horizontal swipes** (default settings), **forward/backward buttons** or **swipes and buttons**.
+To change your navigation settings from ODK Coollect's **General Settings**. Under the **User Interface** section, tap on **Navigation**, you can choose to use **horizontal swipes** (default settings), **forward/backward buttons** or **swipes and buttons**.
 
 ![](/content/screenshots/data-collection/odk-navigation.png)
 
@@ -276,5 +276,6 @@ This feature makes it easier to configure ODK Collect on many devices. Instead o
 1. Copy the settings file;  **/odk/settings/collect.settings** to **/odk/collect.settings** of any other device running ODK Collect; 
 ![](/content/screenshots/data-collection/odk-bulk-2.png)
 
-When you re-launch ODK Collect, it will automatically load those settings, and delete that file.
+> 
+**Note:**<br/>When you re-launch ODK Collect, it will automatically load those settings, and delete that file.
 

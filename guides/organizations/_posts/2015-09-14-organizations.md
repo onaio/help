@@ -91,7 +91,7 @@ To add members to your organization:
 The three organization roles are **Admin**, **Project Manager** and **Member**. By default, the user who creates the organization is granted **Admin** role. 
 
  > 
-**Note**<br/>An organization can have more than one admin.
+**Note:**<br/>An organization can have more than one admin.
 
 
 The following table shows the three organization roles and what permissions each role has:

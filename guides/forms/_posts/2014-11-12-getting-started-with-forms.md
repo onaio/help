@@ -164,7 +164,7 @@ The following are the media files supported in Ona:
 
 ##### <a name="replace-forms"></a>Replace forms
 
-Forms uploaded to your Ona account can be replaced using the **Replace Form** option in the form’s dropdown menu. You can to replace a form that has no submissions as explained in [this guide](/faq/replacing-forms-without-submissions). Ona also supports [replacing a form that has submissions](faq/replacing-forms-that-have-submissions).
+Forms uploaded to your Ona account can be replaced using the **Replace Form** option in the form’s dropdown menu. You can to replace a form that has no submissions as explained in [this guide](/faq/replacing-forms-without-submissions). Ona also supports [replacing a form that has submissions](/faq/replacing-forms-that-have-submissions/).
 
 > 
 **Note**:<br/>In order to replace an existing form on Ona, the **form id’s** must be the same.  If you must change the form id on the updated version, then you will need to upload it as a new form.

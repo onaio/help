@@ -66,7 +66,7 @@ Set sharing and form submissions permissions for the project. The project can be
 
 ##### <a name="project-permissions"></a>Project permissions
 
-Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have **Can View (Read Only)**, **Can Submit**, and **Can Edit** permissions. Read more on project permissions [here](PERMISSIONS GUIDE).
+Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have **Can View (Read Only)**, **Can Submit**, and **Can Edit** permissions. Read more on project permissions [here](http://help.ona.io/guides/projects/#permission-levels).
 
 ![](/content/screenshots/getting-started/getting_started_project_permissions.png)
 

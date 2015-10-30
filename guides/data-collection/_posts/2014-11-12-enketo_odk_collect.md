@@ -88,7 +88,7 @@ Queued records can be seen on the webform's side bar with a list of records and 
 ![](/content/screenshots/data-collection/side-menu.png)
 
 > 
-**Note**<br/>
+**Note:**<br/>
 It is highly recommended, however, that you do submit or export your saved form records as soon as they are finalized. If your browser data is cleared before you are able to submit or export your saved records, you risk losing your data. Be especially cognizant of this if you are not using a personal laptop or computer, as many public desktops have pre-installed software that intermittently clears website and browsing data from the computer, which would erase any saved records you have stored in the web browser.
 
 To reveal the queued records:
@@ -108,21 +108,32 @@ To force an upload in between automatic attempts, click **Upload** as shown belo
 If you are not ready to submit your form, you can save the form as a draft that you can open and edit later.
 
 1. Click on the **Save as Draft** checkbox above the **Submit** button;
+<br><br>
+![](/content/screenshots/data-collection/save-button.png)
 1. Then click on **Save Draft** button to save the record;
+<br><br>
+![](/content/screenshots/data-collection/save-draft-button.png)
 1. A dialog box will pop-up prompting you to enter the **Record Name** to make it easy to find a draft record later in a long list of records. The name exists locally in the browser storage only and will not be transferred back to the server!
+<br><br>
+![](/content/screenshots/data-collection/save-draft-button.png)
 1. Type the record name then click on the **Save & Close** button;
+<br><br>
+![](/content/screenshots/data-collection/save-draft-popup.png)
+
 
 To load the draft record:
 
 1. Click on the **Records Queued** icon;
-1. In the sidebar, click on the record that has a little pencil icon;
-1. A notification message will pop up to notify you that the draft record has been loaded on your browser;
+1. In the sidebar, click on the record that has a little pencil icon. A notification message will pop up to notify you that the draft record has been loaded on your browser.
+![](/content/screenshots/data-collection/saved-draft-pencil.png)
 1. Continue filling out the form, then uncheck the **Save as Draft** checkbox when you are done;
+![](/content/screenshots/data-collection/save-draft-uncheck.png)
 1. Then, finally click on the **Submit** button to upload the record to the server.
+![](/content/screenshots/data-collection/submit.png)
 
->
-**Note**<br/>
-When a record is saved without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available. 
+> 
+**Note:**<br/> When a record is saved without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available. 
+
 
 ### ODK Collect
 
@@ -137,28 +148,28 @@ Ona being a mobile data collection tool uses ODK Collect to download already des
 Below are steps that can be followed to install ODK collect:
 
 1. On your Android device, go to _[Google Play Store](https://play.google.com/store?hl=en)_ and search for the latest version of ODK Collect; 
-1. Tap, **Install**;
-1. Tap **Accept**,  to start the download;
-1. You can drag the ODK Collect application to your **Home Screen**
+1. Tap, **Install** then **Accept**,  to start the download;
+<br><br>
+![](/content/screenshots/data-collection/install-odk.png)
 
 ##### <a name="configure-odk-collect-with-ona"></a>Configuring ODK Collect with your Ona account
 
-After installing ODK Collect, the next step is to configure the application to your Ona account.
+After [installing ODK Collect](#install-odk-collect), the next step is to configure the application to your Ona account. The Url `https://odk.ona.io` **must be given** to ODK Collect before you get forms from and submit data to Ona.
 
 1. In ODK Collect's **Main Menu**, press the **Menu button** on your device (note: the menu button location can vary by device), and select **General Settings**;
 ![](/content/screenshots/data-collection/gen-setting.png)
 1. Under **Server Settings**, tap on **Configure platform settings**;
 ![](/content/screenshots/data-collection/configure.png)
-1. Enter **_https://odk.ona.io_** as the url, then press **OK**;
+1. Enter `https://odk.ona.io`as the URL then press **OK**;
 ![](/content/screenshots/data-collection/odk-url.png)
 1. Similarly, select **Username** and enter your Ona username, then select **Password** and enter your Ona password.
 ![](/content/screenshots/data-collection/user-pass.png)
 
 ##### <a name="downloading-forms"></a>Downloading forms to your phone
 
-After configuring ODK Collect to your Ona account, you can now download forms to your phone.
+After configuring ODK Collect to your Ona account, you can now download forms to your phone. You can download forms from projects you’ve created  (are owner of) or [shared with you](http://help.ona.io/guides/projects/#projects-shared-with-you) and  have been assigned **Can Submit** or a higher [permission level](http://help.ona.io/guides/projects/#permission-levels) on that project.
+
 Make sure you have internet connection before proceeding with the following steps! 
-<br><br>
 
 1. Confirm you have the correct server configuration (as explained in [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona). 
 1. Go back to ODK Collect’s **Main Menu** and click on **Get Blank Form**;
@@ -171,16 +182,9 @@ Make sure you have internet connection before proceeding with the following step
 
 ##### <a name="fill-blank-forms"></a>Fill Blank Forms
 
-Once you have downloaded forms to your device, you're ready to start collecting data. To fill in forms:
+Once you have downloaded forms to your device, you're ready to start collecting data. Tap on **Fill Blank Form** and select the form you'd like to complete. 
 
-1. On ODK Collect's main menu, select **Fill Blank Form**;
-1. Select the form you are interested in to fill out the form, to choose a form, touch the form title e.g touch **Tutorial XLSForm**, to select the tutorial xlsform
-1. Swipe the screen to go forward;
-1. Fill out the XLSForm to the end, navigate by swiping the screen to go backward and forward;
-1. At the end of the form, type the title of the form, under **Name this form**;
-1. Make sure you tap on the checkbox to **Mark the form as finalized**. The form must be marked as 
- finalized to be sent to the server!
-1. Then once you are finished, tap on **Save Form and Exit**.
+![](/content/screenshots/data-collection/odk-fill.png)
 
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
 
@@ -207,7 +211,7 @@ Upload results will pop-up in a window to show if the form has been successfully
 ![](/content/screenshots/data-collection/send-result.png)
 
 >
-**Note** <br/>
+**Note:** <br/>
 If you are having difficulties submitting your forms to the server, check your internet connection. For persistent connectivity problems, consider using **[ODK Briefcase](/faq/odk-briefcase)**, which can be used to extract form submissions from a mobile device without an internet connection.
 
 ##### <a name="delete-forms"></a>Delete Forms
@@ -221,7 +225,7 @@ On the **Saved Forms** tab, you'll find a list of all forms that were submitted 
 ![](/content/screenshots/data-collection/delete-saved.png)
 
 >
-**Note** <br/>
+**Note:** <br/>
 Deleting a form only deletes it from the phone; it does not delete the form submission from the server, if it was already submitted.  Be cautious when deleting saved form drafts, as this cannot be undone.  One can distinguish between saved forms and sent forms by reading the **Saved on...** vs. **Sent on...** date underneath the form name.
 
 On the **Blank Forms** tab, you'll find a list of all blank forms currently downloaded on your phone.  To delete a blank form instance, mark the checkbox next to the name of the form and tap **Delete Selected**.
@@ -235,7 +239,7 @@ A dialog box will pop up prompting you to confirm deletion; tap **Delete Forms**
 It's a good idea to delete an older version of a form before downloading a new version of the same form to your phone.  This will help prevent users from opening and entering data in the wrong version of the form.
 
 >
-**NOTE:** <br/>
+**Note:** <br/>
 Once you delete a form, it will no longer be on your phone, you will lose it forever!
 
 
@@ -251,30 +255,26 @@ Once enabled, auto-send will attempt to send forms to the server automatically o
 
 To enable the auto-send feature, go to **General Settings** in the ODK Collect main menu.  Under the **AUTO SEND** section, you can choose to **Auto send with Wi-Fi** and/or **Auto send with network**.
 
+![](/content/screenshots/data-collection/odk-autosend.png)
+
 ##### <a name="navigation-settings"></a>Navigation settings
 
 One can switch between swipes and forward/backward buttons or both for navigation. 
 
-To do this:
+To change your navigation settings, from ODK Collect’s **Main Menu** tap on the menu button and select **General Settings**, scroll down to the **User Interface** section and tap on **Navigation**. You can choose to use **Use horizontal swipes** (default settings), **forward/backward buttons** or **swipes and buttons**.
 
-1. Go to the ODK Collect’s **Main Menu**;
-1. Tap on the menu button;
-1. Select **General Settings**;
-1. Scroll to the **User Interface** section and tap on **Navigation**;
-1. Tap on **Use horizontal swipes** (default settings), to select swipes;
-1. To use the forward/backward buttons, tap on **Use forward/backward buttons**;
-1. To use both, tap on **Use swipes and buttons**;
+![](/content/screenshots/data-collection/odk-navigation.png)
 
 ##### <a name="bulk-configuration-of-devices"></a>Bulk configuration of devices
 
 This feature makes it easier to configure ODK Collect on many devices. Instead of configuring one device a time, you can easily configure all the devices at once.
 
-1. Go to the ODK Collect’s Main Menu;
-1. Tap on the the menu button;
-1. Select **Admin Settings**;
-1. Tap the menu button again, a dialog box will pop-up as illustrated in the image below;
+1. From ODK Collect’s Main Menu, tap on the the menu button and select **Admin Settings**;
+![](/content/screenshots/data-collection/odk-bulk.png)
 1. Tap **Save Settings to Disk**, this will save your general and admin settings to the **_/odk/settings/collect.settings_**;
+![](/content/screenshots/data-collection/odk-bulk-1.png)
 1. Copy the settings file;  **/odk/settings/collect.settings** to **/odk/collect.settings** of any other device running ODK Collect; 
+![](/content/screenshots/data-collection/odk-bulk-2.png)
 
 When you re-launch ODK Collect, it will automatically load those settings, and delete that file.
 

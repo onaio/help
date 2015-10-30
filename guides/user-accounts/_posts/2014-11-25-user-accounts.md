@@ -44,7 +44,7 @@ Your profile page will look something like this:
 ![](/content/screenshots/users-accounts/account-profile2.png)
 
 > 
-**Note**<br/> If you are logged in, you will be able to see all of your projects in your profile page, both public and private.  To see what your public profile page looks like to other web users, copy the website url from your project page, log out of Ona, then paste the website url back into the web address bar.  You should now only see your publicly shared information, including any public projects in your account.
+**Note:**<br/> If you are logged in, you will be able to see all of your projects in your profile page, both public and private.  To see what your public profile page looks like to other web users, copy the website url from your project page, log out of Ona, then paste the website url back into the web address bar.  You should now only see your publicly shared information, including any public projects in your account.
 
 You can update the information that’s in your profile page by going to the **Settings** menu.  Click on the drop down menu next to your profile avatar in the top right corner of your account, then click on **Settings**.
 

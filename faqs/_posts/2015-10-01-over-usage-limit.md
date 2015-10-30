@@ -8,7 +8,8 @@ category: faq
 
 Private projects and forms may be locked due to nonpayment or downgrading your plan and having too many private projects or forms (inactive forms count) for your new plan level.
 
-> Note: Going over monthly submission limits will not lock your account. Submissions past the limit will be rejected, but you will still have access to all of the features on Ona entitled to you. The montly limit will then reset on the next calendar month or you can [upgrade](https://ona.io/plans.html) if you would like to enable additional submissons for the current month.
+>
+**Note:** <br/> Going over monthly submission limits will not lock your account. Submissions past the limit will be rejected, but you will still have access to all of the features on Ona entitled to you. The monthly limit will then reset on the next calendar month or you can [upgrade](https://ona.io/plans.html) if you would like to enable additional submissons for the current month.
 
 When projects and forms are locked, access to your projects, forms and records is limited:
 

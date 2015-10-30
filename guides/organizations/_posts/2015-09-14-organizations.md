@@ -7,7 +7,7 @@ categories: [guides, organizations]
 ---
 
 
-* ##### Creating an Organization
+* ##### [Organizations](#organization)
   * [What is an organization?](#what-is-an-organization)
   * [Creating an organization](#creating-an-organization)
   * [Organization settings](#organization-settings)
@@ -20,7 +20,7 @@ categories: [guides, organizations]
    * [Creating org projects](#creating-org-projects) 
    * [Org project differences](#org-project-differences)
 
-### Creating an Organization
+### Organizations
 
 ##### <a name="what-is-an-organization"></a>What is an organization?
 
@@ -29,7 +29,7 @@ An **organization** account on Ona allows you to better organize and manage your
 Org accounts are a great option for international organizations that implement projects in multiple countries or regions or for companies that simply require better data management and access controls for members on their team.  A user can even manage multiple organizations from a single Ona account, obviating the need to maintain separate accounts for each project.
 
 
-#### <a name="creating-an-organization"></a>Creating an organization
+### Creating an organization
 
 If you’d like to set up an organization account, email us at [sales@ona.io](sales@ona.io), and include the following information in your email:
 
@@ -66,13 +66,16 @@ permission to access the page. Only an org **Admin** can access this page.
 <br><br>
 ![](/content/screenshots/organizations/org-7.png)
 
-#### <a name="add-organization-members"></a>How to add organization members
+### Organization Members
+
+##### <a name="add-organization-members"></a>How to add organization members
 
 Organization members are other Ona users who have been added to the organization by an org admin and have access to the projects within the org account.
 
 New members of an organization fall into one of three org roles. Org admins can add new members and assign them roles on the member list page by typing their Ona username in the top left search bar.
 
-Note: To be added to an organization, a member must have an existing Ona account. We do not support sending member invitations to join at this time. Read more on signing up for a new account [here](http://help.ona.io/guides/getting-started/#signing-up).
+> 
+**Note:**<br/> To be added to an organization, a member must have an existing Ona account. We do not support sending member invitations to join at this time. Read more on signing up for a new account [here](http://help.ona.io/guides/getting-started/#signing-up).
 
 To add members to your organization:
 
@@ -86,7 +89,10 @@ To add members to your organization:
 <br><br>
 ![](/content/screenshots/organizations/org-4.png)
 
-#### <a name="organization-member-roles"></a>Organization member roles
+> 
+**Note:**<br/>To learn more how org members differ from project collolaborators please have look at this [post](http://help.ona.io/faq/org-members-vs-project-collaborators).
+
+##### <a name="organization-member-roles"></a>Organization member roles
 
 The three organization roles are **Admin**, **Project Manager** and **Member**. By default, the user who creates the organization is granted **Admin** role. 
 

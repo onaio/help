@@ -72,7 +72,7 @@ You can also click on the **Edit Image** button to go to the **Org Settings** pa
 
 ![](/content/screenshots/organizations/org-5b.png)
 
-* You can update the **Name**; provide a short **Description** (up to 160 characters), add an **Org Profile Picture** and an **Org Background Image**;
+* Update the **Name**; provide a short **Description** (up to 160 characters), add an **Org Profile Picture** and an **Org Background Image**;
 <br><br>
 ![](/content/screenshots/organizations/org-6.png)
 

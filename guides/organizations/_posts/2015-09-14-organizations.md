@@ -29,19 +29,32 @@ An **organization** account on Ona allows you to better organize and manage your
 Org accounts are a great option for international organizations that implement projects in multiple countries or regions or for companies that simply require better data management and access controls for members on their team.  A user can even manage multiple organizations from a single Ona account, obviating the need to maintain separate accounts for each project.
 
 
-### Creating an organization
+##### <a name="creating-an-organization"></a>Creating an organization
 
-If you’d like to set up an organization account, email us at [sales@ona.io](sales@ona.io), and include the following information in your email:
+To create a new organization account, click on the New Organization option from your account dropdown menu.  
 
-* Name of the organization (up to 42 characters)
-* Desired username of the organization (we suggest something short, like a Twitter handle)
-* Short description of the organization (up to 160 characters)
-* The Ona username for the account that will have org admin role
+![](/content/screenshots/organizations/org-creation-1.png)
 
 > 
-**Note:**<br/> Make sure you email us from the email address that is associated with this Ona account to provide proof that you are the owner of this account.
+**Note:**<br/> Whichever account you are currently logged in to will be the new organization account owner.
 
-Once we receive your email, we’ll set up your organization account within 48 business hours and notify you when it’s available. 
+Enter the **name** and **username** of your new organization account.  The org username will be used in the url.  We suggest something that is short, like a Twitter handle.
+
+![](/content/screenshots/organizations/org-creation-2.png)
+
+Click on **Create Organization** button;  
+
+![](/content/screenshots/organizations/org-creation-3.png)
+
+You will be redirected to the new organization home page;
+
+![](/content/screenshots/organizations/org-creation-3.png)
+
+As an org admin, you have full access to all of the organization settings. Some steps to get your new org set up are:
+
+* Update your [org settings](http://help.ona.io/guides/organizations/#organization-settings), including adding an org avatar and background image;
+* [Add members](http://help.ona.io/guides/organizations/#add-organization-members) to your organization through the Manage Members button from the organization home page; and
+* [Create your first data collection project](http://help.ona.io/guides/organizations/#creating-org-projects) and start collaborating with other users.
 
 #### <a name="organization-settings"></a>Organization settings
 
@@ -54,6 +67,10 @@ Once we receive your email, we’ll set up your organization account within 48 b
 > 
 **Note:**<br/>If you do not see the **Settings** button, it means that you do not have 
 permission to access the page. Only an org **Admin** can access this page.
+
+You can also click on the **Edit Image** button to go to the **Org Settings** page, where you can upload a new background image:
+
+![](/content/screenshots/organizations/org-5b.png)
 
 * You can update the **Name**; provide a short **Description** (up to 160 characters), add an **Org Profile Picture** and an **Org Background Image**;
 <br><br>

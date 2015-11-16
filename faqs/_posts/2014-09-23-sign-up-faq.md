@@ -13,7 +13,7 @@ Ona is a simple and powerful data platform. We help organizations collect, share
 <a name="whyona"></a>
 
 ###Why would I want to use Ona?
-Ona is constantly improving [link to release list page] to help you get the most accurate data for your program and translate that data into actionable information. Ona also offers Google Drive-like sharing permissions, allowing you to give only people you specify access to the data.
+Ona is [constantly improving](http://help.ona.io/faq/new-in-ona/) to help you get the most accurate data for your program and translate that data into actionable information. Ona also offers Google Drive-like sharing permissions, allowing you to give only people you specify access to the data.
 
 <a name="isonaright"></a>
 
@@ -53,7 +53,7 @@ The previous version of Ona can be found at [classic.ona.io](https://classic.ona
 <a name="transferdata"></a>
 
 ###I have data from another service. Can I transfer the data to my Ona account?
-Yes, you can migrate your data to Ona’s servers by using a tool called ODK Briefcase [provide link to glossary?], which lets you transfer data across ODK Aggregate servers. For ODK Briefcase to work on your computer, make sure Java 6 or higher is installed. A detailed explanation on how to transfer data to your account can be found [here](http://help.ona.io/faq/odk-briefcase/).
+Yes, you can migrate your data to Ona’s servers by using a tool called [ODK Briefcase](http://help.ona.io/faq/odk-briefcase/), which lets you transfer data across ODK Aggregate servers. For ODK Briefcase to work on your computer, make sure Java 6 or higher is installed. A detailed explanation on how to transfer data to your account can be found on the [ODK Briefcase FAQ](http://help.ona.io/faq/odk-briefcase/).
 
 <a name="localdeploy"></a>
 

@@ -13,6 +13,7 @@ categories: [topics, forms]
 * [XLSForm Tips for Beginners](#xls-for-beginners)
 * ##### Easy ways to create an XLSForm
 * [Sample XLSForms](#sample-xlsforms)
+* [Download an existing form](#download-existing-form)
 * ##### Uploading your form
 * [Previewing and testing](#previewing-forms)
 * ##### Adding media to forms in Ona
@@ -24,7 +25,7 @@ categories: [topics, forms]
 * [Move forms](#move-forms)
 * [Make forms Inactive](#inactive-forms)
   * [When uploading your XLSForm](#when-uploading-forms)
-  * [From the form drop-down menu](#form-dropdown-menu)
+  * [From the form drop-down menu](#form-dropdown-menu) 
 * [Delete forms](#delete-forms)  
 
 
@@ -85,6 +86,12 @@ These are three useful tips that the designers should be aware of:
 ##### <a name="sample-xlsforms"></a>Sample XLSForms
 
 There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://beta.ona.io/betatester/2839) project under the betatester account. 
+
+##### <a name="download-existing-form"></a>Download an existing form
+
+You can copy or modify an existing form. From the form's **Settings** page, click on the **Form Info** tab, then select **Download XLSForm** from the **Source** dropdown menu.
+
+![](/content/screenshots/forms-management/download-xlsform.png)
 
 ### Uploading your form
 

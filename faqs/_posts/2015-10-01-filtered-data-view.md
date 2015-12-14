@@ -48,8 +48,8 @@ After selecting the fields you want to show (step 3 above), you’ll navigate to
 
 ###Editing records in filtered data views<a name="editing"></a>
 
-Records in a filtered data view are not actually “new” records — they are the records from the parent dataset. This means that when those records are edited, it is actually the data in the parent dataset that is changed and any child filtered data views of the parent dataset will reflect the changes.
+Records in a filtered data view are not actually “new” records &mdash; they are the records from the parent dataset. This means that when those records are edited, it is actually the data in the parent dataset that is changed and any child filtered data views of the parent dataset will reflect the changes.
 
 ###When editing becomes disabled in a filtered data view <a name="disabled"></a>
 
-Filtered data views are a helpful way to share information without compromising private data. However, because Ona data is form based, data editing is implicitly tied to the form. This means editing data is done through the form which must be shown in its entirety due to technical reasons — which in turn means editing data is not possible when a filtered data view has hidden fields.
+Filtered data views are a helpful way to share information without compromising private data. However, because Ona data is form based, data editing is implicitly tied to the form. This means editing data is done through the form which must be shown in its entirety due to technical reasons &mdash; which in turn means editing data must be disabled when fields are hidden in order to ensure privacy permissions are upheld.

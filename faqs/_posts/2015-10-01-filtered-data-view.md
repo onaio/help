@@ -29,7 +29,7 @@ Filtered data views can be created from a form (with submissions) using the **Cr
 **Note:** <br/> A filtered data view inherits the same permission settings as the project it is in. The permissions of the parent dataset does not impact the permissions of the child filtered data view.
 
 >
-**Note:** <br/> If you choose to hide fields in a filtered data view, editing records in that filtered data view will be disabled for all users. Read more about why in the [Editing records in a filtered data view](disabled) section below. 
+**Note:** <br/> If you choose to hide fields in a filtered data view, editing records in that filtered data view will be disabled for all users. Read more about why in the [When editing becomes disabled...](#disabled) section below. 
 
 
 ###How filters work<a name="filters"></a>

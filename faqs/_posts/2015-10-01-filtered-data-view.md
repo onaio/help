@@ -45,10 +45,13 @@ After selecting the fields you want to show (step 3 above), you’ll navigate to
 >
 **Note:** <br/> You can add as more filters by clicking on the **Add Filter** button.
 
+###Adding and editing records in filtered data views<a name="editing"></a>
 
-###Editing records in filtered data views<a name="editing"></a>
+Records in a filtered data view are not actually new, duplicate records &mdash; they are the same records of the parent dataset with hidden information. For adding and editing records, this has a few implications:
 
-Records in a filtered data view are not actually “new” records &mdash; they are the records from the parent dataset. This means that when those records are edited, it is actually the data in the parent dataset that is changed and any child filtered data views of the parent dataset will reflect the changes.
+- For new records: records cannot be added to the filtered data view, they must be added to the parent dataset. Otherwise, there is a chance that the new submission won't match the filters of the filtered data view. A user must be have **Can Submit** or greater permissions on the parent dataset to be able to do add new records to the parent dataset.
+
+- For editing records: when those records are edited from the filtered data view, the data in the parent dataset is changed. Therefore, all of the "child" filtered data views of the parent dataset will reflect the changes.
 
 ###When editing becomes disabled in a filtered data view <a name="disabled"></a>
 

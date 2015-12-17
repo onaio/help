@@ -191,7 +191,7 @@ The following table shows the three organization roles and what permissions each
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Has member-level <a href="http://help.ona.io/guides/projects/permission-levels">permissions</a> to org project as stipulated by a project admin.</td>
+	      <td>Has member-level <a href="http://help.ona.io/guides/projects/#permission-levels">permissions</a> to org project as stipulated by a project admin.</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>

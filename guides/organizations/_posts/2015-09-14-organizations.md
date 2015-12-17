@@ -48,7 +48,7 @@ Click on **Create Organization** button;
 
 You will be redirected to the new organization home page;
 
-![](/content/screenshots/organizations/org-creation-3.png)
+![](/content/screenshots/organizations/org-creation-4.png)
 
 As an org admin, you have full access to all of the organization settings. Some steps to get your new org set up are:
 
@@ -191,7 +191,7 @@ The following table shows the three organization roles and what permissions each
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Has member-level [permissions](http://help.ona.io/guides/projects/permission-levels) to org project as stipulated by a project admin.</td>
+	      <td>Has member-level <a href="http://help.ona.io/guides/projects/permission-levels">permissions</a> to org project as stipulated by a project admin.</td>
 	      <td></td>
 	      <td>x</td>
 	      <td>x</td>

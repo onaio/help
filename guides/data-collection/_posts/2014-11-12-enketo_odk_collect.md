@@ -147,7 +147,7 @@ Ona being a mobile data collection tool uses ODK Collect to download already des
 
 Below are steps that can be followed to install ODK collect:
 
-1. On your Android device, go to _[Google Play Store](https://play.google.com/store?hl=en)_ and search for the latest version of ODK Collect; 
+1. On your Android device, go to _[Google Play Store](https://play.google.com/store?hl=en)_ and search for the latest version of ODK Collect (_ODK Collect v1.4.7 rev 1053_); 
 1. Tap, **Install** then **Accept**,  to start the download;
 <br><br>
 ![](/content/screenshots/data-collection/install-odk.png)

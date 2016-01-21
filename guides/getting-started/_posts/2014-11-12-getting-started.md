@@ -23,10 +23,11 @@ published: true
   * [Using Enketo](#using-enketo)
   * [Using ODK Collect](#using-odk-collect)  
 * [Analyzing data](#analyzing-data)
-  * [The data view](#the-data-view)
+  * [Table view](#the-data-view)
   * [Map view](#map-view)
   * [Summary charts](#summary-charts)
-  * [Downloading data](#downloading-data)
+  * [Filtered dataviews](#filtered-dataviews)
+  * [Data Exports](#data-exports)
 
 
 ### New to Ona
@@ -40,13 +41,13 @@ Author surveys quickly and easily in Excel and upload them to Ona. Then, easily 
 
 ##### <a name="signing-up"></a>Signing up
 
-To use Ona you need to create an account. Start by clicking [Join Ona](https://beta.ona.io/join) and registering for an account. Enter your **full name**, **email address**, **password**, and choose a **username** for your account. Finally, click the **Create my account** button.
+To use Ona you need to create an account. Start by clicking [Join Ona](https://ona.io/join) and registering for an account. Choose a **username** for your account, enter your  **full name**, **email address** and **password**, and . Finally, click the **Create my account** button.
 
 ![](/content/screenshots/getting-started/signing_up.png) 
 
 ##### <a name="logging-in"></a>Logging in
 
-After creating your Ona account, you will automatically be logged in to your account. You will be required to sign in on subsequent visits to [ona.io](https://beta.ona.io). Click on the **Sign In** button at the upper right corner of the page. Enter your account **username** and **password** to log in. 
+After creating your Ona account, you will automatically be logged in to your account. You will be required to sign in on subsequent visits to [ona.io](https://ona.io). Click on the **Sign In** button at the upper right corner of the page. Enter your account **username** or **email address** and **password** to log in. 
 
 ![](/content/screenshots/getting-started/logging_in.png)
 
@@ -66,7 +67,7 @@ Set sharing and form submissions permissions for the project. The project can be
 
 ##### <a name="project-permissions"></a>Project permissions
 
-Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have **Can View (Read Only)**, **Can Submit**, and **Can Edit** permissions. Read more on project permissions [here](http://help.ona.io/guides/projects/#permission-levels).
+Add project collaborators, type the username of the collaborator to invite them to view or contribute to a project. Then, give them permissions that will grant them access to the project. A collaborator can have **Can View (Read Only)**, **Can view and Download**, **Can Submit**, and **Can Edit** permissions. An individual project will only have one Admin (project owner) while an [organization project](https://help.ona.io/guides/organizations/#organization-projects) can have more than one Admin. Read more on project permissions [here](http://help.ona.io/guides/projects/#permission-levels).
 
 ![](/content/screenshots/getting-started/getting_started_project_permissions.png)
 
@@ -78,27 +79,29 @@ To learn how to author your forms in Excel, please visit [http://xlsform.org/](h
 
 ##### <a name="adding_forms_to_projects"></a>Adding forms to Projects
 
-Upload your finished XLSForm to a Project in your Ona account to make it available for download and data collection.
+Upload your finished XLSForm to a Project in your Ona account to make it available for download and data collection. Read more the various was of uploading forms [here](https://help.ona.io/faq/uploading-xlsform/).
 
 ![](/content/screenshots/getting-started/getting_started_add_form.png)
 
 ##### <a name="collecting-data"></a>Collecting data
 
-Gather data via a smartphone using Open Data Kit (ODK) Collect or via built-in webforms. Manage all your collected data securely in one spot under a project on your Ona dashboard.
+Gather data via a smartphone using Open Data Kit (ODK) Collect, [Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html) or via built-in webforms. Manage all your collected data securely in one spot under a project on your Ona dashboard.
 
 ##### <a name="webform-vs-mobile"></a>Webform vs. mobile
 
-Ona allows collection of data in two various ways which include **[Enketo Smart Paper](https://enketo.org/)**, also known as **Web forms** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The options are complementary and it is recommended to decide on a survey-to-survey basis which is the most suitable tool. Read more on the tools [here](/guides/data-collection)
+Ona allows collection of data in two various ways which include **[Enketo Smart Paper](https://enketo.org/)**, also known as **Web forms**, **[Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**. The options are complementary and it is recommended to decide on a survey-to-survey basis which is the most suitable tool. Read more on the tools [here](/guides/data-collection)
 
 ##### <a name="using-enketo"></a>Using Enketo
 
 Enketo is a web based data collection client that allows for offline data collection through a web browser on any device.
 
-Obtain the Enketo form url from the form **Details** page and paste it on any modern web browser.
+Obtain the Enketo form url from **Submit data** section on the form's  **Overview** page and paste it on any modern web browser.
 
 ![](/content/screenshots/getting-started/getting_started_enketo_url.png)
 
-##### <a name="using-odk-collect"></a>Using ODK Collect
+##### <a name="using-odk-collect"></a>Using Ona Collect and ODK Collect
+
+[Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html) is a tweaked version of ODK Collect created especially for Ona users that can be downloaded from [Google Playstore](https://play.google.com/store/apps/details?id=io.ona.collect.android). Simply sign in to Ona Collect with your Ona credentials to access your forms.
 
 Ona was designed to work with [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android) a proven mobile data collection tool developed by University of Washington.
 
@@ -112,11 +115,11 @@ Here is a comprehensive guide on setting up ODK Collect to help you configure yo
 
 ##### <a name="analyzing-data"></a>Analyzing data
 
-Visualize and share your data as it’s collected via online-maps, photo galleries, or export in CSV or XLS for more advanced analysis. Switch between maps, table and summary chart views.
+Visualize and share your data as it’s collected via online-maps, photo galleries, or export in CSV or XLS for more advanced analysis. Easily switch between data exports. map, table, and summary chart views
 
 ![](/content/screenshots/getting-started/getting_started_viewing_submitted_data.png)
 
-##### <a name="the-data-view"></a>The data view
+##### <a name="the-data-view"></a>Table view
 
 View submitted data directly in your browser. 
 
@@ -128,7 +131,7 @@ If your form contains, a GPS point the data will automatically show up in the ma
 
 ![](/content/screenshots/getting-started/getting_started_gps_points.png)
 
-Easily view the distribution of responses by question type with different color dots.
+Easily view the distribution of responses by question type filtered with different color dots.
 
 ![](/content/screenshots/getting-started/getting_started_maps.png)
 
@@ -138,5 +141,14 @@ Easily view and create summary bar charts.
 
 ![](/content/screenshots/getting-started/getting_started_summary_charts.png)
 
+##### <a name="filtered-dataviews"></a>Filtered dataviews
 
+Create a subset of your data with certain conditions and share the filtered dataview with users. Read more on filtered dataviews [in this section](https://help.ona.io/faq/filtered-data-view/).
 
+![](/content/screenshots/getting-started/getting_started_filtered_dataviews.png)
+ 
+##### <a name="data-exports"></a>Data Exports
+
+Export your data in various formats under the **Export data** section on the form's **Overview** page.
+
+![](/content/screenshots/getting-started/getting-started-data-exports.png)

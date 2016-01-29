@@ -113,8 +113,6 @@ To add members to your organization:
 
 The three organization roles are **Admin**, **Project Manager** and **Member**. By default, the user who creates the organization is granted **Admin** role. 
 
-In addition to the three organization roles above, a user can also be added individually to a project within the org and become an organization collaborator. An **organization collaborator** is a user that is shared on an organization project but isn't part of the organization. When viewing the organization home page, organization collaborators will see the list of projects that they have been added to and the list of organization collaborators. They will not be able to see the list of organization members, organization settings, or any other projects in the organization.
-
 > 
 **Note:**<br/>An organization can have more than one admin.
 
@@ -206,7 +204,8 @@ The following table shows the three organization roles and what permissions each
 	    </tr>
 	  </tbody>
 	</table>
-    
+
+In addition to the three organization roles above, a user can also be added individually to a project within the org and become an organization collaborator. An **organization collaborator** is a user that is shared on an organization project but isn't part of the organization. When viewing the organization home page, organization collaborators will see the list of projects that they have been added to and the list of organization collaborators. They will not be able to see the list of organization members, organization settings, or any other projects in the organization.    
     
 ### Organization Projects
 

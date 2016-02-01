@@ -13,13 +13,10 @@ categories: [guides, user-accounts]
   * [Upgrading your plan](#upgrading-your-plan)
   
 * ##### Manage Account
-* [How do I change my password?](#how-to-change-your-password)
-* [How do I change the email address on my account?](#how-to-change-your-email-address)
-
-* [Do you have special plans for students or non-profits?](#special-plans)
-
-
-
+ * [How do I change my password?](#how-to-change-your-password)
+ * [How do I change the email address on my account?](#how-to-change-your-email-address)
+ * [Do you have special plans for students or non-profits?](#special-plans)
+ 
 ### Account Setup
 
 ##### <a name="registration"></a>Registering for an Account

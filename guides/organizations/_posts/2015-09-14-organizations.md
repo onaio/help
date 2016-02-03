@@ -131,7 +131,7 @@ The following table shows the three organization roles and what permissions each
 	  </thead>
 	  <tbody>
 	    <tr>
-	      <td>Can add and remove members in the org and change role for any member except self</td>
+	      <td>Can add and remove members in the org and change the role for any member except self</td>
 	      <td>x</td>
 	      <td></td>
 	      <td></td>
@@ -161,7 +161,7 @@ The following table shows the three organization roles and what permissions each
 	      <td></td>
 	    </tr>
             <tr>
-	      <td>Can create a project in the org</td>
+	      <td>Can create projects in the org</td>
 	      <td>x</td>
 	      <td>x</td>
 	      <td></td>
@@ -191,9 +191,9 @@ The following table shows the three organization roles and what permissions each
 	      <td>x</td>
 	    </tr>
 	    <tr>
-	      <td>Has member-level <a href="http://help.ona.io/guides/projects/#permission-levels">permissions</a> to org project as stipulated by a project admin.</td>
+	      <td>Has member-level <a href="http://help.ona.io/guides/projects/#permission-levels">permissions</a> to all org projects as stipulated by a project admin.</td>
 	      <td></td>
-	      <td>x</td>
+	      <td></td>
 	      <td>x</td>
 	    </tr>
 	    <tr>

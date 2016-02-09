@@ -12,7 +12,7 @@ Filtered data views allow you to select certain fields from the data you’d wan
 
 Access to filtered data views work the same way as datasets projects. You can save it to a different project than the original parent dataset and control who has access to the data.
 
-###Creating a filtered data view
+### Creating a filtered data view
 
 Filtered data views can be created from a form (with submissions) using the **Create filtered data view** option in the form’s dropdown menu. Below are the steps to follow to create Filtered Data Views:
 
@@ -55,7 +55,7 @@ Filtered data views can be created from a form (with submissions) using the **Cr
 * If you choose to hide fields in a filtered data view, editing records in that filtered data view will be disabled for all users. Read more about why in the [When editing becomes disabled...](#disabled) section below. 
 
 
-###How filters work<a name="filters"></a>
+### How filters work<a name="filters"></a>
 
 Filters in filtered data views allow you to show only records with specific answers. In other words, if you were viewing the data table, only show specific rows with fields that match your filter would show and rows that do not will be hidden.
 
@@ -77,7 +77,7 @@ After selecting the fields you want to show (step 3 above), you’ll navigate to
 >
 **Note:** <br/> You can add as more filters by clicking on the **Add Filter** button.
 
-###Adding and editing records in filtered data views<a name="editing"></a>
+### Adding and editing records in filtered data views<a name="editing"></a>
 
 Records in a filtered data view are not actually new, duplicate records &mdash; they are the same records of the parent dataset with hidden information. For adding and editing records, this has a few implications:
 
@@ -85,6 +85,6 @@ Records in a filtered data view are not actually new, duplicate records &mdash; 
 
 - For editing records: when those records are edited from the filtered data view, the data in the parent dataset is changed. Therefore, all of the "child" filtered data views of the parent dataset will reflect the changes.
 
-###When editing becomes disabled in a filtered data view <a name="disabled"></a>
+### When editing becomes disabled in a filtered data view <a name="disabled"></a>
 
 Filtered data views are a helpful way to share information without compromising private data. However, because Ona data is form based, data editing is implicitly tied to the form. This means editing data is done through the form which must be shown in its entirety due to technical reasons &mdash; which in turn means editing data must be disabled when fields are hidden in order to ensure privacy permissions are upheld.

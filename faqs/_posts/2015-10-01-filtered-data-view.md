@@ -12,9 +12,6 @@ Filtered data views allow you to select certain fields from the data you’d wan
 
 Access to filtered data views work the same way as datasets projects. You can save it to a different project than the original parent dataset and control who has access to the data.
 
->
-**Note:** <br/>Filtered data views is not yet supported in a multiple language form.
-
 ###Creating a filtered data view
 
 Filtered data views can be created from a form (with submissions) using the **Create filtered data view** option in the form’s dropdown menu. Below are the steps to follow to create Filtered Data Views:

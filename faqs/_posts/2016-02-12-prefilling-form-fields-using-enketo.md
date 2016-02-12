@@ -7,10 +7,8 @@ category: faq
 
 If there are multiple fields you would like to prefill then you would have to separate each of the other query parameters with an ampersand like the following example:
   
-  ```
-  https://enketo.ona.io/_/?d[/xpath/to/field_name]=<prefill-value>&d[/xpath/to/other_field_name]=<prefill-value>#ABC2
-  ```
-<br>  
+    https://enketo.ona.io/_/?d[/xpath/to/field_name]=<prefill-value>&d[/xpath/to/other_field_name]=<prefill-value>#ABC2
+
 To retrieve the xpath of the field, you would need the xml of the form. You can retrieve the links to the xml representation of the forms you have access to by visiting `https://odk.ona.io/<your-username>/formList` and copying the contents in between `downloadUrl` tag for the specific form i.e when you visit `https://odk.ona.io/<your-username>/formList`, you will get something similar to the following:
 
      <xforms xmlns="http://openrosa.org/xforms/xformsList">
@@ -51,30 +49,23 @@ See the example below:
  
  This means that if I wanted to prefill field `age_limit` when the webform loads, my url would be as follows:
  
- ```
- https://enketo.ona.io/_/?d[/form_B/age_limit]=45#ABC2
- ```
+
+    https://enketo.ona.io/_/?d[/form_B/age_limit]=45#ABC2
  
  > 
  **Note:**<br/> The xpath is inside square brackets and it's preceeded with letter `d`.
  
 The format for [multiple choice questions](http://xlsform.org/#multiple-choice) would be the same,  however the value has to be one of the names you have set on the **choices** worksheet for that specific field. Additionally, if you have mutliple select fields and you would like to prefill more than one option, you will have to seperate your value with `%20` which means space. See the example below:
  
-```
-https://enketo.ona.io/_/?d[/form_B/multiple_select_field]=value1%20tvalue2
-```
+    https://enketo.ona.io/_/?d[/form_B/multiple_select_field]=value1%20tvalue2
  
-The url above means that the field `multiple_select_field`, which is a multiple select field, will have options with names **value1** and **value2** selected
- when the form loads.
+The url above means that the field `multiple_select_field`, which is a multiple select field, will have options with names **value1** and **value2** selected when the form loads.
  
 If you have a geopoint field, the format would be:
- 
-```
-https://enketo.ona.io/_/?d[/test/locate]=<latitude>%20<longitude>#ABC2
-```
+
+    https://enketo.ona.io/_/?d[/test/locate]=<latitude>%20<longitude>#ABC2
+
   
 This means you might have something like:
   
-```
-https://enketo.ona.io/_/?d[/test/locate]=-2.3%2033.788<longitude>#ABC2
-```
+    https://enketo.ona.io/_/?d[/test/locate]=-2.3%2033.788<longitude>#ABC2

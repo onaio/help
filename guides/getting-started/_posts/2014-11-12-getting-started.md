@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-* #####[New to Ona](#new-to-ona)
+* [New to Ona](#new-to-ona)
  * [How Ona works](#how-ona-works)
  * [Signing up](#signing-up)
  * [Logging in](#logging-in)
@@ -18,17 +18,16 @@ published: true
    * [Sharing projects](#sharing-projects)
    * [Project permissions](#project-permissions)
    * [Form design](#form-design)
-* #####[Collecting data](#collecting-data)
+* [Collecting data](#collecting-data)
   * [Webform vs. mobile](#webform-vs-mobile)
   * [Using Enketo](#using-enketo)
   * [Using Ona and ODK Collect](#using-ona-odk-collect)  
-* #####[Analyzing data](#analyzing-data)
+* [Analyzing data](#analyzing-data)
   * [Table view](#the-data-view)
   * [Map view](#map-view)
   * [Summary charts](#summary-charts)
   * [Filtered dataviews](#filtered-dataviews)
   * [Data Exports](#data-exports)
-
 
 ### New to Ona
 
@@ -99,7 +98,7 @@ Obtain the Enketo form url from **Submit data** section on the form's  **Overvie
 
 ![](/content/screenshots/getting-started/getting_started_enketo_url.png)
 
-##### <a name="using-ona-collect"></a>Using Ona and ODK Collect
+##### <a name="using-ona-odk-collect"></a>Using Ona and ODK Collect
 
 [Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html) is a tweaked version of ODK Collect created especially for Ona users that can be downloaded from [Google Playstore](https://play.google.com/store/apps/details?id=io.ona.collect.android). Simply sign in to Ona Collect with your Ona credentials to access your forms.
 

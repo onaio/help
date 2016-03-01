@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How do I replace a form that has submissions?
-permalink: /faq/replacing-forms-that-have-submissions/
+permalink: /faq/replacing-forms-that-have-submissions
 category: faq
 published: true
 ---

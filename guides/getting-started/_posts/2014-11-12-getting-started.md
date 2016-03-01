@@ -2,27 +2,27 @@
 layout: "guide-view"
 guide_name: New to Ona
 title: New to Ona Guide
-permalink: "/guides/getting-started"
+permalink: "/guides/getting-started/"
 categories: 
   - topics
   - "getting-started"
 published: true
 ---
 
-* ##### New to Ona
-* [How Ona works](#how-ona-works)
-* [Signing up](#signing-up)
-* [Logging in](#logging-in)
-* [Projects](#projects)
-  * [Adding forms to Projects](#adding_forms_to_projects) 
-  * [Sharing projects](#sharing-projects)
-  * [Project permissions](#project-permissions)
-  * [Form design](#form-design)
-* [Collecting data](#collecting-data)
+* #####[New to Ona](#new-to-ona)
+ * [How Ona works](#how-ona-works)
+ * [Signing up](#signing-up)
+ * [Logging in](#logging-in)
+ * [Projects](#projects)
+   * [Adding forms to Projects](#adding_forms_to_projects) 
+   * [Sharing projects](#sharing-projects)
+   * [Project permissions](#project-permissions)
+   * [Form design](#form-design)
+* #####[Collecting data](#collecting-data)
   * [Webform vs. mobile](#webform-vs-mobile)
   * [Using Enketo](#using-enketo)
-  * [Using ODK Collect](#using-odk-collect)  
-* [Analyzing data](#analyzing-data)
+  * [Using Ona and ODK Collect](#using-ona-odk-collect)  
+* #####[Analyzing data](#analyzing-data)
   * [Table view](#the-data-view)
   * [Map view](#map-view)
   * [Summary charts](#summary-charts)
@@ -83,7 +83,7 @@ Upload your finished XLSForm to a Project in your Ona account to make it availab
 
 ![](/content/screenshots/getting-started/getting_started_add_form.png)
 
-##### <a name="collecting-data"></a>Collecting data
+### <a name="collecting-data"></a>Collecting data
 
 Gather data via a smartphone using Open Data Kit (ODK) Collect, [Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html) or via built-in webforms. Manage all your collected data securely in one spot under a project on your Ona dashboard.
 
@@ -99,7 +99,7 @@ Obtain the Enketo form url from **Submit data** section on the form's  **Overvie
 
 ![](/content/screenshots/getting-started/getting_started_enketo_url.png)
 
-##### <a name="using-odk-collect"></a>Using Ona Collect and ODK Collect
+##### <a name="using-ona-collect"></a>Using Ona and ODK Collect
 
 [Ona Collect](http://blog.ona.io/general/2015/12/02/ona-collect.html) is a tweaked version of ODK Collect created especially for Ona users that can be downloaded from [Google Playstore](https://play.google.com/store/apps/details?id=io.ona.collect.android). Simply sign in to Ona Collect with your Ona credentials to access your forms.
 
@@ -113,7 +113,7 @@ Here is a comprehensive guide on setting up ODK Collect to help you configure yo
 
 <script async class="speakerdeck-embed" data-id="494f28f4dd9347e2996f4d9fbc84ebde" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>  
 
-##### <a name="analyzing-data"></a>Analyzing data
+### <a name="analyzing-data"></a>Analyzing data
 
 Visualize and share your data as it’s collected via online-maps, photo galleries, or export in CSV or XLS for more advanced analysis. Easily switch between data exports. map, table, and summary chart views
 

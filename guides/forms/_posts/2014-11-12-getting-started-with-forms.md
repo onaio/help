@@ -2,34 +2,35 @@
 layout: guide-view
 guide_name: Forms
 title: "Authoring your Own Surveys"
-permalink: /guides/forms
+permalink: /guides/forms/
 categories: [topics, forms]
 ---
 
-* ##### XLSForm authoring intro
-* [What is an XLSForm?](#what-is-xlsform)
-* [Why does Ona use XLSForms?](#why-ona-uses-xlsforms)
-* [Basics](#basics)
-* [XLSForm Tips for Beginners](#xls-for-beginners)
-* ##### Easy ways to create an XLSForm
-* [Sample XLSForms](#sample-xlsforms)
-* [Download an existing form](#download-existing-form)
-* ##### Uploading your form
-* [Previewing and testing](#previewing-forms)
-* ##### Adding media to forms in Ona
-* [Adding photos,videos or audio ](#adding-media-files)
- * [How do I include media files in my form?](#include-media-files-in-forms)
- * [What type of media files are supported in Ona?](#media-files-type-supported)
-* ##### Managing Forms
-* [Replace forms](#replace-forms)
-* [Move forms](#move-forms)
-* [Make forms Inactive](#inactive-forms)
-  * [When uploading your XLSForm](#when-uploading-forms)
-  * [From the form drop-down menu](#form-dropdown-menu) 
-* [Delete forms](#delete-forms)  
+* ##### [XLSForm authoring intro](#xlsform-authoring-intro)
+  * [What is an XLSForm?](#what-is-xlsform)
+  * [Why does Ona use XLSForms?](#why-ona-uses-xlsforms)
+  * [Basics](#basics)
+  * [XLSForm Tips for Beginners](#xls-for-beginners)
+* ##### [Easy ways to create an XLSForm](#easy-ways-to-create-xlsforms)
+  * [Sample XLSForms](#sample-xlsforms)
+  * [Download an existing form](#download-existing-form)
+* ##### [Uploading your form](#uploading-your-form)
+  * [Previewing and testing](#previewing-forms)
+* ##### [Adding media to forms in Ona](#adding-media-files-in-ona)
+  * [Adding photos,videos or audio ](#adding-media-files)
+  * [How do I include media files in my form?](#include-media-files-in-forms)
+  * [What type of media files are supported in Ona?](#media-files-type-supported)
+* ##### [Managing Forms](#managing-forms)
+    * [Replace forms](#replace-forms)
+    * [Move forms](#move-forms)
+    * [Make forms Inactive](#inactive-forms)
+        * [When uploading your XLSForm](#when-uploading-forms)
+        * [From the form drop-down menu](#form-dropdown-menu)
+        * [Reveal inactive forms](#show-inactive-forms)
+    * [Delete forms](#delete-forms)  
 
 
-### XLSForm authoring intro
+### <a name="xlsform-authoring-intro"></a>XLSForm authoring intro
 
 ##### <a name="what-is-xlsform"></a>What is an XLSForm?
  XLSForm is a syntax used to author forms using Excel saved as **.xls** or **.xlsx** files. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms.
@@ -81,7 +82,7 @@ These are three useful tips that the designers should be aware of:
  * Field names should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
 1. [XLSForm.org](http://xlsform.org/) **is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
 
-### Easy ways to create an XLSForm
+### <a name="easy-ways-to-create-xlsforms"></a>Easy ways to create an XLSForm
 
 ##### <a name="sample-xlsforms"></a>Sample XLSForms
 
@@ -93,15 +94,15 @@ You can copy or modify an existing form. From the form's **Settings** page, clic
 
 ![](/content/screenshots/forms-management/download-xlsform.png)
 
-### Uploading your form
+### <a name="uploading-your-form"></a>Uploading your form
 
 Once you have successfully authored your XLSForm, you can upload it to your desired project in Ona. Read more on the various ways of uploading XLSForms [here](/faq/uploading-xlsform).
 
 ##### <a name="previewing-forms"></a>Previewing and testing
 
-Forms can be previewed on your web browser using [Enketo Smart Paper](https://enketo.org/) as shown in this [webform](https://ls8un.enketo.org/webform). You can also test the form on any Android smartphone via [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android). For more information on how to preview and test your XLSForm please refer to our [data collection guide](guides/data-collection).
+Forms can be previewed on your web browser using [Enketo Smart Paper](https://enketo.org/) as shown in this [webform](https://ls8un.enketo.org/webform). You can also test the form on any Android smartphone via [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android). For more information on how to preview and test your XLSForm please refer to our [data collection guide](https://help.ona.io/guides/data-collection).
 
-### Adding media to forms in Ona
+### <a name="adding-media-files-in-ona"></a>Adding media to forms in Ona
 
 ##### <a name="adding-media-files"></a>Adding media files
 
@@ -167,7 +168,7 @@ The following are the media files supported in Ona:
 |  Video files  | 3gp, mp4      | 
 |  File attachments | csv |
 
-### Managing Forms
+### <a name="managing-forms"></a>Managing Forms
 
 ##### <a name="replace-forms"></a>Replace forms
 
@@ -194,6 +195,20 @@ When uploading your XLSForm, you can choose **Inactive** from the form upload ve
 Forms already uploaded to your Ona account can be made inactive using the **Make inactive** option in the form’s dropdown menu as highlighted in the screeen shot below;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_14.png)
+
+##### <a name="show-inactive-forms"></a>Show inactive forms
+
+When you first access the project view page, by default all inactive forms and the number of inactive forms are shown in paranthesis. The **Show inactive** checkbox is automatically selected, next the number of inactive forms is also revealed:
+
+![](/content/screenshots/forms-management/reveal-inactive-forms-1.png)
+
+If you not all the forms including the inactive forms you can turn off, click on the **Show inactive** checkbox, inactive forms will no longer be revealed:
+
+![](/content/screenshots/forms-management/reveal-inactive-forms-2.png)
+
+To make inactive forms active again, ensure the **Show inactive** checkbox is selected then from the inactive form's dropdown menu, select **Make active** option as shown in the screen shot below;
+
+![](/content/screenshots/forms-management/reveal-inactive-forms-3.png)
 
 ##### <a name="move-forms"></a>Move forms
 

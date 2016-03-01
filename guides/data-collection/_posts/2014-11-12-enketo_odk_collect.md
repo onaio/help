@@ -2,33 +2,34 @@
 layout: "guide-view"
 guide_name: Data Collection
 title: "Using Enketo & ODK Collect"
-permalink: "/guides/data-collection"
+permalink: "/guides/data-collection/"
 categories: 
   - topics
   - "going-mobile"
 published: true
 ---
 
-* ##### Enketo vs. ODK Collect
-* [Collecting data offline](#collecting-data-offline)
-* ##### Using Enketo
-* [An introduction to Enketo](#introduction-to-enketo)
-* [Opening an Enketo form](#opening-webform)
-* [Queued records](#queued-records)
-* [Saving drafts](#saving-drafts)
-* ##### ODK Collect
-* [Installing ODK Collect](#install-odk-collect)
-* [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona)
-* [Downloading forms to your phone](#downloading-forms)
-* [Fill Blank Forms](#fill-blank-forms)
-* [Edit Saved Forms](#edit-saved-forms)
-* [Send Finalized Form](#send-finalized-form)
-* [Delete Forms](#delete-forms)
-* ##### Tips on using ODK Collect
-* [auto sending of finalized forms](#auto-sending-of-finalized-forms)
-* [navigation-settings](#navigation-settings)
-* [bulk configuration of devices](#bulk-configuration-of-devices)
+* ##### [Enketo vs. ODK Collect](#enketo-vs-odk-collect)
+  * [Collecting data offline](#collecting-data-offline)
+* ##### [Using Enketo](#using-enketo)
+  * [An introduction to Enketo](#introduction-to-enketo)
+  * [Opening an Enketo form](#opening-webform)
+  * [Queued records](#queued-records)
+  * [Saving drafts](#saving-drafts)
+* ##### [ODK Collect](#odk-collect)
+  * [Installing ODK Collect](#install-odk-collect)
+  * [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona)
+  * [Downloading forms to your phone](#downloading-forms)
+  * [Fill Blank Forms](#fill-blank-forms)
+  * [Edit Saved Forms](#edit-saved-forms)
+  * [Send Finalized Form](#send-finalized-form)
+  * [Delete Forms](#delete-forms)
+* ##### [Tips on using ODK Collect](odk-collect-tips)
+  * [auto sending of finalized forms](#auto-sending-of-finalized-forms)
+  * [navigation-settings](#navigation-settings)
+  * [bulk configuration of devices](#bulk-configuration-of-devices)
 
+### <a name="enketo-vs-odk-collect"></a>Enketo vs. ODK Collect
 
 There are two options that Ona users have for data collection: **[Enketo Smart Paper](https://enketo.org/)** and **[ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)**.  
 
@@ -42,7 +43,7 @@ Enketo and ODK Collect can work in tandem, meaning that a single form can be dep
 
 Both Enketo and ODK Collect work offline, meaning that users can launch forms and collect and save their data without an internet or data connection.
 
-### Using Enketo
+### <a name="using-enketo"></a>Using Enketo
 
 ##### <a name="introduction-to-enketo"></a>An introduction to Enketo
 
@@ -134,8 +135,7 @@ To load the draft record:
 > 
 **Note:**<br/> When a record is saved without marking it as a 'draft', it is considered cleared for uploading as soon as a connection is available. 
 
-
-### ODK Collect
+### <a name="odk-collect"></a>ODK Collect
 
 **[Open Data Kit](https://opendatakit.org/)** is a free and open-source set of tools which help organizations author, field, and manage mobile data collection solutions.
 
@@ -175,7 +175,7 @@ Make sure you have internet connection before proceeding with the following step
 1. Go back to ODK Collect’s **Main Menu** and click on **Get Blank Form**;
 ![](/content/screenshots/data-collection/odk-get.png)
 
-1. All of the published and *active* forms from your Ona account will be displayed.  Tap on the checkbox next to the form(s) you want to download, then tap on **Get Selected** to download the form(s) to your device;
+1. All of the published and _active forms_ from your Ona account will be displayed.  Tap on the checkbox next to the form(s) you want to download, then tap on **Get Selected** to download the form(s) to your device;
 ![](/content/screenshots/data-collection/get-select.png)
 1. The download result will pop up in a window.  Click **OK**. You're ready to start collecting data!
 ![](/content/screenshots/data-collection/download-result.png)
@@ -243,7 +243,7 @@ It's a good idea to delete an older version of a form before downloading a new v
 Once you delete a form, it will no longer be on your phone, you will lose it forever!
 
 
-### Tips on using ODK Collect
+### <a name="odk-collect-tips"></a>Tips on using ODK Collect 
 
 ODK Collect has a number of user settings that can be adjusted to better meet the context and needs of a project or simply a data collector's personal preference. While this list is by no means exhaustive, we've found that the following features have been very useful for our users.
 

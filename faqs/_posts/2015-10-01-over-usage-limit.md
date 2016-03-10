@@ -19,7 +19,7 @@ When projects and forms are locked, access to your projects, forms and records i
 * No adding or editing project collaborators.
 * Only the project administrator can download data. Project collaborators cannot download data.
 
-###Unlocking a locked account due to plan downgrade
+### Unlocking a locked account due to plan downgrade
 
 If you recently downgraded and have too many private projects or forms for your new plan level, your account will be locked. To unlock your account, you can:
 
@@ -28,6 +28,6 @@ If you recently downgraded and have too many private projects or forms for your 
 * Delete your private projects. This is done on the [project settings page.](http://help.ona.io/guides/projects/#deleting-projects)
 
 
-###Unlocking a locked account due to nonpayment
+### Unlocking a locked account due to nonpayment
 
 If your account is locked because you haven't paid your bill or renewed your plan, send us an email at <billing@ona.io> to learn how you can pay your balance. When payment is received, your account will be unlocked.

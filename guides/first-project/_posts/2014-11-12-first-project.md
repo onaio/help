@@ -2,7 +2,7 @@
 layout: "guide-view"
 guide_name: First Project
 title: Your First Ona Project Tutorial
-permalink: "/guides/first-project"
+permalink: "/guides/first-project/"
 categories: 
   - topics
   - "first-project"

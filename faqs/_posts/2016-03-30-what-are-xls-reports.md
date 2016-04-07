@@ -136,7 +136,6 @@ Once your template is uploaded, you can download the XLS Report that is generate
 
 > 
 **Note:** <br/> 
-<br>
 * This feature is still in beta. If your template has an error, the report generated will be blank. If you experience this, go through each and every aspect of your template to diagnose the error and upload the template afresh.
 <br>
 * XLS Reports that contain large data-sets may fail to download and result in a timeout error.  Please notify the Ona team when this happens.

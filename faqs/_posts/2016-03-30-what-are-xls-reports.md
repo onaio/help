@@ -120,7 +120,7 @@ You can display a pie chart to show the distribution between the two types of ai
 Once your XLS Report Template is authored, follow the steps below to upload your template to your form on Ona:
 
 * In your project view, select the name of the form that you authored the XLS Report Template for; vavigate to the form’s  **Settings** tab, then click **XLS Report Templates** option on the left;
-* 
+
 <br>
 ![](/content/screenshots/faq/xls-reports-11.png)
 <br>
@@ -135,11 +135,6 @@ Once your template is uploaded, you can download the XLS Report that is generate
 ![](/content/screenshots/faq/xls-reports-13.png)
 
 > 
-**Note:**<br/> 
-<br>
-**Renaming fields:** <br>When replacing a form, Ona cannot tell whether an existing field’s name has been changed.  It will treat any name changes as new fields, and it will treat the existing field as a deleted field.  As such, you will lose all previously submitted data.
-<br><br>
->
 **Note:** <br/> 
 <br>
 * This feature is still in beta. If your template has an error, the report generated will be blank. If you experience this, go through each and every aspect of your template to diagnose the error and upload the template afresh.

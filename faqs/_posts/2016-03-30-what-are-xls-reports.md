@@ -28,7 +28,7 @@ jXLS tags control how your  report will look like after being generated:
 <br>
 ![](/content/screenshots/faq/xls-reports-1.png)
 
-A.  `</jx:forEach items= "${data}" var=”airport”>`** is known as the opening tag. This means that the entire data collected will be named "airport". It is advisable you choose a relevant name for your dataset (data collected). In the  example above, we settled on naming the dataset "airport" because the data collected was regarding airports in Mali. 
+A.  `</jx:forEach items= "${data}" var=”airport”>`is known as the opening tag. This means that the entire data collected will be named "airport". It is advisable you choose a relevant name for your dataset (data collected). In the  example above, we settled on naming the dataset "airport" because the data collected was regarding airports in Mali. 
 
 After naming the dataset "airport", you move to ordering the dataset based on parameters of your choice. 
 In the example used above, you have ordered the “airport” dataset based on region, municipality, code, name, type, scheduled service and elevation feet parameters. 
@@ -55,8 +55,9 @@ H.  `${airport.scheduled_service}`tag searches for type from ‘airport data’ 
 I.  `${airport.deviation_ft}` tag searches for type from ‘airport data’ and put it into the corresponding cell.
 
 >
-**Note:** <br/>  If the parameter is within a group, remember to include the group name in your tag e.g `${group_name_parameter_name}` 
-When you upload your template and generate a report, you will get the following [output](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing)
+**Note:** <br/>  If the parameter is within a group, remember to include the group name in your tag e.g. `${group_name_parameter_name}` 
+
+When you upload your template and generate a report, you will get the following [output](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing):
 
 <br>
 ![](/content/screenshots/faq/xls-reports-2.png)
@@ -72,16 +73,21 @@ In our case, the filter function is introduced on the [Mali Airport XLS Template
 <br>
 ![](/content/screenshots/faq/xls-reports-3.png)
 
-* `<jx:forEach items="${data}"var=“airport”select=“${airport.deviation_ft>1000}”>` - this line of code invokes that from the data named ‘d’, you only retrieve elevation feet that is above 1000.
-* `${airport.iso_region}| ${airport.municipality}|${airport.ident}|${airport.name}|${airport.type}|${airport.deviation_ft}` - this line of code invokes that you retrieve information about region, municipality, code, name, type and elevation feet. It is important to note that all the information retrieved will be subjected to our filter.
+`<jx:forEach items="${data}"var=“airport”select=“${airport.deviation_ft>1000}”>`
 
-Below is an example of the report that is generated from the above template
+The line of code above invokes that from the data named ‘d’, you only retrieve elevation feet that is above 1000.
+
+`${airport.iso_region}|${airport.municipality}|${airport.ident}|${airport.name}|${airport.type}|${airport.deviation_ft}`
+
+The line of code above invokes that you retrieve information about region, municipality, code, name, type and elevation feet. It is important to note that all the information retrieved will be subjected to our filter.
+
+Below is an example of the report that is generated from the above template:
 
 <br>
 ![](/content/screenshots/faq/xls-reports-4.png)
 
 >
-**Note:** <br/> All the elevation feet displayed above are above 1000.
+**Note:** <br/> All the elevation feet displayed in the above example are over 1000 feet.
 
 ### How do I do summation on my report?
 
@@ -90,7 +96,7 @@ You can sum up values in a report by introducing a summation function on an XLS 
 ![](/content/screenshots/faq/xls-reports-5.png)
 <br>
 The Excel formula introduced above will sum up the elevation feet values that will be generated in the report.
-<br>
+<br><
  ![](/content/screenshots/faq/xls-reports-6.png)
 
 ### How can I generate charts or graphs in an XLS Report?
@@ -99,38 +105,35 @@ You can generate graphical representations on an XLS Report provided you introdu
 
 You can display a pie chart to show the distribution between the two types of airports in Mali (small airport and medium airport)
 
-* Create a new worksheet on your template and call it calculations. This will hold the formula for getting the distribution between the two airports.
-<br>
+1. Create a new worksheet on your template and call it calculations. This will hold the formula for getting the distribution between the two airports.
+<br><br>
 ![](/content/screenshots/faq/xls-reports-7.png)
-* Insert a new worksheet and call it dashboard. It will hold our blank chart.
-<br>
+2. Insert a new worksheet and call it dashboard. It will hold our blank chart.
+<br><br>
 ![](/content/screenshots/faq/xls-reports-8.png)
-<br>
-* You generate the output below. On the calculation sheet you notice when you click on a result (e.g 26) the formula being displayed is similar to the one we introduced in our XLS Template.
-<br>
+<br><br>
+3. You'll generate the output below. On the calculation sheet you'll notice that when you click on a result (e.g 26) the formula being displayed is similar to the one we introduced in our XLS Template.
+<br><br>
 ![](/content/screenshots/faq/xls-reports-9.png)
-<br>
-* When you switch to the dashboard sheet of the report you will view the following output.
-<br>
+<br><br>
+4. When you switch to the dashboard sheet of the report you will view the following output.
+<br><br>
 ![](/content/screenshots/faq/xls-reports-10.png)
 
-### Uploading your XLS Report Template
+### Where do I upload my XLS Report Template?
 
 Once your XLS Report Template is authored, follow the steps below to upload your template to your form on Ona:
 
-* In your project view, select the name of the form that you authored the XLS Report Template for; vavigate to the form’s  **Settings** tab, then click **XLS Report Templates** option on the left;
-
-<br>
+1. In your project view, select the name of the form that you authored the XLS Report Template for; navigate to the form’s  **Settings** tab, then click **XLS Report Templates** option on the left;
+<br><br>
 ![](/content/screenshots/faq/xls-reports-11.png)
-<br>
-Once your template is uploaded, you can download the XLS Report that is generated.
-
-*  From the form’s **Overview** page, scroll down to the **XLS Reports section**;
-<br>
+<br><br>
+2. Once your template is uploaded, you can download the XLS Report that is generated from the form’s **Overview** page, scroll down to the **XLS Reports section**;
+<br><br>
 ![](/content/screenshots/faq/xls-reports-12.png)
-<br>
-* Click on the name of the XLS Report Template that you previously uploaded to download it to your computer;
-<br>
+<br><br>
+3. Click on the name of the XLS Report Template that you previously uploaded to download it to your computer;
+<br><br>
 ![](/content/screenshots/faq/xls-reports-13.png)
 
 > 

@@ -34,7 +34,7 @@ After naming the dataset "airport", you move to ordering the dataset based on pa
 In the example used above, you have ordered the “airport” dataset based on region, municipality, code, name, type, scheduled service and elevation feet parameters. 
 
 >
-**Note:** <br/> You  must order the dataset based on existing information. For example you cannot choose a parameter such as "village" because no data was collected on the village where the airport is located and therefore no information on village is available in the dataset.
+**Note:** <br/> You must order the dataset based on existing information. For example, you cannot choose a parameter such as "village" because no data was collected in the village where the airport is located and therefore no information on the village is available in the dataset.
 
 Region, municipality, code, name, type, scheduled service and elevation feet are parameters available in the dataset. It means information based on the listed parameters was collected.
 
@@ -138,7 +138,7 @@ Once your XLS Report Template is authored, follow the steps below to upload your
 
 > 
 **Note:** <br/> 
-* This feature is still in beta. If your template has an error, the report generated will be blank. If you experience this, go through each and every aspect of your template to diagnose the error and upload the template afresh.
+* This feature is currently in beta. If your template has an error, the report generated will be blank. If you experience this, go through each and every aspect of your template to diagnose the error and upload the template afresh.
 <br>
 * XLS Reports that contain large data-sets may fail to download and result in a timeout error.  Please notify the Ona team when this happens.
 

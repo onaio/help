@@ -58,7 +58,7 @@ I.  `${airport.deviation_ft}` tag searches for type from ‘airport data’ and 
 **Note:** <br/>  If the parameter is within a group, remember to include the group name in your tag e.g `${group_name_parameter_name}` 
 When you upload your template and generate a report, you will get the following [output](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing)
 
-<br/>
+<br>
 ![](/content/screenshots/faq/xls-reports-2.png)
 
 ### How do I filter data in my report?
@@ -69,7 +69,7 @@ For example, you have a dataset capturing number of mobile users in Africa; you 
 
 In our case, the filter function is introduced on the [Mali Airport XLS Template](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing) only to display airports which are 1000 ft above ground level.
 
-<br/>
+<br>
 ![](/content/screenshots/faq/xls-reports-3.png)
 
 * `<jx:forEach items="${data}"var=“airport”select=“${airport.deviation_ft>1000}”>` - this line of code invokes that from the data named ‘d’, you only retrieve elevation feet that is above 1000.
@@ -77,7 +77,7 @@ In our case, the filter function is introduced on the [Mali Airport XLS Template
 
 Below is an example of the report that is generated from the above template
 
-<br/>
+<br>
 ![](/content/screenshots/faq/xls-reports-4.png)
 
 >
@@ -86,12 +86,11 @@ Below is an example of the report that is generated from the above template
 ### How do I do summation on my report?
 
 You can sum up values in a report by introducing a summation function on an XLS Template.
-
-<br/>
+<br>
 ![](/content/screenshots/faq/xls-reports-5.png)
-
+<br>
 The Excel formula introduced above will sum up the elevation feet values that will be generated in the report.
-<br/>
+<br>
  ![](/content/screenshots/faq/xls-reports-6.png)
 
 ### How can I generate charts or graphs in an XLS Report?
@@ -131,7 +130,7 @@ Once your template is uploaded, you can download the XLS Report that is generate
 ![](/content/screenshots/faq/xls-reports-12.png)
 <br>
 * Click on the name of the XLS Report Template that you previously uploaded to download it to your computer;
-<br/>
+<br>
 ![](/content/screenshots/faq/xls-reports-13.png)
 
 > 

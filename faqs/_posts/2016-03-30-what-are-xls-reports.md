@@ -9,55 +9,48 @@ category: faq
 
 An XLS Report is an analytic tool available to Ona users that allows you to create custom reports in Excel™ using your data on Ona.  At the heart of XLS Reports is the flexible power of Excel.  Everything that’s possible in Excel, from formulas to pivot tables to charts, can be used in your XLS Reports.      
 
-XLS Reports are always updated with your form’s latest data and can be downloaded at any time from the form’s Overview page on your Ona account.  
+XLS Reports are always updated with your form’s latest data and can be downloaded at any time from the form’s Overview page.  
 
-The sections below walk you through the steps for generating an XLS Report from Ona.  The [Mali Airports dataset](https://ona.io/acme/2280/18477) is used as an example
+The sections below walk you through the steps of generating an XLS Report.  The [Mali Airports dataset](https://ona.io/acme/2280/18477) is used as an example.
 
 ### How do I create an XLS Report Template? 
 
-An XLS Report Template is the Excel file that is used to generate an XLS Report on Ona.  An XLS Report Template is written in Excel, and it contains all of the formulas, macros, and formatting that you want included in your final XLS Report.  Once the XLS Report Template is uploaded to your form on Ona, Ona sends the template and the data to [j2x.ona.io](https://j2x.ona.io/) which in return sends back a downloadable report to Ona.
+An XLS Report Template is the Excel file that is used to generate an XLS Report.  An XLS Report Template contains the formulas, macros, and formatting that you want included in your final XLS Report.  Once the XLS Report Template is uploaded to your form, Ona sends the template and the data to [j2x.ona.io](https://j2x.ona.io/) which then sends back a downloadable report.
 
 Here is the [XLS Report Template](https://docs.google.com/a/ona.io/spreadsheets/d/1bfeYJOWt72NBP_nZYruJOgEVIUvIgPTo2av4bjw67X4/edit#gid=965777567) created for the Mali Airports dataset.  You can use it to follow the instructions below.
 
-### Tags in an XLS Template
+### Tags in an XLS Report Template
 
-In order to generate a report based on specific parameters, you must clearly indicate on the template what information is to be extracted from the data submitted. You will use tags to pull specific information from the raw data.
-
-jXLS tags control how your  report will look like after being generated:
+In order to generate a report based on specific parameters, you must indicate on the template what information is to be extracted from the data set. You will use jXLS tags to pull in the raw data.
 
 <br>
 ![](/content/screenshots/faq/xls-reports-1.png)
 
-A.  `</jx:forEach items= "${data}" var=”airport”>`is known as the opening tag. This means that the entire data collected will be named "airport". It is advisable you choose a relevant name for your dataset (data collected). In the  example above, we settled on naming the dataset "airport" because the data collected was regarding airports in Mali. 
+A.  `</jx:forEach items= "${data}" var=”airport”>`is called the opening tag. In your XLS Report Template, replace "airport" with a name that is relevant to your dataset.
 
-After naming the dataset "airport", you move to ordering the dataset based on parameters of your choice. 
-In the example used above, you have ordered the “airport” dataset based on region, municipality, code, name, type, scheduled service and elevation feet parameters. 
+After naming the dataset in the opening tag, you then order the dataset based on parameters collected in the form. 
+In the example above, we have ordered the “airport” dataset based on region, municipality, code, name, type, scheduled service and elevation parameters, which correspond to specific data fields in the form. 
 
->
-**Note:** <br/> You must order the dataset based on existing information. For example, you cannot choose a parameter such as "village" because no data was collected in the village where the airport is located and therefore no information on the village is available in the dataset.
+B.  `<jx:forEach>` is known as the closing tag. It invokes the end of the dataset.
 
-Region, municipality, code, name, type, scheduled service and elevation feet are parameters available in the dataset. It means information based on the listed parameters was collected.
+C.  `${airport.iso_region}` tag searches for region from ‘airport data’ and puts it into the corresponding cell.
 
-B.  `<jx:forEach>` is known as the closing tag. It invokes an end of the dataset.
+D.  `${airport.municipality}` tag searches for municipality from ‘airport data’ and puts it into the corresponding cell.
 
-C.  `${airport.iso_region}` tag searches for region from ‘airport data’ and put it into the corresponding cell.
+E.  `${airport.ident}` tag searches for ident from ‘airport data’ and puts it into the corresponding cell.
 
-D.  `${airport.municipality}` tag searches for municipality from ‘airport data’ and put it into the corresponding cell.
+F.  `${airport.name}` tag searches for name from ‘airport data’ and puts it into the corresponding cell.
 
-E.  `${airport.ident}` tag searches for ident from ‘airport data’ and put it into the corresponding cell.
+G.  `${airport.type}` tag searches for type from ‘airport data’ and puts it into the corresponding cell.
 
-F.  `${airport.name}` tag searches for name from ‘airport data’ and put it into the corresponding cell.
+H.  `${airport.scheduled_service}` tag searches for scheduled service from ‘airport data’ and puts it into the corresponding cell.
 
-G.  `${airport.type}` tag searches for type from ‘airport data’ and put it into the corresponding cell.
-
-H.  `${airport.scheduled_service}`tag searches for type from ‘airport data’ and put it into the corresponding cell.
-
-I.  `${airport.deviation_ft}` tag searches for type from ‘airport data’ and put it into the corresponding cell.
+I.  `${airport.deviation_ft}` tag searches for deviation from ‘airport data’ and puts it into the corresponding cell.
 
 >
-**Note:** <br/>  If the parameter is within a group, remember to include the group name in your tag e.g. `${group_name_parameter_name}` 
+**Note:** <br/>  If the parameter is within a group in the form, remember to include the group name in your tag, e.g. `${group_name_parameter_name}` 
 
-When you upload your template and generate a report, you will get the following [output](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing):
+When you upload the template and generate a report, you will get the following [output](https://docs.google.com/a/ona.io/spreadsheets/d/16Lt-FgO-M0NwlNysQlVN_kw0y7__5242BocIL5ZBNsM/edit?usp=sharing):
 
 <br>
 ![](/content/screenshots/faq/xls-reports-2.png)

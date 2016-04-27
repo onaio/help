@@ -186,6 +186,16 @@ Once you have downloaded forms to your device, you're ready to start collecting 
 
 ![](/content/screenshots/data-collection/odk-fill.png)
 
+##### <a name="review-responses"></a>Review Responses
+
+Once you have completed your survey, you can review and edit fields of your form to check for errors before saving. Tap on **Go to prompt** icon,  scroll up and down to review all your responses. 
+
+![](/content/screenshots/data-collection/odk-review.png)
+
+>
+**Note:** <br/>
+Use **Go to prompt** function at any time when filling your form to go to the end of the form.
+
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
 
 Forms that are not marked as finalized are saved as drafts in the **Edit Saved Form** menu in ODK Collect. From the home screen in ODK Collect, you can see the number of saved draft forms in parentheses.

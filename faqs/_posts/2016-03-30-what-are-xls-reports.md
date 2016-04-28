@@ -29,9 +29,9 @@ In order to generate a report based on specific parameters, you must indicate on
 A.  `</jx:forEach items= "${data}" var=”airport”>`is called the opening tag. In your XLS Report Template, replace "airport" with a name that is relevant to your dataset.
 
 After naming the dataset in the opening tag, you then order the dataset based on parameters collected in the form. 
-In the example above, we have ordered the “airport” dataset based on region, municipality, code, name, type, scheduled service and elevation parameters, which correspond to specific data fields in the form. 
+In the example above, we have ordered the “airport” dataset based on region, municipality, ident, name, type, scheduled service and elevation parameters, which correspond to specific data fields in the form. 
 
-B.  `${airport.iso_region}` tag searches for region from the airport dataset and puts it into the corresponding cell.
+B.  `${airport.iso_region}` tag searches for iso_region from the airport dataset and puts it into the corresponding cell.
 
 C.  `${airport.municipality}` tag searches for municipality from the airport dataset and puts it into the corresponding cell.
 
@@ -43,7 +43,7 @@ F.  `${airport.type}` tag searches for type from the airport dataset and puts it
 
 G.  `${airport.scheduled_service}` tag searches for scheduled service from the airport dataset and puts it into the corresponding cell.
 
-H.  `${airport.deviation_ft}` tag searches for deviation from the airport dataset and puts it into the corresponding cell.
+H.  `${airport.elevation_ft}` tag searches for elevation from the airport dataset and puts it into the corresponding cell.
 
 I.  `<jx:forEach>` is known as the closing tag. It invokes the end of the dataset.
 
@@ -67,13 +67,13 @@ In our case, the filter function is introduced on the [Mali Airport XLS Template
 <br>
 ![](/content/screenshots/faq/xls-reports-3.png)
 
-`<jx:forEach items="${data}"var=“airport”select=“${airport.deviation_ft>1000}”>`
+`<jx:forEach items="${data}"var=“airport”select=“${airport.elevation_ft>1000}”>`
 
-The line of code above invokes that from the data named ‘d’, you only retrieve elevation feet that is above 1000.
+The line of code above invokes that from the data named ‘airport’, you only retrieve elevation feet that is above 1000.
 
 `${airport.iso_region}|${airport.municipality}|${airport.ident}|${airport.name}|${airport.type}|${airport.deviation_ft}`
 
-The line of code above invokes that you retrieve information about region, municipality, code, name, type and elevation feet. It is important to note that all the information retrieved will be subjected to our filter.
+The line of code above invokes that you retrieve information about region, municipality, ident, name, type and elevation feet. It is important to note that all the information retrieved will be subjected to our filter.
 
 Below is an example of the report that is generated from the above template:
 
@@ -138,4 +138,4 @@ Once your XLS Report Template is authored, follow the steps below to upload your
 
 If you have MySQL Workbench installed with an Excel COM add-in, you must disable any MySQL add-ins for Excel so as to be in a position to successfully generate an XLS Report.
 
-This is the case because Excel add-in hide names and other junk to an excel spreadsheet and therefore will break any scripting you added to the template tab. 
+This is the case because Excel add-ins hide names and other junk to an excel spreadsheet and therefore will break any scripting you added to the template tab. 

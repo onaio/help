@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How do filtered datasets work?"
-permalink: /faq/filtered-data-sets
+permalink: /faq/filtered-datasets
 published: true
 category: faq
 ---
@@ -14,38 +14,38 @@ Access to filtered datasets works the same way as datasets projects. You can sav
 
 ### Creating a filtered dataset
 
-Filtered datasets can be created from a form (with submissions) using the **Create filtered datasets** option in the form’s dropdown menu. Below are the steps to follow to create Filtered Datasets:
+Filtered datasets can be created from a form (with submissions) using the **Create filtered dataset** option in the form’s dropdown menu. Below are the steps to follow to create **Filtered Datasets**:
 
-1. Locate the dataset you would like to create a filtered dataset for on your Project page. Click on the dropdown menu next to the form and select **Create filtered datasets.**
+1. Locate the dataset you would like to create a filtered dataset for on your Project page. Click on the dropdown menu next to the form and select **Create filtered dataset.**
 <br><br>
-![](/content/screenshots/faq/faq-create-filtered-dataset.png)
+![](/content/screenshots/faq/filtered-dataset-1.png)
 <br><br>
 2. In the create filtered dataset wizard, select the fields you want to show by ticking the checkboxes to the left of the fields. Click the checkbox above your fields to toggle **All fields.** Leave the checkbox unchecked in fields that you want to hide in your filtered dataset. 
 <br><br>
-![](/content/screenshots/faq/faq-filtered-all-fields.png)
+![](/content/screenshots/faq/filtered-dataset-2.png)
 <br>
 3. When you are done selecting which fields you want to show, click the **Next** button at the bottom.
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-next.png)
+![](/content/screenshots/faq/filtered-dataset-3.png)
 4. In the next step, you can **Add filters** to show records that match specific answers to fields. For example, if you have a field for “Gender of household Head”, you can add a filter for “Female” (in our dataset , the option "Female" is represented by the variable name "2") so that only records that answered that field with “Female” show up in the filtered dataset and records that have the answer “Male” are hidden. There is more information on this step below in the [How filters work](#filters) section. Click the **Next** button when you are done adding filters.
 <br><br>
-![](/content/screenshots/faq/faq-add-filters.png)
+![](/content/screenshots/faq/filtered-dataset-4.png)
 
 5. To **Confirm and Save** your created filtered dataset, enter the **Name of linked dataset** in the textbox.
 <br><br>
-![](/content/screenshots/faq/faq-linked-dataset-name.png)
+![](/content/screenshots/faq/filtered-dataset-5.png)
 
 6. From the Project dropdown menu, select the project you’d like the filtered dataset to be placed in. If you’d like filtered dataset to be placed in a different project than the original parent dataset select the **New Project** option.
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-project.png)
+![](/content/screenshots/faq/filtered-dataset-6.png)
 
 7. Once you’re done click on the **Save** button.
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-save.png)
+![](/content/screenshots/faq/filtered-dataset-7.png)
 
 8. You should see a label with the text **filtered dataset** next to your created filtered dataset. The created filtered dataset can be accessed in the Project it is in.
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-view.png)
+![](/content/screenshots/faq/filtered-dataset-8.png)
 
 > 
 **Note:**<br/> 
@@ -63,16 +63,13 @@ After selecting the fields you want to show (step 3 above), you’ll navigate to
 
 1. Select a specific field from your dataset on the **Select Field** drop-down menu, e.g.Informal settlement
 <br><br>
-![](/content/screenshots/faq/faq-select-filtered_field.png)
+![](/content/screenshots/faq/filtered-dataset-9.png)
 2. From the constraint list, select a **Constraint.** The constraint selected varies from the type of question, for instance if it’s a text field then a constraint like Equals will be selected. For integer fields a constraints such as Greater than or Less than.
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-constraint.png)
+![](/content/screenshots/faq/filtered-dataset-10.png)
 3. Enter the **Filter value** in the text box and click the **Next** button to create the filtered dataset;
 <br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-constraint.png)
-3. Enter the **Filter value** in the text box and click the **Next** button;
-<br><br>
-![](/content/screenshots/faq/faq-filtered-dataset-value.png)
+![](/content/screenshots/faq/filtered-dataset-11.png)
 
 >
 **Note:** <br/> You can add as more filters by clicking on the **Add Filter** button.

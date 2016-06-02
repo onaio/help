@@ -26,7 +26,7 @@ published: true
   * [Table view](#the-data-view)
   * [Map view](#map-view)
   * [Summary charts](#summary-charts)
-  * [Filtered dataviews](#filtered-dataviews)
+  * [Filtered datasets](#filtered-datasets)
   * [Data Exports](#data-exports)
 
 ### New to Ona
@@ -140,11 +140,11 @@ Easily view and create summary bar charts.
 
 ![](/content/screenshots/getting-started/getting_started_summary_charts.png)
 
-##### <a name="filtered-dataviews"></a>Filtered dataviews
+##### <a name="filtered-datasets"></a>Filtered datasets
 
-Create a subset of your data with certain conditions and share the filtered dataview with users. Read more on filtered dataviews [in this section](https://help.ona.io/faq/filtered-data-view/).
+Create a subset of your data with certain conditions and share the filtered dataset with users. Read more on filtered datasets [How do filterd datasets work?](https://help.ona.io/faq/filtered-datasets).
 
-![](/content/screenshots/getting-started/getting_started_filtered_dataviews.png)
+![](/content/screenshots/getting-started/getting_started_filtered_datasets.png)
  
 ##### <a name="data-exports"></a>Data Exports
 

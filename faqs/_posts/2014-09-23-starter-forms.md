@@ -5,12 +5,12 @@ permalink: /faq/starter-forms
 category: faq
 ---
 
-We've created several helpful XLSForms for you to download and use as a starting point.  All of these XLSForms can also be found in the [Starter Forms](https://preview.ona.io/betatester/2839) project under the **betatester** account.  Feel free to submit some data and view them using **Maps** and **Summary Charts**.
+We've created several helpful XLSForms for you to download and use as a starting point. All of these XLSForms can also be found in the [Starter Forms](https://ona.io/onahelp/2839) project. Feel free to download the XLSForms below from Google Drive to try out on your own.
 
 
 ### Survey on Household Characteristics
 
-[Preview (Enketo Webform)](https://v69fa.enketo.org/webform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPop) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1bNZx-CfBtz7AJr7DBBYeKOGKsmH-Bvc9ikUOkWqcHTI/edit#gid=130881621)
 
 <small>Category: shelter</small><br />
 <small>Unique features: geopoint, image, Likert widget (Enketo webform only)</small>
@@ -18,9 +18,9 @@ We've created several helpful XLSForms for you to download and use as a starting
 This form is meant for household visits with questions on inhabitants and building characteristics and materials.
 
 
-### Micro-project Monthly Performance Survey
+### Monthly Community Interest Group (CIG) Project Report
 
-[Preview (Enketo Webform)](https://xhwzg.enketo.org/webform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoQ) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)
 
 <small>Category: livelihood</small><br />
 <small>Unique features: cascade selects, skip logic, signature widget, constraints, calculations</small>
@@ -29,9 +29,9 @@ This form is meant for a monthly report on the performance of various micro-proj
 
 
 
-### Baseline Survey
+### Baseline Household Survey
 
-[Preview (Enketo Webform)](https://1nyi5.enketo.org/webform ) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/10LpWAr7dzlcUjO3BiFWu4ez3TDJUn83VvNkIn8RGdXk/edit#gid=398822303)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoF) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/10LpWAr7dzlcUjO3BiFWu4ez3TDJUn83VvNkIn8RGdXk/edit#gid=398822303)
 
 <small>Unique features: repeats, repeat counts, indexed-repeats</small>
 
@@ -40,7 +40,7 @@ Conduct a baseline survey of all households in an area, recording the GPS locati
 
 ### Antenatal Care (ANC) Visit
 
-[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Fytwgo.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1ISZAPme6zzsSSWxzqI3xTjhsaT-rsBaWBb8ArnMHQ3w/edit?usp=sharing)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoP) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1ISZAPme6zzsSSWxzqI3xTjhsaT-rsBaWBb8ArnMHQ3w/edit?usp=sharing)
 
 <small>Category: health</small><br />
 <small>Unique features: skip logic, constraints, advanced calculations</small>
@@ -50,7 +50,7 @@ This form records a pregnant woman’s health information and vitals during a ro
 
 ### Fatal injury surveillance reporting form
 
-[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Fgeknv.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1dJUT4mf9IikAfZdSlHQhI547kZcdypR2Foznn06kXsM/edit?usp=sharing)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoz) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1dJUT4mf9IikAfZdSlHQhI547kZcdypR2Foznn06kXsM/edit?usp=sharing)
 
 <small>Category: health</small><br />
 <small>Unique features: grid theme in Enketo</small>
@@ -60,7 +60,7 @@ This form is an adaptation of the WHO fatal injury reporting form.
 
 ### Structure Survey on Malaria Spraying
 
-[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Ftpdej.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1P82SXDobk8ftrJQm2UJXyQGjxbTsKSn2aFLd6nBgps8/edit?usp=sharing)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPo9) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1P82SXDobk8ftrJQm2UJXyQGjxbTsKSn2aFLd6nBgps8/edit?usp=sharing)
 
 <small>Category: environment</small><br />
 <small>Unique features: cascade selects, advanced constraints, geopoint, instance name</small>
@@ -70,7 +70,7 @@ This form is used to record coverage of insecticide spraying for malaria prevent
 
 ### Household Survey on Water Usage and Practices
 
-[Preview (Enketo Webform)](https://beta.ona.io/webform?url=https%3A%2F%2Foixa0.enketo.org%2Fwebform) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1u4gflWl_p4C1FXkjUCDhvlfD3x7ThejjuADyibM87X4/edit?usp=sharing)
+[Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoK) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/spreadsheets/d/1u4gflWl_p4C1FXkjUCDhvlfD3x7ThejjuADyibM87X4/edit?usp=sharing)
 
 <small>Category: water</small><br />
 <small>Unique features: cascade selects, Likert widget (Enketo webform only)</small>

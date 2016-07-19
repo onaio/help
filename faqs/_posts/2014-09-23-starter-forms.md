@@ -5,7 +5,7 @@ permalink: /faq/starter-forms
 category: faq
 ---
 
-We've created several helpful XLSForms for you to download and use as a starting point.  All of these XLSForms can also be found in the [Starter Forms](https://ona.io/betatester/2839) project under the **betatester** account.  Feel free to submit some data and view them using **Maps** and **Summary Charts**.
+We've created several helpful XLSForms for you to download and use as a starting point. All of these XLSForms can also be found in the [Starter Forms](https://ona.io/onahelp/2839) project. Feel free to download the XLSForms below from Google Drive to try out on your own.
 
 
 ### Survey on Household Characteristics
@@ -18,7 +18,7 @@ We've created several helpful XLSForms for you to download and use as a starting
 This form is meant for household visits with questions on inhabitants and building characteristics and materials.
 
 
-### Micro-project Monthly Performance Survey
+### Monthly Community Interest Group (CIG) Project Report
 
 [Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoQ) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/1TpsFu0A22KT0o9hbt9cCyrY50SNLYQb5cLJ101iVLTI/edit#gid=1713820038)
 
@@ -29,7 +29,7 @@ This form is meant for a monthly report on the performance of various micro-proj
 
 
 
-### Baseline Survey
+### Baseline Household Survey
 
 [Preview (Enketo Webform)](https://enketo.ona.io/x/#YPoF) &nbsp; &#183; &nbsp; [Download XLSForm (Google Drive)](https://docs.google.com/a/ona.io/spreadsheets/d/10LpWAr7dzlcUjO3BiFWu4ez3TDJUn83VvNkIn8RGdXk/edit#gid=398822303)
 

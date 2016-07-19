@@ -10,7 +10,7 @@ published: true
 
 Your username and password are case-sensitive.
 
-If you forgot your password, click on the [Click here to reset it](https://beta.ona.io/request-password-reset) link on the sign in page. 
+If you forgot your password, click on the [Click here to reset it](https://ona.io/request-password-reset) link on the sign in page. 
 
 ![](/content/screenshots/faq/faq_reset_password_link.png)
 

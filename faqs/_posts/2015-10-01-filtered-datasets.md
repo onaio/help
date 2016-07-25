@@ -85,3 +85,6 @@ Records in a filtered dataset are not actually new, duplicate records &mdash; th
 ### When editing becomes disabled in a filtered dataset <a name="disabled"></a>
 
 Filtered datasets are a helpful way to share information without compromising private data. However, because Ona data is form based, data editing is implicitly tied to the form. This means editing data is done through the form which must be shown in its entirety due to technical reasons &mdash; which in turn means editing data must be disabled when fields are hidden in order to ensure privacy permissions are upheld.
+
+>
+**Note:** <br/>XLS Reports are not yet supported for filtered datasets, hence the XLS Report link is disabled on filtered datasets.

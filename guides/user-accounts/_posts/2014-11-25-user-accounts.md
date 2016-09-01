@@ -29,7 +29,7 @@ categories: [guides, user-accounts]
 
 ##### <a name="registration"></a>Creating an account
 
-Ona is a web-based platform that works on any modern web browser. To sign up for an account follow the instructions in the [Getting Started](/guides/getting-started/#signing-up) guide or visit `https://ona.io/join` to get started quickly.
+Ona is a web-based platform that works on any modern web browser. To sign up for an account follow the instructions in the [Getting Started](/guides/getting-started/#signing-up) guide or visit <a href="https://ona.io/join" target="_blank">https://ona.io/join</a> to get started quickly.
 
 ##### <a name="logging-in"></a>Logging in
 

@@ -112,11 +112,7 @@ With both personal and organization accounts on the free plan, users can email t
 
 ##### <a name="over-limit"></a>What happens if I try to go over the free plan limits?
 
-If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 15 private forms. If you try to upload additional private forms to your account, you’ll receive a message like the one below.
-
-[insert image]
-
-Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If using ODK Collect, this means you’ll see a message similar to the one below when trying to submit your form submissions.
+If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 15 private forms. Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If using ODK Collect, this means you’ll see a message similar to the one below when trying to submit your form submissions.
 
 [insert image]
 

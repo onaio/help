@@ -161,15 +161,15 @@ If you have projects and forms spread across different accounts, and you want to
 
 Once you’ve identified an appropriate plan for your Ona account and are ready to pay, there are a number of ways to pay for the account upgrade.
 
-1.	Subscribe to the monthly plan with a credit or debit card and make automatic payments every month
+**Subscribe to the monthly plan with a credit or debit card and make automatic payments every month**
 
 This is the fastest and easiest way to sign up. Subscribe online with a credit or debit card, and your account will be automatically billed each month until you decide to cancel. There is no annual commitment, and you can pay as you go. Automated receipts will be sent each month by email.
 
-2.	Pre-pay for a set number of months with a credit or debit card
+**Pre-pay for a set number of months with a credit or debit card**
 
 Make a one-time payment online with a credit or debit card for a specified number of months. An automated receipt will be sent by email. Your Ona account will be downgraded at the end of the subscription period, unless you decide to renew your subscription.
 
-3.	Pre-pay for 6 or 12 months via bank transfer
+**Pre-pay for 6 or 12 months via bank transfer**
 
 For users who can pre-pay in 6 or 12-month segments, invoice and bank transfer is another payment option.
 

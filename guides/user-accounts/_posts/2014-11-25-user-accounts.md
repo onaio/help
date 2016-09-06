@@ -89,7 +89,7 @@ It’s important to keep your email address up to date on your Ona account, as t
 <br><br>
 ![](/content/screenshots/users-accounts/account-profile8.png)
 <br><br>
-1. Then, click on **Update email**
+1. Then, click on **Update email**.
 <br><br>
 ![](/content/screenshots/users-accounts/account-profile9.png)
 
@@ -99,7 +99,6 @@ It’s important to keep your email address up to date on your Ona account, as t
 
 When you create an account on Ona, the account is automatically placed on the free plan. The limits of the free plan for personal accounts are below. 
 
-Personal accounts:
 -	1 private project
 -	Up to 15 private forms
 -	Up to 500 private form submissions per calendar month

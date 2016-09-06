@@ -111,15 +111,7 @@ With both personal and organization accounts on the free plan, users can email t
 
 ##### <a name="over-limit"></a>What happens if I try to go over the free plan limits?
 
-If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 15 private forms. Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If using ODK Collect, this means you’ll see a message similar to the one below when trying to submit your form submissions.
-
-[insert image]
-
-If collecting data using Enketo webforms, the message you will see will look something like the below.
-
-[insert image]
-
-In both cases, your form submissions will be safely stored on the device (if using ODK Collect) or in the web browser (if using Enketo). You can upgrade your account to be able to send the submissions, or you can wait until the beginning of the next month, when the submission count resets to zero.
+If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 15 private forms. Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If this happens, your form submissions will be safely stored on the device (if using ODK Collect) or in the web browser (if using Enketo). You can upgrade your account to be able to send the submissions, or you can wait until the beginning of the next month, when the submission count resets to zero.
 
 For organization accounts, you will be restricted to creating public projects if on the free plan.
 
@@ -127,43 +119,43 @@ For organization accounts, you will be restricted to creating public projects if
 
 If you go over the free plan limits when your account is upgraded, and you subsequently downgrade your account, then your account will be over the free plan limits. If this happens, certain restrictions will be placed on your account, including:
 
-•	No new private projects can be created
-•	No new forms can be uploaded to private projects
-•	No adding or editing project collaborators
-•	No replacing forms or making forms inactive
-•	No viewing Enketo webforms
-•	No new form submissions from ODK Collect and Enketo webforms
-•	No data visualization. The Map, Table and Charts views are disabled
-•	Only project administrators can download the form’s raw data
+- No new private projects can be created
+- No new forms can be uploaded to private projects
+- No adding project collaborators
+- No replacing forms or making forms inactive
+- No viewing Enketo webforms
+- No new form submissions from ODK Collect and Enketo webforms
+- No data visualization. The Map, Table and Charts views are disabled
+- Only project administrators can download the form’s raw data
 
-In addition, if you downgrade your account from a plan that includes access to advanced features to an account that doesn’t include access to advanced features, users will not be able to view or access the advanced features in their account.
+In addition, if you downgrade your account from a plan that includes access to advanced features to an account that doesn’t include access to advanced features, users will no longer be able to view or access the advanced features in the account.
 
 To unlock your account, you will need to either upgrade the account to a higher plan that fits your account usage level, or you can try to consolidate projects and forms to get under the free plan limits. There are a couple of ways you can consolidate projects and forms to get under the free plan limits:
 
-•	Make your private projects public. This will reduce the number of private projects in your account and will also make the forms and data in the project public and accessible to anyone on the internet. You can do this in the project share settings window.
-•	Delete your private projects or forms. Deleting a project can be done on the project settings page, and forms can be deleted in the form drop-down menu. 
+- Make your private projects public. This will reduce the number of private projects in your account and will also make the forms and data in the project public and accessible to anyone on the internet. You can do this in the project share settings window.
+- Delete your private projects or forms. Deleting a project can be done on the project settings page, and forms can be deleted in the form drop-down menu. 
 
 ##### <a name="upgrade"></a>How do I upgrade my account?
 
-Upgrading your Ona account is easy. Visit our plans page and fill out the short upgrade form to get started. We’ll respond to your request shortly (our office hours are 9am – 6pm Nairobi (EAT) time) and work with you to identify a pricing plan that best fits your data collection needs. 
+Upgrading your Ona account is easy. Visit our [plans](https://ona.io/plans.html) page and fill out the short upgrade form to get started. We’ll respond to your request shortly (our office hours are 9am – 6pm Nairobi (EAT) time) and work with you to identify a pricing plan that best fits your data collection needs. 
 
 ##### <a name="choosing-account"></a>Choosing which account to upgrade
 
 Any account in Ona can be upgraded, including both personal and organization accounts. If you have more than one account on Ona, the account that should be upgraded is the account that hosts your projects, forms, and data. 
 
-This means that you should create new projects and forms and submit data to the Ona account that is upgraded, because account limits are applied to the account that hosts and owns the data and not to the individual collaborator accounts that are added to the projects.
+This means that you should create new projects and forms and submit data to the Ona account that is upgraded, because the expanded account limits are applied to the account that is upgraded and not to the individual collaborator accounts that are added to projects.
 
-To make sure you are creating projects in the account that is upgraded, select the appropriate account name in the dropdown when creating a new project. See screenshot below. All accounts that you have permission to create a new project in are listed in the dropdown.
+To make sure you are creating projects in the account that is upgraded, select the upgraded account name in the dropdown when creating a new project. See the screenshot below. All accounts that you have permission to create a new project in are listed in the dropdown.
 
-[insert image]
+<br><br>
+![](/content/screenshots/users-accounts/project-owner-dropdown.png)
 
-For existing projects, you can check the account avatar shown on the project page, which indicates the account that owns the project and the forms and data inside it.
+For existing projects, you can check the account avatar and username shown on the project page, which indicates the account that owns the project.
 
-[insert image]
+<br><br>
+![](/content/screenshots/users-accounts/project-owner.png)
 
-If you have projects and forms spread across different accounts, and you want to consolidate everything into one account that is upgraded, you can use the project transfer feature to move projects between accounts, or you can move individual forms between accounts using the Move to option in the form drop-down menu.
-
-[insert image]
+If you have projects and forms spread across different accounts, and you want to consolidate everything into one account that is upgraded, you can use the [project transfer feature](https://help.ona.io/guides/projects/#transferring-projects) to move projects between accounts, or you can move individual forms between accounts using the **Move to** option in the form drop-down menu.
 
 ##### <a name="billing"></a>Billing options
 
@@ -175,7 +167,7 @@ This is the fastest and easiest way to sign up. Subscribe online with a credit o
 
 2.	Pre-pay for a set number of months with a credit or debit card
 
-Make a one-time payment online with a credit or debit card for a specified number of months. An automated receipt will be sent by email. Your Ona account will be downgraded at the end of the subscription period, unless you decide to renew.
+Make a one-time payment online with a credit or debit card for a specified number of months. An automated receipt will be sent by email. Your Ona account will be downgraded at the end of the subscription period, unless you decide to renew your subscription.
 
 3.	Pre-pay for 6 or 12 months via bank transfer
 
@@ -183,11 +175,4 @@ For users who can pre-pay in 6 or 12-month segments, invoice and bank transfer i
 
 ##### <a name="special-plans"></a>Do you offer special pricing for students or non-profits?
 
-We introduced the **Impact Grant Program**, which provides a free account upgrade and support to students and members of grassroots or volunteer organizations who are making a difference in their communities but might have difficulty paying to upgrade their account. To learn more about the Impact Grant Program and to see if you qualify, please visit the [program page](https://ona.io/impact-grant.html).
-
-For more answers on upgrading and payment, check out the pricing FAQs.
-
-
-
-
-
+We introduced the **Impact Grant Program**, which provides a free account upgrade and support to students and members of grassroots or volunteer organizations who are making a difference in their communities but might have difficulty paying to upgrade their account. To learn more about the program and to see if you qualify, please visit the [program page](https://ona.io/impact-grant.html).

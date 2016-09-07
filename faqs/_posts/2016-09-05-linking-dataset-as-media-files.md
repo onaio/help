@@ -17,7 +17,7 @@ Click on **Select dataset to link** to get a list of the forms and filtered data
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_02.png)
 
-This opens the **Link a dataset** window where you can select the project in which the dataset is located, then name the dataset to be linked. In the **File name** field, fill in the name you wish to call the linked dataset. 
+This opens the **Link a dataset** window where you can select the project in which the dataset is located, then the name of the dataset to be linked. In the **File name** field, fill in the name you wish to call the linked dataset. 
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_03.png)
 

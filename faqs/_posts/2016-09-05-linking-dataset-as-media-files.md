@@ -22,6 +22,7 @@ This opens the **Link a dataset** window where you can select the project in whi
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_03.png)
 
+
 Click on **Link Dataset** to save the changes. Your linked dataset will appear on the page. The file name given above will be prepended with **xform** and then a **number**, which you can ignore.
 
 

@@ -17,7 +17,8 @@ Click on **Select dataset to link** to get a list of the forms and filtered data
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_02.png)
 
-This opens the **Link a dataset** window where you can select the project in which the dataset is located, then the name of the dataset to be linked. In the **File name** field, fill in the name you wish to call the linked dataset.  
+This opens the **Link a dataset** window where you can select the project in which the dataset is located, then the name of the dataset to be linked. In the **File name** field, fill in the name you wish to call the linked dataset. 
+
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_03.png)
 
@@ -39,4 +40,5 @@ The field name from which data is being pulled from the linked dataset (i.e., th
 You can then reference this value in notes (as in the example above), constraints, relevant fields, etc., just as you would reference any other field.
 
 >
-**Note:** <br/> linked dataset is a live dataset that can change after a user initially downloads the form that it is linked to. If the linked dataset changes (i.e., data is added, edited, or deleted), the form it is linked to has to be downloaded again in ODK Collect for the user to be able to have the latest updates to the linked dataset. Before downloading the form again, make sure you submit all pending form submissions in ODK Collect.
+**Note:** <br/> The linked dataset is a live dataset that can change after a user initially downloads the form that it is linked to. If the linked dataset changes (i.e., data is added, edited, or deleted), the form it is linked to has to be downloaded again in ODK Collect for the user to be able to have the latest updates to the linked dataset. Before downloading the form again, make sure you submit all pending form submissions in ODK Collect.
+

@@ -24,7 +24,7 @@ published: true
   * [Edit Saved Forms](#edit-saved-forms)
   * [Send Finalized Form](#send-finalized-form)
   * [Delete Forms](#delete-forms)
-* ##### [Tips on using ODK Collect](odk-collect-tips)
+* ##### [Tips on using ODK Collect](#odk-collect-tips)
   * [auto sending of finalized forms](#auto-sending-of-finalized-forms)
   * [navigation-settings](#navigation-settings)
   * [bulk configuration of devices](#bulk-configuration-of-devices)
@@ -59,7 +59,7 @@ Enketo has the following key features:
 
 ##### <a name="opening-webform"></a>Opening an Enketo form
 
-Once you have successfully [added a form](Uploading forms) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
+Once you have successfully [added a form](https://help.ona.io/faq/uploading-xlsform#upload-xlsform) to your Project on Ona, you can immediately open it in Enketo webforms and start collecting data following the steps below:
 
 From the list of **Forms** in your Project, select the **Webform** icon next to the name of the form you wish to open.
 

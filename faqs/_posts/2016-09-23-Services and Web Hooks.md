@@ -9,7 +9,7 @@ category: faq
 
 A webhook is a way for Ona to provide other **URLs (Services)** with real-time information on every form submitted. The webhook delivers data to the URL as soon as it happens, meaning you get the data immediately. 
 
-When a form is submitted, Ona creates a **JSON object**. This object contains all the submitted form’s details, including question field name, their respective answers submitted, and metadata, which is sent in real-time to all the URLs in your form’s webhooks settings via a HTTP request and posts them in JSON format.
+When a form is submitted, Ona creates a **JSON object**. This object contains all the submitted form’s details, including question field name, their respective submitted answers, and metadata, which is sent in real-time to all the URLs in your form’s webhooks settings via a HTTP request and posts them in JSON format.
 
 ### Using Webhooks
 

@@ -21,7 +21,7 @@ To add your URL on Ona, navigate to the form’s **Settings page** and select **
 
 ![](/content/screenshots/faq/services-webhooks1.png)
 
-Insert your **URL** and select **Add Service. **
+Insert your **URL** and select **Add Service**
 
 ![](/content/screenshots/faq/services-webhooks2.png)
 
@@ -29,7 +29,7 @@ The added URLs will be listed.
 
 ![](/content/screenshots/faq/services-webhooks3.png)
 
-Once you register a webhook URL, Ona will issue a HTTP POST request containing the JSON object to the URL specified every time a form is submitted. 
+Once you register a webhook's URL, Ona will issue a HTTP POST request containing the JSON object to the URL specified every time a form is submitted. 
 
 **Example of JSON Object sent via Webhook**
 
@@ -37,7 +37,7 @@ Once you register a webhook URL, Ona will issue a HTTP POST request containing t
 
 ### Deleting Webhooks
 
-Select the **Settings page** from your form’s page and navigate to **Webhooks**. All added webhooks will be displayed.Click the **remove icon** next to the added webhook to delete it.
+Select the **Settings page** from your form’s page and navigate to **Webhooks**. All added webhooks will be displayed. Click the **remove icon** next to the added webhook to delete it.
 
 ![](/content/screenshots/faq/services-webhooks5.png)
 

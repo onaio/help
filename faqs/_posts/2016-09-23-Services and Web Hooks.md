@@ -33,7 +33,7 @@ Once you register a webhook's URL, Ona will issue a HTTP POST request containing
 
 **Example of JSON Object sent via Webhook**
 
-![](/content/screenshots/faq/services-webhook4.png)
+![](/content/screenshots/faq/services-webhooks4.png)
 
 ### Deleting Webhooks
 

@@ -19,48 +19,48 @@ With Ona, it is easy to configure basemaps for your data.
 
 On your form’s **Map View**, you can find several basemaps from Mapbox already added, as shown below:
 
-![](/content/screenshots/faq/faq-basemaps-1.png)
+  ![](/content/screenshots/faq/faq-basemap-1.png)
 
 Or you can create and configure your own basemaps using a [Mapbox](https://www.mapbox.com/) account. 
 
 To add a new basemap to your form from your Mapbox account, navigate to the form’s **Settings page**, then select **Basemaps**.
 
-![](/content/screenshots/faq/faq-basemaps-2.png)
+  ![](/content/screenshots/faq/faq-basemap-2.png)
 
 Click on **Add Basemap**.
 
-![](/content/screenshots/faq/faq-basemaps-3.png)
+  ![](/content/screenshots/faq/faq-basemap-3.png)
 
 This opens the **Add basemap** window where you can input the below information in order to link the new basemap to your data. 
 
-![](/content/screenshots/faq/faq-basemaps-4.png)
+  ![](/content/screenshots/faq/faq-basemap-4.png)
 
-   1. **Map Provider** - The website used to create the basemap (currently, Ona supports basemaps from Mapbox).
-   2. **Style URL** - The style url for the basemap.
+  1. **Map Provider** - The website used to create the basemap (currently, Ona supports basemaps from Mapbox).
+  2. **Style URL** - The style url for the basemap.
 
-      To get the **style url** for a map on [Mapbox](https://www.mapbox.com/), select the options icon next to **Edit** for the basemap you want to use, then click on **Share, develop and use**.
+To get the **style url** for a map on [Mapbox](https://www.mapbox.com/), select the options icon next to **Edit** for the basemap you want to use, then click on **Share, develop and use**.
 
-      ![](/content/screenshots/faq/faq-basemaps-5.png)
+  ![](/content/screenshots/faq/faq-basemap-5.png)
 
-       A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
+A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
 
-       ![](/content/screenshots/faq/faq-basemaps-6.png)
+  ![](/content/screenshots/faq/faq-basemap-6.png)
 
-   3. **Name** - The name of your basemap. This will be displayed on the list of available maps for your form.
-   4. **Attribution** - (Optional) Any attribution to the appropriate organization(s) owning the copyright to the basemap. This attribution will appear in the map view. 
+  3. **Name** - The name of your basemap. This will be displayed on the list of available maps for your form.
+  4. **Attribution** - (Optional) Any attribution to the appropriate organization(s) owning the copyright to the basemap. This attribution will appear in the map view. 
 
 **Save** the information entered.
 
-![](/content/screenshots/faq/faq-basemaps-7.png)
+  ![](/content/screenshots/faq/faq-basemap-7.png)
 
 Now that your basemap is linked to your form, you can view it by going to the form’s Map View and selecting the layer button 
-![](/content/screenshots/faq/faq-basemaps-8.png) in the bottom left as shown below;
+  ![](/content/screenshots/faq/faq-basemap-8.png) in the bottom left as shown below;
 
-![](/content/screenshots/faq/faq-basemaps-9.png)
+  ![](/content/screenshots/faq/faq-basemap-9.png)
 
 Select your basemap from the list.
 
-![](/content/screenshots/faq/faq-basemaps-10.png)
+  ![](/content/screenshots/faq/faq-basemap-10.png)
 
 >
 Note: Ona now supports vector tiles on all basemaps. Vector tiles are able to deliver large amounts of geographic data in small chunks to a browser or client app. This results in a few key benefits:

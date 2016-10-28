@@ -32,12 +32,12 @@ Once you add a webhook’s URL, Ona will issue a HTTP POST request containing th
 
 ### Example of JSON Object sent via Webhook 
 
-<kbd>![image](/content/screenshots/faq/faq-webhooks-4.png)</kbd>
+<kbd>![image](/content/screenshots/faq/faq-webhook-4.png)</kbd>
 
 ### Removing Webhooks
 To remove a configured webhook, go to the form’s **Settings** page and navigate to **Webhooks**. Click the webhook you wish to remove, and click the remove option on the right.
 
-<kbd>![image](/content/screenshots/faq/faq-webhooks-5.png)</kbd>
+<kbd>![image](/content/screenshots/faq/faq-webhook-5.png)</kbd>
 
 
 

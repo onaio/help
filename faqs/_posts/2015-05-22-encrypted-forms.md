@@ -11,7 +11,7 @@ You can encrypt form submissions to the Ona server using ODK Collect (encryption
 
 ### How does it work?
 
-Forms are encrypted on your mobile device once they are marked as finalized in ODK Collect. The data remains encrypted on your mobile device until it is uploaded to the Ona server.  Once the form is submitted, Ona serves as a storage locker for your encrypted files - they are safely stored and encrypted on the server until they are downloaded and decrypted using [ODK Briefcase](http://help.ona.io/faq/odk-briefcase/).  Since the form submissions on Ona are encrypted, you will not be able to use the view data features in your account, such as the map view or table maker, and  you will not be able to view the data in csv or xls formats until it is decrypted using ODK Briefcase.
+Forms are encrypted on your mobile device once they are marked as finalized in ODK Collect. The data remains encrypted on your mobile device until it is uploaded to the Ona server.  Once the form is submitted, Ona serves as a storage locker for your encrypted files - they are safely stored and encrypted on the server until they are downloaded and decrypted using [ODK Briefcase](http://help.ona.io/faq/odk-briefcase).  Since the form submissions on Ona are encrypted, you will not be able to use the view data features in your account, such as the map view or table maker, and  you will not be able to view the data in csv or xls formats until it is decrypted using ODK Briefcase.
 
 ### Encryption keys
 

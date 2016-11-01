@@ -19,7 +19,7 @@ ODK Briefcase can:
 
 Points 1 and 2 require an internet connection, while points 3-5 can be done offline.
 
-Encrypted form submission data cannot be viewed on ona.io.  Ona stores these form submissions in encrypted format.  In order to view the data, the user must export the submission data using ODK Briefcase and provide the private key while exporting the data in CSV format.
+Encrypted form submission data cannot be viewed on ona.io.  Ona stores these form submissions in encrypted format.  In order to view the data, the user must export the submission data using ODK Briefcase and provide the <a href="https://help.ona.io/faq/encrypted-forms">private key</a> while exporting the data in CSV format.
 
 ### How to install ODK Briefcase
 

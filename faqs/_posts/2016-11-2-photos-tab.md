@@ -3,14 +3,14 @@ layout: post
 title: How do I view images on the photos tab?
 permalink: /faq/viewing-images-on-the-photos-tab
 category: faq
-published: 
+published: false
 ---
 
-Images uploaded with data can now be viewed in a photos gallery under the **Photos** tab. The photos tab displays all the images in one page which makes viewing images a lot easier as opposed to viewing them in each submission on the **Table** view. 
+Images uploaded with data can now be viewed in a photos gallery under the **Photos** tab. The photos tab displays all the images in one page which makes viewing images a lot easier as opposed to viewing them in each submission on the **Table** view.
 
 ![](/content/screenshots/faq/photos-tab-1.png)
 
-The image caption shows the image’s number in the dataset and the submission it is attached to. 
+The image caption shows the image’s number in the dataset and the submission it is attached to.
 
 ![](/content/screenshots/faq/photos-tab-2.png)
 
@@ -30,5 +30,5 @@ You can have multiple images attached to one submission including images within 
 <br><br>
 * The photos tab only shows a cropped and lower resolution version of the original images.
 <br><br>
-* To download the full size image, search for the submission in the **Table** or **Map **single submission popup** **using the Record ID then click on the image to get the full size version.
+* To download the full size image, search for the submission in the **Table** or (**Map** single submission popup) using the Record ID then click on the image to get the full size version.
 

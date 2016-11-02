@@ -35,13 +35,13 @@ This opens the **Add basemap** window where you can input the below information 
 1. **Map Provider** - The website used to create the basemap (currently, Ona supports basemaps from Mapbox).
 2. **Style URL** - The style url for the basemap.
 
-  To get the **style url** for a map on [Mapbox](https://www.mapbox.com/), select the options icon next to **Edit** for the basemap you want to use, then click on **Share, develop and use**.
+    To get the **style url** for a map on [Mapbox](https://www.mapbox.com/), select the options icon next to **Edit** for the basemap you want to use, then click on **Share, develop and use**.
 
-   ![](/content/screenshots/faq/faq-basemap-5.png)
+    ![](/content/screenshots/faq/faq-basemap-5.png)
    
-  A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
+    A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
 
-   ![](/content/screenshots/faq/faq-basemap-6.png)
+    ![](/content/screenshots/faq/faq-basemap-6.png)
    
 3. **Name** - The name of your basemap. This will be displayed on the list of available maps for your form.
 4. **Attribution** - (Optional) Any attribution to the appropriate organization(s) owning the copyright to the basemap. This attribution will appear in the map view. 

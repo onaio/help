@@ -42,7 +42,7 @@ This opens the **Add basemap** window where you can input the below information 
 
    ![](/content/screenshots/faq/faq-basemap-5.png)
    
-A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
+   A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
 
    ![](/content/screenshots/faq/faq-basemap-6.png)
    

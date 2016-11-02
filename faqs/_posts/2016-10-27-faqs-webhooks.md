@@ -17,27 +17,27 @@ You can use webhooks to:
 
 Webhooks are configured on a form-by-form basis under the form's Settings page. Select **Webhooks**, on the left side of the page, enabling you to add a new URL for receiving webhooks.
 
-<kbd>![image](/content/screenshots/faq/faq-webhook-1.png)</kbd>
+![image](/content/screenshots/faq/faq-webhook-1.png)
 
 Insert your **URL** and select **Add Service**. 
 You can enter any URL you would like submitted form information sent to, but this should be a dedicated page on your server.
 
-<kbd>![image](/content/screenshots/faq/faq-webhook-2.png)</kbd>
+![image](/content/screenshots/faq/faq-webhook-2.png)
 
 Your linked URLs will be displayed on the page, as highlighted. You can create, configure, and manage more than one Webhook in Ona.
 
-<kbd>![image](/content/screenshots/faq/faq-webhook-3.png)</kbd>
+![image](/content/screenshots/faq/faq-webhook-3.png)
 
 Once you add a webhook’s URL, Ona will issue a HTTP POST request containing the JSON object to the URL specified every time a form is submitted. 
 
 ### Example of JSON Object sent via Webhook 
 
-<kbd>![image](/content/screenshots/faq/faq-webhook-4.png)</kbd>
+![image](/content/screenshots/faq/faq-webhook-4.png)
 
 ### Removing Webhooks
 To remove a configured webhook, go to the form’s **Settings** page and navigate to **Webhooks**. Click the webhook you wish to remove, and click the remove option on the right.
 
-<kbd>![image](/content/screenshots/faq/faq-webhook-5.png)</kbd>
+![image](/content/screenshots/faq/faq-webhook-5.png)
 
 
 

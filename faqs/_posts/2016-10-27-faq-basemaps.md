@@ -50,7 +50,7 @@ This opens the **Add basemap** window where you can input the below information 
 
   ![](/content/screenshots/faq/faq-basemap-7.png)
   
-Now that your basemap is linked to your form, you can view it by going to the form’s Map View and selecting the layer button in the bottom left as shown below;
+Now that your basemap is linked to your form, you can view it by going to the form’s **Map View** and selecting the layer button in the bottom left as shown below;
 
   ![](/content/screenshots/faq/faq-basemap-9.png)
   
@@ -61,9 +61,9 @@ Select your basemap from the list.
 
 >**Note:**<br/>
 >
-Ona now supports vector tiles on all basemaps. Vector tiles are able to deliver large amounts of geographic data in small chunks to a browser or client app. This results in a few key benefits:
+Ona supports vector tiles on all basemaps. Vector tiles are able to deliver large amounts of geographic data in small chunks to a browser or client app. This results in a few key benefits:
 <br><br>
-   * Styling - as vectors, tiles can be styled when requested allowing one to create maps using many styles on global data;
+   * Styling - As vectors, tiles can be styled when requested allowing one to create maps using many styles on global data;
 <br><br>
    * Size - Vector tiles are small, enabling high resolution maps, faster loading times, and efficient caching; and
 <br><br>

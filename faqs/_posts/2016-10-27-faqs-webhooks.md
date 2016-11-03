@@ -10,12 +10,12 @@ Webhooks are a great way of being notified once an event occurs in your project.
 
 When a form is submitted, Ona creates a JSON object. This object contains all the relevant information about the form’s submitted details, including  question field names, their respective answers, and metadata. Ona then sends the event object to all the URLs in your form’s webhooks settings via an HTTP POST in JSON format.
 You can use webhooks to:
-   * Create SMS or email notifications every time a form is submitted.
+   * Create SMS or email notifications every time a form is submitted; or
    * Send the data to another application with real-time data synchronization for further analysis.
  
 ### How do I configure Webhooks?
 
-Webhooks are configured on a form-by-form basis under the form's Settings page. Select **Webhooks**, on the left side of the page, enabling you to add a new URL for receiving webhooks.
+Webhooks are configured on a form-by-form basis under the form's **Settings** page. Select **Webhooks**, on the left side of the page, enabling you to add a new URL for receiving webhooks.
 
 ![image](/content/screenshots/faq/faq-webhook-1.png)
 

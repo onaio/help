@@ -7,7 +7,7 @@ category: faq
 
 ### Link a dataset as a media file to another form
 
-Ona has now made it possible for a form or filtered dataset to be specified as a media file for another form. Used in conjunction with the **pulldata() function**, this allows you to pull data from other dynamic datasets and surveys (i.e., other forms in your Ona account which are still active and accepting submissions) in the same or different project, similar to [pulling data from a pre-loaded CSV file](http://xlsform.org/#how-to-pull-data-from-csv). This feature can only be used with ODK Collect at this time. 
+Ona has now made it possible for a form or filtered dataset to be specified as a media file for another form. Used in conjunction with the **pulldata() function**, this allows you to pull data from other dynamic datasets and surveys (i.e., other forms in your Ona account which are still active and accepting submissions) in the same or different project, similar to [pulling data from a pre-loaded CSV file](http://xlsform.org/#how-to-pull-data-from-csv).
 
 To link another dataset to a form in your Ona account, navigate to the form’s **Settings** page, then select **Form Media Files**.
 
@@ -23,7 +23,7 @@ This opens the **Link a dataset** window where you can select the project in whi
 ![](/content/screenshots/faq/linking-dataset-as-media-files_03.png)
 
 
-Click on **Link Dataset** to save the changes. Your linked dataset will appear on the page. The file name given above will be prepended with **xform** and then a **number**, which you can ignore.
+Click on **Link Dataset** to save the changes. Your linked dataset will appear on the page.
 
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files_04.png)

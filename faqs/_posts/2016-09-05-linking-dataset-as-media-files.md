@@ -42,16 +42,16 @@ You can then reference this value in notes (as in the example above), constraint
 
 ### Pulling data from a group
 
-To pull data from a group, define both the group name and field name of the column in the linked dataset where the data will be pulled from in the pulldata() function. Make sure to use the **Dot(.)** as the separator between the group and field names as shown in the example below; 
+To pull data from a group, define both the group name and field name of the column in the linked dataset where the data will be pulled from in the pulldata() function. Make sure to use the **Period(.)** as the separator between the group and field names as shown in the example below; 
 
 ![](/content/screenshots/faq/linking-dataset-as-media-files-07.png)
 
-Below is a breif description of the parameters in the function **pulldata('locations', 'section1.county', 'secction1.id', ${id})** 
+Below is a brief description of the parameters in the function **pulldata('locations', 'section1.county', 'secction1.id', ${id})** 
 
 * `locations` is the file name of the linked dataset.
-* `section1.county` is the column in the linked dataset where the data will be pulled from. **section1** is the group name and **county** is a field name defined under the group.
+* `section1.county` is the column in the linked dataset where the data will be pulled from. **section1** is the group name, and **county** is a field name defined under the group.
 * `section1.id` is the key field to lookup with **section1** being the group name and **id** a field name defined under that group.
-* `id` is the link to the row in the lookup field which is defined in the XLSForm that's pulling data from the linked dataset.
+* `id` is the link to the row in the lookup field, which is defined in the XLSForm that's pulling data from the linked dataset.
 
 >
 **Note:** <br/> The linked dataset is a live dataset that can change after a user initially downloads the form that it is linked to. If the linked dataset changes (i.e., data is added, edited, or deleted), the form it is linked to has to be downloaded again in ODK Collect for the user to be able to have the latest updates to the linked dataset. Before downloading the form again, make sure you submit all pending form submissions in ODK Collect.

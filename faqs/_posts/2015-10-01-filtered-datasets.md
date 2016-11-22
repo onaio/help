@@ -6,7 +6,7 @@ published: true
 category: faq
 ---
 
-A filtered dataset is a subset of form submission data that fulfils certain conditions set by the user. They are useful when you want to share a dataset with other people, but would like to keep certain fields or records private. 
+A filtered dataset is a subset of form submission data that fulfills certain conditions set by the user. They are useful when you want to share a dataset with other people, but would like to keep certain fields or records private. 
 
 Filtered datasets allow you to select certain fields from the data you’d want to show, enabling you to hide data such as names or sensitive details. You can also filter responses so records only appear if specific answers show up.
 

@@ -21,6 +21,7 @@ published: true
   * [Configuring ODK Collect with your Ona account](#configure-odk-collect-with-ona)
   * [Downloading forms to your phone](#downloading-forms)
   * [Fill Blank Forms](#fill-blank-forms)
+  * [Review Responses](#review-responses)
   * [Edit Saved Forms](#edit-saved-forms)
   * [Send Finalized Form](#send-finalized-form)
   * [Delete Forms](#delete-forms)
@@ -185,6 +186,16 @@ Make sure you have internet connection before proceeding with the following step
 Once you have downloaded forms to your device, you're ready to start collecting data. Tap on **Fill Blank Form** and select the form you'd like to complete. 
 
 ![](/content/screenshots/data-collection/odk-fill.png)
+
+##### <a name="review-responses"></a>Review Responses
+ 
+ Once you have completed your survey, you can review and edit fields of your form to check for errors before saving. Tap on **Go to prompt** icon, scroll up and down to review all your responses. 
+
+![](/content/screenshots/data-collection/odk-review.png)
+
+>
+**Note:** <br/>
+Use **Go to prompt** function at any time when filling your form to go to the end of the form.
 
 ##### <a name="edit-saved-forms"></a>Edit Saved Forms
 

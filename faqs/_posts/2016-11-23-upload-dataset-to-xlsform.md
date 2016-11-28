@@ -84,7 +84,7 @@ This will launch the form in Enketo where you can edit your data. Navigate to th
 
 Once attached, the red error message will disappear and media file appear as seen below.
 
-![](/content/screenshots/faq/faq_upload-dataset-to-xlsform-13.png)
+![](/content/screenshots/faq/faq_upload-dataset-to-xlsform-13.jpg)
 
 Then, select **Submit** to save your changes resulting in a pop-up stating the submission was successful. 
 

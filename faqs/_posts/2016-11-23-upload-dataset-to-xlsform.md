@@ -70,7 +70,7 @@ Once you have saved the form, the form’s page will be created, and the dataset
 
 **NOTE:**
 
-* This feature is disabled if you over your plan’s form limit since it generates a new form in your account.
+* This feature is disabled if you are over your plan’s form limit since it generates a new form in your account.
 
 ### Adding Media Files to the Uploaded Dataset
 

@@ -13,21 +13,21 @@ When collecting data, it’s often necessary to translate survey instruments int
 
 1. On the **survey** worksheet, add label columns for each language you’d like to author your survey in. In the example below, we have **label::English**,**label::French** and **label::Swahili**columns.
 
-  Under each language column, add the corresponding label translation in each row. Do not leave label cells blank because the question will appear blank in the survey.
+   Under each language column, add the corresponding label translation in each row. Do not leave label cells blank because the question will appear blank in the survey.
 
-![](/content/screenshots/faq/faq-multiple-langauge-support-1.png)
+   ![](/content/screenshots/faq/faq-multiple-langauge-support-1.png)
 
 2. In the **choices** worksheet, the label columns should have the same languages used in the survey worksheet. Repeat the first step for all the choices, adding columns and translations for each language.
 
-![](/content/screenshots/faq/faq-multiple-langauge-support-2.png)
+   ![](/content/screenshots/faq/faq-multiple-langauge-support-2.png)
 
-  >**Note:**<br/>
-  >
-  Adding a hint or constraint message in a different language or adding unique media files for each language is also possible by appending *::language name* to the column, for example, **hint::Swahili, constraint_message::Swahili**, and **media::audio::Swahili**. Repeat this for each language.
+   >**Note:**<br/>
+   >
+   Adding a hint or constraint message in a different language or adding unique media files for each language is also possible by appending *::language name* to the column, for example, **hint::Swahili, constraint_message::Swahili**, and **media::audio::Swahili**. Repeat this for each language.
 
 3. Set the default language in the **settings** worksheet under the **default_language **column as shown below:
 
-![](/content/screenshots/faq/faq-multiple-langauge-support-3.png)
+   ![](/content/screenshots/faq/faq-multiple-langauge-support-3.png)
 
 ### Collecting data
 
@@ -37,15 +37,15 @@ To change the survey language:
 
 1. **On a webform**
 
- [Open the webform](https://help.ona.io/guides/data-collection/#opening-webform) to view your survey. The survey will be displayed in the default language as specified in the settings worksheet of your XLSForm. You can switch to a different language by clicking on the language button on the top right of the first page of your survey. 
+    [Open the webform](https://help.ona.io/guides/data-collection/#opening-webform) to view your survey. The survey will be displayed in the default language as specified in the settings worksheet of your XLSForm. You can switch to a different language by clicking on the language button on the top right of the first page of your survey. 
 
- ![](/content/screenshots/faq/faq-multiple-langauge-support-4.png)
+    ![](/content/screenshots/faq/faq-multiple-langauge-support-4.png)
 
 2. **On ODK Collect**
 
-When using ODK Collect, the form will also be displayed in the default language. To switch to a different language, tap on the **Settings** button on the first page of your survey, then select **Change Language settings**. 
+    When using ODK Collect, the form will also be displayed in the default language. To switch to a different language, tap on the **Settings** button on the first page of your survey, then select **Change Language settings**. 
 
-![](/content/screenshots/faq/faq-multiple-langauge-support-5.png)
+    ![](/content/screenshots/faq/faq-multiple-langauge-support-5.png)
 
 ### Viewing data
 
@@ -53,7 +53,7 @@ You can view your data on the **Table** view in any of the languages defined in 
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-6.png)
 
-The [summary charts](https://help.ona.io/guides/getting-started/#summary-charts) can also be viewed in different languages.
+[Summary charts](https://help.ona.io/guides/getting-started/#summary-charts) can also be viewed in different languages.
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-7.png)
 

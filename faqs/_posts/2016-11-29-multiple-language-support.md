@@ -11,7 +11,7 @@ When collecting data, it’s often necessary to translate survey instruments int
 
 ### Adding multiple languages to a form
 
-1. On the **survey** worksheet, add label columns for each language you’d like to author your survey in. In the example below, we have **label::English**,**label::French** and **label::Swahili**columns.
+1. On the **survey** worksheet, add label columns for each language you’d like to author your survey in. In the example below, we have **label::English**,**label::French** and **label::Swahili** columns.
 
    Under each language column, add the corresponding label translation in each row. Do not leave label cells blank because the question will appear blank in the survey.
 
@@ -25,7 +25,7 @@ When collecting data, it’s often necessary to translate survey instruments int
    >
    Adding a hint or constraint message in a different language or adding unique media files for each language is also possible by appending *::language name* to the column, for example, **hint::Swahili, constraint_message::Swahili**, and **media::audio::Swahili**. Repeat this for each language.
 
-3. Set the default language in the **settings** worksheet under the **default_language **column as shown below:
+3. Set the default language in the **settings** worksheet under the **default_language** column as shown below:
 
    ![](/content/screenshots/faq/faq-multiple-langauge-support-3.png)
 
@@ -53,11 +53,11 @@ You can view your data on the **Table** view in any of the languages defined in 
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-6.png)
 
-[Summary charts](https://help.ona.io/guides/getting-started/#summary-charts) can also be viewed in different languages.
+[Summary charts](https://help.ona.io/guides/getting-started/#summary-charts) the label in the charts will be viewed in the languauge selected.
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-7.png)
 
-When viewing the data on **Map** view, the labels will also be displayed with the language selected as shown below.
+When viewing the data on **Map** view, the labels will be displayed in the language selected as shown below;
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-8.png)
 

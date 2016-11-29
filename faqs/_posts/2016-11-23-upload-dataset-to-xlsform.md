@@ -47,7 +47,7 @@ Once all columns/variables have the appropriate field type, click **Next**, in t
 
 ![](/content/screenshots/faq/faq_upload-dataset-to-xlsform-8.png)
 
-### Confirm and Save the Dataset
+### Confirming and Saving the Dataset
 
 In the **Confirm and Save** window, you can change the form’s name/form ID/filename of the XLSForm, but it cannot contain periods (.) or spaces. The input box will be prefilled with the filename of the uploaded CSV. Once you are satisfied, select **Save**.
 

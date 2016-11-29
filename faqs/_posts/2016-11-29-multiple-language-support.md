@@ -45,7 +45,7 @@ To change the survey language:
 
     When using ODK Collect, the form will also be displayed in the default language. To switch to a different language, tap on the **Settings** button on the first page of your survey, then select **Change Language settings**. 
 
-    ![](/content/screenshots/faq/faq-multiple-langauge-support-5.png)
+    ![](/content/screenshots/faq/faq-multiple-langauge-support-test.png)
 
 ### Viewing data
 

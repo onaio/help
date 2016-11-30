@@ -7,7 +7,7 @@ category: faq
 
 ### How do I add multiple languages to a form?
 
-When collecting data, it’s often necessary to translate survey instruments into multiple languages. With XLSForms, users can write a single form in multiple languages. When collecting data or viewing data in Ona, with a form that has different languages, you can toggle between them from a language dropdown.
+When collecting data, it’s often necessary to translate survey instruments into multiple languages. With XLSForms, users can write a single form in multiple languages. When collecting data or viewing data in Ona with a form that has different languages, you can toggle between them from a language dropdown.
 
 ### Adding multiple languages to a form
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How do I add multiple Languages to a form?"
+title: "How do I add multiple languages to a form?"
 permalink: /faq/adding-multiple-languages
 category: faq
 ---
@@ -53,11 +53,13 @@ You can view your data on the **Table** view in any of the languages defined in 
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-6.png)
 
+
 [Summary charts](https://help.ona.io/guides/getting-started/#summary-charts) the label in the charts will be viewed in the languauge selected.
+
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-7.png)
 
-When viewing the data on **Map** view, the labels will be displayed in the language selected as shown below;
+When viewing the data on **Map** view, the labels will be displayed in the language selected as shown below.
 
 ![](/content/screenshots/faq/faq-multiple-langauge-support-8.png)
 

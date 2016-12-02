@@ -11,43 +11,43 @@ categories: [topics, forms]
   * [What is an XLSForm?](#what-is-xlsform)
   * [Why does Ona use XLSForms?](#why-ona-uses-xlsforms)
   * [How should I get started?](#get-started-xlsforms)
-  * [XLSForm Tips for Beginners](#xls-for-beginners)
+  * [XLSForm tips for beginners](#xls-for-beginners)
 * ##### [Basic Form Tutorial](#basics)
-* ##### [Adding Media to Forms](#adding-media-files-in-ona)
+* ##### [Advanced Form Authoring Techniques](#advanced-features)
   * [Adding photos,videos or audio ](#adding-media-files)
-  * [How do I include media files in my form?](#include-media-files-in-forms)
-  * [What type of media files are supported in Ona?](#media-files-type-supported)
-* ##### [Managing Forms](#managing-forms)
+  * [Where do I put media files that I want to add to a form?](#include-media-files-in-forms)
+  * [What type of media files are supported?](#media-files-type-supported)
+* ##### [Managing Forms in Ona](#managing-forms)
   * [Upload your form](#uploading-your-form)
   * [Replace forms](#replace-forms)
   * [Move forms](#move-forms)
   * [Make forms inactive](#inactive-forms)
       * [When uploading your XLSForm](#when-uploading-forms)
       * [From the form drop-down menu](#form-dropdown-menu)
-      * [Reveal inactive forms](#show-inactive-forms)
+      * [Show inactive forms](#show-inactive-forms)
   * [Delete forms](#delete-forms)  
 
 
 <h1>Forms</h1>
 
-This guide will show you how to create and manage forms in Ona using XLSForms.
+This guide will show you how to create and manage forms using the [XLSForm syntax](http://xlsform.org/).
 
 ### <a name="xlsform-authoring-intro"></a>Form Basics
 
 ##### <a name="what-is-xlsform"></a>What is an XLSForm?
- XLSForm is a syntax used to author forms using Excel or other spreadsheet language. It is a practical standard for sharing and collaborating on creating forms. XLSForm syntax is human readable so it is easy to learn and use. XLSForm files are saved as **.xls** or **.xlsx** files for import into Ona.
+ XLSForm is a syntax used to author forms using a spreadsheet program such as Excel or Google Sheets. It is a practical standard for sharing and collaborating when creating forms. The XLSForm syntax is human readable, so it is easy to learn and use. As the name implies, XLSForm files are saved as **.xls** or **.xlsx** files for import into Ona.
 
 ##### <a name="why-ona-uses-xlsforms"></a>Why does Ona use XLSForms?
 Ona uses XLSForm because it makes it easy to create, collaborate and edit forms of any length or complexity. It's also easy to work from previously-made forms, saving time and letting you share your form easily.
 
 ##### <a name="get-started-xlsforms"></a><a name="sample-xlsforms"></a>How should I get started?
-We recommend that you start with the [basic form tutorial](#basic). We've also created an XLSForm Authoring video. Next, if you already have a form you want to create, you can start authoring using XLSForm.org for reference and asking questions on the [Ona Community Support Forum](https://groups.google.com/forum/#!forum/ona-community). 
+We recommend that you start with the [basic form tutorial](#basics). You can also watch the [XLSForm Authoring video](https://www.youtube.com/watch?v=-0JCAnUQr9E). Next, if you already have a form you want to create, you can start authoring using [XLSForm.org](http://xlsform.org/) for reference and asking questions you might have on the [Ona Community Support Forum](https://groups.google.com/forum/#!forum/ona-community). 
 
-<a name="easy-ways-to-create-xlsforms"></a><a name="download-existing-form"></a>We've also provided several [starter XLSForms](https://help.ona.io/faq/starter-forms) to give you a sense of the possibilities and give you a place to start if you are authoring a similar form. Also, if you have aaccess to an existing form on Ona, you can download an existing form by going to the form's **Settings** page, clicking on the **Form Info** tab, then selecting **Download XLSForm** from the **Source** dropdown menu.
+<a name="easy-ways-to-create-xlsforms"></a><a name="download-existing-form"></a>We've also provided several [starter XLSForms](https://help.ona.io/faq/starter-forms) to give you a sense of the possibilities and give you a place to start if you are authoring a similar form. Another option for starting from an existing form is using a form that you have access to on Ona. You can download an existing form by going to the form's **Settings** page, clicking on the **Form Info** tab, then selecting **Download XLSForm** from the **Source** dropdown menu.
 
 ![](/content/screenshots/forms-management/download-xlsform.png)
 
-##### <a name="xls-for-beginners"></a>XLSForm Tips for Beginners
+##### <a name="xls-for-beginners"></a>XLSForm tips for beginners
 
 These are three useful tips that the designers should be aware of:
 
@@ -88,21 +88,20 @@ To write a simple form, each Excel workbook usually has two main worksheets: **s
  * **label** specifies the label to use for a given choice, in the form's default language;
 1. In the survey worksheet, for the **select_one** [option] questions, set to **select_one** followed by space and replace [options] by the list of choices/options, in our case, the **Gender** question will be **select_one gender**;  
  * In the **choices worksheet**, copy and paste the **option** (i.e gender) to the column **list_name**; then populate the **name** and **label** with all the options that are anticipated.
-1. Name your Excel file and save as **.xls** or **.xlsx** format.  Read more on [useful guidelines for XLSForm designers](xls-for-beginners).
-You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [xlsform.org]( http://xlsform.org).
+1. Name your Excel file and save as **.xls** or **.xlsx** format. You can now upload your .xls file into your [Project](https://help.ona.io/guides/projects/) on Ona.
 
 
-### <a name="adding-media-files-in-ona"></a>Adding Media to Forms
+### <a name="advanced-features"></a>Advanced Form Authoring Techniques
 
-##### <a name="adding-media-files"></a>Adding media files
+##### <a name="adding-media-files"></a>Adding media files to forms
 
-Adding media files, such as image, audio, or even video to your XLSForm is a great way to take your data collection project to the next level! Media files can enhance your surveys by adding context to questions or providing visual and audio support to the user where necessary. 
+Adding media files, such as image, audio, or video to your XLSForm can add context to your questions and provide visual and audio support to surveyors or surveyees.
 
-In the [Bird Watching](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfmfz75eds0aJ3XiviaA6BJRTchHa27rtby7VM/edit?usp=sharing), respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection as shown in the screen shot below; 
+For example, in the [Bird Watching survey](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfmfz75eds0aJ3XiviaA6BJRTchHa27rtby7VM/edit?usp=sharing), respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection as shown in the screen shot below.
 
 ![](/content/screenshots/forms-management/form_documentation_1.png)
 
-The **survey** worksheet from this XLSForm is shown in the screen shot below:
+The survey worksheet from this XLSForm is shown in the screen shot below:
 
 ![](/content/screenshots/forms-management/form_documentation_2.png)
 
@@ -129,7 +128,7 @@ For audio and video files, you would simply replace **image** with **audio** and
 
 **media::video::English and media::video::Swahili** 
 
-##### <a name="include-media-files-in-forms"></a>How do I include media files in my form?
+##### <a name="include-media-files-in-forms"></a>Where do I put media files that I want to add to a form?
 
 In order for media files to be displayed in the form, the media files need to be uploaded to the form on your Ona account.  
 
@@ -141,12 +140,11 @@ In order for media files to be displayed in the form, the media files need to be
 ![](/content/screenshots/forms-management/form_documentation_5_1.png)
 
 > 
-**Note**:<br/> The media file names that you upload to the form on Ona must match <u>exactly</u> the media file name
-specified in the media column in your XLSForm.  Spelling and punctuation are important!  For example, if your media file is named as *blackbird.png*, then you cannot reference it as *Blackbird.png* or *blackbirdpng* in your XLSForm.
+**Note**:<br/> The media file names that you upload to the form on Ona must match <u>exactly</u> the media file name specified in the media column in your XLSForm.  Spelling and punctuation are important!  For example, if your media file is named as *blackbird.png*, then you cannot reference it as *Blackbird.png* or *blackbirdpng* in your XLSForm.
 
 Once your media files are uploaded to the form, they are automatically displayed when viewing your Enketo webform.  If using ODK Collect, the media files will automatically download with the form to your phone or tablet and be stored in the form’s media folder on your device.  If downloading media files to your phone presents a challenge, see the next section for instructions on how to manually add media files to your phone instead.  
 
-##### <a name="media-files-type-supported"></a>What type of media files are supported in Ona?
+##### <a name="media-files-type-supported"></a>What type of media files are supported?
 
 The following are the media files supported in Ona: 
 
@@ -160,7 +158,7 @@ The following are the media files supported in Ona:
 
 ### <a name="managing-forms"></a>Managing Forms
 
-### <a name="uploading-your-form"></a>Upload your form
+##### <a name="uploading-your-form"></a>Upload your form
 
 Once you have successfully authored your XLSForm, you can upload it to your desired project in Ona. After uploading, you can preview the webform. 
 Read more on the various ways of uploading XLSForms [here](/faq/uploading-xlsform).

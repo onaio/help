@@ -14,9 +14,8 @@ categories: [topics, forms]
   * [XLSForm tips for beginners](#xls-for-beginners)
 * ##### [Basic Form Tutorial](#basics)
 * ##### [Advanced Form Authoring Techniques](#advanced-features)
-  * [Adding photos,videos or audio ](#adding-media-files)
+  * [Adding photos,videos or audio](#adding-media-files)
   * [Where do I put media files that I want to add to a form?](#include-media-files-in-forms)
-  * [What type of media files are supported?](#media-files-type-supported)
 * ##### [Managing Forms in Ona](#managing-forms)
   * [Upload your form](#uploading-your-form)
   * [Replace forms](#replace-forms)
@@ -95,9 +94,17 @@ To write a simple form, each Excel workbook usually has two main worksheets: **s
 
 ##### <a name="adding-media-files"></a>Adding media files to forms
 
-Adding media files, such as image, audio, or video to your XLSForm can add context to your questions and provide visual and audio support to surveyors or surveyees.
+Adding media files, such as image, audio, or video to your XLSForm can add context to your questions and provide visual and audio support to surveyors or surveyees. <a name="media-files-type-supported"></a>You can add the following media files to your form:
 
-For example, in the [Bird Watching survey](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfmfz75eds0aJ3XiviaA6BJRTchHa27rtby7VM/edit?usp=sharing), respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection as shown in the screen shot below.
+
+|               |      Supported files |
+| ------------- | ------------- |
+|  Image files  | jpeg, jpg, png, zip|
+|  Audio files  | mp3, wav         | 
+|  Video files  | 3gp, mp4      | 
+|  File attachments | csv |
+
+An example of a form with media files is the [Bird Watching survey](https://docs.google.com/a/ona.io/spreadsheets/d/1FPe7sRfmfz75eds0aJ3XiviaA6BJRTchHa27rtby7VM/edit?usp=sharing). Respondents are asked to select which bird they sighted from a list.  A picture of each bird species is included next to the bird name to help the respondent verify their selection as shown in the screen shot below.
 
 ![](/content/screenshots/forms-management/form_documentation_1.png)
 
@@ -144,17 +151,6 @@ In order for media files to be displayed in the form, the media files need to be
 
 Once your media files are uploaded to the form, they are automatically displayed when viewing your Enketo webform.  If using ODK Collect, the media files will automatically download with the form to your phone or tablet and be stored in the form’s media folder on your device.  If downloading media files to your phone presents a challenge, see the next section for instructions on how to manually add media files to your phone instead.  
 
-##### <a name="media-files-type-supported"></a>What type of media files are supported?
-
-The following are the media files supported in Ona: 
-
-
-|               |      Supported files |
-| ------------- | ------------- |
-|  Image files  | jpeg, jpg, png, zip|
-|  Audio files  | mp3, wav         | 
-|  Video files  | 3gp, mp4      | 
-|  File attachments | csv |
 
 ### <a name="managing-forms"></a>Managing Forms
 

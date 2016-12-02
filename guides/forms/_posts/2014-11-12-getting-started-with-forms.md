@@ -1,44 +1,65 @@
 ---
 layout: guide-view
 guide_name: Forms
-title: "Authoring your Own Surveys"
+title: "Creating Surveys"
 permalink: /guides/forms/
 categories: [topics, forms]
 ---
 
-* ##### [XLSForm authoring intro](#xlsform-authoring-intro)
+
+* ##### [Form Basics](#xlsform-authoring-intro)
   * [What is an XLSForm?](#what-is-xlsform)
   * [Why does Ona use XLSForms?](#why-ona-uses-xlsforms)
-  * [Basics](#basics)
+  * [How should I get started?](#get-started-xlsforms)
   * [XLSForm Tips for Beginners](#xls-for-beginners)
-* ##### [Easy ways to create an XLSForm](#easy-ways-to-create-xlsforms)
-  * [Sample XLSForms](#sample-xlsforms)
-  * [Download an existing form](#download-existing-form)
-* ##### [Uploading your form](#uploading-your-form)
-  * [Previewing and testing](#previewing-forms)
-* ##### [Adding media to forms in Ona](#adding-media-files-in-ona)
+* ##### [Basic Form Tutorial](#basics)
+* ##### [Adding Media to Forms](#adding-media-files-in-ona)
   * [Adding photos,videos or audio ](#adding-media-files)
   * [How do I include media files in my form?](#include-media-files-in-forms)
   * [What type of media files are supported in Ona?](#media-files-type-supported)
 * ##### [Managing Forms](#managing-forms)
-    * [Replace forms](#replace-forms)
-    * [Move forms](#move-forms)
-    * [Make forms Inactive](#inactive-forms)
-        * [When uploading your XLSForm](#when-uploading-forms)
-        * [From the form drop-down menu](#form-dropdown-menu)
-        * [Reveal inactive forms](#show-inactive-forms)
-    * [Delete forms](#delete-forms)  
+  * [Upload your form](#uploading-your-form)
+  * [Replace forms](#replace-forms)
+  * [Move forms](#move-forms)
+  * [Make forms inactive](#inactive-forms)
+      * [When uploading your XLSForm](#when-uploading-forms)
+      * [From the form drop-down menu](#form-dropdown-menu)
+      * [Reveal inactive forms](#show-inactive-forms)
+  * [Delete forms](#delete-forms)  
 
 
-### <a name="xlsform-authoring-intro"></a>XLSForm authoring intro
+<h1>Forms</h1>
+
+This guide will show you how to create and manage forms in Ona using XLSForms.
+
+### <a name="xlsform-authoring-intro"></a>Form Basics
 
 ##### <a name="what-is-xlsform"></a>What is an XLSForm?
- XLSForm is a syntax used to author forms using Excel saved as **.xls** or **.xlsx** files. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms.
+ XLSForm is a syntax used to author forms using Excel or other spreadsheet language. It is a practical standard for sharing and collaborating on creating forms. XLSForm syntax is human readable so it is easy to learn and use. XLSForm files are saved as **.xls** or **.xlsx** files for import into Ona.
 
 ##### <a name="why-ona-uses-xlsforms"></a>Why does Ona use XLSForms?
-Ona uses XLSForm because it makes it easy to create, collaborate and edit forms of any length or complexity.
+Ona uses XLSForm because it makes it easy to create, collaborate and edit forms of any length or complexity. It's also easy to work from previously-made forms, saving time and letting you share your form easily.
 
-##### <a name="basics"></a>Basics
+##### <a name="get-started-xlsforms"></a><a name="sample-xlsforms"></a>How should I get started?
+We recommend that you start with the [basic form tutorial](#basic). We've also created an XLSForm Authoring video. Next, if you already have a form you want to create, you can start authoring using XLSForm.org for reference and asking questions on the [Ona Community Support Forum](https://groups.google.com/forum/#!forum/ona-community). 
+
+<a name="easy-ways-to-create-xlsforms"></a><a name="download-existing-form"></a>We've also provided several [starter XLSForms](https://help.ona.io/faq/starter-forms) to give you a sense of the possibilities and give you a place to start if you are authoring a similar form. Also, if you have aaccess to an existing form on Ona, you can download an existing form by going to the form's **Settings** page, clicking on the **Form Info** tab, then selecting **Download XLSForm** from the **Source** dropdown menu.
+
+![](/content/screenshots/forms-management/download-xlsform.png)
+
+##### <a name="xls-for-beginners"></a>XLSForm Tips for Beginners
+
+These are three useful tips that the designers should be aware of:
+
+1. **Test your form often!**  Don’t wait until your form is completely finished before trying to upload it to your Ona account.  It is much easier to identify and correct errors on a form that has 20 fields versus a form that has hundreds of fields.  You might notice a mistake in your syntax early on that will save you loads of time by catching it early and not repeating it throughout the rest of your form.
+1. **XLSForm syntax is unforgiving**.  If you are one letter or one number off, or if there’s an extra space or an extra comma somewhere in your expression, you will most likely get an error when trying to upload your form.  In this case, practice makes almost perfect.  We say ‘almost’ perfect, because even seasoned XLSForm authors will make simple syntax errors every once in a while.  In general, though, the more you practice authoring forms in Excel, the more familiar you get with the syntax, and the easier it is to spot errors.  If you are simply really stuck on a line of syntax that keeps throwing errors, and you start to swear on your life that what you typed is absolutely correct, take a break!  Come back to your form later on, and you’d be surprised what your refreshed eyes will spot. Below are important guidelines to remember:
+ * Your file should be saved in the **.xls** or **.xlsx** format and should contain no spaces or special characters (‘-’ and ‘_’ are allowed).
+ * Sheet names should be appropriately named (i.e. “survey” not Sheet 1, “Survey” or “surveys”).
+ * Column headers should be in lowercase (i.e. “label” or “name”, not “Label” or “Name”).
+ * Field names should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
+1. [XLSForm.org](http://xlsform.org/) **is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
+
+### <a name="basics"></a>Basic Form Tutorial
 For this tutorial we will be using the following survey:
 
 1. What's your name?
@@ -65,44 +86,13 @@ To write a simple form, each Excel workbook usually has two main worksheets: **s
  * **list_name** specifies the name of a multiple-choice question type;
  * **name** specifies the internal value stored for a given choice;
  * **label** specifies the label to use for a given choice, in the form's default language;
-1. In the survey worksheet, for the **select_one** [option] questions, set to **select_one** followed by space and replace [options] by the list of choices/options, in our case, the **Gender** question will be **select_one gender**;	
+1. In the survey worksheet, for the **select_one** [option] questions, set to **select_one** followed by space and replace [options] by the list of choices/options, in our case, the **Gender** question will be **select_one gender**;  
  * In the **choices worksheet**, copy and paste the **option** (i.e gender) to the column **list_name**; then populate the **name** and **label** with all the options that are anticipated.
 1. Name your Excel file and save as **.xls** or **.xlsx** format.  Read more on [useful guidelines for XLSForm designers](xls-for-beginners).
 You can now upload your .xls file into your [Project](insert Projects link here) on Ona. Now you are ready to author a form of your own! Learn  more on form authoring at [xlsform.org]( http://xlsform.org).
 
-##### <a name="xls-for-beginners"></a>XLSForm Tips for Beginners
 
-These are three useful tips that the designers should be aware of:
-
-1. **Test your form often!**  Don’t wait until your form is completely finished before trying to upload it to your Ona account.  It is much easier to identify and correct errors on a form that has 20 fields versus a form that has hundreds of fields.  You might notice a mistake in your syntax early on that will save you loads of time by catching it early and not repeating it throughout the rest of your form.
-1. **XLSForm syntax is unforgiving**.  If you are one letter or one number off, or if there’s an extra space or an extra comma somewhere in your expression, you will most likely get an error when trying to upload your form.  In this case, practice makes almost perfect.  We say ‘almost’ perfect, because even seasoned XLSForm authors will make simple syntax errors every once in a while.  In general, though, the more you practice authoring forms in Excel, the more familiar you get with the syntax, and the easier it is to spot errors.  If you are simply really stuck on a line of syntax that keeps throwing errors, and you start to swear on your life that what you typed is absolutely correct, take a break!  Come back to your form later on, and you’d be surprised what your refreshed eyes will spot. Below are important guidelines to remember:
- * Your file should be saved in the **.xls** or **.xlsx** format and should contain no spaces or special characters (‘-’ and ‘_’ are allowed).
- * Sheet names should be appropriately named (i.e. “survey” not Sheet 1, “Survey” or “surveys”).
- * Column headers should be in lowercase (i.e. “label” or “name”, not “Label” or “Name”).
- * Field names should be unique and should not contain spaces or special characters (‘-’ and ‘_’ are allowed).
-1. [XLSForm.org](http://xlsform.org/) **is your form authoring friend**.  This website is actively maintained and updated often as new features are introduced to the XLSForm standard.  It contains important reference documentation for all the basic and advanced features of XLSForm authoring.  Links are provided to sample surveys that demonstrate the use of each feature.   
-
-### <a name="easy-ways-to-create-xlsforms"></a>Easy ways to create an XLSForm
-
-##### <a name="sample-xlsforms"></a>Sample XLSForms
-
-There are various [Sample XLSForms](http://help.ona.io/faq/starter-forms/) that have been authored. You can download, copy and modify them on your own. All of these XLSForms can also be found in the [Starter Forms](https://beta.ona.io/betatester/2839) project under the betatester account. 
-
-##### <a name="download-existing-form"></a>Download an existing form
-
-You can copy or modify an existing form. From the form's **Settings** page, click on the **Form Info** tab, then select **Download XLSForm** from the **Source** dropdown menu.
-
-![](/content/screenshots/forms-management/download-xlsform.png)
-
-### <a name="uploading-your-form"></a>Uploading your form
-
-Once you have successfully authored your XLSForm, you can upload it to your desired project in Ona. Read more on the various ways of uploading XLSForms [here](/faq/uploading-xlsform).
-
-##### <a name="previewing-forms"></a>Previewing and testing
-
-Forms can be previewed on your web browser using [Enketo Smart Paper](https://enketo.org/) as shown in this [webform](https://ls8un.enketo.org/webform). You can also test the form on any Android smartphone via [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android). For more information on how to preview and test your XLSForm please refer to our [data collection guide](https://help.ona.io/guides/data-collection).
-
-### <a name="adding-media-files-in-ona"></a>Adding media to forms in Ona
+### <a name="adding-media-files-in-ona"></a>Adding Media to Forms
 
 ##### <a name="adding-media-files"></a>Adding media files
 
@@ -170,6 +160,11 @@ The following are the media files supported in Ona:
 
 ### <a name="managing-forms"></a>Managing Forms
 
+### <a name="uploading-your-form"></a>Upload your form
+
+Once you have successfully authored your XLSForm, you can upload it to your desired project in Ona. After uploading, you can preview the webform. 
+Read more on the various ways of uploading XLSForms [here](/faq/uploading-xlsform).
+
 ##### <a name="replace-forms"></a>Replace forms
 
 Forms uploaded to your Ona account can be replaced using the **Replace Form** option in the form’s dropdown menu. You can to replace a form that has no submissions as explained in [this guide](/faq/replacing-forms-without-submissions). Ona also supports [replacing a form that has submissions](/faq/replacing-forms-that-have-submissions/).
@@ -177,7 +172,7 @@ Forms uploaded to your Ona account can be replaced using the **Replace Form** op
 > 
 **Note**:<br/>In order to replace an existing form on Ona, the **form id’s** must be the same.  If you must change the form id on the updated version, then you will need to upload it as a new form.
 
-##### <a name="inactive-forms"></a>Make forms Inactive
+##### <a name="inactive-forms"></a>Make forms inactive
 An inactive form cannot receive any submissions, and inactive forms do not show up in the list of forms available to download when using ODK Collect.  Essentially, making a form inactive archives the form and helps prevent any changes from being made to the form or its data.
 
 Making a form inactive is a good option when data collection has finished, as it prevents users from making changes, and the inactive form and its data will be stored on Ona indefinitely.  It is also a good alternative to deleting a form from your account.  Data contained in an inactive form  will still be available in your account and can be accessed by making the form active once again.

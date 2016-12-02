@@ -39,8 +39,8 @@ This guide will show you how to create and manage forms using the [XLSForm synta
 ##### <a name="why-ona-uses-xlsforms"></a>Why does Ona use XLSForms?
 Ona uses XLSForm because it makes it easy to create, collaborate and edit forms of any length or complexity. It's also easy to work from previously-made forms, saving time and letting you share your form easily.
 
-##### <a name="get-started-xlsforms"></a><a name="sample-xlsforms"></a>How should I get started?
-We recommend that you start with the [basic form tutorial](#basics). You can also watch the [XLSForm Authoring video](https://www.youtube.com/watch?v=-0JCAnUQr9E). Next, if you already have a form you want to create, you can start authoring using [XLSForm.org](http://xlsform.org/) for reference and asking questions you might have on the [Ona Community Support Forum](https://groups.google.com/forum/#!forum/ona-community). 
+##### <a name="get-started-xlsforms"></a><a name="sample-xlsforms"></a>How should I get started authoring XLSForms?
+We recommend that you start with the [basic form tutorial](#basics). You can also watch the [XLSForm Authoring video](https://www.youtube.com/watch?v=-0JCAnUQr9E). Next, if you already have a form you want to create, you can start authoring using [XLSForm.org](http://xlsform.org/) for reference and asking questions you have on the [Ona Community Support Forum](https://groups.google.com/forum/#!forum/ona-community). 
 
 <a name="easy-ways-to-create-xlsforms"></a><a name="download-existing-form"></a>We've also provided several [starter XLSForms](https://help.ona.io/faq/starter-forms) to give you a sense of the possibilities and give you a place to start if you are authoring a similar form. Another option for starting from an existing form is using a form that you have access to on Ona. You can download an existing form by going to the form's **Settings** page, clicking on the **Form Info** tab, then selecting **Download XLSForm** from the **Source** dropdown menu.
 

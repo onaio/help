@@ -14,7 +14,7 @@ categories: [topics, forms]
   * [XLSForm tips for beginners](#xls-for-beginners)
 * ##### [Basic Form Tutorial](#basics)
 * ##### [Advanced Form Authoring Techniques](#advanced-features)
-  * [Adding photos,videos or audio](#adding-media-files)
+  * [Adding photos, videos or audio](#adding-media-files)
   * [Where do I put media files that I want to add to a form?](#include-media-files-in-forms)
 * ##### [Managing Forms in Ona](#managing-forms)
   * [Upload your form](#uploading-your-form)
@@ -149,7 +149,7 @@ In order for media files to be displayed in the form, the media files need to be
 > 
 **Note**:<br/> The media file names that you upload to the form on Ona must match <u>exactly</u> the media file name specified in the media column in your XLSForm.  Spelling and punctuation are important!  For example, if your media file is named as *blackbird.png*, then you cannot reference it as *Blackbird.png* or *blackbirdpng* in your XLSForm.
 
-Once your media files are uploaded to the form, they are automatically displayed when viewing your Enketo webform.  If using ODK Collect, the media files will automatically download with the form to your phone or tablet and be stored in the form’s media folder on your device.  If downloading media files to your phone presents a challenge, see the next section for instructions on how to manually add media files to your phone instead.  
+Once your media files are uploaded to the form, they are automatically displayed when viewing your Enketo webform.  If using ODK Collect, the media files will automatically download with the form to your phone or tablet and be stored in the form’s media folder on your device.  If downloading media files to your phone presents a challenge, see the [instructions on how to manually add media files to your phone instead](https://help.ona.io/faq/how-to-upload-media-files).  
 
 
 ### <a name="managing-forms"></a>Managing Forms

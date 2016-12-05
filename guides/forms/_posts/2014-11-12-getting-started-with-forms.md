@@ -142,7 +142,7 @@ In order for media files to be displayed in the form, the media files need to be
 1. On the form’s **Settings** page in your Ona account, select **Forms media files**;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_5.png)
-1. Then click on **Select file to upload** button to upload your media file;
+1. Then, click on **Select file to upload** button to upload your media file;
 <br><br>
 ![](/content/screenshots/forms-management/form_documentation_5_1.png)
 

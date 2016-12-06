@@ -75,7 +75,6 @@ To generate your private and public encryption keys, you can use the OpenSSL sof
 ![](/content/screenshots/faq/encrypted-forms-linux-public-key.png)
 <br>
 
-
 Finally, you have your two keys:
 <br>
 1. **MyPrivateKey.pem** - your private key that you need to save in a secure location. This is the key that you will use to decrypt your data. 
@@ -86,43 +85,53 @@ Finally, you have your two keys:
 Follow these steps to add the correct encryption syntax in your XLSForm:
 
 1. Add a worksheet called **settings**;
-1. In this worksheet, create three columns: **id_string**, **submission_url**, and **public_key**. The **id_string** column specifies the form id name.  The **submission_url** is the url that will accept the encrypted form submissions.  This is the same url that you type into the ODK Collect application under settings to download the forms from your account. However, you must add **/submission** to the end of this url.  Finally, the **public_key** column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software.
+2. In this worksheet, create three columns: **id_string**, **submission_url**, and **public_key**. 
+* The **id_string** column specifies the form id name.  
+* The **submission_url** is the url that will accept the encrypted form submissions. This is the same url that you type into the ODK Collect application under settings to download the forms from your account, which for encrypted forms should be `https://odk.ona.io/your_username`. However, you must add `/submission` to the end of this url (i.e. `https://odk.ona.io/your_username/submission`).  
+* The **public_key** column contains the public key (without any spaces or line breaks) that was generated using the OpenSSL software. To include the public_key:
+  * Open MyPrivateKey.pem in a text Editor (e.g. Notepad for Windows, TextEdit for OSX, and Vi/Vim Editor for Linex). 
+  * Remove leading (- - -) and trail (...) lines and all new-lines.
+  * Copy and paste this into the **public_key** field.
 <br>
 ![](/content/screenshots/faq/encrypted-forms-public-key.png)
 <br><br>
-1. Upload the XLSForm to Ona as usual. You should see a label with the text **ENCRYPTED** next to your form name on Ona, as illustrated in the image below:
+3. Upload the XLSForm to Ona as usual. You should see a label with the text **encrypted** next to your form name on Ona, as illustrated in the image below:
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-encrypted-tag.png)
 <br><br>
-1. Download your encrypted form to your mobile phone using ODK Collect and start collecting data!
+4. Download your encrypted form to your mobile phone using ODK Collect and start collecting data!
 <br><br>
 
 ### How to decrypt your form
 
-You must use ODK Briefcase to download the encrypted files from Ona and decrypt them locally on your computer using the private key generated earlier.  Follow these steps to download ODK Briefcase and decrypt your data:
+You must use ODK Briefcase to download the encrypted files from Ona and decrypt them locally on your computer using the private key generated earlier. In addition, you will also need Java Cyrptography Extension (JCE) Unlimited Jurisdiction Policy Files for decryption to be successful. Follow these steps to download ODK Briefcase and JCE and decrypt your data:
 
 1. Create a folder on your local machine to store the data once it is decrypted;
-1. If you haven’t already done so, download [ODK Briefcase](http://opendatakit.org/downloads/download-info/odk-briefcase/) to your local machine;
-1. Double click the downloaded file to open ODK Briefcase;
-1. **PULL** the encrypted form to your local machine.  See the [ODK Briefcase page](http://help.ona.io/faq/odk-briefcase/) for more information on how to pull forms.
-1. The form is decrypted only during export. Go to the **Export** tab;
+2. If you haven’t already done so, download [ODK Briefcase](http://opendatakit.org/downloads/download-info/odk-briefcase/) to your local machine;
+3. Also, download and install [JCE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+  * Select the downloaded UCE zipped archive file in the download folder.
+  * Extract the files from the downloaded zipped archive folder
+  * Navigate to the extracted directory tree and copy the `local_policy.jar` and `US_export_policy.jar` files to the `/lib/security` directory for Linux/OSX and `\lib\security` for Windows under the installation directory of the Java Runtime Environmen (JRE) for your computer. 
+4. Double click the downloaded file to open ODK Briefcase;
+5. **PULL** the encrypted form to your local machine.  See the [ODK Briefcase page](http://help.ona.io/faq/odk-briefcase/) for more information on how to pull forms.
+6. The form is decrypted only during export. Go to the **Export** tab;
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-export.png)
 <br><br>
-1. Select the form from the **Form** dropdown;
+7. Select the form from the **Form** dropdown;
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-dropdown-form.png)
 <br><br>
-1. On the **Export Type** dropdown, select **.csv** and **media files**;
+8. On the **Export Type** dropdown, select **.csv** and **media files**;
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-as-csv-media.png)
 <br><br>
-1. Locate the **Export Directory**, which is the folder you created in step 1;
+9. Locate the **Export Directory**, which is the folder you created in step 1;
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-export-directory.png)
 <br><br>
-1. Search for and choose the **PEM Private Key File** that you generated previously;
-1. Click on **Export**. The form data will be decrypted and exported to the folder you created in step 1.
+10. Search for and choose the **PEM Private Key File** that you generated previously;
+11. Click on **Export**. The form data will be decrypted and exported to the folder you created in step 1.
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-decrypt-form.png)
 <br>

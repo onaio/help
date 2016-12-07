@@ -188,8 +188,8 @@ Once you have downloaded forms to your device, you're ready to start collecting 
 ![](/content/screenshots/data-collection/odk-fill.png)
 
 ##### <a name="review-responses"></a>Review Responses
- 
- Once you have completed your survey, you can review and edit fields of your form to check for errors before saving. Tap on **Go to prompt** icon, scroll up and down to review all your responses. 
+
+Once you have completed your survey, you can review and edit fields of your form to check for errors before saving. Tap on **Go to prompt** icon, scroll up and down to review all your responses.
 
 ![](/content/screenshots/data-collection/odk-review.png)
 

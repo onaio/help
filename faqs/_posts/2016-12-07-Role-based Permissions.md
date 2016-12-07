@@ -9,7 +9,7 @@ category: faq
 
 Role-based permission restrictions levels allow the **Admin** of the project to set restrictions for the project’s collaborators. Unlike the normal project permissions, these restrictions are set for individual forms in the project and *do not* apply to all forms in the project.
 
-By default, every project collaborator can have the following [permission levels](https://help.ona.io/guides/projects/#permission-levels) Admin, Can view, Can view and download, Can submit and Can edit. With role-based permission restrictions, you can add more restrictions on the **Can Submit** and **Can Edit** roles. For example, you may use restrictions to hide sensitive data collected by other users or hide data collected by others because if it is irrelevant to a user.
+By default, every project collaborator can have the following [permission levels](https://help.ona.io/guides/projects/#permission-levels): Admin, Can view, Can view and download, Can submit and Can edit. With role-based permission restrictions, you can add more restrictions on the **Can Submit** and **Can Edit** roles. For example, you may use restrictions to hide sensitive data collected by other users or hide data collected by others if it is irrelevant to a user.
 
 ### About the permission restriction levels
 
@@ -17,13 +17,13 @@ By default, every project collaborator can have the following [permission levels
 
 *Above: Permission restriction options available in Ona*
 
-1. Project collaborators with the **Can Submit** role can have any of the following access restrictions to a form
+1. Project collaborators with the **Can Submit** role can have any of the following access restrictions to a form:
 
     a) **Allow access to all data** - These users can view and download all the data submitted by all collaborators for that particular form. The collaborators will have access to the data, maps, charts, and dashboard.
 
-    b) **Block access to data submitted by other users** - These users can view and download the data they have submitted. Data that has been been submitted by other collaborators is blocked. The users will only view the records they have submitted on table view. In the screenshot below, this user has submitted only 1 record and does not know how many other records have been submitted by other users.
+    b) **Block access to data submitted by other users** - These users can view and download the data they have submitted. Data that has been been submitted by other collaborators is blocked. The users will only view the records they have submitted on table view.
 
-    c) **Block access to all data** - These users cannot view or download any data, they will only be able to submit data. The table view, chart, and dashboard will be disabled and users will get a notification as shown below.
+    c) **Block access to all data** - These users cannot view or download any data, they will only be able to submit data. The table view, chart, and dashboard will be disabled.
 
 2. Project collaborators with **Can Edit** roles can have any of the below access restrictions to a form:
 
@@ -57,13 +57,13 @@ Users with Can Edit and Can Submit permissions with **Block access to data submi
 
 The table below shows users with **Can Submit** permission but are blocked from accessing data submitted by other users. They can only access data submitted the them.
 
-![](/content/screenshots/faq/faq_role_based-permission7.png)
+![](/content/screenshots/faq/faq_role_based-permission8.png)
 
 Users with **Can Edit** permission but have been blocked to access data submitted by other users can only edit data submitted by them as shown below. 
 
-![](/content/screenshots/faq/faq_role_based-permission8.png)
+![](/content/screenshots/faq/faq_role_based-permission7.png)
 
-Blocking access to all data is not an option for users with **Can Edit** permission level since you have to have access to data in order to edit data. For users with **Can submit** permission and have been blocked from accessing all data, they will not have access to any data as shown in the table below.
+Blocking access to all data is not an option for users with **Can Edit** permission level, since you have to have access to data in order to edit data. For users with **Can submit** permission and have been blocked from accessing all data, they will not have access to any data as shown in the table below.
 
 ![](/content/screenshots/faq/faq_role_based-permission9.png)
 

@@ -15,7 +15,7 @@ categories: [guides, organizations]
 * ##### [Organization Members](#organization-members)
   * [How to add organization members](#add-organization-members)
   * [Organization member roles](#organization-member-roles)
-  * [Removing organization members](#removing-organization-member)
+  * [Removing organization members](#removing-organization-members)
   * [Leaving an organization](#leaving-an-organization)
   
 * ##### [Organization Projects](#organization-projects)

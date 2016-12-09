@@ -15,6 +15,8 @@ categories: [guides, organizations]
 * ##### [Organization Members](#organization-members)
   * [How to add organization members](#add-organization-members)
   * [Organization member roles](#organization-member-roles)
+  * [Removing-organization-members](#removing-organization-members)
+  * [Leaving an organization](#leaving-an-organization)
   
 * ##### [Organization Projects](#organization-projects)
    * [Creating org projects](#creating-org-projects) 
@@ -207,7 +209,7 @@ The following table shows the three organization roles and what permissions each
 
 In addition to the three organization roles above, a user can also be added individually to a project within the org and become an organization collaborator. An **organization collaborator** is a user that is shared on an organization project but isn't part of the organization. When viewing the organization home page, organization collaborators will see the list of projects that they have been added to and the list of organization collaborators. They will not be able to see the list of organization members, organization settings, or any other projects in the organization.  
 
-### Removing Organization members
+##### <a name="removing-organization-members"></a>Removing Organization members
 
 [Organization members](#add-organization-members) that are no longer part of your organization and have left can be removed from the organization. This denies them access to projects, forms, and data that should be kept private and should be only accessible to members who are an active part of your team.
 
@@ -217,7 +219,7 @@ Find the name and username of the member you’d like to remove from the members
 
 ![](/content/screenshots/organizations/org-9.png)
 
-### Leaving an Organization
+##### <a name="leaving-an-organization"></a>Leaving an Organization
 
 A member can opt to leave an organization if they are no longer working with the organization. 
 

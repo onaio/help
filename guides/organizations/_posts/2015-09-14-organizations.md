@@ -215,7 +215,7 @@ In addition to the three organization roles above, a user can also be added indi
 
 Removal of members from organizations can only be done by an **Org Admin.** To remove an organization member, Select **Manage Members** on the organisation’s home page. 
 
-Find the name and username of the member you’d like to remove from the members list on the **Org Members page** and click on the** Remove **link.
+Find the name and username of the member you’d like to remove from the members list on the **Org Members page** and click on the **Remove**link.
 
 ![](/content/screenshots/organizations/org-9.png)
 

@@ -13,12 +13,7 @@ Ona is a simple and powerful data platform. We help organizations collect, share
 <a name="whyona"></a>
 
 ### Why would I want to use Ona?
-Ona is [constantly improving](http://help.ona.io/faq/new-in-ona/) to help you get the most accurate data for your program and translate that data into actionable information. Ona also offers Google Drive-like sharing permissions, allowing you to give only people you specify access to the data.
-
-<a name="isonaright"></a>
-
-### Is Ona right for me?
-Probably. Whether you are new to digital data or have been collecting and analyzing data digitally for a decade, Ona is quick to pick up, but it includes advanced features that are useful in complex projects and surveys.
+Ona is [constantly improving](https://ona.io/release-notes.html) to help you get the most accurate data for your program and translate that data into actionable information. Ona also offers Google Drive-like sharing permissions, allowing you to give only people you specify access to the data.
 
 <a name="requirements"></a>
 
@@ -45,11 +40,6 @@ Pricing is based on account usage and other needs. If you are interested in a pa
 ### Are there enterprise-level accounts?
 Yes. Enterprise users can email <sales@ona.io> to find out about custom features, advanced support options, and enterprise-level data management.
 
-<a name="classic"></a>
-
-### What happened to the previous version of ona.io?
-The previous version of Ona can be found at [classic.ona.io](https://classic.ona.io). It will be available for a limited time. The data accessible through both ona.io and classic.ona.io is the same.
-
 <a name="transferdata"></a>
 
 ### I have data from another service. Can I transfer the data to my Ona account?
@@ -63,7 +53,7 @@ Yes, please see [https://github.com/SEL-Columbia/formhub/wiki/Installation-and-D
 <a name="language"></a>
 
 ### Is Ona available in other languages?
-Yes, forms can be written in multiple languages and one can switch between them in both the ODK Collect Android app and in Enketo web forms. Read more on adding multiple languages to a form on [XLSform.org](http://xlsform.org/#language).
+Yes, forms can be [written in multiple languages](https://help.ona.io/faq/adding-multiple-languages) and one can switch between them in both the ODK Collect Android app and in Enketo web forms.
 
 The user interface is available in Kiswahili and German, which you can change in the Account Settings page. Support materials are not yet available in other language. We are happy to take requests on language — just email <support@ona.io>.
 

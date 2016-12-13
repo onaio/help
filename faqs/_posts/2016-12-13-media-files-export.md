@@ -23,7 +23,7 @@ You can download all the media files in one folder by selecting the **ZIP folder
 
 For a large number of collected media files, you can use a download manager/accelerator to download the files as quickly as possible. The download manager allows you to pause and resume the download. Below is a step by step guide on how to use a download manager.
 
-#### Add direct hyperlinks to collected media in Excel
+### Add direct hyperlinks to collected media in Excel
 
 * Download your data in **Excel** format and open the file
 
@@ -31,7 +31,7 @@ For a large number of collected media files, you can use a download manager/acce
 
 * In the formula replace 'username' with your account username and 'A2' with the first cell reference that contains the filename of your media data. Then copy the formula down for all your records. 
 
-#### Create an alternative batch download of collected media 
+### Create an alternative batch download of collected media 
 
 * Save your Excel file with the added hyperlinks (see instructions above) as an HTML file to your Desktop, using the File > Save as... option (choose 'Web page') 
 

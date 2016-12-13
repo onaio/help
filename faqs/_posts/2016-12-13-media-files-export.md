@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do download media files?
+title: How do I download media files?
 permalink: /faq/media-files-export
 category: faq
 published: true
@@ -11,7 +11,7 @@ published: true
 
 If your form includes an image , video, or audio recording question, these files will be uploaded to the server along with your other data. When exporting your dataset in CSV or Excel formats these files will include links to the filenames of the media attachments, but not the files themselves. 
 
-### How do I download media files
+### Downloading media files
 
 To download a single media file, navigate to the form’s **Table view** then right click on the file link and select **Save link as** to download it. 
 

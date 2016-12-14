@@ -63,9 +63,9 @@ Select your basemap from the list.
 >
 Ona supports vector tiles on all basemaps. Vector tiles are able to deliver large amounts of geographic data in small chunks to a browser or client app. This results in a few key benefits:
 <br><br>
-   * Styling - As vectors, tiles can be styled when requested allowing one to create maps using many styles on global data;
+  * Styling - As vectors, tiles can be styled when requested allowing one to create maps using many styles on global data;
 <br><br>
-   * Size - Vector tiles are small, enabling high resolution maps, faster loading times, and efficient caching; and
+  * Size - Vector tiles are small, enabling high resolution maps, faster loading times, and efficient caching; and
 <br><br>
-   * The combination of tile access performance and vector drawing allows the tiles to adapt to any display resolution, which often varies across devices.
+  * The combination of tile access performance and vector drawing allows the tiles to adapt to any display resolution, which often varies across devices.
 

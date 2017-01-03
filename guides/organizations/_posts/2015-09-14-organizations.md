@@ -15,6 +15,8 @@ categories: [guides, organizations]
 * ##### [Organization Members](#organization-members)
   * [How to add organization members](#add-organization-members)
   * [Organization member roles](#organization-member-roles)
+  * [Removing-organization-members](#removing-organization-members)
+  * [Leaving an organization](#leaving-an-organization)
   
 * ##### [Organization Projects](#organization-projects)
    * [Creating org projects](#creating-org-projects) 
@@ -205,7 +207,30 @@ The following table shows the three organization roles and what permissions each
 	  </tbody>
 	</table>
 
-In addition to the three organization roles above, a user can also be added individually to a project within the org and become an organization collaborator. An **organization collaborator** is a user that is shared on an organization project but isn't part of the organization. When viewing the organization home page, organization collaborators will see the list of projects that they have been added to and the list of organization collaborators. They will not be able to see the list of organization members, organization settings, or any other projects in the organization.    
+In addition to the three organization roles above, a user can also be added individually to a project within the org and become an organization collaborator. An **organization collaborator** is a user that is shared on an organization project but isn't part of the organization. When viewing the organization home page, organization collaborators will see the list of projects that they have been added to and the list of organization collaborators. They will not be able to see the list of organization members, organization settings, or any other projects in the organization.  
+
+##### <a name="removing-organization-members"></a>Removing Organization members
+
+[Organization members](#add-organization-members) that are no longer part of your organization and have left can be removed from the organization. This denies them access to projects, forms, and data that should be kept private and should be only accessible to members who are an active part of your team.
+
+Removal of members from organizations can only be done by an **Org Admin.** To remove an organization member, Select **Manage Members** on the organisation’s home page. 
+
+Find the name and username of the member you’d like to remove from the members list on the **Org Members page** and click on the **Remove** link.
+
+![](/content/screenshots/organizations/org-9.png)
+
+##### <a name="leaving-an-organization"></a>Leaving an Organization
+
+A member can opt to leave an organization if they are no longer working with the organization. 
+
+Any of the [organization member roles](https://help.ona.io/guides/organizations/#organization-member-roles) can leave an organization. However, an Org admin is not allowed to leave an organization if there’s only one Org admin within the organization
+
+To leave an organization, click on **Leave link** on the Org **Members **page. 
+
+![](/content/screenshots/organizations/org-10.png)
+
+> **Note**:<br/>Once you leave an organization, you lose access to the projects, forms, and data within that organization.
+<br><br>
     
 ### Organization Projects
 
@@ -219,6 +244,7 @@ To create an organization project:
 1. From the organization homepage, click on the **New Project** button;
 <br><br>
 ![](/content/screenshots/organizations/org-8.png)
+
 1. Follow the instructions provided in the [Create a project guide](http://help.ona.io/guides/projects/#create-a-project). 
 
 ##### <a name="org-project-differences"></a>Org project differences

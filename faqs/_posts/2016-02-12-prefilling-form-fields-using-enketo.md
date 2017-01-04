@@ -69,3 +69,6 @@ If you have a geopoint field, the format would be:
 This means you might have something like:
   
     https://enketo.ona.io/_/?d[/test/locate]=-2.3%2033.788<longitude>#ABC2
+    
+ >
+ **Note:**<br/> The characters after the pound sign (#) are dependent on the Enketo webform URL, found in the **Overview** page of your form.

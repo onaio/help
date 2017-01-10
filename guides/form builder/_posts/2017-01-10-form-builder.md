@@ -39,7 +39,7 @@ published: true
 
 Ona Form Builder is another way for you to create and build questionnaires. The form builder saves time and allows everyone to quickly start collecting data.
 
-#### <a name="creating-a-form"></a>Creating a Form
+##### <a name="creating-a-form"></a>Creating a Form
 
 Open the project in which the form is to be published, then click on **Online form builder** as shown below:
 
@@ -49,7 +49,7 @@ A new window will appear to create a new form. Start with entering the form’s 
 
 ![](/content/screenshots/formbuilder/form-builder-2.png)
 
-#### <a name="adding-question"></a>Adding a Question
+##### <a name="adding-question"></a>Adding a Question
 
 Add questions in your form by clicking on the ‘+’ sign that is below every textbox.  
 
@@ -65,23 +65,23 @@ A list of **question types** will be displayed. Select the option that’s appli
 
 Read more about the [different question types](http://xlsform.org/#question-types) that can be used when creating a form.
 
-#### <a name="deleting-question"></a>Deleting a Question
+##### <a name="deleting-question"></a>Deleting a Question
 
 Delete a question by clicking on the trash can icon as shown. A pop-up window will appear to confirm that the question will be permanently deleted. Please note that this action cannot be undone.
 
 ![](/content/screenshots/formbuilder/form-builder-6.png)
 
-#### <a name="moving-question"></a>Moving a Question
+##### <a name="moving-question"></a>Moving a Question
 
 Drag and drop to move a question and place it where you prefer.
 
-#### <a name="duplicating-question"></a>Duplicating a Question
+##### <a name="duplicating-question"></a>Duplicating a Question
 
 If you want use the same question again, you can select the **duplicate icon** as shown below.
 
 ![](/content/screenshots/formbuilder/form-builder-7.png)
 
-#### <a name="form-preview"></a>Form Preview
+##### <a name="form-preview"></a>Form Preview
 
 Preview your form anytime by selecting the preview icon as shown below. 
 
@@ -95,7 +95,7 @@ You can **validate** the form to see if there are any errors as seen below.
 
 ![](/content/screenshots/formbuilder/form-builder-10.png)
 
-#### <a name="saving-form"></a>Saving the Form
+##### <a name="saving-form"></a>Saving the Form
 
 Select the** Save** option on the form builder, as shown, to **upload **the form to Ona. The form will be saved using the title provided.
 
@@ -113,7 +113,7 @@ You can add advanced settings for each question by selecting the **Settings** bu
 
 ![](/content/screenshots/formbuilder/form-builder-13.png)
 
-#### <a name="question-options"></a>1. Question Options 
+##### <a name="question-options"></a>1. Question Options 
 
 ![](/content/screenshots/formbuilder/form-builder-14.png)
 
@@ -131,7 +131,7 @@ Question options have the following features:
 
 * **Appearance** - This allows you to use different [appearance attributes](http://xlsform.org/#appearance) to determine how questions will be formatted in the form. 
 
-#### <a name="skip-logic"></a>2. Adding a Skip Logic
+##### <a name="skip-logic"></a>2. Adding a Skip Logic
 
 ![](/content/screenshots/formbuilder/form-builder-15.png)
 
@@ -172,7 +172,7 @@ Question options have the following features:
 
     ![](/content/screenshots/formbuilder/form-builder-23.png)
 
-#### <a name="constraints"></a>3. Validation Criteria or Constraints
+##### <a name="constraints"></a>3. Validation Criteria or Constraints
 
  Constraints allow you to avoid invalid responses from the interviewers and respondents. Add a constraint, similar to how you did a skip logic, by adding a condition or using XLSForm code. Read more on [constraints](http://xlsform.org/#constraints) and find more examples. Select the validation criteria under the question settings as shown.
 
@@ -190,7 +190,7 @@ Rename the group label for your survey.
 
 ![](/content/screenshots/formbuilder/form-builder-26.png)
 
-#### <a name="group-settings"></a>Group Settings
+##### <a name="group-settings"></a>Group Settings
 
 These settings allow you to customize the group will function in your form. Select the settings option on the right as shown below.
 
@@ -206,13 +206,13 @@ These settings allow you to customize the group will function in your form. Sele
 
 * You can also add skip logic, refer to the earlier skip logic guide on how to do this.
 
-#### <a name="adding-removing-questions"></a>Adding or Removing Questions in a Group
+##### <a name="adding-removing-questions"></a>Adding or Removing Questions in a Group
 
 You can add or remove questions from the group by dragging them in and out of the group.
 
 ![](/content/screenshots/formbuilder/form-builder-30.png)
 
-#### <a name="group-repeating-questions"></a>Creating a Group of Repeating Questions
+##### <a name="group-repeating-questions"></a>Creating a Group of Repeating Questions
 
 Repeat questions can be asked/answered multiple times. Follow the below steps to create a group of repeating questions.
 
@@ -226,7 +226,7 @@ Repeat questions can be asked/answered multiple times. Follow the below steps to
 
 ### <a name="form-settings"></a>Form Settings
 
-#### <a name="form-layout"></a>Form Layout
+##### <a name="form-layout"></a>Form Layout
 
 In Enketo webforms, you can customize how your form is displayed. In addition to the default theme, there are two alternative themes that can be used and combined: **Multiple Pages** and **Grid Theme**.
 
@@ -246,7 +246,7 @@ To define the theme or layout for your form, select the **Layout** option as sho
 
    ![](/content/screenshots/formbuilder/form-builder-36.png)
 
-#### <a name="form-ID"></a>Form-ID
+##### <a name="form-ID"></a>Form-ID
 
 Form ID refers to the unique ID string that helps users to identify a form in Ona. Forms created using the form builder will have a random form-id generated to avoid having duplicate forms. You can access the form-id by viewing it on the Setting page in the selected Form on Ona as shown.
 
@@ -254,7 +254,7 @@ Form ID refers to the unique ID string that helps users to identify a form in On
 
 ### <a name="advanced-options"></a>Advanced Question Options
 
-#### <a name="calculate-questions"></a>Adding Calculate Questions
+##### <a name="calculate-questions"></a>Adding Calculate Questions
 
 Some forms might need advanced [calculations](http://xlsform.org/#calculation). This can be done by selecting the **calculate** question type when adding the question. 
 
@@ -274,7 +274,7 @@ Here is a step-by-step description on how to add a calculate question.
 
    ![](/content/screenshots/formbuilder/form-builder-40.png)
 
-#### <a name="adding-choices"></a>Adding Choices to a Question
+##### <a name="adding-choices"></a>Adding Choices to a Question
 
 When adding a question with choices, you will need to choose either **S****elect ****O****ne** or **S****elect ****M****ultiple** as the question type.
 
@@ -304,7 +304,7 @@ Below is a step-by-step description on how to add choices to a question:
 
      ![](/content/screenshots/formbuilder/form-builder-46.png)
 
-#### <a name="metadata-questions"></a>Metadata Questions
+##### <a name="metadata-questions"></a>Metadata Questions
 
 These are optional advanced features that can be added in the survey. Click the metadata settings icon at the beginning of the form as shown.
 
@@ -314,7 +314,7 @@ Select the data you would like collected during data collection.The [metadata qu
 
 ![](/content/screenshots/formbuilder/form-builder-48.png)
 
-#### <a name="cascading-select-questions"></a>Cascading Select Questions
+##### <a name="cascading-select-questions"></a>Cascading Select Questions
 
 Cascading select questions are questions whose choices depend on the answers from previous questions. Cascading select questions help filter only relevant choices by simplifying the number of choices available to the respondent. This feature is commonly utilized for determining a respondent’s location, where the subsequent locations are filtered based on previous responses (i.e. region > district > village).
 

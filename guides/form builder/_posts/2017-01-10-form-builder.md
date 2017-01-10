@@ -45,7 +45,7 @@ Open the project in which the form is to be published, then click on **Online fo
 
 ![](/content/screenshots/formbuilder/form-builder-1.png)
 
-A new window will appear to create a new form. Start with entering the form’s title on the **Enter form name **tab, for example, "**Test Form**".
+A new window will appear to create a new form. Start with entering the form’s title on the **Enter form name tab**, for example, **Test Form**.
 
 ![](/content/screenshots/formbuilder/form-builder-2.png)
 
@@ -97,7 +97,7 @@ You can **validate** the form to see if there are any errors as seen below.
 
 ##### <a name="saving-form"></a>Saving the Form
 
-Select the** Save** option on the form builder, as shown, to **upload **the form to Ona. The form will be saved using the title provided.
+Select the **Save** option on the form builder, as shown, to **upload** the form to Ona. The form will be saved using the title provided.
 
 ![](/content/screenshots/formbuilder/form-builder-11.png)
 
@@ -137,35 +137,35 @@ Question options have the following features:
 
  *  **Adding a condition** - By default, all questions are visible in the form. This function enables you to skip a question or make an additional question appear based on the response to a previous question. 
    
-   Below are steps to follow when adding a skip logic.
+Below are steps to follow when adding a skip logic.
 
-    1. Click on **Add a condition**, a drop down list of the previous questions will be displayed.
+1. Click on **Add a condition**, a drop down list of the previous questions will be displayed.
 
-        ![](/content/screenshots/formbuilder/form-builder-16.png)
+    ![](/content/screenshots/formbuilder/form-builder-16.png)
 
-    2. Select the relevant question as shown below.
+2. Select the relevant question as shown below.
 
-        ![](/content/screenshots/formbuilder/form-builder-17.png)
+    ![](/content/screenshots/formbuilder/form-builder-17.png)
 
-	3. Enter the relevant condition that should be met before the question is displayed.
+3. Enter the relevant condition that should be met before the question is displayed.
 
-        ![](/content/screenshots/formbuilder/form-builder-18.png)
+    ![](/content/screenshots/formbuilder/form-builder-18.png)
 
-	4. The condition set for the below example means the question will be displayed when the choice option ‘**Yes**’ is selected for the question **_Are there any children in the household?_*** *
+4. The condition set for the below example means the question will be displayed when the choice option ‘**Yes**’ is selected for the question **Are there any children in the household?**
 
-        ![](/content/screenshots/formbuilder/form-builder-19.png)
+    ![](/content/screenshots/formbuilder/form-builder-19.png)
 
-    5. You can enter more relevant conditions or skip logic by selecting **Add another condition** as shown below.
+5. You can enter more relevant conditions or skip logic by selecting **Add another condition** as shown below.
 
-        ![](/content/screenshots/formbuilder/form-builder-20.png)
+    ![](/content/screenshots/formbuilder/form-builder-20.png)
 
-    6. If you have more than one relevant condition for a question, you can determine whether the question should match all or either of the criteria set.
+6. If you have more than one relevant condition for a question, you can determine whether the question should match all or either of the criteria set.
 
-        ![](/content/screenshots/formbuilder/form-builder-21.png)
+    ![](/content/screenshots/formbuilder/form-builder-21.png)
 
-	7. Delete a set condition by clicking on the trash can icon highlighted below.
+7. Delete a set condition by clicking on the trash can icon highlighted below.
 
-        ![](/content/screenshots/formbuilder/form-builder-22.png)
+    ![](/content/screenshots/formbuilder/form-builder-22.png)
 
  
  * **Manually enter your skip logic in XLSForm code** - You can also enter skip logic using [XLSform code](http://xlsform.org/#relevant). 
@@ -174,19 +174,19 @@ Question options have the following features:
 
 ##### <a name="constraints"></a>3. Validation Criteria or Constraints
 
- Constraints allow you to avoid invalid responses from the interviewers and respondents. Add a constraint, similar to how you did a skip logic, by adding a condition or using XLSForm code. Read more on [constraints](http://xlsform.org/#constraints) and find more examples. Select the validation criteria under the question settings as shown.
-
- When an invalid response is entered, a message is displayed to help the user understand why. Add a custom message to better guide the user, or a default error message will appear. This is the message the respondent will receive after entering an invalid response. 
+ Constraints allow you to avoid invalid responses from the interviewers and respondents. Add a constraint, similar to how you did a skip logic, by adding a condition or using XLSForm code. When an invalid response is entered, a message is displayed to help the user understand why. Read more on [constraints](http://xlsform.org/#constraints) and find more examples. 
+ 
+ To add a constraint select the **validation criteria** under the question settings as shown. Add a custom message to better guide the user, or a default error message will appear. This is the message the respondent will receive after entering an invalid response.
 
  ![](/content/screenshots/formbuilder/form-builder-24.png)
 
 ### <a name="grouping-repeating-questions"></a>Grouping Questions and Repeating Groups
 
-This is a way to group related questions. Click on all the questions (*highlighted in blue*) you would like to group and select the group button as shown below. When using a Windows machine, press **control** while selecting the questions and **command** when using a Mac.
+This is a way to group related questions. Click on all the questions (*highlighted in blue*) you would like to group and select the group button as shown below. When using a Windows machine, press **control** while selecting the questions and **command** when using a Mac machine.
 
 ![](/content/screenshots/formbuilder/form-builder-25.png)
 
-Rename the group label for your survey.
+**Rename** the group label for your survey.
 
 ![](/content/screenshots/formbuilder/form-builder-26.png)
 
@@ -196,15 +196,15 @@ These settings allow you to customize the group will function in your form. Sele
 
 ![](/content/screenshots/formbuilder/form-builder-27.png)
 
-  * (Optional) Rename the group name to have a unique_id. Only letters, numbers and underscores are allowed (separate the words using underscores, spaces are not allowed).
+  (Optional) Rename the group name to have a unique_id. Only letters, numbers and underscores are allowed (separate the words using underscores, spaces are not allowed).
 
    ![](/content/screenshots/formbuilder/form-builder-28.png)
 
-  * Select the appearance checkbox if you would like to have the questions  appear in the same screen. 
+  Select the appearance checkbox if you would like to have the questions  appear in the same screen. 
 
    ![](/content/screenshots/formbuilder/form-builder-29.png)
 
-* You can also add skip logic, refer to the earlier skip logic guide on how to do this.
+  You can also add a [skip logic](https://help.ona.io/guides/formbuilder/#skip-logic).
 
 ##### <a name="adding-removing-questions"></a>Adding or Removing Questions in a Group
 
@@ -216,11 +216,11 @@ You can add or remove questions from the group by dragging them in and out of th
 
 Repeat questions can be asked/answered multiple times. Follow the below steps to create a group of repeating questions.
 
-  1. Select the questions to be repeated and group them as shown in the earlier step 
+  1. Select the questions to be repeated and [group](https://help.ona.io/guides/formbuilder/#grouping-repeating-questions) them. 
 
       ![](/content/screenshots/formbuilder/form-builder-31.png)
 
-  2. Click on the group settings option and check the **_repeat group if necessary. _**The user will be able to enter details in this group as many times as required.
+  2. Click on the group settings option and check the **repeat group if necessary**. The user will be able to enter details in this group as many times as required.
 
       ![](/content/screenshots/formbuilder/form-builder-32.png)
 
@@ -246,7 +246,7 @@ To define the theme or layout for your form, select the **Layout** option as sho
 
    ![](/content/screenshots/formbuilder/form-builder-36.png)
 
-##### <a name="form-ID"></a>Form-ID
+##### <a name="form-ID"></a>Form ID
 
 Form ID refers to the unique ID string that helps users to identify a form in Ona. Forms created using the form builder will have a random form-id generated to avoid having duplicate forms. You can access the form-id by viewing it on the Setting page in the selected Form on Ona as shown.
 
@@ -258,25 +258,25 @@ Form ID refers to the unique ID string that helps users to identify a form in On
 
 Some forms might need advanced [calculations](http://xlsform.org/#calculation). This can be done by selecting the **calculate** question type when adding the question. 
 
-Referencing another question to write the calculate expression might be needed. If this is the case, ensure the referenced question has a fixed name on the **Setting** option. When referencing other questions always use the **unique** name inside the question, referencing the style: **${question_name}**
+Referencing another question to write the calculate expression might be needed. If this is the case, ensure the referenced question has a fixed name on the **Settings** option. When referencing other questions always use the unique name or the data column name inside the question, referencing the style. E.g.**${question_name}**
 
 Here is a step-by-step description on how to add a calculate question.
 
  1. Add the questions to be referenced to the calculate questions.
 
-   ![](/content/screenshots/formbuilder/form-builder-38.png)
+     ![](/content/screenshots/formbuilder/form-builder-38.png)
 
- 2.  (Optional) Edit the column name of the questions, since this is what will be used for referencing when writing the calculate expression. 
+ 2. (Optional) Edit the column name of the questions, since this is what will be used for referencing when writing the calculate expression. 
 
-   ![](/content/screenshots/formbuilder/form-builder-39.png)
+     ![](/content/screenshots/formbuilder/form-builder-39.png)
 
  3. Add the calculate expression, reference the relevant questions and select the* calculate *question type as shown below.
 
-   ![](/content/screenshots/formbuilder/form-builder-40.png)
+     ![](/content/screenshots/formbuilder/form-builder-40.png)
 
 ##### <a name="adding-choices"></a>Adding Choices to a Question
 
-When adding a question with choices, you will need to choose either **S****elect ****O****ne** or **S****elect ****M****ultiple** as the question type.
+When adding a question with choices, you will need to choose either **Select One** or **Select Multiple** as the question type.
 
 Below is a step-by-step description on how to add choices to a question:
 
@@ -306,7 +306,7 @@ Below is a step-by-step description on how to add choices to a question:
 
 ##### <a name="metadata-questions"></a>Metadata Questions
 
-These are optional advanced features that can be added in the survey. Click the metadata settings icon at the beginning of the form as shown.
+These are optional advanced features that can be added in the survey. Click the **metadata settings** icon at the beginning of the form as shown.
 
 ![](/content/screenshots/formbuilder/form-builder-47.png)
 

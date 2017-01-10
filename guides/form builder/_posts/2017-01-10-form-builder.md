@@ -95,7 +95,7 @@ You can **validate** the form to see if there are any errors as seen below.
 
 ![](/content/screenshots/formbuilder/form-builder-10.png)
 
-##### <a name="saving-form"></a>Saving the Form
+##### <a name="saving-form"></a>Saving a Form
 
 Select the **Save** option on the form builder, as shown, to **upload** the form to Ona. The form will be saved using the title provided.
 
@@ -174,7 +174,7 @@ Below are steps to follow when adding a skip logic.
 
 ##### <a name="constraints"></a>3. Validation Criteria or Constraints
 
- Constraints allow you to avoid invalid responses from the interviewers and respondents. Add a constraint, similar to how you did a skip logic, by adding a condition or using XLSForm code. When an invalid response is entered, a message is displayed to help the user understand why. Read more on [constraints](http://xlsform.org/#constraints) and find more examples. 
+ Constraints allow you to avoid invalid responses from the interviewers and respondents. When an invalid response is entered, a message is displayed to help the user understand why. Add a constraint, similar to how you did a skip logic, by adding a condition or using XLSForm code.  Read more on [constraints](http://xlsform.org/#constraints) and find more examples. 
  
  To add a constraint select the **validation criteria** under the question settings as shown. Add a custom message to better guide the user, or a default error message will appear. This is the message the respondent will receive after entering an invalid response.
 

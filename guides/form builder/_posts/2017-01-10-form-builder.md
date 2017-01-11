@@ -204,11 +204,11 @@ These settings allow you to customize the group will function in your form. Sele
 
    ![](/content/screenshots/formbuilder/form-builder-29.png)
 
-  You can also add a [skip logic](https://help.ona.io/guides/formbuilder/#skip-logic).
+  You can also add a [skip logic](https://help.ona.io/guides/formbuilder/#skip-logic) for the group.
 
 ##### <a name="adding-removing-questions"></a>Adding or Removing Questions in a Group
 
-You can add or remove questions from the group by dragging them in and out of the group.
+Add or remove questions from the group by dragging them in and out of the group.
 
 ![](/content/screenshots/formbuilder/form-builder-30.png)
 

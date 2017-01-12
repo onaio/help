@@ -41,7 +41,7 @@ Ona Form Builder is another way for you to create and build questionnaires. The 
 
 ##### <a name="creating-a-form"></a>Creating a Form
 
-Open the project in which the form is to be published, then click on **Online form builder** as shown below:
+Open the project in which the form is to be published, then click on **Form builder** as shown below:
 
 ![](/content/screenshots/formbuilder/form-builder-1.png)
 

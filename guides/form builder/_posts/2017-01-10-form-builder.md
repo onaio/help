@@ -273,6 +273,8 @@ Here is a step-by-step description on how to add a calculate question.
  3. Add the calculate expression, reference the relevant questions and select the* calculate *question type as shown below.
 
      ![](/content/screenshots/formbuilder/form-builder-40.png)
+     
+You can use the answer to this Calculate question for other purposes, such as building your skip logic (for example only ask a follow-up question above a certain income threshold) or by displaying it inside a Note.
 
 ##### <a name="adding-choices"></a>Adding Choices to a Question
 

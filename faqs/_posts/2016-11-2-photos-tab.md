@@ -20,12 +20,23 @@ Clicking a thunbmail opens the image in an expanded view. In the larger view, th
 
 ![](/content/screenshots/faq/photos-tab-3.jpg)
 
+The larger view has three control buttons that allow you trigger some simple events. 
+
+1. Click on the zoom button to zoom the image in or out. 
+<br>
+![](/content/screenshots/faq/photos-tab-5.png)
+
+2. Click on the full screen button to view your image in an expanded view
+<br>
+![](/content/screenshots/faq/photos-tab-6.png)
+
+3. The share button allows you to share your image on facebook or even tweet it. You can also pin the image on pinterest or download it. The downloaded image is a higher resolution version of the imaage that was originally submitted. 
+<br>
+![](/content/screenshots/faq/photos-tab-7.png)
+
 You can have multiple images attached to one submission including images within a [repeat group](http://xlsform.org/#repeats).
 
 If your form does not have images submitted yet, the below message is shown.
 <br>
 ![](/content/screenshots/faq/photos-tab-4.png)
 
->**Note:** <br/>
->
-* Currently in beta release, the Photos tab shows letterboxed and lower resolution versions of the original images that were submitted. To download the full size image, search for the submission in the **Table** tab or (**Map** tab single submission popup) using the Record ID or submission number. Then, click on the image link to get the full size version.

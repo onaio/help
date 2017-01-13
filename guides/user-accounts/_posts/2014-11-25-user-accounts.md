@@ -85,11 +85,11 @@ If you ever need to change your account password, you can do so from the **Edit 
 It’s important to keep your email address up to date on your Ona account, as this is the primary way we communicate updates about the Ona platform with our users. If you forget your account password, you will need to access the email address listed on your account to [reset your password](/faq/forgot-password).
 
 1. To change your account email address, navigate to your **Settings** page and click on the **Edit Account Settings** tab;
-1. Scroll down to the **Change Email Address** section and type the new email address;
+1. Scroll down to the **Change Email Address** section and type the new email address then enter your password;
 <br><br>
 ![](/content/screenshots/users-accounts/account-profile8.png)
 <br><br>
-1. Then, click on **Update email**.
+1. Click on **Update email**. You will receive a confirmation message that your email was changed successfully. 
 <br><br>
 ![](/content/screenshots/users-accounts/account-profile9.png)
 

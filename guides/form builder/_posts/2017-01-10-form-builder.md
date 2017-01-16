@@ -33,7 +33,7 @@ published: true
   * [Adding Choices to a Question](#adding-choices)
   * [Metadata Questions](#metadata-questions)
   * [Cascading Select Questions](#cascading-select-questions)
-* [Editing an Existing Form](#editing-a-existing-form)
+* [Editing an Existing Form](#editing-existing-form)
 
 ### <a name="ona-form-builder"></a>Creating Forms with Ona Form Builder
 
@@ -358,7 +358,17 @@ Follow along with these instructions by using [this example template](https://do
 
 7. To add additional responses to the cascading list, you can delete the imported questions and re-import the new list from your updated template in your spreadsheet.
 
-### <a name="editing-a-form"></a>Editing an Existing Form
+### <a name="editing-existing-form"></a>Editing an Existing Form
 
-Once a form is saved on the form builder and the form builder window is closed, you can only edit an existing form by downloading it from Ona and editing it in a spreadsheet program using XLSForm syntax. Then, upload the form to Ona by replacing the form. 
+Once a form is saved on the form builder and the form builder window is closed, you can only edit an existing form by downloading it from Ona and editing it in a spreadsheet program using XLSForm syntax. 
+
+You will also need to do some additional formatting in the downloaded form. The first column will indicate which worksheet the following columns and rows belong to (as seen below).
+
+ ![](/content/screenshots/formbuilder/form-builder-55.png)
+ 
+Rename the first worksheet as "survey", and create two additional worksheets: "choices" and "settings". Then, move the associated columns and rows with each worksheet to the correct worksheet. For example, the highlighted box below will be cut and pasted in the settings page. Repeat this for choices as well. 
+
+ ![](/content/screenshots/formbuilder/form-builder-56.png)
+ 
+ Delete the first column. The worksheet should then look similar to XLSForms. You can make edits and upload the updated form.
 

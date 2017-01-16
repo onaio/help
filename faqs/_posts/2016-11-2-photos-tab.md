@@ -16,7 +16,7 @@ The image caption shows the image’s number in the dataset and the submission i
 
 ![](/content/screenshots/faq/photos-tab-2.png)
 
-Clicking a thunbmail opens the image in an expanded view. In the larger view, the image’s number, the submission it is from, the submission's time, and the submission's record ID are shown at the bottom.
+Clicking a thumbnail opens the image in an expanded view. In the larger view, the image’s number, the submission it is from, the submission's time, and the submission's record ID are shown at the bottom.
 
 ![](/content/screenshots/faq/photos-tab-3.png)
 

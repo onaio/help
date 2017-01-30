@@ -360,15 +360,12 @@ Follow along with these instructions by using [this example template](https://do
 
 ### <a name="editing-existing-form"></a>Editing an Existing Form
 
-Once a form is saved on the form builder and the form builder window is closed, you can only edit an existing form by downloading it from Ona and editing it in a spreadsheet program using XLSForm syntax. 
+Once a form is saved on the form builder and the form builder window is closed, you can only edit an existing form by clicking on the drop down menu next to the form as shown below and select Edit form. (Please note that this option is only available for forms created using the form builder).
 
-You will also need to do some additional formatting in the downloaded form. The first column will indicate which worksheet the following columns and rows belong to (as seen below).
-
- ![](/content/screenshots/formbuilder/form-builder-55.png)
+ ![](/content/screenshots/formbuilder/form-builder-57.png)
  
-Rename the first worksheet as "survey", and create two additional worksheets: "choices" and "settings". Then, move the associated columns and rows with each worksheet to the correct worksheet. For example, the highlighted box below will be cut and pasted in the settings page. Repeat this for choices as well. 
+Once you click on edit, the form builder window will be open as shown below, make necessary changes/edits and Save.
 
- ![](/content/screenshots/formbuilder/form-builder-56.png)
+ ![](/content/screenshots/formbuilder/form-builder-58.png)
  
- Delete the first column. The worksheet should then look similar to XLSForms. You can make edits and upload the updated form.
-
+ 

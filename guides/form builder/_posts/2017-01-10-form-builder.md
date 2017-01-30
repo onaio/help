@@ -360,11 +360,11 @@ Follow along with these instructions by using [this example template](https://do
 
 ### <a name="editing-existing-form"></a>Editing an Existing Form
 
-Once a form is saved on the form builder and the form builder window is closed, you can only edit an existing form by clicking on the drop down menu next to the form as shown below and select Edit form. (Please note that this option is only available for forms created using the form builder).
+Once a form is saved on the form builder and the window is closed, you can edit an existing form by clicking on the drop down menu next to the form as shown below and select **Edit form**. (*Please note that this option is only available for forms created using the form builder*).
 
  ![](/content/screenshots/formbuilder/form-builder-57.png)
  
-Once you click on edit, the form builder window will be open as shown below, make necessary changes/edits and Save.
+Once you click on edit form, the form builder window will be open as shown, make the necessary changes/edits and **Save**.
 
  ![](/content/screenshots/formbuilder/form-builder-58.png)
  

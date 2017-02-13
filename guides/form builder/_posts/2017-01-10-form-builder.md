@@ -322,7 +322,7 @@ Cascading select questions are questions whose choices depend on the answers fro
 
 Below are steps to follow when adding Cascading Select Questions 
 
-Follow along with these instructions by using [this example template](https://docs.google.com/a/ona.io/spreadsheets/d/19RyMpsDcFHGbl6rn_EQ2m-jNz2b3WPV6GWVmBzLlYU0/edit?usp=sharing). 
+Follow along with these instructions by using [this example template](https://docs.google.com/spreadsheets/d/19RyMpsDcFHGbl6rn_EQ2m-jNz2b3WPV6GWVmBzLlYU0/edit?usp=sharing). 
 
 1. In a spreadsheet program such as Google Spreadsheet or Excel, create a template for the questions and response you want to add. 
 

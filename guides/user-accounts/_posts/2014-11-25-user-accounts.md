@@ -100,18 +100,18 @@ It’s important to keep your email address up to date on your Ona account, as t
 When you create an account on Ona, the account is automatically placed on the free plan. The limits of the free plan for personal accounts are below. 
 
 -	1 private project
--	Up to 15 private forms
+-	Up to 10 private forms
 -	Up to 500 private form submissions per calendar month
 
 All public projects, public forms, and public data are free and unlimited on Ona.
 
-[Organization accounts](https://help.ona.io/guides/organizations/) on the free plan can have unlimited public projects, public forms, and public data only. Upgrade the organization account to make your data private.
+[Organization accounts](https://help.ona.io/guides/organizations/) on the free plan can have unlimited public projects, public forms, and public data only and up to 3 organization members. Upgrade the organization account to make your data private.
 
 With both personal and organization accounts on the free plan, users can email the [public community forum](https://groups.google.com/forum/#!forum/ona-community) for support. Upgrade your account for direct email support with our Nairobi-based support team.
 
 ##### <a name="over-limit"></a>What happens if I try to go over the free plan limits?
 
-If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 15 private forms. Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If this happens, your form submissions will be safely stored on the device (if using ODK Collect) or in the web browser (if using Enketo). You can upgrade your account to be able to send the submissions, or you can wait until the beginning of the next month, when the submission count resets to zero.
+If your account is already on the free plan, you will be prevented from exceeding the free plan limits. For personal accounts, this means you will not be able to create more than 1 private project in your account, and you will not be able to upload more than 10 private forms. Private form submissions that exceed 500 for the calendar month will be blocked from being sent to the server. If this happens, your form submissions will be safely stored on the device (if using ODK Collect) or in the web browser (if using Enketo). You can upgrade your account to be able to send the submissions, or you can wait until the beginning of the next month, when the submission count resets to zero.
 
 For organization accounts, you will be restricted to creating public projects if on the free plan.
 

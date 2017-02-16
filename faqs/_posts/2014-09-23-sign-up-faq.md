@@ -33,7 +33,7 @@ Only those you choose can access your projects and datasets. You can easily see 
 <a name="cost"></a>
 
 ### How much does Ona cost?
-Pricing is based on account usage and other needs. If you are interested in a paid account, please fill out the form on the [plans page](http://company.ona.io/plans.html). There are also free accounts for personal and organization accounts. Personal plans are free up to 500 submissions a month and 15 private projects. Ona Organizations are free for public data projects. Additionally, we are dedicated to providing free service to the many Ona users from grassroots organizations taking part in unfunded projects through the [Impact Grant Program](http://company.ona.io/impact-grant.html).
+Pricing is based on account usage and other needs. If you are interested in a paid account, please see our [plans page](http://company.ona.io/plans.html) and email us at sales@ona.io. There are also free accounts for personal and organization accounts. Personal plans are free up to 500 submissions a month and 10 private projects. Ona Organizations are free for public data projects and up to 3 organization members. Additionally, we are dedicated to providing free service to the many Ona users from grassroots organizations taking part in unfunded projects through the [Impact Grant Program](http://company.ona.io/impact-grant.html).
 
 <a name="enterprise"></a>
 

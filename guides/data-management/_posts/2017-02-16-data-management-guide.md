@@ -218,7 +218,7 @@ You can export data in different formats under the **Export Data** section of th
 
 All data is exported in one worksheet with each column following the order of the questionnaire. 
 
-When data with repeat groups is exported in CSV format, the questions in the CSV export don't follow the same order as the questions in the XLSForm if [repeat_count]([http://xlsform.org/#repeats](http://xlsform.org/#repeats) is not used.
+When data with repeat groups is exported in CSV format, the questions in the CSV export don't follow the same order as the questions in the XLSForm if [repeat_count](http://xlsform.org/#repeats) is not used.
 
 #### CSV (Windows Compatible)
 
@@ -242,7 +242,7 @@ Google Sheets integration allows you to sync your data directly from your form i
 
 #### JSON
 
-Exports your data in a JSON file. The JSON file should be openned in a text editor e.g [Brackets]([http://brackets.io/](http://brackets.io/) to view the downloaded data.
+Exports your data in a JSON file. The JSON file should be openned in a text editor e.g [Brackets](http://brackets.io/) to view the downloaded data.
 
 #### SAV 
 
@@ -323,7 +323,7 @@ To edit data, click on the edit icon in the first column on the left side of a r
 
 ![](/content/screenshots/data-management/data-mgt26.png)
 
-This opens the record in [Enketo]([https://enketo.org/](https://enketo.org/) where you can make edits to your data. Once done editing your data, click on the **Submit** button to submit the changes. 
+This opens the record in [Enketo](https://enketo.org/) where you can make edits to your data. Once done editing your data, click on the **Submit** button to submit the changes. 
 
 You can view the changes made to the record by reloading the page. All the edits show up on the **Table** tab. 
 

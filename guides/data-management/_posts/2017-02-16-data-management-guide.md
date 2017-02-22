@@ -1,9 +1,12 @@
 ---
 layout: guide-view
-guide_name: Data Management 
-title: Data Management Guide Tutorial
+guide_name: "Data Management" 
+title: Data Management Guide
 permalink: /guides/data-management
-categories: [guides, data-management]
+categories: 
+    - guides
+    - "data-management"
+published: true   
 ---
 
 * ##### [Viewing Data](#viewing-data) 
@@ -23,7 +26,7 @@ categories: [guides, data-management]
 
 ### Data visualisation & analysis
 
-Once data has been submitted to Ona, it is ready to be analyzed in real-time. GPS-tagged data can be viewed on the [map](https://ona.io/onahelp/2839/51147#/map). Users can click on any point to view the full form submission or filter points based on specific answers. Data can also be viewed in the [Table](https://ona.io/onahelp/2839/51147#/table) tab that makes searching and filtering across submissions easy. With the [Charts feature](https://ona.io/onahelp/2839/51147#/chart), you can perform summary statistical analysis of your data and save your charts to a dashboard to access later. You can also take advantage of the formula capabilities of Excel by creating [XLS Reports]([https://help.ona.io/faq/what-is-an-xls-report](https://help.ona.io/faq/what-is-an-xls-report) that update in real-time with the latest data.
+Once data has been submitted to Ona, it is ready to be analyzed in real-time. GPS-tagged data can be viewed on the [map](https://ona.io/onahelp/2839/51147#/map). Users can click on any point to view the full form submission or filter points based on specific answers. Data can also be viewed in the [Table](https://ona.io/onahelp/2839/51147#/table) tab that makes searching and filtering across submissions easy. With the [Charts feature](https://ona.io/onahelp/2839/51147#/chart), you can perform summary statistical analysis of your data and save your charts to a dashboard to access later. You can also take advantage of the formula capabilities of Excel by creating [XLS Reports](https://help.ona.io/faq/what-is-an-xls-report) that update in real-time with the latest data.
 
 In this guide, we will discuss all data visualization features in detail and how to use each. 
 
@@ -45,11 +48,11 @@ It’s from the **Overview** page that you can export your data under the **Expo
 
 ![](/content/screenshots/data-management/data-mgt2.png)
 
-This page also displays a description of your survey if it had been included under the form’s **Settings **page.
+This page also displays a description of your survey if it had been included under the form’s **Settings** page.
 
 ![](/content/screenshots/data-management/data-mgt3.png)
 
-[Filtered datasets](https://help.ona.io/faq/filtered-datasets) associated with the form are displayed under the **Linked Filtered Dataset **section of the Overview page. This includes filtered datasets saved in different projects other than the one in which the form is. Both the project and dataset names are indicated. 
+[Filtered datasets](https://help.ona.io/faq/filtered-datasets) associated with the form are displayed under the **Linked Filtered Dataset** section of the Overview page. This includes filtered datasets saved in different projects other than the one in which the form is. Both the project and dataset names are indicated. 
 
 ![](/content/screenshots/data-management/data-mgt4.png)
 
@@ -57,7 +60,7 @@ You can see the [XLS Report templates](https://help.ona.io/faq/what-is-an-xls-re
 
 ![](/content/screenshots/data-management/data-mgt5.png)
 
-The **Submit data **section includes links to use when collecting data using either [Enketo](https://enketo.org/) or [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android). 
+The **Submit data** section includes links to use when collecting data using either [Enketo](https://enketo.org/) or [ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android). 
 
 It’s under this section that you can upload form submissions to a blank form using the [Import CSV feature](https://help.ona.io/faq/import-data). 
 
@@ -65,17 +68,17 @@ It’s under this section that you can upload form submissions to a blank form u
 
 ##### <a name="map-view"></a>Map View
 
-For a form that contains GPS points, the data will automatically show up in the **Map ** tab as points or geoshapes. You can click on any point to view all the data (including images) associated with that point on the map single submission popup.
+For a form that contains GPS points, the data will automatically show up in the **Map** tab as points or geoshapes. You can click on any point to view all the data (including images) associated with that point on the map single submission popup.
 
 ![](/content/screenshots/data-management/data-mgt7.png)
 
-You can also filter points on a map based on specific answers by selecting the questions from the **View by **dropdown on the top left corner of the map. 
+You can also filter points on a map based on specific answers by selecting the questions from the **View by** dropdown on the top left corner of the map. 
 
 ![](/content/screenshots/data-management/data-mgt8.png)
 
 #### Vector tiles
 
-Map view has been improved through enabling support for vector tile maps. Vector tiles are smaller in size compared to raster tiles. This translates to higher resolution and improved performance allowing you to serve up larger datasets to maps. Have a look at this [blog post]([https://blog.ona.io/features/2016/07/22/launching-vector-tile-map-support.html](https://blog.ona.io/features/2016/07/22/launching-vector-tile-map-support.html) for more information on the key benefits of vector tiles. 
+Map view has been improved through enabling support for vector tile maps. Vector tiles are smaller in size compared to raster tiles. This translates to higher resolution and improved performance allowing you to serve up larger datasets to maps. Have a look at this [blog post](https://blog.ona.io/features/2016/07/22/launching-vector-tile-map-support.html) for more information on the key benefits of vector tiles. 
 
 #### Layer button
 
@@ -111,13 +114,13 @@ Refer to this [blog post](https://blog.ona.io/general/2015/12/16/custom-color-ma
 
 ##### <a name="photo-view"></a>Photo View
 
-You can view all the images uploaded with data in a photos gallery under the **Photos **tab.
+You can view all the images uploaded with data in a photos gallery under the **Photos** tab.
 
 ![](/content/screenshots/data-management/data-mgt11.png)
 
 For more information, see the [faq]([https://help.ona.io/faq/viewing-images-on-the-photos-tab](https://help.ona.io/faq/viewing-images-on-the-photos-tab) on the **Photos** tab.
 
-Images can also be viewed online, both on the **Map **and **Table **tabs, by clicking the links to open the images as shown below. The images open in a different window on the browser. 
+Images can also be viewed online, both on the **Map** and **Table** tabs, by clicking the links to open the images as shown below. The images open in a different window on the browser. 
 
 ![](/content/screenshots/data-management/data-mgt12.png)
 
@@ -129,7 +132,7 @@ You can also click on the view icon on the **Table** tab to see the attached ima
 
 The **Table tab** gives you an overview of submitted data. It’s on this page that you can search across submissions for specific records by typing variable names in the search tab. 
 
-Repeat groups data is usually not displayed on the table. To view data under repeat groups, click on view icon of a single submission, then click on the **Show Repeats **link. 
+Repeat groups data is usually not displayed on the table. To view data under repeat groups, click on view icon of a single submission, then click on the **Show Repeats** link. 
 
 ![](/content/screenshots/data-management/data-mgt14.png)
 
@@ -137,7 +140,7 @@ If your form is authored in multiple languages, you can view your data in a diff
 
 ![](/content/screenshots/data-management/data-mgt15.png)
 
-Refer to this [faq]([https://help.ona.io/faq/adding-multiple-languages](https://help.ona.io/faq/adding-multiple-languages) for more information on multiple language forms. 
+Refer to this [faq](https://help.ona.io/faq/adding-multiple-languages) for more information on multiple language forms. 
 
 ##### <a name="summary-charts"></a>Summary Charts
 
@@ -207,7 +210,7 @@ However, not all users can save and edit charts. Below are the permission levels
 
 ##### <a name="exporting-data"></a>Exporting Data
 
-You can export data in different formats under the **Export Data **section of the form Overview page. The following formats are available for exporting data; 
+You can export data in different formats under the **Export Data** section of the form Overview page. The following formats are available for exporting data; 
 
 ![](/content/screenshots/data-management/data-mgt22.png)
 
@@ -231,11 +234,15 @@ With this format, you can export your data in a zipped folder. Data is exported 
 
 #### Google Sheet
 
-Google Sheets integration allows you to sync your data directly from your form in Ona to a spreadsheet in Google Sheets. You can learn more about Google Sheets exports from this [guide]([https://help.ona.io/guides/onaapps/#google-sheets](https://help.ona.io/guides/onaapps/#google-sheets).
+Google Sheets integration allows you to sync your data directly from your form in Ona to a spreadsheet in Google Sheets. You can learn more about Google Sheets exports from this [guide](https://help.ona.io/guides/onaapps/#google-sheets).
+
+>
+**Note:** <br/> Google Sheets exports is an advanced feature which is included with the paid plans.
+
 
 #### JSON
 
-Exports your data in a JSON file. The JSON file should be openned in a text editor (e.g [Brackets]([http://brackets.io/](http://brackets.io/) to view the downloaded data.
+Exports your data in a JSON file. The JSON file should be openned in a text editor e.g [Brackets]([http://brackets.io/](http://brackets.io/) to view the downloaded data.
 
 #### SAV 
 
@@ -251,7 +258,7 @@ Media files in your data can be downloaded in bulk as a zipped folder using this
 
 #### Advanced export options
 
-In addition to the above export formats, you can also use **Advanced export options **when exporting your data to include or exclude some parameters. 
+In addition to the above export formats, you can also use **Advanced export options** when exporting your data to include or exclude some parameters. 
 
 ![](/content/screenshots/data-management/data-mgt23.png)
 
@@ -263,23 +270,23 @@ This is most preferable when uploading your data back using [Import CSV feature]
 
 Selecting **Remove prefixed group names**, exports your data without the group names. 
 
-To download data with images, select **Include links of images. **This option downloads the image files with links to the filenames of the media attachments but not the files themselves. You can click on the links to view the images online. 
+To download data with images, select **Include links of images**. This option downloads the image files with links to the filenames of the media attachments but not the files themselves. You can click on the links to view the images online. 
 
 With the checkbox unchecked, only the image filenames are downloaded, which are not viewable. 
 
-**Include labels **allows you to download your data with both field names and labels. 
+**Include labels** allows you to download your data with both field names and labels. 
 
-**Include labels only **downloads your data with the labels only. 
+**Include labels only** downloads your data with the labels only. 
 
-You can choose the delimiter for separating group names from field names under the **Delimiter to use for separating group names form field names **dropdown. There are two options that are currently supported, the **Slash (/) **and **Dot (.).**
+You can choose the delimiter for separating group names from field names under the **Delimiter to use for separating group names form field names** dropdown. There are two options that are currently supported, the **Slash(/)** and **Dot(.).**
 
 ![](/content/screenshots/data-management/data-mgt24.png)
 
-You can download data within a specific date range by entering the dates in the **From **and **To **fields. The dates specified are the submission dates.
+You can download data within a specific date range by entering the dates in the **From** and **To** fields. The dates specified are the submission dates.
 
 ![](/content/screenshots/data-management/data-mgt25.png)
 
-##### Caveat on exporting data for a form that was replaced
+#### Caveat on exporting data for a form that was replaced
 
 When a form is replaced, the previous form version is overwritten by the new form version with the changes included in the new form. No data is lost, but the changes incorporated in the updated form hide data in the edited/deleted fields. The data as a result is not viewable both online and on data exports. 
 
@@ -299,9 +306,9 @@ There are several metadata fields that are added to the dataset when data is upl
 
 * **_version** - a value used for version control of the form. The recommended format is **year/month/day** 
 
-* **_duration - **renders the total time taken from when a survey starts to when it ends. This value is only captured if both start and end metadata fields have been included in the XLSForm.
+* **_duration** - renders the total time taken from when a survey starts to when it ends. This value is only captured if both start and end metadata fields have been included in the XLSForm.
 
-* **_submitted_by** - shows the username of a [project collaborator]([https://help.ona.io/guides/projects/#sharing-projects](https://help.ona.io/guides/projects/#sharing-projects) who is assigned Can submit or a higher [permission level]([https://help.ona.io/guides/projects/#permission-levels](https://help.ona.io/guides/projects/#permission-levels) on a project.
+* **_submitted_by** - shows the username of a [project collaborator](https://help.ona.io/guides/projects/#sharing-projects) who is assigned Can submit or a higher [permission level](https://help.ona.io/guides/projects/#permission-levels) on a project.
 
 ### XLS Reports
 Custom XLS Reports are a helpful analytics service from Ona. Ona users can access a beautiful Excel™ report with customized metrics and indicators, updated with the latest data. Read more on how to create XLS Reports on this [faq](https://help.ona.io/faq/what-is-an-xls-report)
@@ -310,13 +317,13 @@ Custom XLS Reports are a helpful analytics service from Ona. Ona users can acces
 
 ##### <a name="editing-cleaning-data"></a>Editing and Cleaning Submitted Data
 
-Submitted data can be edited online from the **Table **tab. Currently, bulk editing of submissions is not supported, hence you can only edit a single submission at a time. 
+Submitted data can be edited online from the **Table** tab. Currently, bulk editing of submissions is not supported, hence you can only edit a single submission at a time. 
 
 To edit data, click on the edit icon in the first column on the left side of a record. 
 
 ![](/content/screenshots/data-management/data-mgt26.png)
 
-This opens the record in [Enketo]([https://enketo.org/](https://enketo.org/) where you can make edits to your data. Once done editing your data, click on the **Submit **button to submit the changes. 
+This opens the record in [Enketo]([https://enketo.org/](https://enketo.org/) where you can make edits to your data. Once done editing your data, click on the **Submit** button to submit the changes. 
 
 You can view the changes made to the record by reloading the page. All the edits show up on the **Table** tab. 
 
@@ -328,7 +335,7 @@ You can share submitted data by creating [filtered datasets](https://help.ona.io
 
 ##### <a name="deleting-form-data"></a>Deleting form data/submissions
 
-You can delete unwanted data from the **Table **tab. Bulk deletion of records is not yet supported. You can only delete one record at a time. 
+You can delete unwanted data from the **Table** tab. Bulk deletion of records is not yet supported. You can only delete one record at a time. 
 
 To delete a submission, click on the view icon then select the delete link. 
 
@@ -337,10 +344,10 @@ To delete a submission, click on the view icon then select the delete link.
 #### Importing Data from External Sources to Ona.
 
 ##### <a name="odk-briefcase"></a>ODK Briefcase
-[ODK Briefcase]([https://help.ona.io/faq/odk-briefcase](https://help.ona.io/faq/odk-briefcase) is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline 
+[ODK Briefcase](https://help.ona.io/faq/odk-briefcase) is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline 
 
 ##### <a name="csv-imports"></a>CSV imports
-The [Import CSV feature]([https://help.ona.io/faq/import-data](https://help.ona.io/faq/import-data) is used to upload data to blank forms.
+The [Import CSV feature](https://help.ona.io/faq/import-data) is used to upload data to blank forms.
 
 A platform that doesn’t use the XLSForm standard may not be aggregate compatible. In this case, you should use the data export options in the platform to export your data in csv format first before uploading it to Ona using the Import CSV feature. 
 

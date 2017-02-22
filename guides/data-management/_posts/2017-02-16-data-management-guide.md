@@ -5,7 +5,7 @@ title: Data Management Guide
 permalink: /guides/data-management/
 categories: 
     - guides
-    - "data-management"
+    - "datamanagement"
 published: true   
 ---
 

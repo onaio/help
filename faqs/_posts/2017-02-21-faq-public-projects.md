@@ -19,11 +19,11 @@ You can view whether a project is public or private when you click on it. The pr
 
 ![](/content/screenshots/faq/faq-public-projects1.png)
 
-However, you can add a restriction for people who can submit data or alter the data in the forms.
+However, you can add a restriction for people who can submit data or alter the data in the forms in the [project's sharing module](https://help.ona.io/guides/projects/#sharing-projects).
 
 ![](/content/screenshots/faq/faq-public-projects2.png)
 
-When creating a form under any public project, the webform can be accessed by anyone with the link if you have not set the permissions for who can submit data. As for private forms, the webform can only be accessed by someone with the correct permission level to submit data.
+When creating a form under any public project, the webform can be accessed by anyone with the link if you have not set the permissions for who can submit data. As for private forms, the webform can only be accessed by someone with access to the form and can only submit data with the correct permission levels.
 
 ![](/content/screenshots/faq/faq-public-projects3.png)
 

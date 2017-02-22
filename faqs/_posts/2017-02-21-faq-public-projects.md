@@ -23,7 +23,7 @@ However, you can add a restriction for people who can submit data or alter the d
 
 ![](/content/screenshots/faq/faq-public-projects2.png)
 
-When creating a form under any public project, the webform can be accessed by anyone with the link and anyone with the username can access the forms using ODK Collect if you have not set the permissions for who can submit data. As for private forms, the form can only be accessed by someone with access and can only submit data with the correct permission levels.
+When creating a form under any public project, the webform can be accessed by anyone with the link and anyone with the username can access the forms using ODK Collect if you have not set the permissions for who can submit data. As for private forms, the form can only be accessed by someone with the correct [permission levels](https://help.ona.io/guides/projects/#permission-levels).
 
 ![](/content/screenshots/faq/faq-public-projects3.png)
 

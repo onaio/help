@@ -56,7 +56,7 @@ This page also displays a description of your survey if it had been included und
 
 ![](/content/screenshots/data-management/data-mgt4.png)
 
-You can see the [XLS Report templates](https://help.ona.io/faq/what-is-an-xls-report) uploaded to the form under the **XLS Reports **section. The XLS Report can be downloaded from this page by clicking on the report name. The help icon redirects you to the XLS Reports faq when you click on it.
+You can see the [XLS Report templates](https://help.ona.io/faq/what-is-an-xls-report) uploaded to the form under the **XLS Reports** section. The XLS Report can be downloaded from this page by clicking on the report name. The help icon redirects you to the XLS Reports faq when you click on it.
 
 ![](/content/screenshots/data-management/data-mgt5.png)
 
@@ -88,21 +88,21 @@ The layer button on the Map view groups different map layers together.
 
 Each layer references the dataset and specifies how it will be portrayed. Ona Maps have several types of layers;
 
-* Mapbox Basic - displays simple and flexible maps.
+* *Mapbox Basic* - displays simple and flexible maps.
 
-* Mapbox Outdoors - a terrain map with detailed elevation and landcover data.
+* *Mapbox Outdoors* - a terrain map with detailed elevation and landcover data.
 
-* Mapbox Streets - a comprehensive general purpose map that emphasizes accurate legible styling of road and transit networks.
+* *Mapbox Streets* - a comprehensive general purpose map that emphasizes accurate legible styling of road and transit networks.
 
-* Mapbox Bright - renders complex custom basemaps.
+* *Mapbox Bright* - renders complex custom basemaps.
 
-* Mapbox Light - provides geographic context while highlighting data on your dashboard.
+* *Mapbox Light* - provides geographic context while highlighting data on your dashboard.
 
-* Mapbox Dark - renders the same geographic context as *Mapbox Light.*
+* *Mapbox Dark* - renders the same geographic context as *Mapbox Light.*
 
-* Mapbox Satellite - global map of high resolution imagery.
+* *Mapbox Satellite* - global map of high resolution imagery.
 
-* Hi-Res Satellite (DigitalGlobe) - A global basemap that offers the highest level of detail and accuracy.
+* *Hi-Res Satellite* (DigitalGlobe) - A global basemap that offers the highest level of detail and accuracy.
 
 #### Adding colors to your Map
 
@@ -118,7 +118,7 @@ You can view all the images uploaded with data in a photos gallery under the **P
 
 ![](/content/screenshots/data-management/data-mgt11.png)
 
-For more information, see the [faq]([https://help.ona.io/faq/viewing-images-on-the-photos-tab](https://help.ona.io/faq/viewing-images-on-the-photos-tab) on the **Photos** tab.
+For more information, see the [faq](https://help.ona.io/faq/viewing-images-on-the-photos-tab) on the **Photos** tab.
 
 Images can also be viewed online, both on the **Map** and **Table** tabs, by clicking the links to open the images as shown below. The images open in a different window on the browser. 
 
@@ -222,11 +222,11 @@ When data with repeat groups is exported in CSV format, the questions in the CSV
 
 #### CSV (Windows Compatible)
 
-This works in a similar way as CSV exports, but the only difference is that, it supports encoding of CSV exports on Windows. 
+This works in a similar way as CSV exports, with the only difference being that, it supports encoding of CSV exports on Windows. 
 
 #### Excel(formatted spreadsheet)
 
-Allows you to export data in xlsx format. For repeat groups’ data, each repeat group is exported in a different worksheet, but uniquely indexed to the appropriate parent unit of observation.
+Allows you to export data in xlsx format. For repeat groups data, each repeat group is exported in a different worksheet, but uniquely indexed to the appropriate parent unit of observation.
 
 #### CSV Zip 
 

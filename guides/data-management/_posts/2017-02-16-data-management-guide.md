@@ -2,7 +2,7 @@
 layout: guide-view
 guide_name: "Data Management" 
 title: Data Management Guide
-permalink: /guides/data-management
+permalink: /guides/data-management/
 categories: 
     - guides
     - "data-management"

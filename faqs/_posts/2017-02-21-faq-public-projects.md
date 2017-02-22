@@ -13,7 +13,7 @@ A key characteristic that forms share within a project are the [access permissio
 
 Public projects and forms are visible and findable by anyone. Anyone can view and download data from the forms in the project, and they can be viewed on your [public profile page.](https://help.ona.io/guides/user-accounts/#edit-profile)
 
-To view anyone’s public project, append the username to the Ona URL ona.io/<username> e.g (https://ona.io/betatester). A list of all the public projects will be displayed. This might be undesirable if you have any sensitive information that should not be accessed by anyone.
+To view anyone’s public project, append the username to the Ona URL ona.io/**username** e.g (https://ona.io/betatester). A list of all the public projects will be displayed. This might be undesirable if you have any sensitive information that should not be accessed by anyone.
 
 You can view whether a project is public or private when you click on it. The project will display PUBLIC or PRIVATE as shown below:
 
@@ -23,7 +23,7 @@ However, you can add a restriction for people who can submit data or alter the d
 
 ![](/content/screenshots/faq/faq-public-projects2.png)
 
-When creating a form under any public project, the webform can be accessed by anyone with the link if you have not set the permissions for who can submit data. As for private forms, the webform can only be accessed by someone with access to the form and can only submit data with the correct permission levels.
+When creating a form under any public project, the webform can be accessed by anyone with the link and anyone with the username can access the forms using ODK Collect if you have not set the permissions for who can submit data. As for private forms, the form can only be accessed by someone with access and can only submit data with the correct permission levels.
 
 ![](/content/screenshots/faq/faq-public-projects3.png)
 

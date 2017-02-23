@@ -5,7 +5,7 @@ title: Data Management Guide
 permalink: /guides/data-management/
 categories: 
     - guides
-    - "data-management"
+    - "datamanagement"
 published: true   
 ---
 
@@ -20,7 +20,7 @@ published: true
  * [Editing and cleaning submitted data](#editing-cleaning-data)
  * [Sharing data](#sharing-data)
  * [Deleting form data/submissions](#deleting-form-data)
-* ##### [Importing Data from external sources to Ona](#importing-data)
+* ##### [Importing data from external sources to Ona](#importing-data-from-external-sources)
  * [ODK Briefcase](#odk-briefcase)
  * [CSV imports](#csv-imports)
 
@@ -82,11 +82,11 @@ Map view has been improved through enabling support for vector tile maps. Vector
 
 #### Layer button
 
-The layer button on the Map view groups different map layers together. 
+The layer button on the Map view groups different map layers together.
 
 ![](/content/screenshots/data-management/data-mgt9.png)
 
-Each layer references the dataset and specifies how it will be portrayed. Ona Maps have several types of layers;
+There are eight layer types supported on Ona. Each layer type references the dataset and defines how the data will be portrayed.
 
 * *Mapbox Basic* - displays simple and flexible maps.
 
@@ -341,7 +341,7 @@ To delete a submission, click on the view icon then select the delete link.
 
 ![](/content/screenshots/data-management/data-mgt28.png)
 
-#### Importing Data from External Sources to Ona.
+### Importing data from external sources to Ona
 
 ##### <a name="odk-briefcase"></a>ODK Briefcase
 [ODK Briefcase](https://help.ona.io/faq/odk-briefcase) is used to gather and pull data from (or push data to) an ODK Aggregate server, e.g. ona.io.  Additionally, ODK Briefcase can be used to aggregate form submission data from ODK Collect when you are offline 

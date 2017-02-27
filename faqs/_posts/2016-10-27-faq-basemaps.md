@@ -44,7 +44,7 @@ This opens the **Add basemap** window where you can input the below information 
 
     ![](/content/screenshots/faq/faq-basemap-6.png)
     
-3. **Access Token** - Mapbox uses access tokens to associate requests to API resources with your account. Copy the access token url from your account as shown in the screenshot below.and Add it to the **Add Basemap window**. 
+3. **Access Token** - Mapbox uses access tokens to associate requests to API resources with your account. Copy the access token url from your account as shown in the screenshot below and add it to the **Add Basemap** window. 
 
     ![](/content/screenshots/faq/faq-basemap-11.png)
    

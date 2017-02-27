@@ -43,9 +43,13 @@ This opens the **Add basemap** window where you can input the below information 
     A new page will be displayed with the style url as highlighted below. Copy this and add it to the **Add Basemap** window.
 
     ![](/content/screenshots/faq/faq-basemap-6.png)
+    
+3. **Access Token** - Mapbox uses access tokens to associate requests to API resources with your account. Copy the access token url from your account as shown in the screenshot below.and Add it to the **Add Basemap window**. 
+
+    ![](/content/screenshots/faq/faq-basemap-11.png)
    
-3. **Name** - The name of your basemap. This will be displayed on the list of available maps for your form.
-4. **Attribution** - (Optional) Any attribution to the appropriate organization(s) owning the copyright to the basemap. This attribution will appear in the map view. 
+4. **Name** - The name of your basemap. This will be displayed on the list of available maps for your form.
+5. **Attribution** - (Optional) Any attribution to the appropriate organization(s) owning the copyright to the basemap. This attribution will appear in the map view. 
 
 **Save** the information entered.
 

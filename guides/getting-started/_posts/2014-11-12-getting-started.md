@@ -108,7 +108,11 @@ ODK Collect is a free and open source Android application that makes it easy to 
 
 From **Google Play Store** in your Android device, search and download the latest version of ODK Collect. 
 
-Read more on ODK Collect in our [comprehensive guide](https://help.ona.io/guides/data-collection/#install-odk-collect) on setting up ODK Collect to help you configure your Android smartphone for data collection:
+![](/content/screenshots/getting-started/install-odk.png)
+
+Then configure ODK for Ona. The Url [https://odk.ona.io](https://odk.ona.io) must be given to ODK Collect before you get forms from and submit data to Ona. In ODK Collect's Main Menu, press the Menu button. Select General Settings, then Configure platform settings. Enter the above url as the server. Then enter, your Ona login details.
+
+Read more in our [comprehensive guide](https://help.ona.io/guides/data-collection/#install-odk-collect) on setting up ODK Collect to help you configure your Android smartphone for data collection.
 
 ### <a name="analyzing-data"></a>Analyzing data
 

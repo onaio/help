@@ -78,7 +78,7 @@ To learn how to author your forms in Excel, please visit [http://xlsform.org/](h
 
 ##### <a name="adding_forms_to_projects"></a>Adding forms to Projects
 
-Upload your finished XLSForm to a Project in your Ona account to make it available for download and data collection. Read more the various was of uploading forms [here](https://help.ona.io/faq/uploading-xlsform/).
+Upload your finished XLSForm to a Project in your Ona account to make it available for download and data collection. Read more the various was of uploading forms [here](https://help.ona.io/faq/uploading-xlsform).
 
 ![](/content/screenshots/getting-started/getting_started_add_form.png)
 

@@ -43,7 +43,7 @@ Yes. Enterprise users can email <sales@ona.io> to find out about custom features
 <a name="transferdata"></a>
 
 ### I have data from another service. Can I transfer the data to my Ona account?
-Yes, you can migrate your data to Ona’s servers by using a tool called [ODK Briefcase](http://help.ona.io/faq/odk-briefcase/), which lets you transfer data across ODK Aggregate servers. For ODK Briefcase to work on your computer, make sure Java 6 or higher is installed. A detailed explanation on how to transfer data to your account can be found on the [ODK Briefcase FAQ](http://help.ona.io/faq/odk-briefcase/).
+Yes, you can migrate your data to Ona’s servers by using a tool called [ODK Briefcase](http://help.ona.io/faq/odk-briefcase), which lets you transfer data across ODK Aggregate servers. For ODK Briefcase to work on your computer, make sure Java 6 or higher is installed. A detailed explanation on how to transfer data to your account can be found on the [ODK Briefcase FAQ](http://help.ona.io/faq/odk-briefcase).
 
 <a name="localdeploy"></a>
 

@@ -113,7 +113,7 @@ You must use ODK Briefcase to download the encrypted files from Ona and decrypt 
   * Extract the files from the downloaded zipped archive folder
   * Navigate to the extracted directory tree and copy the `local_policy.jar` and `US_export_policy.jar` files to the `/lib/security` directory for Linux/OSX and `\lib\security` for Windows under the installation directory of the Java Runtime Environmen (JRE) for your computer. 
 4. Double click the downloaded file to open ODK Briefcase;
-5. **PULL** the encrypted form to your local machine.  See the [ODK Briefcase page](http://help.ona.io/faq/odk-briefcase/) for more information on how to pull forms.
+5. **PULL** the encrypted form to your local machine.  See the [ODK Briefcase page](http://help.ona.io/faq/odk-briefcase) for more information on how to pull forms.
 6. The form is decrypted only during export. Go to the **Export** tab;
 <br><br>
 ![](/content/screenshots/faq/encrypted-forms-odk-briefcase-export.png)

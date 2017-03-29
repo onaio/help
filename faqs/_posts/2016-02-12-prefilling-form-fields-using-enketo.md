@@ -10,7 +10,7 @@ If there are multiple fields you would like to prefill, then you would have to s
     https://enketo.ona.io/_/?d[/xpath/to/field_name]=<prefill-value>&d[/xpath/to/other_field_name]=<prefill-value>#ABC2
 
  > 
- **Note:**<br/> The characters after `<prefill-value>` will change for each form and are dependent on the URL assigned to the Enketo webform, found in the **Overview** page of your form. For example, for the form with a URL `https://enketo.ona.io/x/#ABC2`, you would append `#ABC` after `<prefill-value>` as shown in the example above.
+ **Note:**<br/> The characters after `<prefill-value>` will change for each form and are dependent on the URL assigned to the [Enketo webform](https://help.ona.io/guides/data-collection/#using-enketo), found in the **Overview** page of your form. For example, for the form with a URL `https://enketo.ona.io/x/#ABC2`, you would append `#ABC` after `<prefill-value>` as shown in the example above.
 
 To retrieve the xpath of the field, you would need the xml of the form. You can retrieve the links to the xml representation of the forms you have access to by visiting `https://odk.ona.io/<your-username>/formList` and copying the contents in between `downloadUrl` tag for the specific form i.e when you visit `https://odk.ona.io/<your-username>/formList`, you will get something similar to the following:
 

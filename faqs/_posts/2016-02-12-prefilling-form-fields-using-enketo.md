@@ -5,9 +5,12 @@ permalink: /faq/prefilling-form-fields-using-enketo
 category: faq
 ---
 
-If there are multiple fields you would like to prefill then you would have to separate each of the other query parameters with an ampersand like the following example:
+If there are multiple fields you would like to prefill, then you would have to separate each of the other query parameters with an ampersand like the following example:
   
     https://enketo.ona.io/_/?d[/xpath/to/field_name]=<prefill-value>&d[/xpath/to/other_field_name]=<prefill-value>#ABC2
+
+ > 
+ **Note:**<br/> The characters after `<prefill-value>` will change for each form and are dependent on the [URL assigned to the Enketo webform](https://help.ona.io/guides/data-management/#overview-page). For example, for the form with a URL `https://enketo.ona.io/x/#ABC2`, you would append `#ABC` after `<prefill-value>` as shown in the example above.
 
 To retrieve the xpath of the field, you would need the xml of the form. You can retrieve the links to the xml representation of the forms you have access to by visiting `https://odk.ona.io/<your-username>/formList` and copying the contents in between `downloadUrl` tag for the specific form i.e when you visit `https://odk.ona.io/<your-username>/formList`, you will get something similar to the following:
 
@@ -69,3 +72,4 @@ If you have a geopoint field, the format would be:
 This means you might have something like:
   
     https://enketo.ona.io/_/?d[/test/locate]=-2.3%2033.788<longitude>#ABC2
+  

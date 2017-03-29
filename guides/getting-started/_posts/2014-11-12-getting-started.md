@@ -106,15 +106,17 @@ Ona was designed to work with [ODK Collect](https://play.google.com/store/apps/d
 
 ODK Collect is a free and open source Android application that makes it easy to collect surveys offline. It is a trusted tool used in thousand’s of data collection projects worldwide.
 
-From **Google Play Store** in your Android device, search and download the latest version of ODK Collect. Then configure ODK for Ona. The Url [https://odk.ona.io](https://odk.ona.io) must be given to ODK Collect before you get forms from and submit data to Ona. In ODK Collect's Main Menu, press the Menu button. Select General Settings, then Configure platform settings. Enter the above url as the server. Then enter, your Ona login details.
+From **Google Play Store** in your Android device, search and download the latest version of ODK Collect. 
 
-Here is a comprehensive guide on setting up ODK Collect to help you configure your Android smartphone for data collection:
+![](/content/screenshots/getting-started/install-odk.png)
 
-<script async class="speakerdeck-embed" data-id="494f28f4dd9347e2996f4d9fbc84ebde" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>  
+Then configure ODK for Ona. The Url [https://odk.ona.io](https://odk.ona.io) must be given to ODK Collect before you get forms from and submit data to Ona. In ODK Collect's Main Menu, press the Menu button. Select General Settings, then Configure platform settings. Enter the above url as the server. Then enter, your Ona login details.
+
+Read more in our [comprehensive guide](https://help.ona.io/guides/data-collection/#install-odk-collect) on setting up ODK Collect to help you configure your Android smartphone for data collection.
 
 ### <a name="analyzing-data"></a>Analyzing data
 
-Visualize and share your data as it’s collected via online-maps, photo galleries, or export in CSV or XLS for more advanced analysis. Easily switch between data exports. map, table, and summary chart views
+Visualize and share your data as it’s collected via online-maps, photo galleries, or export in different formats for more advanced analysis. Easily switch between data exports, map, table, photos and chart views.
 
 ![](/content/screenshots/getting-started/getting_started_viewing_submitted_data.png)
 
@@ -138,7 +140,7 @@ Easily view the distribution of responses by question type filtered with differe
 
 Easily view and create summary bar charts.
 
-![](/content/screenshots/getting-started/getting_started_summary_charts.png)
+![](/content/screenshots/getting-started/getting_started_summarry_charts.png)
 
 ##### <a name="filtered-datasets"></a>Filtered datasets
 

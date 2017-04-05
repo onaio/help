@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tableau Connector"
+title: "How do I use the Tableau connector?"
 permalink: /faq/tableau-connector
 category: faq
 ---

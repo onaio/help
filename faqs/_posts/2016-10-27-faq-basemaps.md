@@ -67,6 +67,7 @@ Select your basemap from the list.
 >**Note:**<br/>
 >
 Ona supports vector tiles on all basemaps. Vector tiles are able to deliver large amounts of geographic data in small chunks to a browser or client app. This results in a few key benefits:
+
 <br><br>
   * Styling - As vectors, tiles can be styled when requested allowing one to create maps using many styles on global data;
 <br><br>

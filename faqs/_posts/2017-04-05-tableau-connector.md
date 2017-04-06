@@ -61,7 +61,7 @@ After you have loaded data into Tableau, you may add new submissions to your for
     2. **Refresh (Full)** -  This will overwrite the data that has been pulled in earlier with all the data from Ona, including new records. A warning message will pop up to warn you about the duration this could take. Click **Yes** on the warning message. Your data and charts will be updated. 
 ![](/content/screenshots/faq/tableau_connector_13.png)
 
-#### Adding an another Form/ Data Source
+#### Adding another Form/ Data Source
 
 If you would like to link data from one form with another form, you could add another data source.
 
